@@ -63,7 +63,7 @@ const page6 = () => {
    <> 
      <h1 className='font-bold text-2xl text-blue-600'>My total marks were {marks}</h1>
      <button onClick={() => {
-      changeMarks
+      changeMarks();
      }} className='bg-gray-400 px-5 py-4 rounded mt-5 ml-3 text-white font-bold'>Update</button>
    </>
   )

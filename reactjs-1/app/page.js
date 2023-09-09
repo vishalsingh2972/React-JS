@@ -8,12 +8,12 @@ import React from 'react'
 //     <div>Bittu mast sikhlera React uff</div>
 //   )
 //   //return <h1>hello BITTU</h1>
-// }
+// };
 // export default page //exporting to Next, now page variable/function can be used in other parts of the Next.js application
 
 // function page2(){
 //      return <h1>hello BITTU</h1>
-//  }
+//  };
 //export default page2
 
 //🚀 JSX (JavaScript XML) - JSX is like writing HTML inside JavaScript, this means that you can write HTML elements and attributes in JavaScript, and the browser will render them as if they were written in HTML.
@@ -24,18 +24,48 @@ import React from 'react'
 //     //<div>a</div>
 //     <div>{a}</div> //JSX code snippet in the code
 //   )
-// }
+// };
 // export default page3
 
 //Eg 2
-const page4 = () => { 
-  let groom = "SRK";
-  const bride = "Deepika";
-  //groom = "Ranveer";
-  return (
-    <div>{groom} weds {bride}</div> //JSX code snippet in the code
-  )
-};
-export default page4
+// const page4 = () => { 
+//   let groom = "SRK";
+//   const bride = "Deepika";
+//   //groom = "Ranveer";
+//   return (
+//     <div>{groom} weds {bride}</div> //JSX code snippet in the code
+//   )
+// };
+// export default page4
 
 //🚀 React works on Virtual DOM using process called reconciliation
+// const page5 = () => { 
+//   return (
+//    <div>
+//      <div>
+//       bittu
+//      </div>
+//      <h1>monu</h1>
+//    </div>
+//   )
+// };
+// export default page5
+
+const page6 = () => { 
+  let marks = 76;
+  const changeMarks = () => {
+    console.log(marks);
+    marks = 'fail ho gaya';
+    console.log(marks);
+  };
+  return (
+    //Fragments <> </> or empty tags used as wrapper or wrapping in React
+   <> 
+     <h1 className='font-bold text-2xl text-blue-600'>My total marks were {marks}</h1>
+     <button onClick={() =>{
+        changeMarks();
+     }}className='bg-gray-400 px-5 py-4 rounded mt-5 ml-3 text-white font-bold'>Update</button>
+   </>
+  )
+};
+export default page6

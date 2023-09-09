@@ -71,7 +71,6 @@ import React from 'react'
 // };
 // export default page6
 
-
 const page7 = () => {
   let marks = 80;
   return (

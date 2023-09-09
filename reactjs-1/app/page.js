@@ -1,6 +1,6 @@
 //rafce (React arrow function component export)
 
-"use client"
+"use client" //for page6
 import React from 'react'
 
 //🚀

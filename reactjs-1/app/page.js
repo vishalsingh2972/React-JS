@@ -1,5 +1,6 @@
 //rafce (React arrow function component export)
 
+"use client"
 import React from 'react'
 
 //🚀

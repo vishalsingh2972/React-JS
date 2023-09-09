@@ -35,5 +35,7 @@ const page4 = () => {
   return (
     <div>{groom} weds {bride}</div> //JSX code snippet in the code
   )
-}
+};
 export default page4
+
+//🚀 React works on Virtual DOM using process called reconciliation

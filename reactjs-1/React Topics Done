@@ -1,11 +1,18 @@
 Starting with React.js: 
 
 ✔️- Install Node.js 
-- Arrays, objects, functions
-- Arrow functions/Normal functions
-- Array Methods (map,filter,reduce,find,findIndex)
-- Destructuring
-- Rest Spread
-- try catch
-- async await
-- promises
+✔️- create-next-app (React folder description)
+✔️- useState Hook (variable of React) and Real DOM & Virtual DOM
+- Two way binding
+- adding normal/module CSS in react and useRef (for validation, access the DOM properties)
+- TODO app
+- Breaking the components (importance of components)
+- props (normal data, children)
+- Introduction to class components (via lifecycle method) //not IMP
+- useEffect lifecycle hook
+- implimenting ajax in react (fetch/Axios)
+- Gallery app using lorem pixum api (react pagination)
+- Routing
+- Showing flash message (react toastify)
+- context api (higher order components {HOC}, higher order functions)
+- cashbook app

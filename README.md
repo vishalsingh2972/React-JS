@@ -1,7 +1,5 @@
 # React JS Official Documentations
 
-[React Documentation](https://docs.spring.io/spring-framework/docs/current/reference/html/)
-
 You can find the React documentation [on the website](https://react.dev/).  
 
 Check out the [Getting Started](https://react.dev/learn) page for a quick overview.

@@ -3,6 +3,7 @@ Starting with React.js:
 ✔️- Install Node.js 
 ✔️- create-next-app (React folder description)
 ✔️- useState Hook (variable of React) and Real DOM & Virtual DOM
+✔️- calling functions in react (Functions)
 - Two way binding
 - adding normal/module CSS in react and useRef (for validation, access the DOM properties)
 - TODO app

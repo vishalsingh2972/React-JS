@@ -1,7 +1,7 @@
 //rafce (React arrow function component export)
 
 "use client" //for page6
-import React from 'react'
+import React, { useState } from 'react'
 
 //🚀
 // const page = () => { //page variable is a function that returns a div element with the text "Bittu mast sikhlera React uff"
@@ -72,12 +72,14 @@ import React from 'react'
 // export default page6
 
 const page7 = () => {
-  let marks = 80;
+  let [marks, setMarks] = useState(80); //way of creating variables in React is by using useStateSnippet/ "useState" hook
   return (
     <>
     <h1>My marks were {marks}</h1>
     <button onClick={() => {
-      marks = 33;
+        //setMarks(-22);
+        setMarks(33);
+        //setMarks('bittu');
     }}>Update</button>
     </>
   )

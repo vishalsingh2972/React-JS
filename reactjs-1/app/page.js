@@ -71,6 +71,7 @@ import React, { useState } from 'react'
 // };
 // export default page6
 
+//🚀 useState Hook
 const page7 = () => {
   let [marks, setMarks] = useState(80); //way of creating variables in React is by using useStateSnippet/ "useState" hook
   return (

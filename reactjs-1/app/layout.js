@@ -3,7 +3,7 @@ import './globals.css'
 export default function RootLayout({ children }) { //children here is/are all the html text that is appearing on the frontend part
   return (
     <html lang="en">
-      <body>YJHD{children}</body>
+      <body>{children}</body>
     </html>
   )
 }

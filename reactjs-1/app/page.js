@@ -73,7 +73,7 @@ import React, { useState } from 'react'
 
 //🚀 useState Hook
 const page7 = () => {
-  let [marks, setMarks] = useState(80); //way of creating variables in React is by using useStateSnippet/ "useState" hook
+  let [marks, setMarks] = useState(80); //way of creating variables in React is by using useStateSnippet/ "useState" hook //abhi ke liye think useState = React ke variables
   return (
     <>
     <h1>My marks were {marks}</h1>

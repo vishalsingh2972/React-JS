@@ -7,7 +7,7 @@ Starting with React.js:
 - Two way binding
 - adding normal/module CSS in react and useRef (for validation, access the DOM properties)
 - TODO app
-- Breaking the components (importance of components)
+✔️- Breaking the components (importance of components)
 - props (normal data, children)
 - Introduction to class components (via lifecycle method) //not IMP
 - useEffect lifecycle hook

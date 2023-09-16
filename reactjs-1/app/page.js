@@ -5,7 +5,8 @@ import Header from "@/Components/Header" //importing Header.js into page.js
 const page = () => {
   return (
     <>
-    <Header></Header> 
+    <Header/>
+    <Header></Header>
     </>
   )
 }

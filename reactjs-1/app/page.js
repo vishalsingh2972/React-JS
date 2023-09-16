@@ -1,6 +1,6 @@
 //rafce (React arrow function component export)
 
-"use client" //for page6
+"use client" //for page6 and page7
 import React, { useState } from 'react'
 
 //🚀

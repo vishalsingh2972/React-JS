@@ -74,7 +74,6 @@ import React, { useState } from 'react'
 //     console.log(marks);
 //   };
 //   return (
-//     //Fragments <> </> or empty tags used as wrapper or wrapping in React
 //    <> 
 //      <h1 className='font-bold text-2xl text-blue-600'>My total marks were {marks}</h1>
 //      <button onClick={() => {

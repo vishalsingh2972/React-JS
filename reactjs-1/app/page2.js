@@ -1,8 +1,13 @@
-import axios from 'axios'
-import React from 'react'
+import axios from 'axios';
+import React, { useEffect, useState } from 'react';
 
 const page2 = () => {
   const [Images, setImages] = useState([]);
+
+  useEffect(() => {
+    getImages()
+  }, [])
+  
   const getImages = async () => {
     //console.log("Images LELO");
     try{

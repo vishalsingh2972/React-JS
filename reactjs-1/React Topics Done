@@ -11,9 +11,9 @@ Starting with React.js:
 ✔️- props (normal data, children, prop drilling)
 - Introduction to class components (via lifecycle method) //not IMP
 - useEffect lifecycle hook
-✔️- implimenting ajax in react (fetch/Axios)
 - Gallery app using lorem pixum api (react pagination)
 ✔️- Routing
+✔️- implimenting ajax in react (fetch/Axios)
 - Showing flash message (react toastify)
 - context api (higher order components {HOC}, higher order functions)
 - cashbook app

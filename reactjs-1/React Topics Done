@@ -4,16 +4,16 @@ Starting with React.js:
 ✔️- create-next-app (React folder description)
 ✔️- useState Hook (variable of React) and Real DOM & Virtual DOM
 ✔️- calling functions in react (Functions)
-- Two way binding
+✔️- Two way binding
 - adding normal/module CSS in react and useRef (for validation, access the DOM properties)
 - TODO app
 ✔️- Breaking the components (importance of components)
-- props (normal data, children)
+✔️- props (normal data, children, prop drilling)
 - Introduction to class components (via lifecycle method) //not IMP
 - useEffect lifecycle hook
-- implimenting ajax in react (fetch/Axios)
+✔️- implimenting ajax in react (fetch/Axios)
 - Gallery app using lorem pixum api (react pagination)
-- Routing
+✔️- Routing
 - Showing flash message (react toastify)
 - context api (higher order components {HOC}, higher order functions)
 - cashbook app

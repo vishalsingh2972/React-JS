@@ -113,5 +113,5 @@ const page9 = () => {
     }}>Update</button>
     </>
   )
-};
+}
 export default page9

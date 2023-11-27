@@ -1,9 +1,9 @@
-/* @tailwind base;
+@tailwind base;
 @tailwind components;
-@tailwind utilities; */
+@tailwind utilities;
 
 /* Boilerplate CSS */
-*{
+/* *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -18,4 +18,4 @@ html, body{
 a{
    display: block;
    margin: 30px;
-}
+} */

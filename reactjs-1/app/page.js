@@ -24,9 +24,7 @@ const page = () => {
   return (
     <div>
       <h1>This is the HomePage</h1>
-      <Link href="/About">About</Link>
-      <Link href="/Courses">Courses</Link>
-      <Link href="/Product">Product</Link>
+     
     </div>
   )
 }

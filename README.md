@@ -1,3 +1,7 @@
+<p align="center">
+    <img src= "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*HdN03ndACEsOdxCmZzuxeA.png"/> 
+</p>
+
 # React JS Official Documentations
 
 You can find the React documentation [on the website](https://react.dev/).  

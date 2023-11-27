@@ -1,5 +1,7 @@
 //🚀Breaking the Components
-import React from 'react'
+
+"use client" 
+import React, { useState } from 'react'
 import Header from "@/Components/Header" //importing Header.js into page.js
 
 const page = () => {
@@ -7,7 +9,7 @@ const page = () => {
   return (
     <>
     <Header/>
-    Page
+    {user}
     </>
   )
 }

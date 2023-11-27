@@ -21,7 +21,10 @@ const page2 = () => {
       <button onClick={getImages} className='px-5 py-3 bg-yellow-600 text-white font-bold'></button>
       <div className='p-10'>
         {Images.map((elem, i) => {
-          return <h1 key={i}>{elem.author}</h1>
+          return <img 
+            key={i} 
+            src={elem.download_url}
+          />
         })}
       </div>
 

@@ -18,14 +18,15 @@
 
 //🚀Routing
 import React from 'react'
+import Link from 'next/link'
 
 const page = () => {
   return (
     <div>
       <h1>This is the HomePage</h1>
-      <a href='/About'>About</a>
-      <a href='/Courses'>Courses</a>
-      <a href='/Product'>Product</a>
+      <Link href="/About">About</Link>
+      <Link href="/Courses">Courses</Link>
+      <Link href="/Product">Product</Link>
     </div>
   )
 }

@@ -30,4 +30,3 @@ console.log(typeof parent); //parent is a react element or javascript object
 const root2 = ReactDOM.createRoot(document.getElementById("root2"));
 //root.render(parent);
 root2.render(parent);
-  

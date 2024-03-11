@@ -46,4 +46,4 @@ console.log(typeof parent2);
 const root3 = ReactDOM.createRoot(document.getElementById("root3"));
 root3.render(parent2);
 
-//parent2 is still very untidy and can get difficult to understand as the code gets more complicated, to solve this we use JSX
+//even after using React, parent2 is still very untidy and can get difficult to understand as the code gets more complicated, to solve this we use JSX

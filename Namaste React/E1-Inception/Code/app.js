@@ -47,3 +47,4 @@ const root3 = ReactDOM.createRoot(document.getElementById("root3"));
 root3.render(parent2);
 
 //even after using React, parent2 is still very untidy and can get difficult to understand as the code gets more complicated, to solve this we use JSX
+//React - library - can work independently in a small portion of the app/code

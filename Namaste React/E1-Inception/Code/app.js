@@ -5,7 +5,7 @@ const heading1 = React.createElement(
 );
 
 console.log(heading1);
-console.log(typeof heading1);
+console.log(typeof heading1); //heading1 is a react element or javascript object
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(heading1);
 
@@ -25,8 +25,9 @@ const parent = React.createElement(
   )
 );
 
-console.log(parent);
-console.log(typeof parent);
+console.log(parent); 
+console.log(typeof parent); //parent is a react element or javascript object
 const root2 = ReactDOM.createRoot(document.getElementById("root2"));
 //root.render(parent);
 root2.render(parent);
+  

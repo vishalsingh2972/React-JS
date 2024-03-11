@@ -1,33 +1,20 @@
-const heading1 = React.createElement(
-  "h1", 
-  {id: "name", xyz: "abc" }, 
-  "Hello from inside React!"
-);
+<!DOCTYPE html>
+<html lang="en">
 
-console.log(heading1);
-console.log(typeof heading1); //heading1 is a react element or javascript object
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(heading1);
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <title>Namaste React with React</title>
+</head>
 
+<body>
+  <div id="root"></div>
+  <div id="root2"></div>
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
 
-//Nested Divs in React
-const parent = React.createElement(
-  "div", 
-  {id: "parent"}, 
-  React.createElement(
-    "div", 
-    {id: "child"},
-    React.createElement(
-      "h1", 
-      {id: "grandchild"}, 
-      "I am h1 tag!"
-    )
-  )
-);
+  <script src="./app.js"></script>
+</body>
 
-console.log(parent); 
-console.log(typeof parent); //parent is a react element or javascript object
-const root2 = ReactDOM.createRoot(document.getElementById("root2"));
-//root.render(parent);
-root2.render(parent);
-  
+</html>

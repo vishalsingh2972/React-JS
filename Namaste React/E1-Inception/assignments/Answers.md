@@ -23,7 +23,7 @@ Example emmet abbreviations: !, html:5 etc.
 ```
 
 `!` gives :
-```sh
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -3,6 +3,7 @@
 ## Q: What is `Emmet`?
 A: `Emmet` is the essential toolkit for web-developers. It allows you to `type shortcuts` that are then expanded into full pieces of code for writing `HTML and CSS`, based on an abbreviation structure most developers already use that expands into full-fledged HTML markup and CSS rules. 
 Emmet is a plugin for text editors like VS Code that allows users to code faster.
+In short, Emmet allows us to quickly generate HTML code by using abbreviations.
 
 Example emmet abbreviations: !, html:5 etc.
 
@@ -46,7 +47,9 @@ Example emmet abbreviations: !, html:5 etc.
 </div>
 ```
 
-- `ul>li*5` gives :
+// Nested Elements: We can use > to nest elements within each other
+// Multiplication: We can use the * operator to create multiple elements
+- `ul>li*5` gives : (would generate an unordered list with 5 list items)
 ```html
 <ul>
   <li></li>
@@ -54,6 +57,39 @@ Example emmet abbreviations: !, html:5 etc.
   <li></li>
   <li></li>
   <li></li>
+</ul>
+```
+
+// Numbering: Use $ to indicate a number that should be incremented in each subsequent item
+- `div>ul>li.item$*3` gives : (would generate an list with 3 list items with classes item1, item2, and item3)
+```sh
+<div>
+  <ul>
+    <li class="item1"></li>
+    <li class="item2"></li>
+    <li class="item3"></li>
+  </ul>
+</div>
+```
+
+// Siblings: We can use + to create sibling elements
+- `div+p+bq` gives : (would create a div, followed by a p, and then a blockquote)
+```html
+<div></div>
+<p></p>
+<blockquote></blockquote>
+```
+
+// Grouping: Parentheses can be used to group elements
+- `ul>(li.item$*2>a{Item $})*3` gives : (would generate a list with nested items and anchor tags)
+```sh
+<ul>
+  <li class="item1"><a href="">Item 1</a></li>
+  <li class="item2"><a href="">Item 2</a></li>
+  <li class="item1"><a href="">Item 1</a></li>
+  <li class="item2"><a href="">Item 2</a></li>
+  <li class="item1"><a href="">Item 1</a></li>
+  <li class="item2"><a href="">Item 2</a></li>
 </ul>
 ```
 

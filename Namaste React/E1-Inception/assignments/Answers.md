@@ -145,6 +145,13 @@ React is called React because it was designed to be a declarative, efficient, an
 The name `React` was chosen because the library was designed to allow developers to "react" to changes in state and data within an application, and to update the user interface in a declarative and efficient manner.
 `React` is a `JavaScript-based UI development library`. `Facebook` and an `open-source developer community` run it.
 
+`React` was developed for applications (Facebook) that have constantly changing data. Since React is a front-end framework or the “View” in MVC, this means that as the user clicks around and changes the app’s data, the view should “react” or change with those user events. User events being mouse clicks, typing, submitting a form.
+
+Answer lies in event driven architechture we follow in `React`. Any event handlers updating the dynamic data of react's piece of code, makes the code REACTIVE for events.
+
+And it's called `React` because it reacts. It was developed by Facebook (a site that CONSTANTLY updates their data) to improve the user interface development and more effectively change (REACT to) what the user sees when they're doing things like mouse clicking, submitting and typing.
+
+`React` is known as "React" because of its core principle, which is to efficiently react to changes in a component's state and efficiently update the user interface (UI) accordingly. The name "React" reflects the core concept of how the library operates.
 
 ## Q: What is `crossorigin in script tag`?
 A: The `crossorigin` attribute sets the mode of the request to an HTTP CORS Request. 

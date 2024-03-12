@@ -47,8 +47,8 @@ Example emmet abbreviations: !, html:5 etc.
 </div>
 ```
 
->Nested Elements: We can use > to nest elements within each other
->Multiplication: We can use the * operator to create multiple elements
+:writing_hand: Nested Elements: We can use > to nest elements within each other
+:writing_hand: Multiplication: We can use the * operator to create multiple elements
 - `ul>li*5` gives : (would generate an unordered list with 5 list items)
 ```html
 <ul>

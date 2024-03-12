@@ -1,10 +1,10 @@
-# _Chapter 01 - Inception_Assignment_Answers
+# Chapter 01 - Inception_Assignment_Answers
 
 ## Q: What is `Emmet`?
-A: `Emmet` is the essential toolkit for web-developers. It allows you to `type shortcuts` that are then expanded into full pieces of code for writing `HTML and CSS`, based on an abbreviation structure most developers already use that expands into full-fledged HTML markup and CSS rules.
+A: `Emmet` is the essential toolkit for web-developers. It allows you to `type shortcuts` that are then expanded into full pieces of code for writing `HTML and CSS`, based on an abbreviation structure most developers already use that expands into full-fledged HTML markup and CSS rules. 
+Emmet is a plugin for text editors like VS Code that allows users to code faster.
 
 Example emmet abbreviations: !, html:5 etc.
-For example in a HTML file:
 
 `html:5` gives :
 ```sh
@@ -46,9 +46,23 @@ For example in a HTML file:
 </div>
 ```
 
+- `ul>li*5` gives :
+```html
+<ul>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+```
 
+- `bgc:red` gives :
+```css
+background-color: red;
+```
 
-
+> More can be found here - https://docs.emmet.io/cheat-sheet
 
 ## Q: Difference between a `Library and Framework`?
 A: A `library` is a collection of packages that perform specific operations whereas a `framework` contains the basic flow and architecture of an application. The major difference between them is the complexity. Libraries contain a number of methods that a developer can just call whenever they write code. React js is library and Angular is Framework.

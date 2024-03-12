@@ -105,6 +105,23 @@ background-color: red;
 A: A `library` is a collection of packages that perform specific operations whereas a `framework` contains the basic flow and architecture of an application. The major difference between them is the complexity. Libraries contain a number of methods that a developer can just call whenever they write code. React js is library and Angular is Framework.
 The `framework` provides the flow of a software application and tells the developer what it needs and calls the code provided by the developer as required. If a `library` is used, the application calls the code from the library.
 
+A library is a piece of code that we can incorporate in our existing project via a CDN or as a package. A library does not affect our project structure whereas a framework is a structured set of libraries and packages implementing a perticular methodology that we have to follow to create a project.
+
+A framework is a set of pre-written code that provides a structure for developing software applications. A library, on the other hand, is a collection of pre-written code that can be used to perform specific tasks.
+
+A `Library` is a collection of pre-written code that provides specific functionalities or features. It is designed to be reused across different projects to save development time and effort.
+- **Control**: When using a library, the developer maintains more control over the overall structure and flow of the application. The developer decides when and how to use the library's components and functions.
+- **Usage**: Libraries are generally used to solve specific tasks or provide utilities. They are often "called" by the developer's code to perform specific actions or computations.
+- **Inversion of Control**: In a library, the developer controls the flow of the application. The library doesn't dictate the overall structure or architecture of the application.
+For instance, React.js is a JavaScript library developed by Facebook.
+React is primarily concerned with rendering UI components and managing their state and updates. It can be integrated into different project setups and combined with other libraries to create complete applications.
+
+A `Framework` is a structured, pre-designed architecture that provides a foundation for building an entire application. It dictates the overall structure, flow, and design patterns of the application.
+- **Control**: When using a framework, the developer gives up some control over the application's structure and flow. The framework enforces certain conventions and rules that the developer must follow.
+- **Usage**: Frameworks are used to build entire applications. They provide a foundation and a set of tools to handle various aspects of application development, such as routing, database interactions, user authentication, etc.
+- **Inversion of Control**: In a framework, control is often inverted, meaning the framework controls parts of the application's flow. Developers extend or customize the framework's components to build the application's logic.
+For instance, Angular is a front-end framework developed by Google.
+Angular is used for building dynamic and feature-rich web applications, particularly single-page applications (SPAs).
 
 >Is React a Library or Framework ?
 
@@ -113,7 +130,6 @@ React is library because it is unopinionated and it helps you accomplish a coupl
 For example, In React, developers have the flexibility to choose the tools and libraries they want to use for routing, state management, and other functionalities. It provides the core features for building UI components and managing the application's state, but developers need to handle other aspects, such as routing and server-side rendering, by integrating additional libraries or tools.
 
 Next.js on the other hand, is a framework built on top of React that provides a more opinionated structure and additional features for building React applications. It offers Server-Side Rendering (SSR), Static Site Generation (SSG), routing, and other performance optimizations out of the box, sometimes called batteries included.
-
 
 ## Q: What is `CDN`? Why do we use it?
 A: A `content delivery network (CDN)` refers to a geographically distributed group of servers that work together to provide fast delivery of Internet content.

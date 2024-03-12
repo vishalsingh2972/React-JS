@@ -139,6 +139,8 @@ CDN provides us different type of assets / features / libraries created by other
 
 >More can be found here - https://www.cloudflare.com/learning/cdn/what-is-a-cdn/
 
+React can be included in your project in multiple ways and one of them is using CDN. You include React and ReactDOM libraries directly from a CDN in your HTML file like below from [React CDN Links](https://legacy.reactjs.org/docs/cdn-links.html)
+
 ## Q: Why is `React known as React`?
 A: `React` is named React because of its ability to `react to changes in data`.
 React is called React because it was designed to be a declarative, efficient, and flexible JavaScript library for building user interfaces.

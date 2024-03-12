@@ -132,9 +132,12 @@ For example, In React, developers have the flexibility to choose the tools and l
 Next.js on the other hand, is a framework built on top of React that provides a more opinionated structure and additional features for building React applications. It offers Server-Side Rendering (SSR), Static Site Generation (SSG), routing, and other performance optimizations out of the box, sometimes called batteries included.
 
 ## Q: What is `CDN`? Why do we use it?
-A: A `content delivery network (CDN)` refers to a geographically distributed group of servers that work together to provide fast delivery of Internet content.
+A: A `content delivery network (CDN)` refers to a geographically distributed group of servers that work together to provide fast delivery of Internet content all over the globe.It is fast because of less server load etc. Genrally we use it to deliver our assets like images, videos, pdfs etc. to store and retrieve.
 The main use of a CDN is to deliver content through a network of servers in a secure and efficient way.
+The goal is to provide high availability and performance by distributing the service spatially relative to end users.
+CDN provides us different type of assets / features / libraries created by others over the internet. Using a CND reduces our effort to implement a functionality that is already existing somewhere else that we can simply use via CND.
 
+>More can be found here - https://www.cloudflare.com/learning/cdn/what-is-a-cdn/
 
 ## Q: Why is `React known as React`?
 A: `React` is named React because of its ability to `react to changes in data`.

@@ -47,8 +47,8 @@ Example emmet abbreviations: !, html:5 etc.
 </div>
 ```
 
-Nested Elements: We can use > to nest elements within each other
-Multiplication: We can use the * operator to create multiple elements
+> Nested Elements: We can use > to nest elements within each other
+> Multiplication: We can use the * operator to create multiple elements
 - `ul>li*5` gives : (would generate an unordered list with 5 list items)
 ```html
 <ul>
@@ -60,7 +60,7 @@ Multiplication: We can use the * operator to create multiple elements
 </ul>
 ```
 
-Numbering: Use $ to indicate a number that should be incremented in each subsequent item
+> Numbering: Use $ to indicate a number that should be incremented in each subsequent item
 - `div>ul>li.item$*3` gives : (would generate an list with 3 list items with classes item1, item2, and item3)
 ```sh
 <div>
@@ -72,7 +72,7 @@ Numbering: Use $ to indicate a number that should be incremented in each subsequ
 </div>
 ```
 
-Siblings: We can use + to create sibling elements
+> Siblings: We can use + to create sibling elements
 - `div+p+bq` gives : (would create a div, followed by a p, and then a blockquote)
 ```html
 <div></div>
@@ -80,7 +80,7 @@ Siblings: We can use + to create sibling elements
 <blockquote></blockquote>
 ```
 
-Grouping: Parentheses can be used to group elements
+> Grouping: Parentheses can be used to group elements
 - `ul>(li.item$*2>a{Item $})*3` gives : (would generate a list with nested items and anchor tags)
 ```sh
 <ul>

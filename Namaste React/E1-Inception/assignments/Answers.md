@@ -6,7 +6,7 @@ Emmet is a plugin for text editors like VS Code that allows users to code faster
 
 Example emmet abbreviations: !, html:5 etc.
 
-`html:5` gives :
+- `html:5` gives :
 ```sh
 <!DOCTYPE html>
 <html lang="en">
@@ -22,7 +22,7 @@ Example emmet abbreviations: !, html:5 etc.
 </html>
 ```
 
-`!` gives :
+- `!` gives :
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -37,7 +37,7 @@ Example emmet abbreviations: !, html:5 etc.
 </html>
 ```
 
-`div>div>p` gives :
+- `div>div>p` gives :
 ```sh
 <div>
   <div>

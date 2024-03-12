@@ -178,6 +178,21 @@ The reason that React and ReactDOM are separate is because React supports other 
 A: `Development` is the stage of an application before it's made public while `production` is the term used for the same application when it's made `public`.
 `Development build` is several times (maybe 3-5x) `slower` than the `production build`.
 
+`react.development.js` is used for development purpose and the code is not compressed while `react.production.js` is used for production purposes and the code for this library is compressed.
+
+The `react.development.js` file is intended for use during development and includes additional features and debugging tools that can be helpful when building and testing React applications. These features may include additional warning messages, error checking, and other tools that can help identify problems or potential issues with the code.
+The `react.production.js` file, on the other hand, is intended for use in production environments and has been optimized for performance and minified. It does not include the additional debugging tools and may have other features disabled in order to reduce the size of the file and improve performance.
+
+`react.development.js`
+- This file is intended for development purposes. It contains the full and unminified version of the React library, including helpful warning messages and development-specific features.
+- It is larger in size compared to the production version since it includes additional information and code to aid developers in identifying potential issues during development and debugging.
+- When using **`react.development.js`**, developers get more descriptive error messages and warnings in the browser's console, making it easier to identify and address problems in the code.
+`react.production.js`
+- This file is intended for production deployment. It contains the minified and optimized version of the React library, stripped of any development-specific code, warnings, and console logs.
+- It is smaller in size compared to the development version, as all unnecessary code and debug information have been removed during the minification process.
+- Using **`react.production.js`** results in faster loading times and improved performance for end-users, as the minimized code is more efficient and consumes fewer resources.
+When deploying a React application to a production environment, it is best practice to use **`react.production.js`** (along with the corresponding **`react-dom.production.js`** file) from the CDN. This ensures that the application is delivered to users with a smaller and more optimized bundle, reducing the load time and improving overall performance.
+During development, developers may prefer to use **`react.development.js`** (and **`react-dom.development.js`**) to take advantage of the helpful error messages and development tools that assist in identifying and resolving issues during the development and testing phase. However, it's essential to switch to the production version before deploying the application to a live environment to achieve better performance and user experience.
 
 ## Q: What is `async and defer`?
 A: `Async` - The async attribute is a `boolean attribute`. The script is downloaded in `parallel(in the background)` to parsing the page, and `executed as soon` as it is available (do not block HTML DOM construction during downloading process) and don’t wait for anything.

@@ -1,8 +1,53 @@
-## Namaste React Course by Akshay Saini
-# _Chapter 01 - Inception_
+# _Chapter 01 - Inception_Assignment_Answers
 
 ## Q: What is `Emmet`?
 A: `Emmet` is the essential toolkit for web-developers. It allows you to `type shortcuts` that are then expanded into full pieces of code for writing `HTML and CSS`, based on an abbreviation structure most developers already use that expands into full-fledged HTML markup and CSS rules.
+
+Example emmet abbreviations: !, html:5 etc.
+For example in a HTML file:
+
+`html:5` gives :
+```sh
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+```
+
+`!` gives :
+```sh
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+</html>
+```
+
+`div>div>p` gives :
+```sh
+<div>
+  <div>
+    <p></p>
+  </div>
+</div>
+```
+
+
+
 
 
 ## Q: Difference between a `Library and Framework`?

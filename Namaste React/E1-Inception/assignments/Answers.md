@@ -107,6 +107,7 @@ The `framework` provides the flow of a software application and tells the develo
 
 
 >Is React a Library or Framework
+
 React is library because it is unopinionated and it helps you accomplish a couple of tasks, whereas a framework defines your whole project. A framework provides a structure and set of rules for developing applications. It offers a collection of libraries, tools, and utilities that work together to facilitate the development process.
 
 For example, In React, developers have the flexibility to choose the tools and libraries they want to use for routing, state management, and other functionalities. It provides the core features for building UI components and managing the application's state, but developers need to handle other aspects, such as routing and server-side rendering, by integrating additional libraries or tools.

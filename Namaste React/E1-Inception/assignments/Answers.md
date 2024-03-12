@@ -105,9 +105,9 @@ background-color: red;
 A: A `library` is a collection of packages that perform specific operations whereas a `framework` contains the basic flow and architecture of an application. The major difference between them is the complexity. Libraries contain a number of methods that a developer can just call whenever they write code. React js is library and Angular is Framework.
 The `framework` provides the flow of a software application and tells the developer what it needs and calls the code provided by the developer as required. If a `library` is used, the application calls the code from the library.
 
-A library is a piece of code that we can incorporate in our existing project via a CDN or as a package. A library does not affect our project structure whereas a framework is a structured set of libraries and packages implementing a perticular methodology that we have to follow to create a project.
+A `library`is a piece of code that we can incorporate in our existing project via a CDN or as a package. A library does not affect our project structure whereas a `framework` is a structured set of libraries and packages implementing a perticular methodology that we have to follow to create a project.
 
-A framework is a set of pre-written code that provides a structure for developing software applications. A library, on the other hand, is a collection of pre-written code that can be used to perform specific tasks.
+A `framework` is a set of pre-written code that provides a structure for developing software applications. A `library`, on the other hand, is a collection of pre-written code that can be used to perform specific tasks.
 
 A `Library` is a collection of pre-written code that provides specific functionalities or features. It is designed to be reused across different projects to save development time and effort.
 - **Control**: When using a library, the developer maintains more control over the overall structure and flow of the application. The developer decides when and how to use the library's components and functions.

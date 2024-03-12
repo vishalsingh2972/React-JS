@@ -106,7 +106,7 @@ A: A `library` is a collection of packages that perform specific operations wher
 The `framework` provides the flow of a software application and tells the developer what it needs and calls the code provided by the developer as required. If a `library` is used, the application calls the code from the library.
 
 
->Is React a Library or Framework
+>Is React a Library or Framework ?
 
 React is library because it is unopinionated and it helps you accomplish a couple of tasks, whereas a framework defines your whole project. A framework provides a structure and set of rules for developing applications. It offers a collection of libraries, tools, and utilities that work together to facilitate the development process.
 

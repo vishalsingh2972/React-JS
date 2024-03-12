@@ -187,6 +187,7 @@ The `react.production.js` file, on the other hand, is intended for use in produc
 - This file is intended for development purposes. It contains the full and unminified version of the React library, including helpful warning messages and development-specific features.
 - It is larger in size compared to the production version since it includes additional information and code to aid developers in identifying potential issues during development and debugging.
 - When using **`react.development.js`**, developers get more descriptive error messages and warnings in the browser's console, making it easier to identify and address problems in the code.
+
 `react.production.js`
 - This file is intended for production deployment. It contains the minified and optimized version of the React library, stripped of any development-specific code, warnings, and console logs.
 - It is smaller in size compared to the development version, as all unnecessary code and debug information have been removed during the minification process.

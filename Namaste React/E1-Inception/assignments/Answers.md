@@ -106,6 +106,14 @@ A: A `library` is a collection of packages that perform specific operations wher
 The `framework` provides the flow of a software application and tells the developer what it needs and calls the code provided by the developer as required. If a `library` is used, the application calls the code from the library.
 
 
+>Is React a Library or Framework
+React is library because it is unopinionated and it helps you accomplish a couple of tasks, whereas a framework defines your whole project. A framework provides a structure and set of rules for developing applications. It offers a collection of libraries, tools, and utilities that work together to facilitate the development process.
+
+For example, In React, developers have the flexibility to choose the tools and libraries they want to use for routing, state management, and other functionalities. It provides the core features for building UI components and managing the application's state, but developers need to handle other aspects, such as routing and server-side rendering, by integrating additional libraries or tools.
+
+Next.js on the other hand, is a framework built on top of React that provides a more opinionated structure and additional features for building React applications. It offers Server-Side Rendering (SSR), Static Site Generation (SSG), routing, and other performance optimizations out of the box, sometimes called batteries included.
+
+
 ## Q: What is `CDN`? Why do we use it?
 A: A `content delivery network (CDN)` refers to a geographically distributed group of servers that work together to provide fast delivery of Internet content.
 The main use of a CDN is to deliver content through a network of servers in a secure and efficient way.

@@ -224,5 +224,7 @@ Execute your code only after the DOM has `initialized`, which makes DOM manipula
 Prevent top level variables from implicitly polluting the global namespace.
 Allow you to use top-level await in supported engines.
 Load and parse your code `asynchronously`, which improves load performance.
-![image](https://github.com/vishalsingh2972/React-JS/assets/106817047/80b2751a-df86-495e-9b0b-ee81120a8f69)
+
+<img width="407" alt="image" src="https://github.com/vishalsingh2972/React-JS/assets/106817047/9dc81997-866d-466b-a413-8171e5b7aa27">
+
 

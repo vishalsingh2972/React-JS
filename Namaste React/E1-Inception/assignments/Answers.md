@@ -224,3 +224,14 @@ Execute your code only after the DOM has `initialized`, which makes DOM manipula
 Prevent top level variables from implicitly polluting the global namespace.
 Allow you to use top-level await in supported engines.
 Load and parse your code `asynchronously`, which improves load performance.
+
+<img width="407" alt="image" src="https://github.com/vishalsingh2972/React-JS/assets/106817047/9dc81997-866d-466b-a413-8171e5b7aa27">
+
+When we have multiple script tags which are dependent on each other, defer attribute maintains the order of execution of the scripts i.e. each script is executed line by line whereas async does not maintain order of execution and can cause break the production, hence we mostly use defer for Order, async for Independent Scripts.
+
+Choosing Wisely:
+- Use defer when the order of execution matters between defer scripts and they interact with the DOM upon loading.
+- Use async for truly independent scripts that don't rely on other scripts or the DOM to be fully available. These are often scripts for analytics, tracking, or third-party services.
+- Therefore, the choice between async and defer depends on whether script independence or order of execution is more critical for your application.
+
+

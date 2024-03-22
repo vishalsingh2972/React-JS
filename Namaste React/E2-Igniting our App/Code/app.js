@@ -1,3 +1,4 @@
+// imported react and reactdom from node_modules folder
 import React from "react";
 import ReactDOM from "react-dom/client";
 

@@ -2,7 +2,7 @@
 # _Chapter 01 - Inception_
 
 
-## Theory -
+## Theory Assignment:
 - What is `Emmet`?
 - Difference between a `Library and Framework`?
 - What is `CDN`? Why do we `use` it?
@@ -13,7 +13,7 @@
 - What is `async and defer`?
 
 
-## Coding -
+## Project Assignment:
 - Set up all the `tools in your laptop`
     - `VS Code`
     - `Chrome`

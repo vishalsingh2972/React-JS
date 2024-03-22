@@ -1,4 +1,4 @@
-E1 - Topics coverd in this session:
+## E1 - Topics coverd in this session:
 
 - React DOM and React
 - Emmet

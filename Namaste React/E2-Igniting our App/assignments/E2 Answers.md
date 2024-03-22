@@ -73,6 +73,33 @@ instead of just,
 npm install --save
 ```
 
+Main differences between dependencies and devDependencies in bullet points:
+
+```
+dependencies:
+```
+Purpose: Essential libraries or packages required for your application to run in production.
+Content: User-facing features and functionalities.
+Installation: Installed into node_modules with npm install or yarn install.
+Distribution: Included when deploying your application (users need them to run the app).
+Example: React, Express.js (libraries your application directly uses).
+
+```
+devDependencies:
+```
+Purpose: Tools needed only during development and testing.
+Content: Build tools, testing frameworks, linters, debuggers, etc.
+Installation: Installed into node_modules with npm install or yarn install.
+Distribution: Not included when deploying your application (users don't need them).
+Example: Jest (testing framework), Parcel (bundler), ESLint (linting tool).
+
+```
+Key Points:
+```
+Separation of Concerns: Keeps development tools separate from production dependencies.
+Improved Efficiency: Users don't download development tools when running your application.
+Clarity for Developers: devDependencies clearly indicate tools needed for development.
+
 
 ## Q: What is `Tree Shaking`?
 A: `Tree shaking` is process of removing the unwanted code that we do not use while developing the application.

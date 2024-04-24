@@ -60,6 +60,16 @@ const Header = () => {
   );
 };
 ```
+```
+ or can also be written directly as 
+const Header = () => (  // Implicit return for concise code
+  <div className="Title" key="title">
+    <h1 key="h1">This is h1 tag</h1>
+    <h2 key="h2">This is h2 tag</h2>
+    <h3 key="h3">This is h3 tag</h3>
+  </div>
+);
+```
 
 
 ## Q: Pass `attribute into the tag in JSX`

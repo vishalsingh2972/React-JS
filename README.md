@@ -17,3 +17,9 @@ The documentation is divided into several sections:
 * [Mozilla MDN Docs React](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started)
 * [React devdocs.io](https://devdocs.io/react/)
 * [ Create React App](https://create-react-app.dev/)
+
+##  Reference notes for revision of ⚛️ concepts:
+* [reaction](https://github.com/shubhxg/reaction) by @shubhxg
+  
+
+  

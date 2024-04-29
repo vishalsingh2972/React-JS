@@ -18,7 +18,7 @@ The documentation is divided into several sections:
 * [React devdocs.io](https://devdocs.io/react/)
 * [ Create React App](https://create-react-app.dev/)
 
-##  Reference notes for revision of ⚛️ concepts:
+# Reference notes for revision of ⚛️ concepts:
 * [reaction](https://github.com/shubhxg/reaction) by @shubhxg
   
 

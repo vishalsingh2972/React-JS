@@ -19,7 +19,7 @@ The documentation is divided into several sections:
 * [ Create React App](https://create-react-app.dev/)
 
 # Reference notes for revision of core ⚛️ concepts
-* [reaction](https://github.com/shubhxg/reaction) by @shubhxg
+* [reaction](https://github.com/shubhxg/reaction) by @shubhxg(https://github.com/shubhxg)
   
 
   

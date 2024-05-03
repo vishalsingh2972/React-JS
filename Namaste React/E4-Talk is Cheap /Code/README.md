@@ -1,4 +1,4 @@
-## Episode 4- Talk is Cheap, Show Me the Code
+## Episode 4 - Talk is Cheap, Show Me the Code
 **Detailed Mention of Topics and its Timestamps according to Namaste React Web Series**
 
 ```sh

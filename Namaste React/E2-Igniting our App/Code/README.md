@@ -1,4 +1,4 @@
-## Episode 2- Igniting our App 
+## Episode 2 - Igniting our App 
 
 **Detailed Mention of Topics and its Timestamps according to Namaste React Web Series**
 

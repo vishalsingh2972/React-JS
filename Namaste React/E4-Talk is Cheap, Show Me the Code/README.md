@@ -1,31 +1,8 @@
 ## E4 - Topics coverd in this session:
 
-- Creating our first app
+- Creating our First App
 - React Fragment
-- props/state
-- function mapping
+- Props/State
+- Function Mapping
 - Config driven UI
 - Virtual DOM
-- Mock design, Various sections of a web page, and its coding
-- CSS coding
-- Created a Header element using React
-- CSS for body component & restaurant card
-- Inline style of writing CSS in JSX
-- JSX feature
-- Adding an image to the restaurant card
-- Coding inside App.js, adding details to the restaurant card
-- Multiple Restaurant Cards
-- Making a Restaurant card with dynamic data, PROPS, Passing a (prop) to a component
-- Destructure the props
-- Install Chrome extension – JSON Viewer
-- Config Driven UI, Data layer & UI layer
-- Bug found in the API
-- Array + join(.) usage
-- Further modifying the CSS
-- Making the image dynamic too, cloudinary image, String concatenation
-- Restaurant card becomes Dynamic
-- Optimizing the code, Optional Chaining
-- Usage of map() function
-- React feature
-- Unique Key Property
-- Lists & Keys, react.js org

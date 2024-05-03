@@ -5,11 +5,11 @@
 - Created a Header element using React
 - CSS for body component & restaurant card
 - Inline style of writing CSS in JSX
-* JSX feature
+- JSX feature
 - Adding an image to the restaurant card
 - Coding inside App.js, adding details to the restaurant card
 - Multiple Restaurant Cards
-* Making a Restaurant card with dynamic data, PROPS, Passing a (prop) to a component
+- Making a Restaurant card with dynamic data, PROPS, Passing a (prop) to a component
 - Destructure the props
 - Install Chrome extension – JSON Viewer
 - Config Driven UI, Data layer & UI layer

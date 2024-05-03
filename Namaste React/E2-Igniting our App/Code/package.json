@@ -1,0 +1,29 @@
+{
+  "name": "react-js",
+  "version": "1.0.0",
+  "description": "Vishal is loving Namaste React",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "vishal",
+    "singh",
+    "hare",
+    "krishna",
+    "radhe",
+    "radhe"
+  ],
+  "author": "Vishal Singh",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}

@@ -1,5 +1,11 @@
 ## E4 - Topics coverd in this session:
 
+- Creating our first app
+- React Fragment
+- props/state
+- function mapping
+- Config driven UI
+- Virtual DOM
 - Mock design, Various sections of a web page, and its coding
 - CSS coding
 - Created a Header element using React

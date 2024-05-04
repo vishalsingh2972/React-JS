@@ -15,7 +15,6 @@ import ReactDOM from "react-dom/client";
       ---Img
       ---Name of Restaurant, Star Rating, cuisines, delivery time
 
-
 3) Footer
   - Copyright disclaimer
   - Links

@@ -41,18 +41,26 @@ const Header = () => {
   )
 }
 
-const styleCard = {
-  backgroundColor: "yellow"
-}
+// const styleCard = {
+//   backgroundColor: "yellow"
+// }
 
+// const RestaurantCard = () => {
+//   return(
+//     <div className="res-card" style={styleCard}>
+//       <h3>Pista House</h3>
+//     </div>
+//   )
+// }
+
+//Direct Attack
 const RestaurantCard = () => {
   return(
-    <div className="res-card" style={styleCard}>
+    <div className="res-card" style={{backgroundColor: "yellow"}}>
       <h3>Pista House</h3>
     </div>
   )
 }
-
 
 const Body = () => {
   return(

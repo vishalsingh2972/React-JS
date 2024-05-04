@@ -64,6 +64,7 @@ const RestaurantCard = () => {
       <h3>Pista House</h3>
       <h4>Indian, Chinese, Italian</h4>
       <h4>⭐ 4.5</h4>
+      <h4>20-25 min</h4>
     </div>
   )
 }

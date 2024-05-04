@@ -57,7 +57,13 @@ const Header = () => {
 const RestaurantCard = () => {
   return(
     <div className="res-card" style={{backgroundColor: "yellow"}}>
+      <img
+        alt="res_food_image"
+        src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/f1bc9ddf53de574cdc35ab2f717df234"
+      />
       <h3>Pista House</h3>
+      <h4>Indian, Chinese, Italian</h4>
+      <h4>⭐ 4.5</h4>
     </div>
   )
 }

@@ -11,7 +11,10 @@ import ReactDOM from "react-dom/client";
 2) Body
   - Search bar
   - Restaurant card container
-    -- Restaurant card 
+    -- Restaurant card
+      ---Img
+      ---Name of Restaurant, Star Rating, cuisines, delivery time
+
 
 3) Footer
   - Copyright disclaimer
@@ -39,10 +42,31 @@ const Header = () => {
   )
 }
 
+const RestaurantCard = () => {
+  return(
+    <div className="res-card">
+      <h3>Pista House</h3>
+    </div>
+  )
+}
+
+
+const Body = () => {
+  return(
+    <div className="body">
+      <div className="search">Search</div>
+      <div className="res-container">
+        <RestaurantCard/>
+      </div>
+    </div>
+  )
+}
+
 const AppLayout = () => {
   return(
     <div className="app">
       <Header/>
+      <Body/>
     </div>
   )
 }

@@ -27,7 +27,7 @@ const Header = () => {
   return(
     <div className="header">
       <div className="logo-container">
-        <img className="logo" src="https://images.app.goo.gl/nipkGUM5q7bK99DQ7"/>
+        <img className="logo" src="https://cdn.iconscout.com/icon/free/png-256/free-logo-1889525-1597585.png?f=webp"/>
       </div>
       <div className="nav-items">
         <ul>
@@ -56,10 +56,11 @@ const Header = () => {
 //Direct Attack
 const RestaurantCard = () => {
   return(
-    <div className="res-card" style={{backgroundColor: "yellow"}}>
+    <div className="res-card" style={{backgroundColor: "#f0f0f0"}}>
       <img
+        className="res_logo"
         alt="res_food_image"
-        src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/f1bc9ddf53de574cdc35ab2f717df234"
+        src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/xxg1pthsrrxpd83in6r3"
       />
       <h3>Pista House</h3>
       <h4>Indian, Chinese, Italian</h4>

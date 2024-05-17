@@ -1,7 +1,7 @@
 {
-  "name": "e4",
+  "name": "code",
   "version": "1.0.0",
-  "description": "",
+  "description": "**Detailed Mention of Topics and its Timestamps according to Namaste React Web Series**",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
@@ -11,12 +11,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "parcel": "^2.12.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "parcel": "^2.12.0",
     "process": "^0.11.10"
-  }
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
 }
-

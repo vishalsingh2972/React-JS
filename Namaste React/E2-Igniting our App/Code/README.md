@@ -31,6 +31,7 @@
 01:38:45 – Exploring Parcel documentation
 01:43:00 – System design question 
 01:45:00 – Prod bundles
+01:46:09 - "main":"App.js" package.json error
 01:56:00 – Git ignore files (parcel_cache, node_modules)
 01:58:00 - support for older versions of Browsers
 02:03:00 – Government Websites- Old versions of browser

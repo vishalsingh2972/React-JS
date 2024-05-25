@@ -58,18 +58,21 @@ const RestaurantCard = (props) => {
   // const RestaurantCard = ({resName, cuisine}) => { //Another way where we are directly "destructuring on the fly" 
   console.log(props); //JS object
   // const{resName, cuisine} = props; //short for const resName = props.resName; and const cuisine = props.cuisine;
-   const{ resData } = props;
+  const{ resData } = props;
+  const {cloudinaryImageId, name, cuisines, avgRatingString, costForTwo} = resData?.info; //here 1️⃣'const { cloudinaryImageId } = resData?.info;' is same as 2️⃣'const cloudinaryImageId = resData.info.cloudinaryImageId' but with optional chaining ?., basically 1️⃣ is 2️⃣ with optional chaining ?. //similarly for these as well ---> name, cuisines, avgRatingString, costForTwo
+  //?. optional chaining stops if value is null and avoids further errors
+
   return(
     <div className="res-card" style={{backgroundColor: "#f0f0f0"}}>
       <img
         className="res_logo"
         alt="res_food_image"
-        src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/"+resData.info.cloudinaryImageId}
+        src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/"+cloudinaryImageId}
       />
-      <h3>{resData.info.name}</h3>
-      <h4>{resData.info.cuisines.join(", ")}</h4>
-      <h4>{resData.info.avgRatingString} ⭐</h4>
-      <h4>{resData.info.costForTwo}</h4>
+      <h3>{name}</h3>
+      <h4>{cuisines.join(", ")}</h4>
+      <h4>{avgRatingString} ⭐</h4>
+      <h4>{costForTwo}</h4>
       <h4>{resData.info.sla.deliveryTime} minutes</h4>
     </div>
   )
@@ -1029,6 +1032,296 @@ const resList = [
       "type": "WEBLINK"
     },
     "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+  },
+  {
+    "info": {
+      "id": "437775",
+      "name": "AL Madina Shawarma",
+      "cloudinaryImageId": "qm53m1k7mtglpyvio4ox",
+      "locality": "Himayath Nagar",
+      "areaName": "Sahifa Masjid Circleno 4",
+      "costForTwo": "₹200 for two",
+      "cuisines": [
+        "Lebanese"
+      ],
+      "avgRating": 4,
+      "parentId": "29280",
+      "avgRatingString": "4.0",
+      "totalRatingsString": "1K+",
+      "sla": {
+        "deliveryTime": 35,
+        "lastMileTravel": 4.9,
+        "serviceability": "SERVICEABLE",
+        "slaString": "35-40 mins",
+        "lastMileTravelString": "4.9 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2024-05-26 05:00:00",
+        "opened": true
+      },
+      "badges": {
+        
+      },
+      "isOpen": true,
+      "aggregatedDiscountInfoV2": {
+        
+      },
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
+      },
+      "orderabilityCommunication": {
+        "title": {
+          
+        },
+        "subTitle": {
+          
+        },
+        "message": {
+          
+        },
+        "customIcon": {
+          
+        }
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      "context": "seo-data-dc3ff478-24e5-443a-9503-e19c423ef83b"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/al-madina-shawarma-himayath-nagar-sahifa-masjid-circleno-4-hyderabad-437775",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+  },
+  {
+    "info": {
+      "id": "36263",
+      "name": "Veggie Chinese",
+      "cloudinaryImageId": "jl1hru4ngw8ft1kzic1i",
+      "locality": "Hari Vihar Colony",
+      "areaName": "Old Mla Quarters",
+      "costForTwo": "₹300 for two",
+      "cuisines": [
+        "Chinese"
+      ],
+      "avgRating": 4.2,
+      "veg": true,
+      "parentId": "6567",
+      "avgRatingString": "4.2",
+      "totalRatingsString": "10K+",
+      "sla": {
+        "deliveryTime": 25,
+        "lastMileTravel": 1.5,
+        "serviceability": "SERVICEABLE",
+        "slaString": "20-25 mins",
+        "lastMileTravelString": "1.5 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2024-05-26 05:00:00",
+        "opened": true
+      },
+      "badges": {
+        "imageBadges": [
+          {
+            "imageId": "v1695133679/badges/Pure_Veg111.png",
+            "description": "pureveg"
+          }
+        ]
+      },
+      "isOpen": true,
+      "aggregatedDiscountInfoV2": {
+        
+      },
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "pureveg",
+                  "imageId": "v1695133679/badges/Pure_Veg111.png"
+                }
+              }
+            ]
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
+      },
+      "orderabilityCommunication": {
+        "title": {
+          
+        },
+        "subTitle": {
+          
+        },
+        "message": {
+          
+        },
+        "customIcon": {
+          
+        }
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      "context": "seo-data-dc3ff478-24e5-443a-9503-e19c423ef83b"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/veggie-chinese-hari-vihar-colony-old-mla-quarters-hyderabad-36263",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+  },
+  {
+    "info": {
+      "id": "807453",
+      "name": "Shawarma Express",
+      "cloudinaryImageId": "b6fb5a0d41200a54b88be85c7d28185b",
+      "locality": "Kachiguda Road",
+      "areaName": "Himayath Nagar",
+      "costForTwo": "₹300 for two",
+      "cuisines": [
+        "Fast Food"
+      ],
+      "avgRating": 3.9,
+      "parentId": "5220",
+      "avgRatingString": "3.9",
+      "totalRatingsString": "100+",
+      "sla": {
+        "deliveryTime": 32,
+        "lastMileTravel": 2.6,
+        "serviceability": "SERVICEABLE",
+        "slaString": "30-35 mins",
+        "lastMileTravelString": "2.6 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2024-05-26 05:00:00",
+        "opened": true
+      },
+      "badges": {
+        
+      },
+      "isOpen": true,
+      "aggregatedDiscountInfoV2": {
+        
+      },
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
+      },
+      "orderabilityCommunication": {
+        "title": {
+          
+        },
+        "subTitle": {
+          
+        },
+        "message": {
+          
+        },
+        "customIcon": {
+          
+        }
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "isNewlyOnboarded": true,
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      "context": "seo-data-dc3ff478-24e5-443a-9503-e19c423ef83b"
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/shawarma-express-kachiguda-road-himayath-nagar-hyderabad-807453",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
   }
 ]
 
@@ -1051,16 +1344,24 @@ const resList = [
 
 //Props - Properties - same as we have arguments for functions, for components we pass data via props or by using props //Hence, passing a prop to a component is just like passing an argument to a function
 //as seen below - resName="PizzaHut" cuisine="Pizza" these are the props being passed to the component <RestaurantCard/>, so here react will wrap everything (i.e resName="PizzaHut" cuisine="Pizza") inside an object and send it as argument "props" as seen above in const RestaurantCard = (props)...
+//as seen below - resData={restaurant}, here resData which is storing information of {restaurant} is passed as prop, remember key={restaurant.info.id} is not included in props or passed as argument "props" to the functional component const RestaurantCard = (props)... as seen above
 //hence whenever we want to dynamically pass in some data to a component, we pass it as a prop
 const Body = () => {
   return(
-    <div className="body">
+    <div className="bodyi">
       <div className="search">Search</div>
       <div className="res-container">
-        <RestaurantCard resData={resList[0]}/>
-        <RestaurantCard resData={resList[1]}/>
-        <RestaurantCard resData={resList[2]}/>
-        <RestaurantCard resData={resList[9]}/>
+        {
+          resList.map((restaurant, index) => ( //written index just for reference to the below point
+            <RestaurantCard key={restaurant.info.id} resData={restaurant}/> //good convention: whenever doing a .map always put a key in the functional component below //good practise wrt React render cycle //important for optimization and efficiency
+                                                                            //never use key={index}, not recommended - bad practice as per React documentation ~ for more info https://react.dev/learn/rendering-lists, https://robinpokorny.com/blog/index-as-a-key-is-an-anti-pattern/, https://robinpokorny.medium.com/index-as-a-key-is-an-anti-pattern-e0349aece318
+          //unique id as key (BEST option) >>> index as key (can be used but not recommended) >>> not using key (NOT acceptable)                                                                  
+          ))  
+
+          // resList.map((restaurant) => {
+          //   return <RestaurantCard key={restaurant.info.id} resData={restaurant}/>  
+          // })  
+        }
       </div>
     </div>
   )

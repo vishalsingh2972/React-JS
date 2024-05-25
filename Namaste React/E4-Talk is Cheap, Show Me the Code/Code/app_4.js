@@ -64,12 +64,12 @@ const RestaurantCard = (props) => {
       <img
         className="res_logo"
         alt="res_food_image"
-        src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/xxg1pthsrrxpd83in6r3"
+        src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/"+resData.data.cloudinaryImageId}
       />
       <h3>{resData.data.name}</h3>
-      <h4>{resData.data.cuisines}</h4>
-      <h4>⭐ {resData.data.avgRating}</h4>
-      <h4>₹ {(resData.data.costForTwo) / 100}</h4>
+      <h4>{resData.data.cuisines.join(", ")}</h4>
+      <h4>{resData.data.avgRating} ⭐</h4>
+      <h4>₹{(resData.data.costForTwo) / 100} FOR TWO</h4>
       <h4>{resData.data.deliveryTime} minutes</h4>
     </div>
   )
@@ -82,7 +82,8 @@ const resObj = {
     cuisines: ["Animal","Bakra","Chicken"],
     avgRating: "4",
     costForTwo: "40000",
-    deliveryTime: "25"
+    deliveryTime: "25",
+    cloudinaryImageId: "2b4f62d606d1b2bfba9ba9e5386fabb7"
   }
 }
 

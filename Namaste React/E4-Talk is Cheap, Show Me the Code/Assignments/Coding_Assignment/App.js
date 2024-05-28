@@ -1914,7 +1914,7 @@ const Footer = () => {
   const year = new Date().getFullYear();
   return (
     <div className="footer">
-      Created By
+      Created With 🫀 By
       <i class="fa-solid fa-heart"></i>
       <a href="https://www.linkedin.com/in/vishalsingh2972/" target="_blank">
         Vishal Singh

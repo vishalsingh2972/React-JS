@@ -1,8 +1,8 @@
 ## E5 - Topics coverd in this session:
 
-- 
-- 
-- 
+- File structure
+- Import/Export
+- React Hooks (useState)
 - 
 - 
 - 

@@ -37,8 +37,7 @@
 02:08:00 – Session Recap
 ```
 
-Two types of Exports/Imports
-
+**Two types of Exports/Imports**
 > Default Export/Import
 
   export default Component; </br>

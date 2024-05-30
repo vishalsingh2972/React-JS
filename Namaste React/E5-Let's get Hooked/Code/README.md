@@ -36,3 +36,13 @@
 02:06:00 – Array Destructuring 
 02:08:00 – Session Recap
 ```
+
+Two types of Exports/Imports
+
+> Default Export/Import
+  export default Component;
+  import Component from "path";
+
+> Named Exports/Imports
+  export const Component;
+  import { Component } from "path";

@@ -41,12 +41,12 @@ Two types of Exports/Imports
 
 > Default Export/Import
 
-  export default Component;
+  export default Component; </br>
   import Component from "path";
 
 ---
 
 > Named Exports/Imports
 
-  export const Component;
+  export const Component; </br>
   import { Component } from "path";

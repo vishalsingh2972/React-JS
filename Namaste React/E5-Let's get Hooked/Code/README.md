@@ -40,9 +40,13 @@
 Two types of Exports/Imports
 
 > Default Export/Import
+
   export default Component;
   import Component from "path";
 
+---
+
 > Named Exports/Imports
+
   export const Component;
   import { Component } from "path";

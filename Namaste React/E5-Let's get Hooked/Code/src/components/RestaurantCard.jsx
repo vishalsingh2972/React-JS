@@ -2,7 +2,7 @@ import { CDN_URL } from "../utils/constants"
 
 const RestaurantCard = (props) => {
   // const RestaurantCard = ({resName, cuisine}) => { //Another way where we are directly "destructuring on the fly" 
-  console.log(props); //JS object
+  //console.log(props); //JS object
   // const{resName, cuisine} = props; //short for const resName = props.resName; and const cuisine = props.cuisine;
   const{ resData } = props;
   const {cloudinaryImageId, name, cuisines, avgRatingString, costForTwo} = resData?.info; //here 1️⃣'const { cloudinaryImageId } = resData?.info;' is same as 2️⃣'const cloudinaryImageId = resData.info.cloudinaryImageId' but with optional chaining ?., basically 1️⃣ is 2️⃣ with optional chaining ?. //similarly for these as well ---> name, cuisines, avgRatingString, costForTwo

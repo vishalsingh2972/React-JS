@@ -52,7 +52,7 @@ const Body = () => {
       }
     }
     }
-];
+  ];
 
   return(
     <div className="body">

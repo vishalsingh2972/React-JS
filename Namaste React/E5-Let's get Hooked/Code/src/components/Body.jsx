@@ -3,6 +3,11 @@ import RestaurantCard from "./RestaurantCard";
 
 const Body = () => {
 
+  //Super Powerful React variable - also known as State Variable, and for creating this State Variable we make use of React hooks, to be precise here we use useState hook
+  //in simple words just like a functional component is a javascript function that returns a JSX and a react element is a javascript object similarly a React hook is also a javascript function which is given to us by React, its a prebuilt the only difference being this javascript function comes with certain extra superpowers
+
+
+  //Normal vanilla JS variable (let or const)
   let listOfRestaurants = [
     {
     "info": {

@@ -7,7 +7,7 @@ const Body = () => {
       <div className="filter">
         <button 
         className="filter-btn" 
-        onClick={() => {
+        onMouseOver={() => {
           console.log("Button Clicked");
         }}
         >

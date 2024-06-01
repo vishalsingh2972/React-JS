@@ -49,3 +49,12 @@
 
   export const Component; </br>
   import { Component } from "path";
+
+---
+---
+
+**React Hooks**
+Normal JS functions, also known as Normal JS utility functions written by meta devs
+
+> useState() -used to generate superpoweful State Variables in React
+> useEffect()

@@ -20,6 +20,5 @@
   },
   "browserslist": [
     "last 2 versions"
-  ],
-  "main": "app_4.js"
+  ]
 }

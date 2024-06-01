@@ -2,8 +2,8 @@
 
 - File structure
 - Import/Export
-- React Hooks (useState)
-- 
+- React Hooks introduction
+- useState hook
 - 
 - 
 

@@ -37,7 +37,7 @@
 02:08:00 – Session Recap
 ```
 
-**Two types of Exports/Imports**
+🚀 **Two types of Exports/Imports**
 > Default Export/Import
 
   export default Component; </br>
@@ -53,8 +53,13 @@
 ---
 ---
 
-**React Hooks**
+🚀 **React Hooks:** </br>
 Normal JS functions, also known as Normal JS utility functions written by meta devs
 
 > useState() -used to generate superpoweful State Variables in React
 > useEffect()
+
+---
+---
+
+🚀 **Reconciliation algorithm / React fiber (asynchronous in behavior) was introduced in React 16, the older versions of React used an older algorithm known as 'Stack Reconciler' (synchronous in behavior)**

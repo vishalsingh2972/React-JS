@@ -4,14 +4,19 @@ import { useState } from "react";
 import resList from "../utils/mockData";
 
 const Body = () => {
-
   //Super Powerful React variable - also known as State Variable, and for creating this State Variable we make use of React hooks, to be precise here we use useState hook
   //in simple words just like a functional component is simply a javascript function that returns a JSX and a react element is simply a javascript object similarly a React hook is also a javascript function which is given to us by React (its a prebuilt), the only difference being this javascript function comes with certain extra superpowers, this javascript function has some logic written BTS inside React, this javascript function is a utility function readily available to us by React
   //in simple words React hook is a utility function provided to us by React
   const [listOfRestaurants, setListOfRestaurants] = useState(resList); //Local State Variable -  scope inside the component it is targeting
-  
+  // console.log(useState(resList)); //array
+
   // const arr = useState(resList);
   // const [listOfRestaurants, setListOfRestaurants] = arr;
+  // const listOfRestaurants = arr[0];
+  // const setListOfRestaurants = arr[1];
+  // console.log(arr[0])
+  // console.log('pappu')
+  // console.log(arr[1])
   
   //Normal vanilla JS variable (let or const)
   let listOfRestaurants_normalJS = [

@@ -4,8 +4,9 @@ import { useState } from "react";
 import resList from "../utils/mockData";
 
 const Body = () => {
-  const [listOfRestaurants, setListOfRestaurants] = useState(resList);
 
+  const [searchText, setSearchText] = useState("bittu"); //useState for search bar feature
+  const [listOfRestaurants, setListOfRestaurants] = useState(resList);
   return(
     <div className="body">
       <div className="filter">
@@ -13,10 +14,12 @@ const Body = () => {
           type="text"
           className="search-input"
           placeholder="Search a restaurant"
+          value={searchText}
         ></input>
-        <button 
+        <button
         className="filter-btn" 
         onClick={() => {
+          console.log({searchText})
           //search logic here ⬇️
           const restaurantName = listOfRestaurants.filter((res)=> res.info.avgRating >= 4)
           setListOfRestaurants(restaurantName);

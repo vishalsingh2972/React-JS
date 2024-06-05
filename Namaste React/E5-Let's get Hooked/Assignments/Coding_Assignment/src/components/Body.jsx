@@ -21,8 +21,10 @@ const Body = () => {
         onClick={() => {
           console.log({searchText})
           //search logic here ⬇️
-          const restaurantName = listOfRestaurants.filter((res)=> res.info.avgRating >= 4)
-          setListOfRestaurants(restaurantName);
+          // first filter the data
+          const data = filterData(searchText, restaurants);
+          // then update the state of restaurants list being displayed on the UI
+          setRestaurants(data);
         }}
         >
           Search

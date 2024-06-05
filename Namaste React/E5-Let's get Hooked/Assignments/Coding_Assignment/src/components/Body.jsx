@@ -5,8 +5,13 @@ import resList from "../utils/mockData";
 
 const Body = () => {
 
-  const [searchText, setSearchText] = useState("bittu"); //useState for search bar feature
+  const [searchText, setSearchText] = useState(""); //useState for search bar feature
   const [listOfRestaurants, setListOfRestaurants] = useState(resList);
+
+  const handleInputChange = (event) => {
+    setSearchText(event.target.value);
+  };
+
   return(
     <div className="body">
       <div className="filter">
@@ -15,6 +20,7 @@ const Body = () => {
           className="search-input"
           placeholder="Search a restaurant"
           value={searchText}
+          onChange={handleInputChange}
         ></input>
         <button
         className="filter-btn" 

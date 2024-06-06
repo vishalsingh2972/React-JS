@@ -4,13 +4,13 @@ import { useState } from "react";
 
 const Body = () => {
 
-  const [searchText, setSearchText] = useState(""); //useState for search bar feature
-  const [listOfRestaurants, setListOfRestaurants] = useState(resList);
+  const [searchText, setSearchText] = useState(""); //useState for search bar text
+  const [listOfRestaurants, setListOfRestaurants] = useState(resList); //useState for updating restautants being displayed on the UI
 
   const filterData = (searchText, listOfRestaurants) => {
     if (!searchText) {
       // Display popup if searchText is empty
-      alert("Please enter a search text!");
+      alert("Please enter a restaurant name!");
       return listOfRestaurants;
     }
   
@@ -29,7 +29,11 @@ const Body = () => {
   };
 
   const handleInputChange = (event) => {
+    //console.log(event);
+    //console.log(event.target);
+    //console.log(event.target.value);
     setSearchText(event.target.value);
+    //console.log(searchText);
   };
 
   return(

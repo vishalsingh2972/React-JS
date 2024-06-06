@@ -7,11 +7,17 @@ const Body = () => {
   const [searchText, setSearchText] = useState(""); //useState for search bar feature
   const [listOfRestaurants, setListOfRestaurants] = useState(resList);
 
-  const filterData = (searchText, listOfRestaurants) => (
-    listOfRestaurants.filter((restaurant) =>  
-       restaurant.info.name.toLowerCase().includes(searchText.toLowerCase())
-    ) 
-  )
+  const filterData = (searchText, listOfRestaurants) => {
+    if (!searchText) {
+      // Display popup if searchText is empty
+      alert("Please enter a search text!");
+      return listOfRestaurants;
+    }
+  
+    return listOfRestaurants.filter((restaurant) => 
+      restaurant.info.name.toLowerCase().includes(searchText.toLowerCase())
+    );
+  };
 
   const handleInputChange = (event) => {
     setSearchText(event.target.value);

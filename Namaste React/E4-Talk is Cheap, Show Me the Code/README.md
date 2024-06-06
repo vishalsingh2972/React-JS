@@ -7,4 +7,4 @@
 - Config driven UI
 - Virtual DOM
 
->  In this episode, we completed the basic outline of our Food Delivery app. Check it out here : [Swigato.com](https://react-js-zeta-blush.vercel.app/)
+>  In this episode, we completed the basic outline of our Food Delivery app. Check it out here : [Swigato.com](https://react-js-three-nu.vercel.app/)

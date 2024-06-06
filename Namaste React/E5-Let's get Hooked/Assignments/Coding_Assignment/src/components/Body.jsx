@@ -1,12 +1,17 @@
 import resList from "../utils/mockData";
 import RestaurantCard from "./RestaurantCard";
 import { useState } from "react";
-import resList from "../utils/mockData";
 
 const Body = () => {
 
   const [searchText, setSearchText] = useState(""); //useState for search bar feature
   const [listOfRestaurants, setListOfRestaurants] = useState(resList);
+
+  const filterData = (searchText, listOfRestaurants) => (
+    listOfRestaurants.filter((restaurant) =>  
+       restaurant.info.name.toLowerCase().includes(searchText.toLowerCase())
+    ) 
+  )
 
   const handleInputChange = (event) => {
     setSearchText(event.target.value);
@@ -25,12 +30,12 @@ const Body = () => {
         <button
         className="filter-btn" 
         onClick={() => {
-          console.log({searchText})
+          //console.log({searchText})
           //search logic here ⬇️
           // first filter the data
-          const data = filterData(searchText, restaurants);
+          const data = filterData(searchText, listOfRestaurants);
           // then update the state of restaurants list being displayed on the UI
-          setRestaurants(data);
+          setListOfRestaurants(data);
         }}
         >
           Search

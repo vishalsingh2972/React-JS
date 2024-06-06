@@ -14,9 +14,18 @@ const Body = () => {
       return listOfRestaurants;
     }
   
-    return listOfRestaurants.filter((restaurant) => 
+    const filteredRestaurants = listOfRestaurants.filter((restaurant) => 
       restaurant.info.name.toLowerCase().includes(searchText.toLowerCase())
     );
+  
+    //EXTRA FEATURE
+    // if (filteredRestaurants.length === 0) {
+    //   // Display popup if searchText is not found
+    //   alert("Search text not found!");
+    //   return filteredRestaurants;
+    // }
+  
+    return filteredRestaurants;
   };
 
   const handleInputChange = (event) => {

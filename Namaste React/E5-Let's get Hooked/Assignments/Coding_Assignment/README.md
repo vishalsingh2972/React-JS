@@ -13,4 +13,4 @@
 - Try to make your `search bar work`.
 
 
-## Created a FoodFire App from scratch using Functional Component 🚀 [Live Project App Link 😍](https://react-js-od4y-vishals-projects-aa43a2d8.vercel.app/)
+## Created a FoodFire App from scratch with working search bar feature using useStae Hook🚀 [Live Project App Link 😍](https://react-js-od4y-vishals-projects-aa43a2d8.vercel.app/)

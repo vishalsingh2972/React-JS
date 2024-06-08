@@ -4,11 +4,11 @@ import { useState, useEffect } from "react";
 
 const Body = () => {
   const [listOfRestaurants, setListOfRestaurants] = useState(resList);
-  
+  console.log('bittu1')
   useEffect(() => {
-    console.log("useEffect called in the Callback Function")
+    console.log("useEffect called")
   }, []);
-  
+  console.log('bittu2')
   return(
     <div className="body">
       <div className="filter">

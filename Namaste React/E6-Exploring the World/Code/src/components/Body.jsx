@@ -4,13 +4,15 @@ import { useState, useEffect } from "react";
 
 const Body = () => {
   const [listOfRestaurants, setListOfRestaurants] = useState(resList);
-  console.log('bittu1')
+
   useEffect(() => {
     console.log("useEffect called")
   }, []);
-  console.log('bittu2')
+
+  console.log("Body rendered 1");
   return(
     <div className="body">
+      {  console.log("Body rendered 2") }
       <div className="filter">
         <button 
         className="filter-btn" 

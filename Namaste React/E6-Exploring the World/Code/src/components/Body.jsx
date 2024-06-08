@@ -6,7 +6,7 @@ const Body = () => {
   const [listOfRestaurants, setListOfRestaurants] = useState(resList);
 
   useEffect(() => {
-    console.log("useEffect called")
+    console.log("useEffect called 3")
   }, []);
 
   console.log("Body rendered 1");

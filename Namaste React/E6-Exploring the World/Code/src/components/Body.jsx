@@ -6,7 +6,7 @@ const Body = () => {
   const [listOfRestaurants, setListOfRestaurants] = useState(resList);
 
   useEffect(() => {
-    console.log("useEffect called 3")
+    // console.log("useEffect called 3")
     fetchData();
   }, []);
 
@@ -18,15 +18,15 @@ const Body = () => {
     //console.log(data);
     
     const json = await data.json();
-    console.log(json);
+    console.log(json.data.cards[1]);
 
-    // setListOfRestaurants(json.cards.card); //need to check this once
+    setListOfRestaurants(json?.data?.cards[2]?.data?.data?.cards); //need to check this once
   }
 
-  console.log("Body rendered 1");
+  // console.log("Body rendered 1");
   return(
     <div className="body">
-      {  console.log("Body rendered 2") }
+      {/* {  console.log("Body rendered 2") } */}
       <div className="filter">
         <button 
         className="filter-btn" 
@@ -40,11 +40,15 @@ const Body = () => {
         </button>
       </div>
       <div className="res-container">
-        {
+      {
+        listOfRestaurants && listOfRestaurants.length > 0 ? (
           listOfRestaurants.map((restaurant, index) => (
             <RestaurantCard key={restaurant.data.id} resData={restaurant}/>        
           ))
-        }
+        ) : (
+          <p>Loading...please be patient</p>
+        )
+      }
       </div>
     </div>
   )

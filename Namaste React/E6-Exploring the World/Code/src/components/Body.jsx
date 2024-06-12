@@ -22,6 +22,10 @@ const Body = () => {
     setListOfRestaurants(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
   }
 
+  // if(listOfRestaurants.length === 0){
+  //   return <h1>Loading......please be patient 1 ❤️</h1>
+  // }
+
   // console.log("Body rendered 1");
   return(
     <div className="body">
@@ -45,7 +49,7 @@ const Body = () => {
             <RestaurantCard key={restaurant.info.id} resData={restaurant}/>        
           ))
         ) : (
-          <p>Loading......please be patient ❤️</p>
+          <h1>Loading......please be patient ❤️</h1>
         )
       }
       </div>

@@ -45,7 +45,7 @@ const Body = () => {
             <RestaurantCard key={restaurant.info.id} resData={restaurant}/>        
           ))
         ) : (
-          <p>Loading...please be patient</p>
+          <p>Loading......please be patient ❤️</p>
         )
       }
       </div>

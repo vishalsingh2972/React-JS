@@ -20,7 +20,7 @@ const Body = () => {
     const json = await data.json();
     console.log(json);
 
-    // setListOfRestaurants(json.data.cards);
+    // setListOfRestaurants(json.cards.card); //need to check this once
   }
 
   console.log("Body rendered 1");

@@ -3,7 +3,7 @@
 // resList is JSON data used to display restaurant cards. Each item in resList contains information about a single restaurant.
 const resList = [
   {
-    "data": {
+    "info": {
       "id": "595197",
       "name": "Pizza Hut",
       "cloudinaryImageId": "2b4f62d606d1b2bfba9ba9e5386fabb7",
@@ -95,7 +95,7 @@ const resList = [
     "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
   },
   {
-    "data": {
+    "info": {
       "id": "107827",
       "name": "Asoka Restaurant",
       "cloudinaryImageId": "fegei0e2nqd7svcdpwa0",
@@ -195,7 +195,7 @@ const resList = [
     "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
   },
   {
-    "data": {
+    "info": {
       "id": "214809",
       "name": "Hotel Niagara - Since 1969",
       "cloudinaryImageId": "btea7jwuwkbgd0nebcyd",
@@ -290,7 +290,7 @@ const resList = [
     "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
   },
   {
-    "data": {
+    "info": {
       "id": "416258",
       "name": "Arabian shawarma Burger",
       "cloudinaryImageId": "dd504e757ecdcc4c025ee2b03325c371",
@@ -383,7 +383,7 @@ const resList = [
     "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
   },
   {
-    "data": {
+    "info": {
       "id": "529455",
       "name": "65 Corner Fast Food",
       "cloudinaryImageId": "fjgcrldjhllwbkublukz",
@@ -475,7 +475,7 @@ const resList = [
     "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
   },
   {
-    "data": {
+    "info": {
       "id": "699984",
       "name": "Blue Sea Hotel",
       "cloudinaryImageId": "7d1095da1ce231831b22a5f0ddc43279",
@@ -571,7 +571,7 @@ const resList = [
     "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
   },
   {
-    "data": {
+    "info": {
       "id": "83598",
       "name": "Sultan Darbar",
       "cloudinaryImageId": "bzhrjueur3fkldiryfdf",
@@ -667,7 +667,7 @@ const resList = [
     "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
   },
   {
-    "data": {
+    "info": {
       "id": "74646",
       "name": "Riyan Hotel",
       "cloudinaryImageId": "wmnrzs0vet0nxnatecy2",
@@ -765,7 +765,7 @@ const resList = [
     "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
   },
   {
-    "data": {
+    "info": {
       "id": "571427",
       "name": "Ghar Pakwan",
       "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/5/8510bf64-f37c-4e6d-9df6-54e21699f18e_571427.jpg",
@@ -860,7 +860,7 @@ const resList = [
     "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
   },
   {
-    "data": {
+    "info": {
       "id": "131870",
       "name": "4M Biryani House",
       "cloudinaryImageId": "o685uklvqias8ez1qgxz",
@@ -956,7 +956,7 @@ const resList = [
     "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
   },
   {
-    "data": {
+    "info": {
       "id": "437775",
       "name": "AL Madina Shawarma",
       "cloudinaryImageId": "qm53m1k7mtglpyvio4ox",
@@ -1048,7 +1048,7 @@ const resList = [
     "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
   },
   {
-    "data": {
+    "info": {
       "id": "36263",
       "name": "Veggie Chinese",
       "cloudinaryImageId": "jl1hru4ngw8ft1kzic1i",
@@ -1153,7 +1153,7 @@ const resList = [
     "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
   },
   {
-    "data": {
+    "info": {
       "id": "807453",
       "name": "Shawarma Express",
       "cloudinaryImageId": "b6fb5a0d41200a54b88be85c7d28185b",

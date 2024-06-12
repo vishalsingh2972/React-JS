@@ -18,9 +18,9 @@ const Body = () => {
     //console.log(data);
     
     const json = await data.json();
-    console.log(json.data.cards[1]);
+    console.log(json.data.cards[0].card);
 
-    setListOfRestaurants(json?.data?.cards[2]?.data?.data?.cards); //need to check this once
+    setListOfRestaurants(json?.data?.cards[1]?.data?.data?.cards); //need to check this once
   }
 
   // console.log("Body rendered 1");

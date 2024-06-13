@@ -22,6 +22,7 @@ const Body = () => {
     setListOfRestaurants(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
   }
 
+  // ⬇️ Conditional Rendering ⬇️
   // if(listOfRestaurants.length === 0){
   //   return <h1>Loading......please be patient 1 ❤️</h1>
   // }

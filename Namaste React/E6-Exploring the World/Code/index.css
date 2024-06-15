@@ -64,3 +64,9 @@
   background-color: #f0f0f0;
   margin-right: 40px;
 }
+
+.login-button{
+  background-color: yellow;
+  padding: 0px 20px;
+  cursor: pointer;
+}

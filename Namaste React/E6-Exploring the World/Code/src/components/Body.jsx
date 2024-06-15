@@ -50,6 +50,7 @@ const Body = () => {
           listOfRestaurants.map((restaurant, index) => (
             <RestaurantCard key={restaurant.info.id} resData={restaurant}/>        
           ))
+          // ⬇️ Conditional Rendering ⬇️
         ) : (
           // <h1>Loading......please be patient ❤️</h1>
           <Shimmer/>

@@ -1,5 +1,6 @@
 import RestaurantCard from "./RestaurantCard";
 import { useState, useEffect } from "react";
+import Shimmer from "./Shimmer";
 
 const Body = () => {
   const [listOfRestaurants, setListOfRestaurants] = useState([]);
@@ -50,7 +51,8 @@ const Body = () => {
             <RestaurantCard key={restaurant.info.id} resData={restaurant}/>        
           ))
         ) : (
-          <h1>Loading......please be patient ❤️</h1>
+          // <h1>Loading......please be patient ❤️</h1>
+          <Shimmer/>
         )
       }
       </div>

@@ -49,6 +49,10 @@
   justify-content: space-evenly;
 }
 
+.filter{
+  display: flex;
+}
+
 .filter-btn{
   margin:10px;
   cursor: pointer;

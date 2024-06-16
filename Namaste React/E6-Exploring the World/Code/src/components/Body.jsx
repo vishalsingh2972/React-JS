@@ -5,6 +5,9 @@ import Shimmer from "./Shimmer";
 const Body = () => {
   const [listOfRestaurants, setListOfRestaurants] = useState([]);
   //console.log({listOfRestaurants})
+
+  const [searchText, setSearchText] = useState("");
+
   useEffect(() => {
     // console.log("useEffect called 3")
     fetchData();
@@ -33,13 +36,22 @@ const Body = () => {
     <div className="body">
       {/* {  console.log("Body rendered 2") } */}
       <div className="filter">
+        <div className="search">
+          <input type="text" className="search-box" placeholder="Search a restaurant" value={searchText}/>
+          <button 
+            onClick={() => {
+              // Filter the restaurant cards and update the UI accordingly
+              console.log(searchText)  
+            }}
+        >Search</button>
+        </div>     
         <button 
-        className="filter-btn" 
-        onClick={() => {
-          //Filter logic here ⬇️
-          const filteredList = listOfRestaurants.filter((res)=> res.info.avgRating >= 4)
-          setListOfRestaurants(filteredList);
-        }}
+          className="filter-btn" 
+          onClick={() => {
+            //Filter logic here ⬇️
+            const filteredList = listOfRestaurants.filter((res)=> res.info.avgRating >= 4)
+            setListOfRestaurants(filteredList);
+          }}
         >
           Top Rated Restaurants
         </button>

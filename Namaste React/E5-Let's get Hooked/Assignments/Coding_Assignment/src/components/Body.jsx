@@ -24,7 +24,8 @@ const Body = () => {
     //   alert("Search text not found!");
     //   return filteredRestaurants;
     // }
-  
+    
+    // console.log(filteredRestaurants);
     return filteredRestaurants;
   };
 
@@ -54,6 +55,7 @@ const Body = () => {
           // first filter the data
           const data = filterData(searchText, listOfRestaurants);
           // then update the state of restaurants list being displayed on the UI
+          // console.log(data);
           setListOfRestaurants(data);
         }}
         >

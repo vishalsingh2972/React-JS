@@ -46,6 +46,7 @@
 .res-container{
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .filter-btn{
@@ -56,6 +57,7 @@
 .shimmer-container{
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .shimmer-card{
@@ -63,6 +65,7 @@
   width: 200px;
   background-color: #f0f0f0;
   margin-right: 40px;
+  margin-left: 10px;
 }
 
 .login-button{

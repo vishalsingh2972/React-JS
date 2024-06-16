@@ -71,17 +71,19 @@ const Body = () => {
               // filteredRestaurant.length === 0 ? (setFilteredRestaurant([]), alert("Restaurant not found")) : setFilteredRestaurant(filteredRestaurant);
             }}
           >Search</button>
-        </div>     
-        <button 
+        </div>
+
+        {/* <button 
           className="filter-btn" 
           onClick={() => {
             //Filter logic here ⬇️
-            const filteredList = listOfRestaurants.filter((res)=> res.info.avgRating >= 4)
+            const filteredList = listOfRestaurants.filter((res)=> res.info.avgRating >= 4.5)
             setListOfRestaurants(filteredList);
           }}
         >
           Top Rated Restaurants
-        </button>
+        </button> */}
+
       </div>
       <div className="res-container">
         {

@@ -82,3 +82,44 @@ Key characteristics of microservices include:
 In the context of microservices, each of these API calls may be directed to a specific microservice responsible for providing the relevant data or functionality. The modular nature of microservices allows for independent development and deployment of different services, contributing to a scalable and maintainable web application architecture.
 
 ---
+
+## Q: What is `Monolith architecture`?
+**A1:** A `Monolith architecture` is a traditional model of a software program, which is built as a unified unit that is self-contained and independent from other applications. A monolithic architecture is a singular, large computing network with one code base that couples all of the business concerns together. To make a change to this sort of application requires updating the entire stack by accessing the code base and building and deploying an updated version of the service-side interface. This makes updates restrictive and time-consuming.
+means we are not dividing software into small, well-defined modules, we use every services like, database, server or a UI of the application, in one Application file.
+
+Monolith architecuture is a traditional software design approach, which combines the whole software into a single unit, Each and every service like: User Interface, Business logic, frontend, backend, database, APIs all are processed into a single container.
+Any small change in any service leads to the whole software to be rebuilt, tested and deployed. Still widely used in small scale companies where Microservices isn't much evident.
+
+Monolith architecture, also known as the monolithic architecture pattern, is a traditional software architectural style in which all the components and functions of an application are tightly integrated and packaged as a single, unified codebase. In a monolithic architecture, the entire application, including the user interface, business logic, and data access layer, is typically built and deployed as a single unit.
+
+- Monolith Architecture
+  - Built as a single, indivisible unit.
+  - All components of the application (UI, logic, API, Auth, DB, etc.) are tightly coupled and deployed together as a single unit.
+  - Scaling the application typically involves replicating the entire monolithic instance on multiple servers or virtual machines.
+  - Changes to any part of the application require rebuilding and redeploying the entire monolith.
+  - Monolithic architectures are simpler to develop and test initially, but can become more complex and harder to maintain as the application grows in size and complexity.
+ 
+**A2:** A `monolithic` architecture, also known as a monolithic application, is a traditional software architectural style in which an entire application is built as a single, self-contained unit. In a monolithic architecture, all components and functionalities of the application, such as user interfaces, business logic, and data access, are tightly integrated and packaged together. This contrasts with microservices architecture, where the application is decomposed into a collection of small, independent services.
+
+Key characteristics of a monolithic architecture include:
+
+`Single Codebase` - In a monolithic application, all the code for different application parts is typically written in the same codebase. This codebase can be organized into different modules or packages, but it's all part of the same project.
+
+`Tight Coupling` - Components and modules within a monolithic application are tightly coupled, meaning they often depend on each other. Changes to one part of the application can have ripple effects on other parts, making it harder to isolate and maintain individual features.
+
+`Single Deployment Unit` - The entire application is deployed as a single unit. When updates or changes are made, the entire monolith must be redeployed. This can lead to longer deployment cycles and increased risk.
+
+`Scaling Challenges` - Scaling a monolithic application can be challenging. If one part of the application requires more resources to handle increased load, the entire application must be scaled, which can be inefficient.
+
+`Technology Stack` - In a monolithic architecture, the entire application typically uses the same technology stack, programming language, and frameworks. This limits the flexibility to use different technologies for different parts of the application.
+
+`Development Team Structure` - Monolithic applications often have development teams working on different features, but all within the same codebase. Teams need to coordinate closely to avoid conflicts and to ensure changes do not disrupt other parts of the application.
+
+`Testing and Debugging` - Testing and debugging a monolithic application can be complex, as changes can impact various parts of the application. Comprehensive testing is required to ensure that updates do not introduce bugs or break existing functionality.
+
+`Resource Allocation` - All resources, such as databases and servers, are shared among the components of the monolith, which can lead to resource contention and performance issues.
+
+Monolithic architectures are a common choice for smaller applications and for projects where simplicity and speed of development are prioritized. However, as applications grow in complexity and scale, monolithic architectures can become less maintainable and harder to evolve. This has led to the adoption of alternative architectures like microservices, which decompose the application into smaller, more manageable components.
+
+---
+

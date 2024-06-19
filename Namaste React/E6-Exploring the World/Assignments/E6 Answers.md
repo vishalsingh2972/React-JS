@@ -161,4 +161,140 @@ Main different points:
 
 ![image](https://private-user-images.githubusercontent.com/34181144/279416555-b0a72a0b-29f0-4f85-8b72-7f2e03608e4d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTg3ODA0MzAsIm5iZiI6MTcxODc4MDEzMCwicGF0aCI6Ii8zNDE4MTE0NC8yNzk0MTY1NTUtYjBhNzJhMGItMjlmMC00Zjg1LThiNzItN2YyZTAzNjA4ZTRkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MTklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjE5VDA2NTUzMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTUzOTcwOTc0NDY1YWU3ZDAxNmM5NzNmNGQ1NDRiOTg5NjZiNDllMGRlYTBjNWU3NmRhMGVkOWMwMjg0YWJjNTUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.FOoWlKYKXkWqiYIsJZUk0zLo0AUFDVS8wx8r-_0rnZM)
 
+```diff
+- ## Q: Why do we need a `useEffect Hook`?
+```
+A: `useEffect Hook` is javascript function provided by `react`. The useEffect Hook allows you to  `eliminate side effects` in your components. Some examples of side effects are: `fetching API data`, `directly updating the DOM`, and `setting up subscriptions or timers`, etc can be lead to unwarranted side-effects.
+useEffect accepts `two arguments`, a `callback function` and a `dependency array`. The second argument is optional.
+
+```
+useEffect(() => {}, [])
+```
+The `() => {}` is callback function and `[]` is called a empty dependency array. 
+If anything that we pass (suppose currentState) inside the `[]` it trigger the callback function and changes the state of the application.
+```
+useEffect(() => {
+    setCurrentState("true");
+}, [currentState])
+```
+If we do not pass empty dependency array then the useEffect runs everytime when the UI is rendered.
+
+```
+useEffect(() => {})
+```
+
+A2: `useEffect` is a Hook provided by react . This hook is responsible for maintaining the state of the application when anything that triggers this hook changes.
+The useEffect hook conatins two arguments a callback functin and a dependency array.
+eg.
+`  useEffect(() => {}, [])`
+
+The `() => {}` in the function is called a callback function and `[]` is called a dependency array. If anyhting that we pass inside the `[]` changes the callback function is triggered and changes the state of the application.
+
+> Note: If we do not pass empty dependency array then the useEffect hook only runs when the UI is rendered for the first time.
+
+A3:  Used to perform side effects, which affects the world outside the component. e.g. fetching the data from and API, updating the browser's title(a/c to the component name/current page openend), websocket. It takes two arguments: callback function with side effects, which tell what to do and an array of depenedencies, when changed, callback is called.
+
+A4: The `useEffect` hook is an essential part of React, a popular JavaScript library for building user interfaces. `It's used to manage side effects in functional components`. Side effects are actions that occur outside the normal flow of a React component, such as `data fetching`, `DOM manipulation`, and `subscribing to external data sources`.
+
+Here are several reasons why the useEffect hook is necessary:
+
+`Data Fetching` - In many applications, we need to fetch data from external sources, like an API, when a component is rendered. The useEffect hook allows us to perform these data-fetching operations after the initial rendering.
+
+`DOM Manipulation` - Sometimes, we may need to interact with the Document Object Model (DOM) directly. For instance, we might want to update the title of a webpage or manipulate the size and position of DOM elements. useEffect is used for these purposes.
+
+`Subscriptions` - If our component needs to subscribe to external events, like `WebSocket connections` or `real-time updates from a server`, useEffect is a suitable place to `manage and clean up these subscriptions`.
+
+`Lifecycle Events` - React components have lifecycles, and useEffect allows us to perform actions at specific points in a component's lifecycle. We can control when code is executed, such as when the component mounts, updates, or unmounts.
+
+`Avoiding Memory Leaks` - Using useEffect, we can ensure that any `resources or event listeners we create in a component are cleaned up when the component is unmounted`. This helps prevent `memory leaks and ensures our application runs efficiently`.
+
+`Conditional Effects` - We can use useEffect with dependencies to run code conditionally when certain values change. This allows us to react to changes in state or props and execute side effects accordingly.
+
+`Separation of Concerns` - The useEffect hook promotes a more organized and maintainable code structure by separating the logic for side effects from the rendering logic within a component.
+
+Here's a basic example of how useEffect is used to fetch data:
+
+```
+import React, { useState, useEffect } from 'react';
+
+function MyComponent() {
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    // This code will run after the component is mounted.
+    // You can fetch data here and update the state when it's available.
+    fetchData()
+      .then((result) => setData(result))
+      .catch((error) => console.error(error));
+  }, []); // Empty dependency array means this effect runs once after the initial render.
+
+  return (
+    <div>
+      {data ? (
+        <p>Data: {data}</p>
+      ) : (
+        <p>Loading data...</p>
+      )}
+    </div>
+  );
+}
+
+export default MyComponent;
+```
+
+In this example, the useEffect hook is used to fetch data when the component is mounted, ensuring that the side effect of data fetching occurs at the appropriate time in the component's lifecycle.
+
+---
+
+## Q: What is `Optional Chaining`?
+**A1:** `Optional Chaining` (`?.`) operator accesses an object's property or calls a function. If the object accessed or function called is `undefined or null` , it returns `undefined` instead of throwing an error.
+`Optional Chaining` (`?.`) is good way of accessing the object keys, it prevents the application from being crashed if the key that we are trying to access is not present. If the key is not present then instead of a throwing key error, it returns `undefined`.
+
+Optional chaning is good way of accessing the object keys, it prevents the application from being crashed if the key that we are trying to access is not present. If the key is not present then instead of a key error, it returns `undefined`.
+
+Optional chaning: It's the ability to check whether a property of a JS object exists before going to access that. It saves us from getting a type error. operator => '?.'
+
+
+**A2:** `Optional chaining` is a feature in modern JavaScript that provides a concise and safe way to access properties and methods on potentially null or undefined objects without causing runtime errors. It's denoted by the `?.` syntax and is particularly useful when dealing with `deeply nested object structures` or when we're unsure if a property or method exists.
+
+Here's how optional chaining works:
+
+1 `Accessing Object Properties` - When we use optional chaining to access object properties, it checks if the property we're trying to access exists. If the property is present, it `returns its value; otherwise, it returns undefined`.
+```
+const person = {
+  name: "John",
+  address: {
+    city: "New York",
+  },
+};
+
+const city = person.address?.city; // "New York"
+const country = person.address?.country; // undefined
+```
+
+2 `Invoking Object Methods - We can also use optional chaining to call methods on objects. It ensures the method is called only if it exists.
+```
+const car = {
+  start: function () {
+    console.log("Car started");
+  },
+};
+
+car.start?.(); // "Car started"
+car.stop?.(); // No error, nothing happens (undefined is returned)
+```
+
+3 `Handling Arrays` - Optional chaining can also be used with arrays to access elements by their index. It returns undefined if the index is out of bounds.
+```
+const numbers = [1, 2, 3, 4];
+
+const firstNumber = numbers[0]; // 1
+const fifthNumber = numbers[4]; // undefined
+const lastNumber = numbers[4]?.(); // undefined (not a function)
+```
+
+Optional chaining is especially valuable when working with `API responses, user input, or any scenario where data might be missing or incomplete`. It helps us avoid common runtime errors like "TypeError: Cannot read property 'x' of undefined" and allows us to write more robust and concise code.
+
+---
+
 

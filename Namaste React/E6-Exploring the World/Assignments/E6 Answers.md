@@ -123,3 +123,42 @@ Monolithic architectures are a common choice for smaller applications and for pr
 
 ---
 
+## Q: What is the difference between `Monolith and Microservice`?
+A: With `monolithic architectures`, all processes are tightly coupled and run as a single service. This means that if one process of the application experiences a spike in demand, the entire architecture must be scaled. Adding or improving a monolithic application’s features becomes more complex as the code base grows. This complexity limits experimentation and makes it difficult to implement new ideas. Monolithic architectures add risk for application availability because many dependent and tightly coupled processes increase the impact of a single process failure.
+
+With a `microservices architecture`, an application is built as independent components that run each application process as a service. These services communicate via a well-defined interface using lightweight APIs. Services are built for business capabilities and each service performs a single function. Because they are independently run, each service can be updated, deployed, and scaled to meet demand for specific functions of an application.
+
+![Monolith and Microservice](https://raw.githubusercontent.com/chetannada/Namaste-React/main/Chapter%2006%20-%20Exploring%20the%20world/Coding/Images/monolith-microservices.png)
+
+
+| Monolith                                | Microservice                                     |
+| --------------------------------------- | ------------------------------------------------ |
+| Every service is inside the application | Services are scattered                           |
+| Single code base                        | Code base is divided into separated applications |
+| Hard to maintain                        | Easy to maintain                                 |
+| Deployment takes more time              | Deployment is easy                               |
+
+
+Main different points:
+  - Scalability: Monolithic Achitectures can't be scaled very much as a small change in any particular service leads to the whole application rebuilt, tested and redeployed. Where as in Microservice, all the services are independent of each other so changing anyone doesn't affect the rest of the system so scaling in easier.
+  - Resilience: In Monolithic Architecture, if one service fails, the application may go down but same in not to be necessarily true in case of Microservices as each service is independent of other.
+ - Agility: Monolithic can be too hard to modify and update as the size of application grows whereas Microservices are easier and agile to change.
+
+| Characteristics | Monolithic Architecture | Microservice Architecture |
+| :--- | :--- | ---: |
+| Architecture | Single, self-contained application | Collection of small, independent services | 
+| Codebase | Single codebase for the entire application | Multiple codebases for individual services | 
+| Coupling	| Tight coupling between components | Loose coupling between services | 
+| Deployment Unit | Single deployment unit | Individual service deployment |
+| Scalability | Application scaled as a whole | Services scaled independently | 
+| Technology Stack | Single technology stack for the entire application | Flexibility to use different technologies for each service | 
+| Development Teams | Single development team working on the same codebase | Teams can own and develop individual services | 
+| Testing and Debugging | Complex testing and debugging due to tight integration | Easier testing and debugging of isolated services |
+| Resource Allocation | Shared resources among all components | More efficient resource allocation for individual services |
+| Deployment | Slower deployment cycles due to the need to redeploy the entire monolith | Faster and more frequent deployments of individual services |
+| Change Impact | Changes can impact other parts of the application | Changes are isolated and have limited impact |
+| Complexity | Simpler for small applications but can become complex as the application grows | Suitable for complex applications but introduces its own challenges |
+
+![image](https://private-user-images.githubusercontent.com/34181144/279416555-b0a72a0b-29f0-4f85-8b72-7f2e03608e4d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTg3ODA0MzAsIm5iZiI6MTcxODc4MDEzMCwicGF0aCI6Ii8zNDE4MTE0NC8yNzk0MTY1NTUtYjBhNzJhMGItMjlmMC00Zjg1LThiNzItN2YyZTAzNjA4ZTRkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MTklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjE5VDA2NTUzMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTUzOTcwOTc0NDY1YWU3ZDAxNmM5NzNmNGQ1NDRiOTg5NjZiNDllMGRlYTBjNWU3NmRhMGVkOWMwMjg0YWJjNTUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.FOoWlKYKXkWqiYIsJZUk0zLo0AUFDVS8wx8r-_0rnZM)
+
+

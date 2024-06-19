@@ -259,7 +259,7 @@ Optional chaning: It's the ability to check whether a property of a JS object ex
 
 Here's how optional chaining works:
 
-1 `Accessing Object Properties` - When we use optional chaining to access object properties, it checks if the property we're trying to access exists. If the property is present, it `returns its value; otherwise, it returns undefined`.
+1. `Accessing Object Properties` - When we use optional chaining to access object properties, it checks if the property we're trying to access exists. If the property is present, it `returns its value; otherwise, it returns undefined`.
 ```
 const person = {
   name: "John",
@@ -272,7 +272,7 @@ const city = person.address?.city; // "New York"
 const country = person.address?.country; // undefined
 ```
 
-2 `Invoking Object Methods - We can also use optional chaining to call methods on objects. It ensures the method is called only if it exists.
+2. `Invoking Object Methods` - We can also use optional chaining to call methods on objects. It ensures the method is called only if it exists.
 ```
 const car = {
   start: function () {
@@ -284,7 +284,7 @@ car.start?.(); // "Car started"
 car.stop?.(); // No error, nothing happens (undefined is returned)
 ```
 
-3 `Handling Arrays` - Optional chaining can also be used with arrays to access elements by their index. It returns undefined if the index is out of bounds.
+3. `Handling Arrays` - Optional chaining can also be used with arrays to access elements by their index. It returns undefined if the index is out of bounds.
 ```
 const numbers = [1, 2, 3, 4];
 

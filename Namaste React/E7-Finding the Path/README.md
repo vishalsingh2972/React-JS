@@ -4,7 +4,7 @@
 - Dynamic Routing
 - Outlet Component
 - understanding useEffect and useState better
--  useRouteError hook
+- useRouteError hook
 - 
 
 >  Check out the ______________ of our Food Delivery app completed in this episode here : 

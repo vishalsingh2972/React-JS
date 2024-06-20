@@ -3,7 +3,7 @@
 - React Router
 - Dynamic Routing
 - Outlet Component
-- 
+- understanding useEffect better
 - 
 - 
 

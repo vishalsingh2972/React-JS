@@ -3,7 +3,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import Header from "./src/components/Header";
 import Body from "./src/components/Body";
-import { createBrowserRouter, RouterProvider } from "react-router-dom"; //https://reactrouter.com/en/main/routers/create-browser-router
+import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom"; //https://reactrouter.com/en/main/routers/create-browser-router
 import About from "./src/components/About";
 import Contact from "./src/components/Contact";
 import Error from "./src/components/Error";
@@ -12,7 +12,8 @@ const AppLayout = () => {
   return(
     <div className="app">
       <Header/>
-      <Body/>
+
+      <Outlet/>
     </div>
   )
 }
@@ -22,17 +23,23 @@ const appRouter = createBrowserRouter([
   {
     path: "/",
     element: <AppLayout/>, //basically if my path is "/" then load my entire Homepage or AppLayout
+    children: [
+      {
+        path: "/",
+        element: <Body/>
+      },
+      {
+        path: "/about",
+        element: <About/>,
+        // errorElement: <Error/> //redundant errorElement - can be removed - Root-level error handling will manage this
+      },
+      {
+        path: "/contact",
+        element: <Contact/>,
+        // errorElement: <Error/> //redundant errorElement - can be removed - Root-level error handling will manage this
+      }
+    ],
     errorElement: <Error/> //Root-level error handling
-  },
-  {
-    path: "/about",
-    element: <About/>,
-    errorElement: <Error/> //redundant errorElement - can be removed - Root-level error handling will manage this
-  },
-  {
-    path: "/contact",
-    element: <Contact/>,
-    errorElement: <Error/> //redundant errorElement - can be removed - Root-level error handling will manage this
   }
 ])
 

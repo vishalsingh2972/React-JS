@@ -31,3 +31,7 @@
 02:08:00 – Link Component
 02:13:00 – Session Recap
 ```
+
+🚀 **Two types of Routing in web apps**
+  - Client Side Routing (React, Angular, Vue uses this)
+  - Server Side Routing (used by Traditional web applications built using Vanilla JS)

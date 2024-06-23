@@ -5,6 +5,8 @@
 - Outlet Component
 - understanding useEffect and useState better
 - useRouteError hook
+- Link Component
+- 
 - 
 
 >  Check out the ______________ of our Food Delivery app completed in this episode here : 

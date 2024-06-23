@@ -11,7 +11,6 @@ const Body = () => {
   // Whenever state variables get updated (here 'listOfRestaurants' and 'searchText' are state variables), react triggers a reconciliation cycle i.e. react re-renders the component again
   console.log("full body component got rendered again");
 
-  //if dependency array is empty = [] => useEffect is called on initial render(just once)
   useEffect(() => {
     // console.log("useEffect called 3")
     fetchData();

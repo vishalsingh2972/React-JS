@@ -3,8 +3,10 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import Header from "./src/components/Header";
 import Body from "./src/components/Body";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom"; //https://reactrouter.com/en/main/routers/create-browser-router
 import About from "./src/components/About";
+import Contact from "./src/components/Contact";
+import Error from "./src/components/Error";
 
 const AppLayout = () => {
   return(
@@ -19,15 +21,18 @@ const AppLayout = () => {
 const appRouter = createBrowserRouter([
   {
     path: "/",
-    element: <AppLayout/> //basically if my path is "/" then load my entire Homepage or AppLayout
+    element: <AppLayout/>, //basically if my path is "/" then load my entire Homepage or AppLayout
+    errorElement: <Error/> //Root-level error handling
   },
   {
     path: "/about",
-    element: <About/>
+    element: <About/>,
+    errorElement: <Error/> //redundant errorElement - can be removed - Root-level error handling will manage this
   },
   {
-    path: "/contacts",
-
+    path: "/contact",
+    element: <Contact/>,
+    errorElement: <Error/> //redundant errorElement - can be removed - Root-level error handling will manage this
   }
 ])
 

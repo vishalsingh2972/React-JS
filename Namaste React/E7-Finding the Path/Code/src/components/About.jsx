@@ -3,6 +3,8 @@ const About = () => {
     <div>
       <h1>About</h1>
       <h2>This is your about section</h2>
+      
+      {console.log("we are now in the About section")}
     </div>
   )
 }

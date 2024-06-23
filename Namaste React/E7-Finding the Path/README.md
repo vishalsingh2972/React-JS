@@ -5,7 +5,7 @@
 - Outlet Component
 - understanding useEffect and useState better
 - useRouteError hook
-- Link Component
+- Link Component - React's Single Page Application (SPA) nature concept
 - 
 - 
 

@@ -1,6 +1,8 @@
 import { useRouteError } from "react-router-dom";
 
 const Error = () => {
+  
+  //useRouteError hook from react-router-dom helps you get more detailed information about the error that occurred during routing. This information can be used to display the error in a user-friendly manner on the UI.
   const err = useRouteError();
   console.log(err);
   

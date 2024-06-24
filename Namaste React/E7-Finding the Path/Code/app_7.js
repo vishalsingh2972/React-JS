@@ -21,7 +21,7 @@ const AppLayout = () => {
 //creating routing configuration inside our appRouter, here "configuration" means some information that will define and tell my createBrowserRouter what will happen on a specific route/path
 const appRouter = createBrowserRouter([
   {
-    path: "/",
+    // path: "/", (need to check this - once try without putting this)
     element: <AppLayout/>, //basically if my path is "/" then load my entire Homepage or AppLayout
     children: [
       {

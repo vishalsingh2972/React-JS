@@ -70,10 +70,17 @@
   background-color: #f0f0f0;
   margin-right: 40px;
   margin-left: 10px;
+  margin-top: 25px;
 }
 
 .login-button{
   background-color: yellow;
   padding: 0px 20px;
   cursor: pointer;
+}
+
+.cost{
+  display: inline-block;
+  margin-left: 20px;
+  color: red;
 }

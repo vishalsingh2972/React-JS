@@ -15,10 +15,11 @@ const RestaurantMenu = () => {
   }, []); //giving empty dependency array [] here as when we click the restaurant crad we want it to render only once when clicked
   
   const fetchMenu = async () => {
-    // const data = await fetch(MENU_API + {resId}) // ❌ not working need to check
-
+    
+    // const data = await fetch("https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=19.0759837&lng=72.8776559&restaurantId=" + resId);
     // const data = await fetch(`https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=19.0759837&lng=72.8776559&restaurantId=${resId}`);
-    const data = await fetch(`${MENU_API}${resId}`);
+    const data = await fetch(MENU_API + resId);
+    // const data = await fetch(`${MENU_API}${resId}`); // this also works ✔️
 
     const json = await data.json();
     // console.log(json);
@@ -33,7 +34,7 @@ const RestaurantMenu = () => {
   // const { name, cuisines, costForTwoMessage } = restaurantInfo?.cards[2]?.card?.card?.info; //const name = restaurantInfo?.cards[2]?.card?.card?.info.name  //but this is ❌ not working so we provide an extra '|| {}'
   const { name, cuisines, costForTwoMessage, totalRatingsString, avgRatingString, avgRating } = restaurantInfo?.cards[2]?.card?.card?.info || {};
 
-  const itemCards = restaurantInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card.itemCards;
+  const { itemCards, title } = restaurantInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card || {};
   console.log(itemCards);
 
   return (restaurantInfo === null) ? <Shimmer/> : (
@@ -43,6 +44,7 @@ const RestaurantMenu = () => {
       <h2 className='cost'>{costForTwoMessage}</h2>
       <h3>{cuisines.join(', ')}</h3>
       <h2>Menu</h2>
+      {/*<h3>{title} ({itemCards.length})</h3>*/} {/*not working for all*/}
       <ul>
         {itemCards.map((item) => (
           <li key={item.card.info.id}>

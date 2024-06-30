@@ -7,7 +7,6 @@
 - useRouteError hook
 - Link Component - React's Single Page Application (SPA) nature concept
 - useParams hook
-- 
-- 
+- Made restaurant cards clickable that now redirect to independent restaurant menu page
 
 >  Check out the ______________ of our Food Delivery app completed in this episode here : 

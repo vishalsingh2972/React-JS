@@ -15,8 +15,11 @@ const RestaurantMenu = () => {
   }, []); //giving empty dependency array [] here as when we click the restaurant crad we want it to render only once when clicked
   
   const fetchMenu = async () => {
-    const data = await fetch(MENU_API + {resId})
-  
+    // const data = await fetch(MENU_API + {resId}) // ❌ not working need to check
+
+    // const data = await fetch(`https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=19.0759837&lng=72.8776559&restaurantId=${resId}`);
+    const data = await fetch(`${MENU_API}${resId}`);
+
     const json = await data.json();
     // console.log(json);
     // console.log(json.data);
@@ -27,10 +30,9 @@ const RestaurantMenu = () => {
   // const cuisines = restaurantInfo?.cards[2]?.card?.card?.info.cuisines;
   // const costForTwoMessage = restaurantInfo?.cards[2]?.card?.card?.info.costForTwoMessage;
 
-  // const { name, cuisines, costForTwoMessage } = restaurantInfo?.cards[2]?.card?.card?.info; //❌ not working need to check //const name = restaurantInfo?.cards[2]?.card?.card?.info.name
+  // const { name, cuisines, costForTwoMessage } = restaurantInfo?.cards[2]?.card?.card?.info; //const name = restaurantInfo?.cards[2]?.card?.card?.info.name  //but this is ❌ not working so we provide an extra '|| {}'
   const { name, cuisines, costForTwoMessage, totalRatingsString, avgRatingString, avgRating } = restaurantInfo?.cards[2]?.card?.card?.info || {};
 
-  // const {itemCards} = restaurantInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card; //❌ not working need to check
   const itemCards = restaurantInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card.itemCards;
   console.log(itemCards);
 

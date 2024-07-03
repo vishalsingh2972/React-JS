@@ -7,7 +7,6 @@ const Header = () => {
   let btn = "Login 0";
   const [btn2, setButton] = useState("Login");
   console.log("full header component got rendered again");
-
   // 3 cases of useEffect
   //1) no dependency array [] => hence useEffect is called on every component render
   //2) if dependency array is empty = [] => useEffect is called on initial render(just once)

@@ -1,6 +1,6 @@
 ## E7 - Topics coverd in this session:
 
-- React Router
+- [**React Router**](https://reactrouter.com)
 - Dynamic Routing
 - Outlet Component
 - understanding useEffect and useState better

@@ -9,13 +9,14 @@ import Contact from "./src/components/Contact";
 import Error from "./src/components/Error";
 import RestaurantMenu from "./src/components/RestaurantMenu";
 import Login from "./src/components/Login";
+import Footer from "./src/components/Footer";
 
 const AppLayout = () => {
   return(
     <div className="app">
       <Header/>
-
       <Outlet/>
+      <Footer/>
     </div>
   )
 }
@@ -43,6 +44,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/restaurants/:resId", //":resId" will help us give a unique path to each restaurant, i.e. in this "/restaurants/:resId", ":resId" this part of the path is dynamic
         element: <RestaurantMenu/>
+      },
+      {
+        path: "/login",
+        element: <Login/>
       }
     ],
     errorElement: <Error/> //Root-level error handling

@@ -12,4 +12,4 @@
 - (Extra) - Create a `login Page` using `Formik Library`.
 
 
-## Created a FoodFire App from scratch using React.js and Parcel.js 🚀 [Live Project App Link 😍](Add link here)
+## Created a FoodFire App from scratch using React.js and Parcel.js 🚀 [Live Project App Link 😍](https://foodfire-chapter07.netlify.app/)

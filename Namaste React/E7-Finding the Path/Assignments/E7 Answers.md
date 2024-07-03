@@ -174,7 +174,7 @@ useEffect(() => {
 
 
 (EXTRA)
-A2: In React, when we use the `useEffect` hook `without providing a dependency array`, the effect will be executed on every render of the component. This means that the code inside the useEffect will run both after the initial render and after every subsequent render.
+A2️⃣: In React, when we use the `useEffect` hook `without providing a dependency array`, the effect will be executed on every render of the component. This means that the code inside the useEffect will run both after the initial render and after every subsequent render.
 
 Here's an example of using `useEffect without a dependency array`
 ```

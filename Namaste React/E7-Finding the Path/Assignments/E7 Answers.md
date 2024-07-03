@@ -25,7 +25,7 @@ export default function App() {
 ```
 
 
-A2: There are several ways to add and display images.
+A2️⃣: There are several ways to add and display images.
 
 1 `Importing images using ES6 Modules` - We can import images directly using ES6 modules. This is a common approach for `small to medium-sized apps`, and it's straightforward. Firstly, We have to place our image in the project directory (e.g., in the src folder or a subfolder).
 
@@ -119,7 +119,7 @@ Choose the method that best fits your project's requirements and organization. I
 A: If we do `console.log(useState())`, we get an array `[undefined, function]`  where first item in an array is `state` is `undefined` and the second item in an array is `setState` `function` is bound dispatchSetState.
 
 
-A2: If you use `console.log(useState())` in a React functional component, it will display the result of calling the useState() function in our browser's developer console. The useState() function is a React Hook that is typically used to declare a state variable in a functional component. When we call useState(), it `returns an array with two elements: the current state value and a function to update that state value`. 
+A2️⃣: If you use `console.log(useState())` in a React functional component, it will display the result of calling the useState() function in our browser's developer console. The useState() function is a React Hook that is typically used to declare a state variable in a functional component. When we call useState(), it `returns an array with two elements: the current state value and a function to update that state value`. 
 
 **For example:**
 ```
@@ -319,7 +319,7 @@ A: Single Page application is a web application that loads a single HTML page an
 `Single Page Application (SPA)` is a web application that dynamically updates the webpage with data from web server without reloading/refreshing the entire page. All the HTML, CSS, JS are retrieved in the initial load and other data/resources can be loaded dynamically whenever required. An SPA is sometimes referred to as a `single-page interface (SPI)`.
 
 
-A2: SPA stands for `Single Page Application`. It's a type of web application or website that interacts with the user by dynamically rewriting the current web page rather than loading entire new pages from the server. In other words, a single HTML page is loaded initially, and then the content is updated dynamically as the user interacts with the application, typically through JavaScript.
+A2️⃣: SPA stands for `Single Page Application`. It's a type of web application or website that interacts with the user by dynamically rewriting the current web page rather than loading entire new pages from the server. In other words, a single HTML page is loaded initially, and then the content is updated dynamically as the user interacts with the application, typically through JavaScript.
 
 `Key characteristics of SPAs include`:
 
@@ -348,7 +348,7 @@ In `Server-side routing or rendering (SSR)`, every change in URL, http request i
 In `Client-side routing or rendering (CSR)`, during the first load, the webapp is loaded from server to client, after which whenever there is a change in URL, the router library navigates the user to the new page without sending any request to backend. All `Single Page Applications uses client-side routing`.
 
 
-A2: Client-side routing and server-side routing are two different approaches to handling routing and navigation in web applications. They have distinct characteristics and are often used for different purposes. Here's an overview of the key differences between them:
+A2️⃣: Client-side routing and server-side routing are two different approaches to handling routing and navigation in web applications. They have distinct characteristics and are often used for different purposes. Here's an overview of the key differences between them:
 
 `Client-Side Routing`:
 `Handling on the Client` - In client-side routing, routing and navigation are managed on the client side, typically within the web browser. JavaScript frameworks and libraries, such as React Router (for React applications) or Vue Router (for Vue.js applications), are commonly used to implement client-side routing.

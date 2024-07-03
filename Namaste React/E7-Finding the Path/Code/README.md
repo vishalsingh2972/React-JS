@@ -39,23 +39,23 @@
   -> use link component of react-router-dom, no reloads, single page application in moving to different pages.
 
 -> useEffect takes a callback function and a dependency array, the callback function:
-	-> will be called when the elements of array changes.
-	-> if array is empty: will be called once after inital render.
-	-> if no array is passed, will render after each render.
+	- will be called when the elements of array changes.
+	- if array is empty: will be called once after inital render.
+	- if no array is passed, will render after each render.
 
--> Don't create any component inside another component(before return point), rendering will be affected. Child will be created many times on every render.
--> Don't create state variables inside ifelse or loop. Always keep inside a component.
+- Don't create any component inside another component(before return point), rendering will be affected. Child will be created many times on every render.
+- Don't create state variables inside ifelse or for loop. Always keep inside a component.
 
 **Creating Route**:
--> instal react-route-dom
--> in app.js, import createBrowserRouter.
--> Create appRouter,which defines the different paths to app and pages where to go.
--> appRouter must be below the rendering of appLayout, the home page.
--> Now, we've to provide this appRouter to our app, import RouterProvider.
+- instal react-route-dom
+- in app.js, import createBrowserRouter.
+- Create appRouter,which defines the different paths to app and pages where to go.
+- appRouter must be below the rendering of appLayout, the home page.
+- Now, we've to provide this appRouter to our app, import RouterProvider.
 
-**NESTED ROUTING**:
--> We want to keep our header and footer to be present always, so other pages will be rendered between them. Hence we make them child of appComponent by defining them in route config.
--> Now we use something called, 'outlet' from react-router-dom, render it where we want other pages to be, it'll put them at it's place a/c to route.
+**Nested Routing**:
+- We want to keep our header and footer to be present always, so other pages will be rendered between them. Hence we make them child of appComponent by defining them in route config.
+- Now we use something called, 'outlet' from react-router-dom, render it where we want other pages to be, it'll put them at it's place a/c to route.
 
 **Dynamic Segments**: Routing
--> Used for random routes when they can be variable.
+- Used for random routes when they can be variable.

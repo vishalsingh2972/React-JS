@@ -4,6 +4,7 @@
 
 ## Coding Assignment:
 - Add `Shimmer Effect` without installing a library.
+  - (EXTRA )Add `Shimmer Effect` after installing a library, tied this as well.
 - Install `react-router-dom`.
 - Create an `appRouter` and Provide it to the app.
 - Create a `Home, About, and Contact Page` with Link (use child routes).

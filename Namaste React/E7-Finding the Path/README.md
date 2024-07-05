@@ -8,6 +8,9 @@
 - Link Component - React's Single Page Application (SPA) nature concept
 - useParams hook
 - Made restaurant cards clickable that now redirect to independent restaurant menu page
-- Form handling (using Formik library) + Form Validation (using Yup library) ---> for adding login/logout feature in assignment
+>  In Coding Assignment
+- Form Handling (using Formik library) + Form Validation (using Yup library) ---> for adding login/logout feature in coding assignment
+- useNavigate hook
+- useFormik hook
 
 >  Check out the ______________ of our Food Delivery app completed in this episode here : 

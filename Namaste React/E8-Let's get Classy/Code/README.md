@@ -1,33 +1,48 @@
-## Episode 07 – Finding the Path
+## Episode 8 - Let's get Classy!
 
 **Detailed Mention of Topics and its Timestamps according to Namaste React Web Series**
 
 ```sh
-00:03:00 – useEffect hook explanation, Dependency Array
-00:15:40 – React Router 
-00:19:00 – Create Routing Configuration
-00:22:00 – Create About Component
-00:30:00 – Rafce
-00:33:00 – error (404 not found)
-00:37:00 – useRouteError Hook
-00:41:55 – Error.js
-00:44:20 – Children Routes
-00:51:00 – Outlet Keyword
-00:56:00 – Create links to Header Menu
-00:58:18 – Link Component 
-01:00:00 – Observe the performance
-01:03:55 – Single Page Applications (SPA)
-01:05:35 – 2 types of Routing: Client Side Routing & Server-side Routing
-01:08:00 – Session Recap till now 
-01:11:50 – Dynamic Routing
-01:13:35 – JSON Viewer
-01:40:30 – GraphQL Introduction
-01:52:40 – Dynamic Data coding 
-01:57:50 – Map function and its usage with a key 
-01:59:00 – Changing Restaurant ID’s
-02:00:00 – New SuperPower Hook: UseParams
-02:02:30 – Move API to constants.js
-02:04:00 - Dynamic Cards- to be clickable
-02:08:00 – Link Component
-02:13:00 – Session Recap
+00:09:30 – Class based component example
+00:16:00 – Props, Props in Function based component, Destructure
+00:18:00 – How to write same example in a Class based component
+00:21:00 – Mentioned about “Super(props)”
+00:23:00 – What if you want more props?
+00:26:00 – How can we write local/state variables in a Function Component
+00:28:00 – how can we create state/local variable in Class component
+00:30:00 – “this.state” explained, Destructuring 
+00:34:00 – How do we create 2 state/local variables in both functional & class-based component
+00:37:05 – How to update the state variables in Class component 
+00:47:55 – Interview Question
+00:48:20 – Life cycle of Class based components
+00:50:00 – Detailed Explanation
+         – Parent, child – Constructor 
+         – Parent, child – Render
+00:58:25 – ComponentDidMount(){ }, Life cycle of a Parent-child relationship
+01:05:00 –ComponentDidMount() used for API calss
+01:07:00 – API calls inside useEffect()
+01:14:00 – this.props.name + “child constructor” 
+01:20:00 – React Lifecycle Methods Diagram
+01:21:00 – Why React is so fast?
+01:27:00 – DOM Manipulation 
+01:29:00 – Render phase, Commit phase
+01:33:00 – How to make API calls in class based components?
+01:36:00 – GitHub API call
+01:38:40 – How to update the json data into our web page
+01:43:38 – Coding UserClass.js component
+01:44:00 – How life cycle works here in this code
+01:45:00 - Debugger
+01:49:30 – ComponentDidUpdate()
+01:52:00 – Mounting Cycle
+01:55:00 – API rate limit exceeded
+01:56:15 – Unmounting Phase/cycle
+01:58:00 - in older days we were coding like this
+02:09:00 – How to write the same in class based component – ProfileClass.js
+02:15:00 – More Deeper we explore the old way of writing React Code
+02:18:00 – what is the use case of componentWillUnmount()?
+02:24:30 – Problem of Single Page Application
+02:30:00 – Senior Developer should know this
+02:32:00 – What will happen if we create setInterval inside useEffect
+02:36:30 – coding Profile.js 
+02:45:30 – Async in useEffect()
 ```

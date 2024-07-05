@@ -1,8 +1,9 @@
 import { useFormik } from "formik"; // NEW //used with functional components
-import { Formik } from "formik"; // OLD //cane be used with functional components or class based components
-import { signin_Schema } from "./schemas";
-import * as Yup from "yup";
+import { Formik } from "formik"; // OLD //can be used with functional components or class based components
+import { signin_Schema } from "../schemas";
 import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const initialValues = {
   email: "",
@@ -11,6 +12,15 @@ const initialValues = {
 
 const Login = () => {
   const navigate = useNavigate();
+
+  function handleNavigation(values) {
+    // Alert the input values of the form that we filled
+    alert(values);
+    // setTimeout for navigate from login page to home page
+    setTimeout(() => {
+      navigate("/");
+    }, 0);
+  }
 
   // const formik = useFormik({
   //   initialValues: initialValues,
@@ -23,15 +33,25 @@ const Login = () => {
 
   const {values, handleChange, handleBlur, handleSubmit, errors, touched} = useFormik({
     initialValues: initialValues,
+    validationSchema: signin_Schema,
     onSubmit: (values, actions) => {
       console.log(values);
       actions.resetForm();
+      handleNavigation(values); //or use handleNavigation(JSON.stringify(values));
     }
   })
   // console.log(values);
   // console.log(handleChange);
   // console.log(handleBlur);
+  // console.log(errors);
+  // console.log(touched);
+  // console.log(errors.email);
+  // console.log(errors.password);
 
+  //EXTRA - catching and printing errors only once
+  useEffect(() => {
+    console.log(errors);
+  }, [errors]); //useEffect hook here will be triggered whenever there is a change in the values mentioned in its dependency array i.e here errors
 
   function handleNavigation(values){
     // Alert the input values of the form that we filled
@@ -58,7 +78,9 @@ const Login = () => {
         onBlur={handleBlur}
       />
       <div className="error_container" style={{color: 'red'}}>
-
+      {errors.email && touched.email &&
+        (<p className="form_error">{errors.email}</p>)
+      }
       </div>
 
 
@@ -75,7 +97,9 @@ const Login = () => {
         onBlur={handleBlur}
       />
       <div className="error_container" style={{color: 'red'}}>
-        
+        {errors.password && touched.password ? 
+          (<p className="form_error">{errors.password}</p>) : null
+        }
       </div>
 
 

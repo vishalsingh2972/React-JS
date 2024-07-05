@@ -1,8 +1,10 @@
 import { LOGO_URL } from "../utils/constants"
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom"; //React's Single Page Application (SPA) nature concept
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
+  const navigate = useNavigate();
 
   let btn = "Login 0";
   const [btn2, setButton] = useState("Login");
@@ -30,8 +32,12 @@ const Header = () => {
           <li><Link to="/about">About Us</Link></li>
           <li><Link to="/contact">Contact Us</Link></li>
           <li>Cart</li>
+
+
           <button className="login-button" onClick={() => {
-            btn2 === "Login" ? setButton("Logout") : setButton("Login")
+            if (btn2 === "Login"){
+              navigate("/login"); // Redirect to login page ("/login")
+            }
           }}>{btn2}</button>
         </ul>
       </div>

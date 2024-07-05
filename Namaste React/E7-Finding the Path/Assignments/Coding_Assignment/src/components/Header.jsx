@@ -7,7 +7,7 @@ const Header = () => {
   const navigate = useNavigate();
 
   let btn = "Login 0";
-  const [btn2, setButton] = useState("Login");
+  const [btn2, setButton] = useState("Logout");
   // console.log("full header component got rendered again");
   useEffect(() => {
     // console.log("useEffect called 1")
@@ -35,9 +35,10 @@ const Header = () => {
 
 
           <button className="login-button" onClick={() => {
-            if (btn2 === "Login"){
-              setButton("🚀")
+            if (btn2 === "Logout"){
+              setButton("Login"); //📌
               navigate("/login"); // Redirect to login page ("/login")
+              setButton("Logout"); //📌
             }
           }}>{btn2}</button>
         </ul>

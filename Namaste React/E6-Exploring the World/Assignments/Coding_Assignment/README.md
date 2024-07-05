@@ -14,4 +14,4 @@
 - Make a `Login Logout` button that toggles with a state.
 
 
-## [Created a FoodFire App from scratch using React.js and Parcel.js 🚀 Live Project App Link 😍](Add link here)
+## [Created a Food App from scratch using React.js and Parcel.js 🚀 Live Project App Link 😍](Add link here)

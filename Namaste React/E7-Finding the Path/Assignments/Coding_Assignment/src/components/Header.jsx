@@ -6,7 +6,7 @@ const Header = () => {
 
   let btn = "Login 0";
   const [btn2, setButton] = useState("Login");
-  console.log("full header component got rendered again");
+  // console.log("full header component got rendered again");
   useEffect(() => {
     // console.log("useEffect called 1")
   }); //no dependency array [], hence useEffect hook will get triggered each time my Header component is rendered on the UI
@@ -16,7 +16,7 @@ const Header = () => {
   }, []); //empty dependency array [], hence useEffect hook will get triggered just once only when my Header component is rendered for the first time
 
   useEffect(() => {
-    console.log("useEffect called 3")
+    // console.log("useEffect called 3")
   }, [btn2]);
 
   return(

@@ -36,6 +36,7 @@ const Header = () => {
 
           <button className="login-button" onClick={() => {
             if (btn2 === "Login"){
+              setButton("🚀")
               navigate("/login"); // Redirect to login page ("/login")
             }
           }}>{btn2}</button>

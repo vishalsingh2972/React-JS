@@ -1,3 +1,5 @@
+//Class based component similar to/same as functional component User.jsx
+
 import React from "react"; //'React.Component' is a class inside React, hence importing React
 
 // Class based component: similar to functional based components, class based components are also simply a normal javascript class

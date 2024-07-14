@@ -19,7 +19,7 @@
          – Parent, child – Constructor 
          – Parent, child – Render
 00:58:25 – ComponentDidMount(){ }, Life cycle of a Parent-child relationship
-01:05:00 –ComponentDidMount() used for API calss
+01:05:00 – ComponentDidMount() used for API calss
 01:07:00 – API calls inside useEffect()
 01:14:00 – this.props.name + “child constructor” 
 01:20:00 – React Lifecycle Methods Diagram

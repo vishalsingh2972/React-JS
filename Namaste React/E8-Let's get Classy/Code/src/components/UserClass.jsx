@@ -79,5 +79,4 @@ class UserClass extends React.Component{ //'extends React.Component' will help R
 
 export default UserClass
 
-
 //loading a class based component on our webpage means creating an instance of that class. Hence, each time a class-based component is rendered on the screen, a new instance of that class is created.

@@ -46,6 +46,14 @@ class UserClass extends React.Component { //'extends React.Component' will help 
   //   </div>
   // }
 
+  //ComponentDidMount is another method like render method given to us by React CBCs
+  //ComponentDidMount method is executed/called after render method is done execution
+  //ComponentDidMount = as the name suggests 'Component''Did''Mount', so this will be called after the component has been mounted onto the webpage (i.e after the render method has completed)
+  //ComponentDidMount use case ~ why has React given componentDidMount to us? - there are some things that we do once the component has mounted successfully(i.e when render method is done execution), this is when componentDidMount is triggered/used to make API calls
+  componentDidMount(){
+    console.log('Child componentDidMount method called')
+  }
+
   // better or cleaner way to write render() ---> destructuring this.props
   render() {
     // console.log('UserClass class/component rerendered');
@@ -84,4 +92,4 @@ export default UserClass
 
 // loading a class based component on our webpage means creating an instance of that class. Hence, each time a class-based component is rendered/mounted/loaded on the screen, a new instance of that class is created.
 
-// order in which UserClass gets rendered/loaded on screen ----> 1)first UserClass component is loaded - 2)instance of class created - 3)first constructor is called - 4)then render method gets called
+// order in which UserClass gets rendered/loaded on screen ----> 1)first UserClass component is loaded - 2)instance of class created - 3)first constructor is called - 4)then render method gets called - 5)then ComponentDidMount method gets called

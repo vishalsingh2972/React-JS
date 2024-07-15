@@ -14,6 +14,10 @@ class About extends Component{ //destructuring on the go, using destructuring to
     console.log("Parent Constructor")
   }
 
+  componentDidMount(){
+    console.log('Parent componentDidMount method called')
+  }
+
   render() {
     console.log("Parent Render method")
     return (

@@ -1,4 +1,5 @@
 //Class based component similar to/same as functional component User.jsx
+//whenever we say we are loading a CBC on our webpage that means I am creating an instance of that class
 
 import React from "react"; //'React.Component' is a class inside React, hence importing React
 
@@ -9,11 +10,18 @@ class UserClass extends React.Component{ //'extends React.Component' will help R
                                          // 'React.Component' is a class given to us by React and here 'UserClass' class is inheriting some properties from 'React.Component' class
 
   //constructor to recieve the props data in Class based component
+  //we will create the state variable for our CBC inside the constructor
   constructor(props){
     super(props);
 
-    console.log(props);
+    // console.log(props);
     // console.log(props.phone);
+
+    //creating state variable in CBC using this.state
+    //so this.state = { count: 0} in CBC is equivalent to const [count] = useState(0); in functional components
+    this.state = {
+      count: 0
+    }
   }
 
   //this render method will return some piece of jsx and that jsx eventually gets rendered on the screen

@@ -47,6 +47,7 @@ class UserClass extends React.Component{ //'extends React.Component' will help R
 
   //better or cleaner way to write render() ---> destructuring this.props
   render(){
+    // console.log('UserClass class/component rerendered');
 
     const {phone, gender} = this.props;
     const {count, count2} = this.state;
@@ -54,7 +55,19 @@ class UserClass extends React.Component{ //'extends React.Component' will help R
     return <div className="user-card">
       {/* <h1>Count = {this.state.count}</h1> */}
       <h1>Count = {count}</h1>
-      <h1>Count2 = {count2}</h1>
+      {/* <h1>Count2 = {count2}</h1> */}
+      <button onClick={() => {
+        // this.state.count = this.state.count + 1 //❌ Similar to FC, even in CBC we cannot update state directly like this
+        // console.log(this.state.count)
+
+        //✅ Similar to functions in FC, even in CBC React gives us a special function 'this.setState'
+        //inside 'this.setState' we will pass in an object {...} and this object will contact the updated value of our state variable
+        this.setState({
+          count: this.state.count + 1, //or here simply count: count + 1
+          // count2: this.state.count2 + 1
+        })
+        //here on each onclick render() method gets called, i.e in CBC render() method gets called each time the state of a state variable changes
+      }}>+</button>
       <h2>Name: Vishal_Class</h2>
       <h3>Location: Hyderabad_Class</h3>
       <h4>Contact: @vishalsingh2972_Class</h4>

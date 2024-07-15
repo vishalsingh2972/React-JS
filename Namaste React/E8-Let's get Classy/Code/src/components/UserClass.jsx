@@ -19,8 +19,11 @@ class UserClass extends React.Component{ //'extends React.Component' will help R
     console.log(props); //1
     console.log(this.props); // same as //1 as inside the constructor of parent class i.e here React.Component class  this.props = props and this props value is passed to the parent class constructor via the super(props) in the child class i.e here UserClass class
     // console.log(props.phone);
-  }
 
+   //also props here has scope only within the constructor of the child class (UserClass) whereas this.props that is present inside the constructor of the parent class (React.Component) has scope throughtout the child class i.e this.props here has scope throughout the UserClass both inside the constructor of UserClass and even outside the constructor of UserClass
+   // so it is indeed always better to use this.props.phone and this.props.gender anywhere outside of constructor in the child class (UseClass) rather than just using props.phone and props.gender
+  }
+  
   //this render method will return some piece of jsx and that jsx eventually gets rendered on the screen
   //so in short similar to functional based components, Class based component is a class which has a render method which returns some piece of jsx
   // render(){
@@ -28,7 +31,7 @@ class UserClass extends React.Component{ //'extends React.Component' will help R
   //     <h2>Name: Vishal_Class</h2>
   //     <h3>Location: Hyderabad_Class</h3>
   //     <h4>Contact: @vishalsingh2972_Class</h4>
-  //     <h3>Phone: {this.props.phone}</h3>
+  //     <h3>Phone: {this.props.phone}</h3> //props.phone also works in this case(as both {this.props.phone} or {props.phone} give same output) but it is not preferbale, better to use this.props.phone only
   //     <h3>Gender: {this.props.gender}</h3>
   //   </div>
   // }

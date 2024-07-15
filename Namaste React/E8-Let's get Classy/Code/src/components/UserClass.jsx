@@ -6,10 +6,13 @@ import React from "react"; //'React.Component' is a class inside React, hence im
 //(reminder: functional based components are simple normal javascript functions that return some jsx)
 
 class UserClass extends React.Component{ //'extends React.Component' will help React know/identify that this is a class based component and so React starts tracking it
-                                         // 'React.Component' is a class given to us by React and here 'UserClass' class is inheriting some properties from 'React.Component' class
+                                         // 'React.Component' is a class given to us by React and here 'UserClass' class is inheriting properties from 'React.Component' class
 
   //constructor to recieve the props data in Class based component
   constructor(props){
+    //In a functional component, you can directly access the props object passed to the component function. However, in a class-based component, the props object is not automatically available to the component class. Instead, you need to call the super() method to initialize the React.Component class and gain access to the props object, and so here as 'UserClass' class is inheriting properties from 'React.Component' class hence 'UserClass' also gets the ability to access the props object.
+    //Therefore, by calling super(props) in the constructor of UserClass, you are effectively initializing the React.Component class with the props object. This allows you to use the props object within the UserClass component, just like you would in a functional component.
+    //The purpose of using the constructor with super and props as argument is to allow the component to inherit the properties of its parent component and also pass in additional properties as arguments to the component, so to use properties of parent class (React.Component) in child class(UserClass) we are using super(props)
     super(props);
 
     console.log(props);

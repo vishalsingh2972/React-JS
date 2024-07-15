@@ -9,8 +9,9 @@ import React from "react"; //'React.Component' is a class inside React, hence im
 class UserClass extends React.Component{ //'extends React.Component' will help React know/identify that this is a class based component and so React starts tracking it
                                          // 'React.Component' is a class given to us by React and here 'UserClass' class is inheriting properties from 'React.Component' class
 
-  //constructor to recieve the props data in Class based component
-  //we will create the state variable for our CBC inside the constructor
+  // constructor to recieve the props data in Class based component
+  // we will create the state variable for our CBC inside the constructor
+  // When a class-based component is rendered, a new instance of that class is created, and the first thing that gets executed in that instance is the constructor (if it exists like here it does), hence the constructor is indeed the best/appropriate place to initialize state variables in a class-based component.
   constructor(props){
     //In a functional component, you can directly access the props object passed to the component function. However, in a class-based component, the props object is not automatically available to the component class. Instead, you need to call the super() method to initialize the React.Component class and gain access to the props object, and so here as 'UserClass' class is inheriting properties from 'React.Component' class hence 'UserClass' also gets the ability to access the props object.
     //Therefore, by calling super(props) in the constructor of UserClass, you are effectively initializing the React.Component class with the props object. This allows you to use the props object within the UserClass component, just like you would in a functional component.
@@ -24,6 +25,12 @@ class UserClass extends React.Component{ //'extends React.Component' will help R
 
    //also props here has scope only within the constructor of the child class (UserClass) whereas this.props that is present inside the constructor of the parent class (React.Component) has scope throughtout the child class i.e this.props here has scope throughout the UserClass both inside the constructor of UserClass and even outside the constructor of UserClass
    // so it is indeed always better to use this.props.phone and this.props.gender anywhere outside of constructor in the child class (UseClass) rather than just using props.phone and props.gender
+
+    // state variables in CBC
+    this.state = { //here state is a 'big' object that will contain/hold all the state variables for the component
+      count: 0,
+      count2: 2 
+    }
   }
   
   //this render method will return some piece of jsx and that jsx eventually gets rendered on the screen
@@ -42,8 +49,12 @@ class UserClass extends React.Component{ //'extends React.Component' will help R
   render(){
 
     const {phone, gender} = this.props;
+    const {count, count2} = this.state;
 
     return <div className="user-card">
+      {/* <h1>Count = {this.state.count}</h1> */}
+      <h1>Count = {count}</h1>
+      <h1>Count2 = {count2}</h1>
       <h2>Name: Vishal_Class</h2>
       <h3>Location: Hyderabad_Class</h3>
       <h4>Contact: @vishalsingh2972_Class</h4>
@@ -54,3 +65,6 @@ class UserClass extends React.Component{ //'extends React.Component' will help R
 }
 
 export default UserClass
+
+
+//loading a class based component on our webpage means creating an instance of that class. Hence, each time a class-based component is rendered on the screen, a new instance of that class is created.

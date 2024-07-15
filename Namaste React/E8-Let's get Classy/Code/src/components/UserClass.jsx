@@ -16,7 +16,8 @@ class UserClass extends React.Component{ //'extends React.Component' will help R
     //IMP Links: overreacted.io/why-do-we-write-super-props/ , www.geeksforgeeks.org/what-is-the-use-of-superprops/
     super(props);
 
-    console.log(props);
+    console.log(props); //1
+    console.log(this.props); // same as //1 as inside the constructor of parent class i.e here React.Component class  this.props = props and this props value is passed to the parent class constructor via the super(props) in the child class i.e here UserClass class
     // console.log(props.phone);
   }
 

@@ -25,6 +25,8 @@ class About extends Component{ //destructuring on the go, using destructuring to
         {/* {console.log("Parent Render method2")} */}
         <h1>About Class Component</h1>
         <h2>This is your about section</h2>
+        
+        {/* Creating 2 instances of the same class named 'UserClass' */}
         <UserClass phone={"77777777 (CBC)"} gender={"Male"}/>
         <UserClass phone={"77777777 (CBC)"} gender={"Male"}/>
       </div>

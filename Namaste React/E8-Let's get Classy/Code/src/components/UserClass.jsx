@@ -72,7 +72,7 @@ class UserClass extends React.Component { //'extends React.Component' will help 
         // console.log(this.state.count)
 
         //✅ Similar to functions in FC, even in CBC React gives us a special function 'this.setState'
-        // inside 'this.setState' we will pass in an object {...} and this object will contact the updated value of our state variable
+        // inside 'this.setState' we will pass in an object {...} and this object will contain the updated value of our state variable
         this.setState({
           count: this.state.count + 1, //or here simply count: count + 1
           // count2: this.state.count2 + 1

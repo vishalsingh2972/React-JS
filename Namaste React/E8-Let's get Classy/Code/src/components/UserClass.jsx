@@ -34,6 +34,12 @@ class UserClass extends React.Component { //'extends React.Component' will help 
     console.log('Child Constructor')
   }
 
+  componentDidMount(){
+    console.log('Child componentDidMount method called')
+
+    //API call happens in componentDidMount after render method is called once (i.e initial render done) and then the fetched data is now used to change the state of the component typically via useState, this change in state will trigger a re-render so the render method is called once again, this time with the updated state and now the updated UI is gets displayed
+  }
+
   // this render method will return some piece of jsx and that jsx eventually gets rendered on the screen
   // so in short similar to functional based components, Class based component is a class which has a render method which returns some piece of jsx
   // render(){
@@ -51,12 +57,7 @@ class UserClass extends React.Component { //'extends React.Component' will help 
   //ComponentDidMount = as the name suggests 'Component''Did''Mount', so this will be called after the component has been mounted onto the webpage (i.e after the render method has completed)
   //ComponentDidMount use case ~ why has React given componentDidMount to us? - there are some things that we do once the component has mounted successfully(i.e when render method is done execution), this is when componentDidMount is triggered/used to make API calls
   //using componentDidMount in CBCs is much similar to using useEffect in FCs
-  componentDidMount(){
-    console.log('Child componentDidMount method called')
-
-    //API call happens in componentDidMount after render method is called once (i.e initial render done) and then the fetched data is now used to change the state of the component typically via useState, this change in state will trigger a re-render so the render method is called once again, this time with the updated state and now the updated UI is gets displayed
-  }
-    
+  
   // better or cleaner way to write render() ---> destructuring this.props
   render() {
     // console.log('UserClass class/component rerendered');

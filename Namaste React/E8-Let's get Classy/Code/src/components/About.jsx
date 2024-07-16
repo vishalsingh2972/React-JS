@@ -28,7 +28,7 @@ class About extends Component{ //destructuring on the go, using destructuring to
 
         {/* Creating 2 instances of the same class named 'UserClass' with different props being passed for each */}
         <UserClass phone={"77777777 (CBC)"} gender={"Male"}/>
-        <UserClass phone={"88888888 (CBC 2)"} gender={"Male"}/>
+        <UserClass phone={"88888888 (CBC 2)"} gender={"HUMAN"}/>
       </div>
     )
   }

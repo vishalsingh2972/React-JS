@@ -50,6 +50,7 @@ class UserClass extends React.Component { //'extends React.Component' will help 
   //ComponentDidMount method is executed/called after render method is done execution
   //ComponentDidMount = as the name suggests 'Component''Did''Mount', so this will be called after the component has been mounted onto the webpage (i.e after the render method has completed)
   //ComponentDidMount use case ~ why has React given componentDidMount to us? - there are some things that we do once the component has mounted successfully(i.e when render method is done execution), this is when componentDidMount is triggered/used to make API calls
+  //using componentDidMount in CBCs is much similar to using useEffect in FCs
   componentDidMount(){
     console.log('Child componentDidMount method called')
   }

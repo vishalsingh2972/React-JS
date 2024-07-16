@@ -54,9 +54,9 @@ class UserClass extends React.Component { //'extends React.Component' will help 
   componentDidMount(){
     console.log('Child componentDidMount method called')
 
-    //API call happens in componentDidMount after render method is called once (i.e initial render done) and then the fetched data is now filled inside the component and the component is re rendered on the UI with new filled data now
+    //API call happens in componentDidMount after render method is called once (i.e initial render done) and then the fetched data is now used to change the state of the component typically via useState, this change in state will trigger a re-render so the render method is called once again, this time with the updated state and now the updated UI is gets displayed
   }
-
+    
   // better or cleaner way to write render() ---> destructuring this.props
   render() {
     // console.log('UserClass class/component rerendered');

@@ -97,3 +97,51 @@ export default UserClass
 // loading a class based component on our webpage means creating an instance of that class. Hence, each time a class-based component is rendered/mounted/loaded on the screen, a new instance of that class is created.
 
 // order in which UserClass gets rendered/loaded on screen ----> 1)first UserClass component is loaded - 2)instance of class created - 3)first constructor is called - 4)then render method gets called - 5)then ComponentDidMount method gets called
+
+
+//https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
+/*
+//✅ Optimised approach of React where it is grouping Render phase of both children together and then doing Commit phase of both children together  ~  This optimization reduces the time spent in layout and rendering updates, resulting in better performance ✅ (optimized approach ensures that React updates the DOM only once for all changes, thereby reducing the time spent on layout and rendering updates, which improves performance)
+📌 Parent Render Phase
+Parent Constructor
+Parent Render method
+
+📌 Both childrens' Render Phase
+First Child Constructor
+First Child Render method
+Second Child Constructor
+Second Child Render method
+
+📌 Both childrens' Commit Phase
+🔄 ~ React performs a single DOM update for all changes i.e here single DOM update for parent and for both the children happens together in one single batch thereby leading to better performance ~ 🔄
+First Child componentDidMount method called
+Second Child componentDidMount method called
+
+📌 Parent Commit Phase
+Parent componentDidMount method called
+
+DOM update count = 1 only ~ much better performance 🕺🕺🕺 (as updating the DOM is an expensive operation that can significantly impact performance so React follows this approach to reduce costs and time, plus increase efficiency and enhances user experience)
+*/
+/*
+//❌ UnOptimised approach, Bad Performance ❌
+📌 Parent Render Phase Parent Constructor 
+Parent Render method 
+
+📌 First Child Render and Commit Phase 
+First Child Constructor 
+First Child Render method
+🔄 ~ ­React updates ­D­O­M ~ 🔄
+First Child componentDidMount method called 
+
+📌 Secoond Child Render and Commit Phase 
+Second Child Constructor 
+Second Child Render method
+🔄 ~ ­React updates ­D­O­M ~ 🔄
+Second Child componentDidMount method called 
+
+📌 Parent Commit Phase
+🔄 ~ ­React updates ­D­O­M ~ 🔄
+Parent componentDidMount method called
+
+DOM update count = 3 ~ very bad performance 🤢🤢🤢
+*/

@@ -1,10 +1,14 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 const User = (props) => {
 
   const [count, setCount] = useState(0);
   const [count2] = useState(1);
   //BTS React still clubs all the state variables into/inside a single object only ~ similar to how React does it in class based components (store inside the 'big' single object this.state)
+
+  useEffect(() => {
+    //Make API calls
+  }, []);
 
   return <div className="user-card">
     <h1>Count = {count}</h1>

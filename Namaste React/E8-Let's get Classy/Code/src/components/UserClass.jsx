@@ -29,15 +29,27 @@ class UserClass extends React.Component { //'extends React.Component' will help 
     // state variables in CBC
     this.state = { //here state is a 'big' object that will contain/hold all the state variables for the component
       count: 0,
-      count2: 2
+      count2: 2,
+      userInfo:{
+        name: "default name", //(initial value)
+        location: "default location"
+      }
     }
-    console.log(this.props.phone + ' Child Constructor')
+    // console.log(this.props.phone + ' Child Constructor')
   }
 
-  componentDidMount(){
-    console.log(this.props.phone + ' Child componentDidMount method called')
+  async componentDidMount(){
+    // console.log(this.props.phone + ' Child componentDidMount method called')
 
     //API call happens in componentDidMount after render method is called once (i.e initial render done) and then the fetched data is now used to change the state of the component typically via useState, this change in state will trigger a re-render so the render method is called once again, this time with the updated state and now the updated UI is gets displayed
+    const data = await fetch("https://api.github.com/users/vishalsingh2972");
+    // console.log(data);
+    const json_data = await data.json();
+    console.log(json_data);
+
+    this.setState({
+      userInfo: json_data
+    })
   }
 
   // this render method will return some piece of jsx and that jsx eventually gets rendered on the screen
@@ -64,8 +76,9 @@ class UserClass extends React.Component { //'extends React.Component' will help 
 
     const { phone, gender } = this.props;
     const { count, count2 } = this.state;
+    const { name, location, html_url, avatar_url } = this.state.userInfo;
 
-    console.log(this.props.phone + ' Child Render method')
+    // console.log(this.props.phone + ' Child Render method')
 
     return <div className="user-card">
       {/* <h1>Count = {this.state.count}</h1> */}
@@ -83,9 +96,10 @@ class UserClass extends React.Component { //'extends React.Component' will help 
         })
         // here on each onclick render() method gets called, i.e in CBC render() method gets called each time the state of a state variable changes
       }}>+</button>
-      <h2>Name: Vishal_Class</h2>
-      <h3>Location: Hyderabad_Class</h3>
-      <h4>Contact: @vishalsingh2972_Class</h4>
+      <img src={avatar_url}/>
+      <h2>Name: {name} </h2>
+      <h3>Location: {location}</h3>
+      <h4>Contact: {html_url}</h4>
       <h3>Phone: {phone}</h3>
       <h3>Gender: {gender}</h3>
     </div>

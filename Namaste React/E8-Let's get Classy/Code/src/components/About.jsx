@@ -11,15 +11,15 @@ class About extends Component { //destructuring on the go, using destructuring t
   constructor(props) {
     super(props);
 
-    console.log("Parent Constructor")
+    // console.log("Parent Constructor")
   }
 
   componentDidMount() {
-    console.log('Parent componentDidMount method called')
+    // console.log('Parent componentDidMount method called')
   }
 
   render() {
-    console.log("Parent Render method")
+    // console.log("Parent Render method")
     
     return (
       <div>
@@ -29,7 +29,7 @@ class About extends Component { //destructuring on the go, using destructuring t
 
         {/* Creating 2 instances of the same class named 'UserClass' with different props being passed for each */}
         <UserClass phone={"First"} gender={"Male"} />
-        <UserClass phone={"Second"} gender={"Male"} />
+        {/* <UserClass phone={"Second"} gender={"Male"} /> */}
         {/* <UserClass phone={"Third"} gender={"Male"} /> */}
       </div>
     )

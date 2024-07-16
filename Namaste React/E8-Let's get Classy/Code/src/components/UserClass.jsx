@@ -54,7 +54,7 @@ class UserClass extends React.Component { //'extends React.Component' will help 
   componentDidMount(){
     console.log('Child componentDidMount method called')
 
-    //API call happens in componentDidMount after render mwthod is called once (i.e initial render done) and the fetched data is filled inside the component and component is re rendered on the UI with new filled data now
+    //API call happens in componentDidMount after render method is called once (i.e initial render done) and then the fetched data is now filled inside the component and the component is re rendered on the UI with new filled data now
   }
 
   // better or cleaner way to write render() ---> destructuring this.props

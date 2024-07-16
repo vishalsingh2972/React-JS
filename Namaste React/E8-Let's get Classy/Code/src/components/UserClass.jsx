@@ -31,11 +31,11 @@ class UserClass extends React.Component { //'extends React.Component' will help 
       count: 0,
       count2: 2
     }
-    console.log('Child Constructor')
+    console.log(this.props.phone + 'Child Constructor')
   }
 
   componentDidMount(){
-    console.log('Child componentDidMount method called')
+    console.log(this.props.phone + 'Child componentDidMount method called')
 
     //API call happens in componentDidMount after render method is called once (i.e initial render done) and then the fetched data is now used to change the state of the component typically via useState, this change in state will trigger a re-render so the render method is called once again, this time with the updated state and now the updated UI is gets displayed
   }
@@ -65,7 +65,7 @@ class UserClass extends React.Component { //'extends React.Component' will help 
     const { phone, gender } = this.props;
     const { count, count2 } = this.state;
 
-    console.log('Child Render method')
+    console.log(this.props.phone + 'Child Render method')
 
     return <div className="user-card">
       {/* <h1>Count = {this.state.count}</h1> */}

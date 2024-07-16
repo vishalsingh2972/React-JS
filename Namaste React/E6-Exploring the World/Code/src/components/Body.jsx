@@ -12,6 +12,7 @@ const Body = () => {
   console.log("full body component got rendered again");
 
 
+  //useEffect hook triggered after initial render i.e after <Shimmer/> gets displayed
   useEffect(() => {
     // console.log("useEffect called 3")
     fetchData();

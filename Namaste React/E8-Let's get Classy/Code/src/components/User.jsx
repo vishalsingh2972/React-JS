@@ -8,6 +8,17 @@ const User = (props) => {
 
   useEffect(() => {
     //Make API calls
+
+    //trying componentWillUnmount usage - setInterval example in useEffect
+    setInterval(() => {
+      console.log("useless text")
+    },1000);
+
+    //way to return a cleanup function from within useEffect ~ one of the ways where we are Unmounting Components in React using Hooks
+    //return a function from useEffect ~ this is used here to unmount similar to usage of 'clearInterval(this.timer)' in 'componentWillUnmount(){...}' in UserClass.jsx
+    return() => {
+
+    }
   }, []);
 
   return <div className="user-card">

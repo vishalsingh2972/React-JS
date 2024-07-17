@@ -42,7 +42,7 @@ class UserClass extends React.Component { //'extends React.Component' will help 
   async componentDidMount(){
     console.log(this.props.phone + ' Child componentDidMount method called');
 
-    //API call happens in componentDidMount after render method is called once (i.e initial render done) and then the fetched data is now used to change the state of the component typically via useState, this change in state will trigger a re-render so the render method is called once again, this time with the updated state and now the updated UI is gets displayed
+    //API call happens in componentDidMount after render method is called once (i.e initial render done) and then the fetched data is now used to change the state of the component typically via useState, this change in state will trigger a re-render so the render method is called once again, this time with the updated state and now the updated UI will eventually get displayed
     const data = await fetch("https://api.github.com/users/vishalsingh2972");
     // console.log(data);
     const json_data = await data.json();
@@ -51,14 +51,28 @@ class UserClass extends React.Component { //'extends React.Component' will help 
     this.setState({
       userInfo: json_data
     })
+
+    //componentWillUnmount usage - setInterval example
+    this.timer = setInterval(() => {
+      console.log("useless text")
+    },1000)
   }
 
   componentDidUpdate(){
     console.log('Child componentDidUpdate method called');
+
+    // //Just tried setInterval example in componentDidUpdate as well (EXTRA)
+    // //componentWillUnmount usage - setInterval example
+    // this.timer = setInterval(() => {
+    //   console.log("useless text")
+    // },1000)
   }
 
-  componentWillUnmount(){ //is called just before the component is unmounted and destroyed from the DOM tree, or in simply words here it typically happens when we navigate to a new page or route, or when a component is removed from the UI due to conditional rendering or other factors.
+  componentWillUnmount(){ //is called just before the component is unmounted and destroyed from the DOM tree, or in simply words here it typically happens when we navigate to a new page or route, or when a component is removed from the UI due to conditional rendering or other factors. //as we saw in one of the examples where unnecessary/redundant setInterval and setTimeout left running in the background leading to performance degradation, hence componentWillUnmount is super super required to completely clean this mess properly
     console.log('Child componentWillUnmount method called, component got unmounted successfully');
+
+    //as we saw in our setInterval example for knowing the importance/use of componentWillUnmount
+    clearInterval(this.timer); // to stop the execution of setInterval 'just' before we leave this page
   } //When to Use: It's ideal for scenarios where a component needs to perform cleanup actions before it's removed from the DOM. This ensures your application doesn't hold onto unnecessary resources or leak memory, hence this method is useful for performing any necessary cleanup, such as invalidating timers, canceling network requests, or removing event listeners.
 
   // this render method will return some piece of jsx and that jsx eventually gets rendered on the screen
@@ -77,7 +91,7 @@ class UserClass extends React.Component { //'extends React.Component' will help 
   //ComponentDidMount method is executed/called after render method is done execution
   //ComponentDidMount = as the name suggests 'Component''Did''Mount', so this will be called after the component has been mounted onto the webpage (i.e after the render method has completed)
   //ComponentDidMount use case ~ why has React given componentDidMount to us? - there are some things that we do once the component has mounted successfully(i.e when render method is done execution), this is when componentDidMount is triggered/used to make API calls
-  //using componentDidMount in CBCs is much similar to using useEffect in FCs
+  //using componentDidMount in CBCs is much similar to using useEffect in FCs ---> But but but IMP disclaimer: Never ever compare React Lifecycle Methods of CBCs to Hooks we use in FCs
   
   // better or cleaner way to write render() ---> destructuring this.props
   render() {

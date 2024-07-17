@@ -43,6 +43,6 @@
 02:24:30 – Problem of Single Page Application
 02:30:00 – Senior Developer should know this
 02:32:00 – What will happen if we create setInterval inside useEffect
-02:36:30 – coding Profile.js 
+02:36:30 – coding Profile.js (unmounting in React using Hooks ~ using cleanup function from within useEffect)
 02:45:30 – Async in useEffect()
 ```

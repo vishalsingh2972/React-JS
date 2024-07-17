@@ -35,11 +35,12 @@ class UserClass extends React.Component { //'extends React.Component' will help 
         location: "default location"
       }
     }
-    // console.log(this.props.phone + ' Child Constructor')
+    console.log(this.props.phone + ' Child Constructor')
+    // console.log(this.state.userInfo)
   }
 
   async componentDidMount(){
-    // console.log(this.props.phone + ' Child componentDidMount method called')
+    console.log(this.props.phone + ' Child componentDidMount method called');
 
     //API call happens in componentDidMount after render method is called once (i.e initial render done) and then the fetched data is now used to change the state of the component typically via useState, this change in state will trigger a re-render so the render method is called once again, this time with the updated state and now the updated UI is gets displayed
     const data = await fetch("https://api.github.com/users/vishalsingh2972");
@@ -51,6 +52,14 @@ class UserClass extends React.Component { //'extends React.Component' will help 
       userInfo: json_data
     })
   }
+
+  componentDidUpdate(){
+    console.log('Child componentDidUpdate method called');
+  }
+
+  componentWillUnmount(){ //is called just before the component is unmounted and destroyed from the DOM tree, or in simply words here it typically happens when we navigate to a new page or route, or when a component is removed from the UI due to conditional rendering or other factors.
+    console.log('Child componentWillUnmount method called, component got unmounted successfully');
+  } //When to Use: It's ideal for scenarios where a component needs to perform cleanup actions before it's removed from the DOM. This ensures your application doesn't hold onto unnecessary resources or leak memory, hence this method is useful for performing any necessary cleanup, such as invalidating timers, canceling network requests, or removing event listeners.
 
   // this render method will return some piece of jsx and that jsx eventually gets rendered on the screen
   // so in short similar to functional based components, Class based component is a class which has a render method which returns some piece of jsx
@@ -72,14 +81,16 @@ class UserClass extends React.Component { //'extends React.Component' will help 
   
   // better or cleaner way to write render() ---> destructuring this.props
   render() {
-    // console.log('UserClass class/component rerendered');
+    //console.log('UserClass class/component rerendered');
+    // console.log(this.state.userInfo.name);
 
     const { phone, gender } = this.props;
     const { count, count2 } = this.state;
     const { name, location, html_url, avatar_url } = this.state.userInfo;
 
-    // console.log(this.props.phone + ' Child Render method')
+    console.log(this.props.phone + ' Child Render method')
 
+    // debugger;
     return <div className="user-card">
       {/* <h1>Count = {this.state.count}</h1> */}
       <h1>Count = {count}</h1>

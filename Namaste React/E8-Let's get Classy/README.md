@@ -8,7 +8,7 @@
   - componentDidUpdate() lifecycle method
   - componentWillUnmount() lifecycle method
 - [React Lifecycle Methods Diagram](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
-- Unmounting Components in React using Hooks ~ using cleanup function from within useEffect
+- Unmounting Components in React using Hooks ~ using cleanup function within useEffect
 - 
 
 >  Check out the ______________ of our Food Delivery app completed in this episode here : 

@@ -69,10 +69,9 @@ class UserClass extends React.Component { //'extends React.Component' will help 
   }
 
   componentWillUnmount(){ //is called just before the component is unmounted and destroyed from the DOM tree, or in simply words here it typically happens when we navigate to a new page or route, or when a component is removed from the UI due to conditional rendering or other factors. //as we saw in one of the examples where unnecessary/redundant setInterval and setTimeout left running in the background leading to performance degradation, hence componentWillUnmount is super super required to completely clean this mess properly
-    console.log('Child componentWillUnmount method called, component got unmounted successfully');
-
     //as we saw in our setInterval example for knowing the importance/use of componentWillUnmount
-    clearInterval(this.timer); // to stop the execution of setInterval 'just' before we leave this page
+    clearInterval(this.timer); // used here to completely stop the execution of setInterval 'just' before we leave this page
+    console.log('Child componentWillUnmount method called, component got unmounted successfully');
   } //When to Use: It's ideal for scenarios where a component needs to perform cleanup actions before it's removed from the DOM. This ensures your application doesn't hold onto unnecessary resources or leak memory, hence this method is useful for performing any necessary cleanup, such as invalidating timers, canceling network requests, or removing event listeners.
 
   // this render method will return some piece of jsx and that jsx eventually gets rendered on the screen
@@ -184,3 +183,5 @@ Parent componentDidMount method called
 
 DOM update count = 3 ~ very bad performance 🤢🤢🤢
 */
+
+//we use this.timer in CBCs (whereas we used 'const timer' in FCs) because here scope of this.timer is throughout the whole class hence here 'clearInterval(this.timer)' identifies this.timer and works whereas if like FCs you were to use 'const timer' here it would not work as 'clearInterval(timer)' would not be able to identify 'timer' as scope of 'timer' is limited whereas scope of this.timer is throughout the whole class

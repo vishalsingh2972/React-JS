@@ -16,4 +16,4 @@
     - Use `clearInterval` to fix the issue caused by the interval
 
 
-## Created a FoodFire App from scratch using React.js and Parcel.js 🚀 [Live Project App Link 😍](Add link here)
+## Created a Food App from scratch using React.js and Parcel.js 🚀 [Live Project App Link 😍](Add link here)

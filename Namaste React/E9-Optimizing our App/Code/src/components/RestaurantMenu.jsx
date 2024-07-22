@@ -10,6 +10,8 @@ const RestaurantMenu = () => {
   const {resId} = useParams(); //or simply const resId = useParams().resId;
   console.log(resId);
 
+  const custom_hook = useRestaurantMenu();
+
   useEffect(() => {
     fetchMenu();
   }, []);

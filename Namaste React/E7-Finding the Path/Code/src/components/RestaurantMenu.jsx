@@ -7,7 +7,7 @@ const RestaurantMenu = () => {
 
   const [restaurantInfo, setRestaurantInfo] = useState(null);
  
-  const {resId} = useParams(); //or simply const resId = useParams().resId;
+  const {resId} = useParams(); //or simply const resId = useParams().resId; //when the resId value in the URL changes, the useParams hook will detect the change and trigger a re-render of the RestaurantMenu component. 
   console.log(resId);
 
   useEffect(() => {

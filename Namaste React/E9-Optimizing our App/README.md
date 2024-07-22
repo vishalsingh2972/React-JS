@@ -1,6 +1,5 @@
 ## E9 - Topics covered in this session:
 
-- Single-responsibility principle (SRP)
 - Custom Hooks
 - Dynamic imports / Lazy Loading / Code Splitting
 - Optimization

@@ -24,3 +24,6 @@
 01:35:00 – Implementing Lazy Loading to other web pages
 01:36:00 – Interview Tips
 ```
+								NOTES
+
+- Single-responsibility principle (SRP) - makes our code more testable, more maintainable and more reusable. 

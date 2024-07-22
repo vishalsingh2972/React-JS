@@ -12,7 +12,7 @@ const RestaurantMenu = () => {
 
   useEffect(() => {
     fetchMenu();
-  }, []); //giving empty dependency array [] here as when we click the restaurant crad we want it to render only once when clicked
+  }, []); //giving empty dependency array [] here as when we click the restaurant card we want it to render only once when clicked
   
   const fetchMenu = async () => {
     

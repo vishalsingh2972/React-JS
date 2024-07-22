@@ -26,4 +26,4 @@
 ```
 								NOTES
 
-- Single-responsibility principle (SRP) - makes our code more testable, more maintainable and more reusable. 
+- Single-responsibility principle (SRP) - makes our code more testable, more maintainable and more reusable with the help of modularity.

@@ -2,6 +2,7 @@ import RestaurantCard from "./RestaurantCard";
 import { useState, useEffect } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
+import useOnlineStatus from "../utils/useOnlineStatus";
 
 const Body = () => {
   const [listOfRestaurants, setListOfRestaurants] = useState([]);
@@ -10,7 +11,7 @@ const Body = () => {
 
   const [searchText, setSearchText] = useState("");
   // Whenever state variables get updated (here 'listOfRestaurants' and 'searchText' are state variables), react triggers a reconciliation cycle i.e. react re-renders the component again
-  console.log("full body component got rendered again");
+  console.log("full body component got rendered again ✨");
 
   useEffect(() => {
     // console.log("useEffect called 3")
@@ -27,6 +28,13 @@ const Body = () => {
 
     setListOfRestaurants(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
     setFilteredRestaurant(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+  }
+
+  const onlineStatus = useOnlineStatus();
+  console.log(onlineStatus)
+
+  if(onlineStatus === false){
+    return <h1>Sorry, you are not connected to the network 😥</h1>
   }
 
   // ⬇️ Conditional Rendering ⬇️

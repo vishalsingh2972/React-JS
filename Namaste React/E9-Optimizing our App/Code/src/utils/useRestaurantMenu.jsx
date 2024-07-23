@@ -1,3 +1,4 @@
+//this hook fetches the restaurantInfo for each Restaurant card when we click on a particular Restaurant card
 import { useEffect, useState } from "react";
 import { MENU_API } from "../utils/constants";
 

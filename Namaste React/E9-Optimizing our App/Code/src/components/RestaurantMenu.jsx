@@ -1,16 +1,17 @@
-import { useEffect, useState } from "react"
 import Shimmer from "./Shimmer";
 import { useParams } from "react-router-dom";
 import useRestaurantMenu from "../utils/useRestaurantMenu";
 
+//initially RestaurantMenu was doing 2 jobs - fetching data and displaying data, now we want RestaurantMenu to just display the data and we are now giving the fetching logic/work to out custom hook useRestaurantMenu()
 const RestaurantMenu = () => {
 
-  // const [restaurantInfo, setRestaurantInfo] = useState(null); //redundant now as we are fetching data in the useRestaurantMenu hook now so we will use this same state variable in useRestaurantMenu.jsx hook now
+  // const [restaurantInfo, setRestaurantInfo] = useState(null); //so this will become redundant now as we are fetching data in the useRestaurantMenu hook now so we will use this same state variable in useRestaurantMenu.jsx hook now
  
   const {resId} = useParams(); //or simply const resId = useParams().resId;
 
-  //initially RestaurantMenu was doing 2 jobs - fetching data and displaying data, now we want RestaurantMenu to just display the data and we are now giving the fetching logic/work to out custom hook useRestaurantMenu()
+  //our custom hook - useRestaurantMenu()
   const restaurantInfo = useRestaurantMenu(resId);
+  console.log(restaurantInfo); //initially restaurantInfo value will be null
 
   if (restaurantInfo === null) return <Shimmer/>;
 

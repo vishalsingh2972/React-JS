@@ -8,6 +8,8 @@ import About from "./src/components/About";
 import Contact from "./src/components/Contact";
 import Error from "./src/components/Error";
 import RestaurantMenu from "./src/components/RestaurantMenu";
+import Loading from "./src/components/Loading";
+
 // import Grocery from "./src/components/GroceryApp/Grocery"; //importing Grocery in normal way where Grocery also gets included together with Food App bundle
 
 //Chunking / Code Splitting / Dynamic Bundling / Dynamic imports / Lazy Loading / On demand Loading - these are all different names for the same process and the process is to break down our app in smaller logical chunks
@@ -52,7 +54,7 @@ const appRouter = createBrowserRouter([
       {
         path: "/grocery",
         // element: <Grocery/> //normal loading when GroceryApp in same bundle
-        element: <Suspense fallback={<p>Loading...</p>}><Grocery2/></Suspense>, //lazy loading when GroceryApp is sent in a separate bundle //Loading... will be visible as fallback UI until <Grocery2/> gets fetched //By wrapping the <Grocery2/> component within a Suspense component with a fallback UI, you ensure a smooth user experience while the <Grocery2/> component is being fetched.
+        element: <Suspense fallback={<Loading/>}><Grocery2/></Suspense>, //lazy loading when GroceryApp is sent in a separate bundle
       },
       {
         path: "/restaurants/:resId", //":resId" will help us give a unique path to each restaurant, i.e. in this "/restaurants/:resId", ":resId" this part of the path is dynamic

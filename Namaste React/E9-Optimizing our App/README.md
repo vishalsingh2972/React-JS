@@ -1,6 +1,6 @@
 ## E9 - Topics covered in this session:
 
-- Custom Hooks
+- Custom Hooks (made useRestaurantMenu and useOnlineStatus hooks)
 - Optimization
 - Chunking / Code Splitting
 - Dynamic imports / Lazy Loading

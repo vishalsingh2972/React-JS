@@ -30,6 +30,7 @@ const Body = () => {
     setFilteredRestaurant(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
   }
 
+  //our custom hook #2 - useOnlineStatus() hook
   const onlineStatus = useOnlineStatus();
   console.log(onlineStatus)
 

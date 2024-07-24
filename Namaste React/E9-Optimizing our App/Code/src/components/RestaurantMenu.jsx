@@ -9,7 +9,7 @@ const RestaurantMenu = () => {
  
   const {resId} = useParams(); //or simply const resId = useParams().resId;
 
-  //our custom hook #1 - useRestaurantMenu()
+  //our custom hook #1 - useRestaurantMenu() hook
   const restaurantInfo = useRestaurantMenu(resId);
   console.log(restaurantInfo); //initially restaurantInfo value will be null
 

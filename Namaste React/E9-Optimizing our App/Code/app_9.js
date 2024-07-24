@@ -1,5 +1,5 @@
 //our Food Ordering App - SWIGATO
-import React, { lazy } from "react"; //lazy() function comes from "react" library present in node modules
+import React, { lazy, Suspense } from "react"; //lazy() function comes from "react" library present in node modules
 import ReactDOM from "react-dom/client";
 import Header from "./src/components/Header";
 import Body from "./src/components/Body";
@@ -17,7 +17,7 @@ import RestaurantMenu from "./src/components/RestaurantMenu";
 //How SPA(loads everything together) and Lazy Loading(loads as per requirement) Work Together
 
 //Lazy Loading GroceryApp (folder containing all grocery related components)
-const Grocery = lazy(() => import("./src/components/GroceryApp/Grocery")); //importing Grocery in a 'LAZY' way where Grocery will be sent to the browser as a separate bundle (and not gets included together with the Food App bundle)
+const Grocery2 = lazy(() => import("./src/components/GroceryApp/Grocery")); //importing Grocery in a 'LAZY' way where Grocery will be sent to the browser as a separate bundle (and not gets included together with the Food App bundle)
 
 const AppLayout = () => {
   return(
@@ -51,7 +51,8 @@ const appRouter = createBrowserRouter([
       },
       {
         path: "/grocery",
-        element: <Grocery/>,
+        // element: <Grocery/> //normal loading when GroceryApp in same bundle
+        element: <Suspense fallback={<p>Loading...</p>}><Grocery2/></Suspense>, //lazy loading when GroceryApp is sent in a separate bundle //Loading... will be visible as fallback UI until <Grocery2/> gets fetched //By wrapping the <Grocery2/> component within a Suspense component with a fallback UI, you ensure a smooth user experience while the <Grocery2/> component is being fetched.
       },
       {
         path: "/restaurants/:resId", //":resId" will help us give a unique path to each restaurant, i.e. in this "/restaurants/:resId", ":resId" this part of the path is dynamic

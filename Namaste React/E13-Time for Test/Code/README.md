@@ -1,4 +1,4 @@
-## Episode 12 – Time for Test
+## Episode 13 – Time for Test
 
 **Detailed Mention of Topics and its Timestamps according to Namaste React Web Series**
 

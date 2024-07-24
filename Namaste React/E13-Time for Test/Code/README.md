@@ -4,6 +4,7 @@
 
 ```sh
 ### Part - 1
+
 - 00:00 to 08:30 – Scope of Testing and its importance
 - 09:00 – Types of Testing
 - 16:50 – React Testing Library

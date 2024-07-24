@@ -1,4 +1,5 @@
 //this hook checks the internet connection and tells the user in the UI if Internet goes off
+//Any component that uses the useOnlineStatus hook will re-render due to the state change - in our case Body and Header component are getting re-rendered when internet goes on/off
 import { useEffect, useState } from "react";
 
 const useOnlineStatus = () => {

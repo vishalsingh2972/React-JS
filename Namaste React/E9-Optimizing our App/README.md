@@ -1,8 +1,9 @@
 ## E9 - Topics covered in this session:
 
 - Custom Hooks
-- Dynamic imports / Lazy Loading / Code Splitting
 - Optimization
+- Chunking / Code Splitting
+- Dynamic imports / Lazy Loading
 - Suspense Component
 - 
 

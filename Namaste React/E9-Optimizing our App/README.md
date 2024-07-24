@@ -2,7 +2,7 @@
 
 - Custom Hooks (made useRestaurantMenu and useOnlineStatus hooks)
 - Optimization
-- Chunking / Code Splitting / Dynamic Bundling (Dynamic imports) / Lazy Loading
+- Chunking / Code Splitting / Dynamic Bundling / Dynamic imports / Lazy Loading / On demand Loading
 - Suspense Component
 - 
 

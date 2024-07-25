@@ -2,7 +2,7 @@
 # Chapter 09 - Optimizing our App
 
 
-## Coding Assignment:
+## Coding Assignment: (done✅✅✅)
 - Create your `custom hooks`.
 - Try out `lazy and suspense`
 - Make your `code clean`.

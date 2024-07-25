@@ -2,7 +2,7 @@
 # Chapter 08 - Let's get Classy
 
 
-## Coding Assignment:
+## Coding Assignment: (done✅✅✅)
 - Create `Class Based` Component.
     - Create 2 `class-based child components`.
     - `Pass props` from `Parent to child`.

@@ -2,8 +2,8 @@
 # Chapter 10 - Jo Dikhta Hai, Vo Bikta Hai
 
 
-## Coding Assignment:
-- `Configure` Tailwind and try to `build` your whole app using tailwind. (done✅✅✅)
+## Coding Assignment: (done✅✅✅)
+- `Configure` Tailwind and try to `build` your whole app using tailwind.
 
 
 ## References:

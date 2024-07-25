@@ -1,6 +1,8 @@
+## Namaste React Course by Akshay Saini
 # Chapter 10 - Jo Dikta hai, vo bikta hai
 
-### Q: Explore all the ways of writing CSS.
+
+## Q: Explore all the ways of writing CSS.
 A: 
 ### Using CSS - CSS can be added to HTML documents in 3 ways:
 
@@ -60,7 +62,7 @@ p {
 
 ---
 
-### Q: How do we configure `tailwindcss`?
+## Q: How do we configure `tailwindcss`?
 A: Configuring Tailwind CSS involves a few simple steps. Tailwind CSS is often configured using a configuration file where you can customize various settings, such as colors, fonts, breakpoints, and more. Here's a step-by-step guide:
 
 ### Step 1: Create a new project (if not already done)
@@ -135,7 +137,7 @@ That's it! We've successfully configured and started using Tailwind CSS in your 
 
 ---
 
-### Q: In `tailwind.config.js`, what does all the keys mean (content, theme, extend, plugins)?
+## Q: In `tailwind.config.js`, what does all the keys mean (content, theme, extend, plugins)?
 A: In tailwind.config.js, the various keys serve different purposes and allow you to customize and configure different aspects of Tailwind CSS. Here's an overview of what each key typically represents:
 
 ### 1. content Key:
@@ -212,7 +214,7 @@ These keys provide a flexible and powerful way to configure Tailwind CSS based o
 
 ---
 
-### Q: Why do we have `.postcssrc` file?
+## Q: Why do we have `.postcssrc` file?
 A: The `.postcssrc` file, often named postcss.config.js, is a configuration file for PostCSS. PostCSS is a tool for transforming styles with JavaScript plugins, and it is commonly used in conjunction with build tools like webpack or parcel for processing and optimizing CSS.
 
 Here are the primary reasons why you might have a .postcssrc file:

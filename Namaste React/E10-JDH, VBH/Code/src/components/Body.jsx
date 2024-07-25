@@ -44,10 +44,10 @@ const Body = () => {
     <div className="body">
       {/* {  console.log("Body rendered 2") } */}
       <div className="filter">
-        <div className="search">
+        <div className="search m-4 p-4">
           <input 
             type="text" 
-            className="search-box" 
+            className="border border-solid border-black" 
             placeholder="Search a restaurant" 
             value={searchText} 
             onChange={(event) => {
@@ -55,7 +55,7 @@ const Body = () => {
               // console.log(event.target.value)
             }}
           />
-          <button 
+          <button className="px-4 py-2 bg-orange-400 m-4 rounded-full"
             onClick={() => {
               // Filter the restaurant cards and update the UI accordingly
               // console.log(searchText);
@@ -87,7 +87,7 @@ const Body = () => {
         </button> */}
 
       </div>
-      <div className="res-container">
+      <div className="flex flex-wrap">
         {
           filteredRestaurant?.map((restaurant, index) => (
             <Link to={`/restaurants/${restaurant.info.id}`} key={restaurant.info.id}>

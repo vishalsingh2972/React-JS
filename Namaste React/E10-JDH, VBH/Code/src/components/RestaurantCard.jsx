@@ -6,13 +6,13 @@ const RestaurantCard = (props) => {
   //?. optional chaining stops if value is null and avoids further errors
 
   return(
-    <div className="res-card" style={{backgroundColor: "#f0f0f0"}}>
+    <div className="m-4 p-4 w-[250px] rounded-xl bg-gray-200 hover:bg-gray-400">
       <img
-        className="res_logo"
+        className="rounded-3xl"
         alt="res_food_image"
         src={CDN_URL+cloudinaryImageId}
       />
-      <h3>{name}</h3>
+      <h3 className="font-bold py-4 text-lg">{name}</h3>
       <h4>{cuisines.join(", ")}</h4>
       <h4>{avgRatingString} ⭐</h4>
       <h4>{costForTwo}</h4>

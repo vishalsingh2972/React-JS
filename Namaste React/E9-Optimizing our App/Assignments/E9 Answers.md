@@ -104,11 +104,12 @@ To understand this error and how to fix it, you need to know a bit about how Sus
 
 The error message you received is telling you that a component that was responding to synchronous input (meaning it's not supposed to be waiting for anything) encountered a suspension. This should not happen because Suspense is primarily designed to handle asynchronous operations, and you generally don't want to introduce delays in the rendering of synchronous user interactions.
 
+```
 Without `<Suspense>`:
 
 If you try to load a component or fetch data asynchronously without using `<Suspense>`, and the data isn't available yet, React might not handle the delay gracefully.
-
 This can result in showing an error or a default error page because React doesn't know how to manage the incomplete state. Essentially, the UI might display a generic error(in our case the Error.jsx data gets displayed) or just not render as expected.
+```
 
 Here's how to fix this error:
 The error message you provided, "A component was suspended while responding to synchronous input. This will cause the UI to be replaced with a loading indicator. To fix this, updates that suspend should be wrapped with start transition," is related to React's Suspense feature and is typically encountered in asynchronous contexts where components are fetching data or handling code splitting.
@@ -149,11 +150,13 @@ In this example, the AsyncComponent is loaded asynchronously, and it is wrapped 
 
 Suspense helps in maintaining a smooth and responsive user experience by handling asynchronous operations gracefully and ensuring that synchronous interactions are not interrupted by loading indicators.
 
+```
 With `<Suspense>`:
 
 When you wrap your component with `<Suspense>`, you can specify a fallback UI (like a loading spinner or message) to show while the data or component is being fetched.
 
 If the component suspends (is waiting for data), `<Suspense>` will display the fallback UI until the data is available. This prevents the UI from showing a default error page and provides a smoother user experience.
+```
 
 ---
 

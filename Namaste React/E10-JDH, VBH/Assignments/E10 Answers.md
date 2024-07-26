@@ -135,6 +135,11 @@ npm run build or npm start
 
 That's it! We've successfully configured and started using Tailwind CSS in your project. Remember to consult the official documentation for more detailed information and advanced configurations.
 
+
+https://tailwindcss.com/docs/installation/framework-guides -  follow this link for step by step procedure for configuring Tailwind
+
+In our project as we were using parcel as bundler we followed this procedure for configuring Tailwind - https://tailwindcss.com/docs/guides/parcel
+
 ---
 
 ## Q: In `tailwind.config.js`, what does all the keys mean (content, theme, extend, plugins)?
@@ -154,6 +159,8 @@ module.exports = {
 };
 ```
 The content key helps Tailwind CSS identify which files to process and extract utility classes from. It is particularly useful when working with frameworks like React or Vue.
+
+The content property in your tailwind.config.js file essentially tells Tailwind CSS where to look for the classes you're using in your project, basically like in the above example telling tailwind that we will be using tailwind in all the files ending with .html and .js.
 
 ### 2. theme Key:
 
@@ -194,6 +201,38 @@ module.exports = {
 };
 ```
 The extend key is often used to add new styles or extend existing ones. It is especially useful for adding project-specific utility classes or modifying existing ones.
+
+Why Use extend in Tailwind Config, can't we just keep adding/changing properties in 'theme' itself....
+It might seem counterintuitive to use an extend property when you can directly modify the theme object.
+
+However, the extend property serves a crucial purpose:
+Preserving Default Values: By using extend, you can add new values to an existing theme property without overwriting the entire default value.
+Maintainability: This approach makes it easier to manage your theme and revert changes if needed. You can selectively modify specific parts of the theme without affecting the entire configuration.
+Extensibility: It allows you to build upon the default theme while maintaining compatibility with future Tailwind updates.
+
+Eg:
+```
+module.exports = {
+  theme: {
+    extend: {
+      colors: {
+        primary: '#3182ce',
+        secondary: '#f0f0f0',
+      },
+      spacing: {
+        '128': '32rem',
+      },
+    },
+  },
+};
+```
+In this example:
+We're adding two new colors to the colors palette.
+We're adding a new spacing value of 128 pixels.
+The default colors and spacing values from Tailwind remain intact.
+Without using extend, you would completely replace the entire colors or spacing object, potentially losing the default values.
+
+By using extend, you can selectively modify the theme while preserving the original values, making your theme configuration more flexible and maintainable.
 
 ### 4. plugins Key:
 
@@ -259,5 +298,13 @@ In this example, the .postcssrc file configures three PostCSS plugins: autoprefi
 
 Remember that the specific configuration options and plugins you include in your .postcssrc file will depend on your project's requirements and the PostCSS features we want to leverage.
 
-start
+PostCSS is the essential bridge between Tailwind CSS and your React application. It ensures that the styles defined in Tailwind are correctly interpreted and applied to your components.
+Hence, PostCSS acts like a bridge between Tailwind CSS and the browser, enabling the use of Tailwind within your React application, in short for React to understand and implement our Tailwind CSS into the browser we need PostCSS.
+
+In our example in .postcss file - 
+"{
+ "plugins": {
+  "tailwindcss": {}
+ }
+}" this inside .postcss file means that we are telling/instructing postcss to allow tailwind css that we will be writing and implement it properly so that the react application and broswers can understand and implement it in the frontend UI
 ---

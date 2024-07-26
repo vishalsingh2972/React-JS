@@ -39,20 +39,25 @@ export default App;
 
 In this example, the `LazyComponent` is only loaded when it is rendered. The `Suspense` component allows us to specify a loading indicator while the component is being loaded. This way, we can ensure a smooth user experience even during the asynchronous loading process.
 
-In summary, we need to use lazy() when we want to optimize the performance and user experience of our React application by reducing the initial bundle size and deferring the loading of components until they are needed. This is particularly beneficial in large applications or when targeting slower connections and devices.
+In summary, we need to use lazy() when we want to optimize the performance and user experience of our React application by reducing the initial bundle size and deferring the loading of components until they are needed. This is particularly beneficial in large applications or when targeting slower connections and devices. Lazy loading is a powerful technique to improve the initial load time of your React application. By splitting your code into smaller bundles, and you can load the other components by calling their corresponding bundles separately only when they are needed.
 
+In our example we did Lazy Loading for the GroceryApp (folder containing all grocery related components), so that everything else comes in 1 bundle and all 'GroceryApp' related data comes as a separate independent bundle only and only when required i.e only when 'Grocery' button on the header is clicked.
+ 
 ---
 
 ## Q: What is `suspense`?
-A: In React, `Suspense` is a feature that allows us to declaratively manage asynchronous data fetching and code-splitting in our applications. It is primarily used in combination with the lazy() function for dynamic imports and with the React.lazy() component to improve the user experience when loading data or components asynchronously.
+A: In short, Suspense is a React feature that allows you to gracefully handle asynchronous operations like data fetching or code splitting. It helps you create a better user experience by displaying a fallback UI while the data is being loaded.
+
+In React, `Suspense` is a feature that allows us to declaratively manage asynchronous data fetching and code-splitting in our applications. It is primarily used in combination with the lazy() function for dynamic imports and with the React.lazy() component to improve the user experience when loading data or components asynchronously.
 
 Here are the main aspects and use cases of Suspense:
 
-`Data Fetching` - Suspense can be used to handle the loading of asynchronous data, such as data from an API. It provides a way to specify a fallback UI (e.g., a loading spinner or a message) that is displayed while the data is being fetched. This is especially useful for making our application more user-friendly and responsive.
+`Data Fetching` - Suspense can be used to handle the loading of asynchronous data, such as data from an API. It provides a way to specify a fallback UI (e.g., a loading spinner or a 'Loading...' text message) that is displayed while the data is being fetched. This is especially useful for making our application more user-friendly and responsive.
 
 `Code Splitting` - When used with lazy() or React.lazy(), Suspense can manage the loading of code-split components. We can specify a fallback component or loading indicator to display while the component is being loaded. This helps in reducing the initial bundle size and improving the application's performance.
 
 `Error Handling` - Suspense can also handle errors that might occur during data fetching or code splitting. We can specify how to render an error component or message in case an error occurs during the asynchronous operation.
+Error Handling with Suspense: Suspense allows you to manage these potential errors gracefully. If something goes wrong while fetching data or loading a component, Suspense can show an error message or an error component instead of just crashing the app or leaving the user with a blank screen.
 
 Here's a basic example of using Suspense for data fetching:
 
@@ -99,9 +104,11 @@ To understand this error and how to fix it, you need to know a bit about how Sus
 
 The error message you received is telling you that a component that was responding to synchronous input (meaning it's not supposed to be waiting for anything) encountered a suspension. This should not happen because Suspense is primarily designed to handle asynchronous operations, and you generally don't want to introduce delays in the rendering of synchronous user interactions.
 
+Without <Suspense>:
+If you try to load a component or fetch data asynchronously without using <Suspense>, and the data isn't available yet, React might not handle the delay gracefully.
+This can result in showing an error or a default error page because React doesn't know how to manage the incomplete state. Essentially, the UI might display a generic error(in our case the Error.jsx data gets displayed) or just not render as expected.
+
 Here's how to fix this error:
-
-
 The error message you provided, "A component was suspended while responding to synchronous input. This will cause the UI to be replaced with a loading indicator. To fix this, updates that suspend should be wrapped with start transition," is related to React's Suspense feature and is typically encountered in asynchronous contexts where components are fetching data or handling code splitting.
 
 To understand this error and how to fix it, you need to know a bit about how Suspense works and why it's important. Suspense is used to manage asynchronous data fetching and code-splitting, allowing you to display a loading indicator while the data or code is being fetched. When React encounters a Suspense boundary (created using <Suspense>), it knows that there might be a delay in rendering, and it can handle that situation gracefully.
@@ -139,6 +146,10 @@ export default App;
 In this example, the AsyncComponent is loaded asynchronously, and it is wrapped within a <Suspense> boundary. The fallback attribute specifies what to display while the component is loading. The rest of the application, which is synchronous, doesn't get affected and will continue to respond to user input without unnecessary delays.
 
 Suspense helps in maintaining a smooth and responsive user experience by handling asynchronous operations gracefully and ensuring that synchronous interactions are not interrupted by loading indicators.
+
+With <Suspense>:
+When you wrap your component with <Suspense>, you can specify a fallback UI (like a loading spinner or message) to show while the data or component is being fetched.
+If the component suspends (is waiting for data), <Suspense> will display the fallback UI until the data is available. This prevents the UI from showing a default error page and provides a smoother user experience.
 
 ---
 

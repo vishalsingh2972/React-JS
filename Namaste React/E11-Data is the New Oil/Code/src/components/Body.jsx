@@ -92,15 +92,15 @@ const Body = () => {
         {
           filteredRestaurant?.map((restaurant, index) => (
             <Link to={`/restaurants/${restaurant.info.id}`} key={restaurant.info.id}>
-              {console.log(restaurant?.info)}
-
+              
               {/* Implementing HOCs : If the restaurant has isOpen:true, add a 'OpenNow' label to the restaurant card */}
-              {/* {restaurant.info.isOpen ? (<RestaurantCardOpenNow resData={restaurant}/>) : (<RestaurantCard resData={restaurant}/>)} */}
-
-              {/* {
-                restaurant.info.isOpen ? (
+              {restaurant.info?.isOpen ? (<RestaurantCardOpenNow resData={restaurant}/>) : (<RestaurantCard resData={restaurant}/>)}
+              
+              {/* (OTHER WAY TRIED)
+              {
+                restaurant.info?.isOpen ? (
                   <>
-                    <label>Open Now</label>
+                    <label>Open Now2</label>
                     <RestaurantCard resData={restaurant} />
                   </>
                 ) : (

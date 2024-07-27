@@ -20,4 +20,20 @@ const RestaurantCard = (props) => {
     </div>
   )
 }
+
+//Higher Order Component: which will take the above RestaurantCard component as input and add a 'OpenNow' label if it has isOpen:true and then return a enhanced RestaurantCard component with 'OpenNow' label
+//RestaurantCard with OpenNowLabel
+// export const withOpenNowLabel = (RestaurantCard) => {
+//   return (props) => { //return back a component //component being returned start from (props) => {....
+
+//     //component is again some piece of jsx that returns something
+//     return(
+//       <div>
+//         <label>OpenNow</label>
+//         <RestaurantCard {...props}/>
+//       </div>
+//     )
+//   } //component being returned end
+// }
+
 export default RestaurantCard

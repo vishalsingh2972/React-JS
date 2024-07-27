@@ -1,4 +1,4 @@
-import RestaurantCard from "./RestaurantCard";
+import RestaurantCard, { withOpenNowLabel } from "./RestaurantCard";
 import { useState, useEffect } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
@@ -6,12 +6,13 @@ import useOnlineStatus from "../utils/useOnlineStatus";
 
 const Body = () => {
   const [listOfRestaurants, setListOfRestaurants] = useState([]);
-  //console.log({listOfRestaurants})
   const [filteredRestaurant, setFilteredRestaurant] = useState([]);
 
   const [searchText, setSearchText] = useState("");
   // Whenever state variables get updated (here 'listOfRestaurants' and 'searchText' are state variables), react triggers a reconciliation cycle i.e. react re-renders the component again
-  console.log("full body component got rendered again ✨");
+  console.log("full body component got rendered again ✨", listOfRestaurants);
+
+  const RestaurantCardOpenNow = withOpenNowLabel(RestaurantCard);
 
   useEffect(() => {
     // console.log("useEffect called 3")
@@ -40,7 +41,7 @@ const Body = () => {
 
   // ⬇️ Conditional Rendering ⬇️
   // console.log("Body rendered 1");
-  return( listOfRestaurants.length === 0 ? (<Shimmer/>) : (
+  return( listOfRestaurants?.length === 0 ? (<Shimmer/>) : (
     <div className="body">
       {/* {  console.log("Body rendered 2") } */}
       <div className="filter">
@@ -91,8 +92,21 @@ const Body = () => {
         {
           filteredRestaurant?.map((restaurant, index) => (
             <Link to={`/restaurants/${restaurant.info.id}`} key={restaurant.info.id}>
-              {/* {console.log(restaurant.info)} */}
-              <RestaurantCard resData={restaurant}/>
+              {console.log(restaurant?.info)}
+
+              {/* Implementing HOCs : If the restaurant has isOpen:true, add a 'OpenNow' label to the restaurant card */}
+              {/* {restaurant.info.isOpen ? (<RestaurantCardOpenNow resData={restaurant}/>) : (<RestaurantCard resData={restaurant}/>)} */}
+
+              {/* {
+                restaurant.info.isOpen ? (
+                  <>
+                    <label>Open Now</label>
+                    <RestaurantCard resData={restaurant} />
+                  </>
+                ) : (
+                  <RestaurantCard resData={restaurant} />
+                )
+              } */}
             </Link>        
           ))
         }

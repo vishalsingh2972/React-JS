@@ -95,8 +95,8 @@ const Body = () => {
               
               {/* Implementing HOCs : If the restaurant has isOpen:true, add a 'OpenNow' label to the restaurant card */}
               {restaurant.info?.isOpen ? (<RestaurantCardOpenNow resData={restaurant}/>) : (<RestaurantCard resData={restaurant}/>)}
-              
-              {/* (OTHER WAY TRIED)
+
+              {/* EXTRA (TRIED OTHER WAY - Open Now Label)
               {
                 restaurant.info?.isOpen ? (
                   <>

@@ -17,7 +17,7 @@
 - 23:06 – Controlled & uncontrolled component
 - 23:14 – Lifting the state up
 - 23:30 – Importance of React applications discussed (UI Layer & Data Layer)
-- 25:50- Difference between a junior engineer & a senior
+- 25:50 – Difference between a junior engineer & a senior
 - 32:05 – The correct data to be rendered on the page.
 - 33:00 – Usage of filter() function
 - 37:10 to 42:00 – Building Accordion and making it look cooler using Tailwind CSS

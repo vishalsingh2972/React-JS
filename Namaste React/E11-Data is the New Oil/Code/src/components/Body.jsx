@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
-import { RESTAURANTS_API } from "../utils/constants";
+import { RESTAURANTS_API, RESTAURANTS_API2 } from "../utils/constants";
 
 const Body = () => {
   const [listOfRestaurants, setListOfRestaurants] = useState([]);
@@ -11,7 +11,7 @@ const Body = () => {
 
   const [searchText, setSearchText] = useState("");
   // Whenever state variables get updated (here 'listOfRestaurants' and 'searchText' are state variables), react triggers a reconciliation cycle i.e. react re-renders the component again
-  console.log("full body component got rendered again ✨", listOfRestaurants);
+  // console.log("full body component got rendered again ✨", listOfRestaurants);
 
   const RestaurantCardOpenNow = withOpenNowLabel(RestaurantCard);
 
@@ -22,8 +22,8 @@ const Body = () => {
 
   const fetchData = async () => {
     const data = await fetch(
-      "https://www.swiggy.com/dapi/restaurants/list/v5?lat=19.0759837&lng=72.8776559&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
-      //RESTAURANTS_API
+      RESTAURANTS_API
+      //RESTAURANTS_API2
     );
     
     const json = await data.json();
@@ -35,7 +35,7 @@ const Body = () => {
 
   //our custom hook #2 - useOnlineStatus() hook
   const onlineStatus = useOnlineStatus();
-  console.log(onlineStatus)
+  // console.log(onlineStatus)
 
   if(onlineStatus === false){
     return <h1>Sorry, you are not connected to the network 😥</h1>
@@ -97,18 +97,6 @@ const Body = () => {
 
               {/* Implementing HOCs : If the restaurant has isOpen:true, add a 'OpenNow' label to the restaurant card */}
               {restaurant.info?.veg ? (<RestaurantCardOpenNow resData={restaurant}/>) : (<RestaurantCard resData={restaurant}/>)}
-
-              {/* EXTRA (TRIED OTHER WAY - Open Now Label)
-              {
-                restaurant.info?.veg ? (
-                  <>
-                    <label>Open Now2</label>
-                    <RestaurantCard resData={restaurant} />
-                  </>
-                ) : (
-                  <RestaurantCard resData={restaurant} />
-                )
-              } */}
             </Link>        
           ))
         }

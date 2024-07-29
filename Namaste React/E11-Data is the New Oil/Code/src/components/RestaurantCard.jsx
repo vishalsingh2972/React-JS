@@ -2,7 +2,7 @@ import { CDN_URL } from "../utils/constants"
 
 const RestaurantCard = (props) => {
   const{ resData } = props;
-  const {cloudinaryImageId, name, cuisines, avgRatingString, costForTwo} = resData?.info; //here 1️⃣'const { cloudinaryImageId } = resData?.data;' is same as 2️⃣'const cloudinaryImageId = resData.info.cloudinaryImageId' but with optional chaining ?., basically 1️⃣ is 2️⃣ with optional chaining ?. //similarly for these as well ---> name, cuisines, avgRatingString, costForTwo
+  const {cloudinaryImageId, name, cuisines, avgRatingString, costForTwo} = resData?.info; //here 1️⃣'const { cloudinaryImageId } = resData?.info;' is same as 2️⃣'const cloudinaryImageId = resData.info.cloudinaryImageId' but with optional chaining ?., basically 1️⃣ is 2️⃣ with optional chaining ?. //similarly for these as well ---> name, cuisines, avgRatingString, costForTwo
   //?. optional chaining stops if value is null and avoids further errors
 
   return(
@@ -26,7 +26,9 @@ const RestaurantCard = (props) => {
 export const withOpenNowLabel = (RestaurantCard) => {
   return (props) => { //return back a component //component being returned start from (props) => {....
 
-    console.log(props);//❌❌❌ need to check
+    //console.log(props);
+    // console.log(RestaurantCard);
+
     //component is again some piece of jsx that returns something
     return(
       <div>

@@ -30,7 +30,7 @@ export const withOpenNowLabel = (RestaurantCard) => {
     //component is again some piece of jsx that returns something
     return(
       <div>
-        <label>PureVeg💚</label>
+        <label className="absolute bg-green-800 text-white m-2 p-2 rounded-lg">PureVeg💚</label>
         <RestaurantCard {...props}/>
       </div>
     )

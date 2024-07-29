@@ -162,7 +162,8 @@ DOM update count = 1 only ~ much better performance 🕺🕺🕺 (as updating th
 */
 /*
 //❌ UnOptimised approach, Bad Performance ❌
-📌 Parent Render Phase Parent Constructor 
+📌 Parent Render Phase 
+Parent Constructor 
 Parent Render method 
 
 📌 First Child Render and Commit Phase 

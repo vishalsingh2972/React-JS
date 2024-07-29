@@ -26,7 +26,7 @@ const RestaurantCard = (props) => {
 export const withOpenNowLabel = (RestaurantCard) => {
   return (props) => { //return back a component //component being returned start from (props) => {....
 
-    console.log(props);❌❌❌ need to check
+    console.log(props);//❌❌❌ need to check
     //component is again some piece of jsx that returns something
     return(
       <div>

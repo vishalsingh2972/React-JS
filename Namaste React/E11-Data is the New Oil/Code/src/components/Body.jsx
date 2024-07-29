@@ -100,7 +100,7 @@ const Body = () => {
 
               {/* EXTRA (TRIED OTHER WAY - Open Now Label)
               {
-                restaurant.info?.isOpen ? (
+                restaurant.info?.veg ? (
                   <>
                     <label>Open Now2</label>
                     <RestaurantCard resData={restaurant} />

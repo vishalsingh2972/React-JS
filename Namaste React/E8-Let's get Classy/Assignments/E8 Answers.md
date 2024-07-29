@@ -67,7 +67,7 @@ For more reference [React-Lifecycle-methods-Diagram](https://projects.wojtekmaj.
 
 ## Q: Why do we use `componentDidMount`?
 A: The `componentDidMount()` method allows us to execute the React code when the component is already placed in the DOM (Document Object Model). This method is called during the Mounting phase of the React Life-cycle i.e after the component is rendered.
-We can run any piece of react code to modify the components. For ex. It's the best place to `make API calls`.
+We can run any piece of react code to modify the components. For ex. It's the best place to `make API calls`. (in scenarios where the basic initial structure of the UI is shown to the end user(after first initial render done) and then later simulataneously on the side fetching data happens via making API calls to populate the component with some data, this aspect is done using or handled by the componentDidMount). Hence in short componentDidMount is a crucial lifecycle method in React class components that allows you to perform actions once the component has been fully rendered and inserted into the DOM.
 
 
 ## Q: Why do we use `componentWillUnmount`? Show with example.

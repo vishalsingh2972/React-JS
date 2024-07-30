@@ -40,7 +40,7 @@ export const withOpenNowLabel2 = (RestaurantCard) => {
   return (props) => {
     return(
       <div>
-        <label className="absolute bg-red-400 text-white m-2 p-2 rounded-lg">NonVeg😈</label>
+        <label className="absolute bg-red-500 text-white m-2 p-2 rounded-lg">NonVeg😈</label>
         <RestaurantCard {...props}/> {/* '...' spread operator in props */}
       </div>
     )

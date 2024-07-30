@@ -45,10 +45,19 @@ export const withNonVegLabel = (RestaurantCard) => {
     return(
       <div>
         <label className="absolute bg-red-500 text-white m-2 p-2 rounded-lg">NonVeg😈</label>
-        <RestaurantCard {...props}/> {/* '...' spread operator in props */}
+        <RestaurantCard {...props}/> {/* '...' spread operator in props, so HOCs will pass in all the props as it is to RestaurantCard as it recieved it in 'return (props) => {return(.....' because HOcs are "pure functions" */}
+                                     
+{/* (EXTRA)The spread operator {...props} is crucial in ensuring that all the original props are passed through the HOC to the wrapped RestaurantCard component. This maintains the core functionality of the original component while adding the desired enhancements provided by the HOC.
+Key points to remember:
+- HOCs are pure functions that don't modify the original component.
+- The spread operator preserves the original props.
+- This approach promotes code reusability and component composition. */}
       </div>
     )
   }
 }
 
 export default RestaurantCard
+
+//Higher-Order Components (HOCs) are indeed "pure functions" that add extra functionality or modify behavior without changing/modifying the original component itself. They essentially wrap the original component with additional logic or UI enhancements.
+//See here as well HOC 'withVegLabel' or HOC 'withNonVegLabel' are not causing any change inside the <RestaurantCard/> component, they are just adding additional features/UI on top of the <RestaurantCard/> component like 'PureVeg' and 'NonVeg' labels (for HOC 'withVegLabel' and HOC 'withNonVegLabel' respectively) in this case

@@ -1,6 +1,7 @@
 import { CDN_URL } from "../utils/constants"
 
 const RestaurantCard = (props) => {
+  // console.log(props)
   const{ resData } = props;
   const {cloudinaryImageId, name, cuisines, avgRatingString, costForTwo} = resData?.info; //here 1️⃣'const { cloudinaryImageId } = resData?.info;' is same as 2️⃣'const cloudinaryImageId = resData.info.cloudinaryImageId' but with optional chaining ?., basically 1️⃣ is 2️⃣ with optional chaining ?. //similarly for these as well ---> name, cuisines, avgRatingString, costForTwo
   //?. optional chaining stops if value is null and avoids further errors
@@ -25,15 +26,22 @@ const RestaurantCard = (props) => {
 //RestaurantCard with OpenNowLabel
 export const withOpenNowLabel = (RestaurantCard) => {
   return (props) => {
-    
-    //console.log(props);
-    // console.log(RestaurantCard);
-
-    //component is again some piece of jsx that returns something
+    // console.log(props);
     return(
       <div>
         <label className="absolute bg-green-800 text-white m-2 p-2 rounded-lg">PureVeg💚</label>
-        <RestaurantCard {...props}/>
+        <RestaurantCard {...props}/> {/* '...' spread operator in props */}
+      </div>
+    )
+  }
+}
+
+export const withOpenNowLabel2 = (RestaurantCard) => {
+  return (props) => {
+    return(
+      <div>
+        <label className="absolute bg-red-400 text-white m-2 p-2 rounded-lg">NonVeg😈</label>
+        <RestaurantCard {...props}/> {/* '...' spread operator in props */}
       </div>
     )
   }

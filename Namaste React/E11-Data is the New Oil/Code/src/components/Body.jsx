@@ -1,4 +1,4 @@
-import RestaurantCard, { withOpenNowLabel } from "./RestaurantCard";
+import RestaurantCard, { withOpenNowLabel, withOpenNowLabel2 } from "./RestaurantCard";
 import { useState, useEffect } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
@@ -13,7 +13,8 @@ const Body = () => {
   // Whenever state variables get updated (here 'listOfRestaurants' and 'searchText' are state variables), react triggers a reconciliation cycle i.e. react re-renders the component again
   // console.log("full body component got rendered again ✨", listOfRestaurants);
 
-  const RestaurantCardOpenNow = withOpenNowLabel(RestaurantCard);
+  const RestaurantCard_PureVeg = withOpenNowLabel(RestaurantCard);
+  const RestaurantCard_NonVeg = withOpenNowLabel2(RestaurantCard);
 
   useEffect(() => {
     // console.log("useEffect called 3")
@@ -27,7 +28,7 @@ const Body = () => {
     );
     
     const json = await data.json();
-    // console.log(json.data.cards[1].card.card.gridElements.infoWithStyle.restaurants);
+    // console.log(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
 
     setListOfRestaurants(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
     setFilteredRestaurant(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
@@ -94,9 +95,11 @@ const Body = () => {
         {
           filteredRestaurant?.map((restaurant, index) => (
             <Link to={`/restaurants/${restaurant.info.id}`} key={restaurant.info.id}>
+              {/* {console.log(index, restaurant)} */}
+              {/* <RestaurantCard resData={restaurant}/> */}
 
               {/* Implementing HOCs : If the restaurant has isOpen:true, add a 'OpenNow' label to the restaurant card */}
-              {restaurant.info?.veg ? (<RestaurantCardOpenNow resData={restaurant}/>) : (<RestaurantCard resData={restaurant}/>)}
+              {restaurant.info?.veg ? (<RestaurantCard_PureVeg resData={restaurant}/>) : (<RestaurantCard_NonVeg resData={restaurant}/>)}
             </Link>        
           ))
         }

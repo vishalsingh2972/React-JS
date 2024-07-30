@@ -1,4 +1,4 @@
-import RestaurantCard, { withOpenNowLabel, withOpenNowLabel2 } from "./RestaurantCard";
+import RestaurantCard, { withVegLabel, withNonVegLabel } from "./RestaurantCard";
 import { useState, useEffect } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
@@ -13,8 +13,8 @@ const Body = () => {
   // Whenever state variables get updated (here 'listOfRestaurants' and 'searchText' are state variables), react triggers a reconciliation cycle i.e. react re-renders the component again
   // console.log("full body component got rendered again ✨", listOfRestaurants);
 
-  const RestaurantCard_PureVeg = withOpenNowLabel(RestaurantCard);
-  const RestaurantCard_NonVeg = withOpenNowLabel2(RestaurantCard);
+  const RestaurantCard_PureVeg = withVegLabel(RestaurantCard); //RestaurantCard_PureVeg is the enhanced RestaurantCard component with the PureVeg label in it //(EXTRA) //Functional Components Created by HOCs //not the usual FCs as per definition 'normal JS function that returns some JSX' ye alag hain par they are FCs only i.e RestaurantCard_PureVeg is also a FC only
+  const RestaurantCard_NonVeg = withNonVegLabel(RestaurantCard); //RestaurantCard_NonVeg is the enhanced RestaurantCard component with NonVeg label in it //(EXTRA) //Functional Components Created by HOCs //not the usual FCs as per definition 'normal JS function that returns some JSX' ye alag hain par they are FCs only i.e RestaurantCard_NonVeg is a also a FC only
 
   useEffect(() => {
     // console.log("useEffect called 3")
@@ -96,10 +96,13 @@ const Body = () => {
           filteredRestaurant?.map((restaurant, index) => (
             <Link to={`/restaurants/${restaurant.info.id}`} key={restaurant.info.id}>
               {/* {console.log(index, restaurant)} */}
-              {/* <RestaurantCard resData={restaurant}/> */}
 
-              {/* Implementing HOCs : If the restaurant has isOpen:true, add a 'OpenNow' label to the restaurant card */}
+              {/* Implementing HOCs : If the restaurant has Veg:true, add a 'PureVeg' label to the restaurant card else add 'NonVeg' label */}
               {restaurant.info?.veg ? (<RestaurantCard_PureVeg resData={restaurant}/>) : (<RestaurantCard_NonVeg resData={restaurant}/>)}
+
+              {/* (TRIAL) Only Veg Label */}
+              {/* Implementing HOCs : If the restaurant has Veg:true, add a 'PureVeg' label to the restaurant card else no label */}
+              {/* {restaurant.info?.veg ? (<RestaurantCard_PureVeg resData={restaurant}/>) : (<RestaurantCard resData={restaurant}/>)} */}
             </Link>        
           ))
         }

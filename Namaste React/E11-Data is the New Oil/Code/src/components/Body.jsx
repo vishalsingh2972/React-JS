@@ -100,7 +100,7 @@ const Body = () => {
               {/* Implementing HOCs : If the restaurant has Veg:true, add a 'PureVeg' label to the restaurant card else add 'NonVeg' label */}
               {restaurant.info?.veg ? (<RestaurantCard_PureVeg resData={restaurant}/>) : (<RestaurantCard_NonVeg resData={restaurant}/>)}
 
-              {/* (TRIAL) Only Veg Label */}
+              {/* (TRIAL) Only Veg label */}
               {/* Implementing HOCs : If the restaurant has Veg:true, add a 'PureVeg' label to the restaurant card else no label */}
               {/* {restaurant.info?.veg ? (<RestaurantCard_PureVeg resData={restaurant}/>) : (<RestaurantCard resData={restaurant}/>)} */}
             </Link>        

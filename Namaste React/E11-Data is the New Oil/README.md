@@ -3,7 +3,7 @@
 - Higher-Order Components
 - Accordion UI for dropdown categories in menu
 - React DevTools
-- Lifting State up
+- Lifting the State up
 - Controlled vs Uncontrolled Components
 - 
 

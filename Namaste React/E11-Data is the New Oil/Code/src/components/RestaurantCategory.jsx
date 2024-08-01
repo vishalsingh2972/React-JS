@@ -6,18 +6,19 @@ import ItemList from "./ItemList";
 const RestaurantCategory = (props) => {
   // console.log(props);
   //  console.log(props.data.itemCards);
+  // console.log(props.showItems);
 
   const handleClick = () => {
-
-    //when RestaurantCategory is a uncontrolled component
+    //when RestaurantCategory is a uncontrolled component 👑
     setShowItems(!showItems);  //if showItems is true make it false and if showItems is false make it true //dropdown toggle feature
 
-    //when RestaurantCategory is a controlled component
+    //when RestaurantCategory is a controlled component 🧎‍♂️
 
   }
 
   //dropdown - show and hide items on click state variable
-  const [showItems, setShowItems] = useState(false); //default initially kept items hidden i.e dropdown closed
+  //when RestaurantCategory is a uncontrolled component 👑
+  // const [showItems, setShowItems] = useState(false); //default initially kept items hidden i.e dropdown closed
 
   return (
     // Accordion Header and Accordion Body
@@ -28,7 +29,7 @@ const RestaurantCategory = (props) => {
           <span>⮛</span>
         </div>
 
-        {showItems && <ItemList items={props.data.itemCards} />} {/*Accordion Body*/}
+        {props.showItems && <ItemList items={props.data.itemCards} />} {/*Accordion Body*/}
       </div>
     </div>
   )

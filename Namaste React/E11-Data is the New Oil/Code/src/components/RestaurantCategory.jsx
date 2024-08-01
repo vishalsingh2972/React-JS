@@ -8,8 +8,12 @@ const RestaurantCategory = (props) => {
   //  console.log(props.data.itemCards);
 
   const handleClick = () => {
-    // setShowItems(true);
+
+    //when RestaurantCategory is a uncontrolled component
     setShowItems(!showItems);  //if showItems is true make it false and if showItems is false make it true //dropdown toggle feature
+
+    //when RestaurantCategory is a controlled component
+
   }
 
   //dropdown - show and hide items on click state variable

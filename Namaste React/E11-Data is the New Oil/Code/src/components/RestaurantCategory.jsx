@@ -24,7 +24,7 @@ const RestaurantCategory = (props) => {
           <span>⮛</span>
         </div>
 
-        {showItems && <ItemList items={props.data.itemCards}/>} {/*Accordion Body*/}
+        {showItems && <ItemList items={props.data.itemCards} />} {/*Accordion Body*/}
       </div>
     </div>
   )

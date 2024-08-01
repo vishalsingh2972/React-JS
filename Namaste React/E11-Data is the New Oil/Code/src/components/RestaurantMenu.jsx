@@ -15,7 +15,7 @@ const RestaurantMenu = () => {
   const restaurantInfo = useRestaurantMenu(resId);
   // console.log(restaurantInfo); //initially restaurantInfo value will be null
 
-  const [showIndex, setShowIndex] = useState(2);
+  const [showIndex, setShowIndex] = useState(null);
 
   if (restaurantInfo === null) return <Shimmer />;
 
@@ -26,7 +26,7 @@ const RestaurantMenu = () => {
 
   //filtering out categories array containing - recommened, ved, non veg etc.
   const categories = restaurantInfo?.cards[5]?.groupedCard?.cardGroupMap?.REGULAR?.cards.filter((element) => element?.card?.["card"]?.["@type"] === "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory");
-  console.log(categories);
+  // console.log(categories);
 
   return (
     <div className="text-center">
@@ -44,7 +44,8 @@ const RestaurantMenu = () => {
         <RestaurantCategory 
           data={category?.card?.card} 
           key={category?.card?.card?.title}
-          showItems={index === showIndex ? true : false} //makes RestaurantCategory a controlled component
+          showItems={(index === showIndex ? true : false)} 
+          setShowIndex={() => setShowIndex(index)}
         />
       ))}
     </div>

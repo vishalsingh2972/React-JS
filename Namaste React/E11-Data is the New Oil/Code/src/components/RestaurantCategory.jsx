@@ -6,11 +6,11 @@ import ItemList from "./ItemList";
 const RestaurantCategory = (props) => {
   // console.log(props);
   //  console.log(props.data.itemCards);
-  // console.log(props.showItems);
+  console.log(props.showItems);
 
   const handleClick = () => {
     //when RestaurantCategory is a uncontrolled component 👑
-    setShowItems(!showItems);  //if showItems is true make it false and if showItems is false make it true //dropdown toggle feature
+    // setShowItems(!showItems);  //if showItems is true make it false and if showItems is false make it true //dropdown toggle feature
 
     //when RestaurantCategory is a controlled component 🧎‍♂️
 

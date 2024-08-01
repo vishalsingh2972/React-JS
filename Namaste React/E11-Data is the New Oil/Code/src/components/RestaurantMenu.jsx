@@ -2,6 +2,7 @@ import Shimmer from "./Shimmer";
 import { useParams } from "react-router-dom";
 import useRestaurantMenu from "../utils/useRestaurantMenu";
 import RestaurantCategory from "./RestaurantCategory";
+import { useState } from "react";
 
 //initially RestaurantMenu was doing 2 jobs - fetching data and displaying data, now we want RestaurantMenu to just display the data and we are now giving the fetching logic/work to out custom hook useRestaurantMenu()
 const RestaurantMenu = () => {
@@ -13,6 +14,8 @@ const RestaurantMenu = () => {
   //our custom hook #1 - useRestaurantMenu() hook
   const restaurantInfo = useRestaurantMenu(resId);
   // console.log(restaurantInfo); //initially restaurantInfo value will be null
+
+  const [showIndex, setShowIndex] = useState(2);
 
   if (restaurantInfo === null) return <Shimmer />;
 
@@ -37,11 +40,11 @@ const RestaurantMenu = () => {
       <h2 className="font-bold text-gray-700">Menu</h2>
 
       {/* categories accordions */}
-      {categories?.map((category) => (
+      {categories?.map((category, index) => (
         <RestaurantCategory 
           data={category?.card?.card} 
           key={category?.card?.card?.title}
-          showItems={true}
+          showItems={index === showIndex ? true : false} //makes RestaurantCategory a controlled component
         />
       ))}
     </div>

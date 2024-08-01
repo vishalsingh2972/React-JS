@@ -3,7 +3,7 @@
 - Higher-Order Components
 - Accordion UI for dropdown categories in menu
 - Controlled vs Uncontrolled Components
-- DevTools
+- React DevTools
 - 
 
 >  Check out the ______________ of our Food Delivery app completed in this episode here : 

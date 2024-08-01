@@ -4,6 +4,7 @@
 - Accordion UI for dropdown categories in menu
 - Controlled vs Uncontrolled Components
 - React DevTools
+- Lifting State up
 - 
 
 >  Check out the ______________ of our Food Delivery app completed in this episode here : 

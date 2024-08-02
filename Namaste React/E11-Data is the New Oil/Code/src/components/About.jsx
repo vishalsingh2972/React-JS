@@ -2,6 +2,7 @@ import User from "./User";
 import UserClass from "./UserClass";
 // import React from "react";
 import { Component } from "react";
+import UserContext from "../utils/context/UserContext"; //trying to use React Context in class based component About.jsx
 
 //Class based 'About' component
 //here trying one class based component (UserClass) inside another class based component (About) , in this case order of execution ----> 1)Parent Constructor - 2)Parent Render method - 3)Child Constructor - 4)Child Render method, hence this is how lifecycle of CBC works
@@ -28,25 +29,22 @@ class About extends Component { //destructuring on the go, using destructuring t
         <h2>This is your about section</h2>
         {/* <User phone={"123456789 (FBC)"}/> */}
 
+        <div>
+          LoggedIn User
+
+          {/* as we can't use useContext hook here in CBCs(About.jsx now being a CBC) we will access the context using Context.Consumer component, in our case we are using UserContext.Consumer component */}
+          <UserContext.Consumer> 
+            {(data) => console.log(data)}
+          </UserContext.Consumer>
+        </div>
+
         {/* Creating 2 instances of the same class named 'UserClass' with different props being passed for each */}
-        <UserClass phone={"First"} gender={"Male"} />
+        {/* <UserClass phone={"First"} gender={"Male"} /> */}
         {/* <UserClass phone={"Second"} gender={"Male"} /> */}
         {/* <UserClass phone={"Third"} gender={"Male"} /> */}
       </div>
     )
   }
 }
-
-//functional About' component
-// const About = () => {
-//   return (
-//     <div>
-//       <h1>About</h1>
-//       <h2>This is your about section</h2>
-//       {/* <User phone={"123456789 (FBC)"}/> */}
-//       <UserClass phone={"77777777 (CBC)"} gender={"Male"}/>
-//     </div>
-//   )
-// }
 
 export default About

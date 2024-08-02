@@ -1,4 +1,6 @@
+import { useContext } from "react";
 import { CDN_URL } from "../utils/constants"
+import UserContext from "../utils/context/UserContext";
 
 const RestaurantCard = (props) => {
   // console.log(props)
@@ -6,6 +8,10 @@ const RestaurantCard = (props) => {
   const {cloudinaryImageId, name, cuisines, avgRatingString, costForTwo} = resData?.info; //here 1️⃣'const { cloudinaryImageId } = resData?.info;' is same as 2️⃣'const cloudinaryImageId = resData.info.cloudinaryImageId' but with optional chaining ?., basically 1️⃣ is 2️⃣ with optional chaining ?. //similarly for these as well ---> name, cuisines, avgRatingString, costForTwo
   //?. optional chaining stops if value is null and avoids further errors
 
+  //(EXTRA) trying usecontext hook
+  const data = useContext(UserContext);
+  const { loggedInUser } = useContext(UserContext); // or directly like this
+  
   return(
     <div className="m-4 p-4 w-[250px] rounded-xl bg-gray-200 hover:bg-gray-400">
       <img
@@ -18,6 +24,8 @@ const RestaurantCard = (props) => {
       <h4>{avgRatingString} ⭐</h4>
       <h4>{costForTwo}</h4>
       <h4>{resData.info.sla.deliveryTime} minutes</h4>
+      {/* <h4 className="font-bold text-red-600">{data.loggedInUser}</h4> */}
+      {/* <h4 className="font-bold text-blue-700">{loggedInUser}</h4> */}
     </div>
   )
 }

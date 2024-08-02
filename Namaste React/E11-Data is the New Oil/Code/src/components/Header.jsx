@@ -1,13 +1,20 @@
 import { LOGO_URL } from "../utils/constants"
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import { Link } from "react-router-dom"; //React's Single Page Application (SPA) nature concept
 import useOnlineStatus from "../utils/useOnlineStatus";
+import UserContext from "../utils/context/UserContext";
 
 const Header = () => {
   const [btn2, setButton] = useState("Login");
 
   const onlineStatus = useOnlineStatus();
   
+//access the "context" information/data that is available/accessible globally using "useContext" hook
+  // const data = useContext(UserContext);
+  // console.log(data);  console.log(data.loggedInUser);
+  const { loggedInUser } = useContext(UserContext);
+  // console.log(loggedInUser);
+
   return(
     <div className="flex justify-between bg-blue-100 shadow-lg sm:bg-pink-300 lg:bg-green-100">
       <div className="logo-container">
@@ -24,6 +31,7 @@ const Header = () => {
           <button className="login-button" onClick={() => {
             btn2 === "Login" ? setButton("Logout") : setButton("Login")
           }}>{btn2}</button>
+          <li className="px-4 font-bold">{loggedInUser}</li>
         </ul>
       </div>
     </div>

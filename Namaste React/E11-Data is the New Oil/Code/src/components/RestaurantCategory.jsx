@@ -4,10 +4,10 @@ import { useState } from "react";
 import ItemList from "./ItemList";
 
 const RestaurantCategory = (props) => {
-  //  console.log(props);
-  //  console.log(props.data.itemCards);
+  //console.log(props);
+  //console.log(props.data.itemCards);
   //console.log(props.showItems);
-  console.log(props.setShowIndex);
+  //console.log(props.setShowIndex);
 
   const handleClick = () => {
     //when RestaurantCategory is a uncontrolled component 👑

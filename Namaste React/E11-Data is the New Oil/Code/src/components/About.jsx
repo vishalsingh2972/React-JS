@@ -34,7 +34,8 @@ class About extends Component { //destructuring on the go, using destructuring t
 
           {/* as we can't use useContext hook here in CBCs(About.jsx now being a CBC) we will access the context using Context.Consumer component, in our case we are using UserContext.Consumer component */}
           <UserContext.Consumer> 
-            {(data) => console.log(data)}
+            {/* {(data) => console.log(data.loggedInUser)} */}
+            {({ loggedInUser }) => <h1 className="text-pink-600 font-bold italic">{loggedInUser}</h1>}
           </UserContext.Consumer>
         </div>
 

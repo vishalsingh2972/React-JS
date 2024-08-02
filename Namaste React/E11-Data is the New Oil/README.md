@@ -5,6 +5,8 @@
 - React DevTools
 - Lifting the State up
 - Controlled vs Uncontrolled Components
+- React Context
+- useContext hook
 - 
 
 >  Check out the ______________ of our Food Delivery app completed in this episode here : 

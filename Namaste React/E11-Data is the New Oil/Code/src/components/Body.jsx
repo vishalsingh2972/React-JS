@@ -88,7 +88,6 @@ const Body = () => {
         >
           Top Rated Restaurants
         </button> */}
-        
 
           <div className="ml-28">
             <label>UserName : </label>

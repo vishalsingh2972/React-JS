@@ -26,7 +26,7 @@ const Body = () => {
       RESTAURANTS_API
       //RESTAURANTS_API2
     );
-    
+
     const json = await data.json();
     // console.log(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
 
@@ -38,28 +38,28 @@ const Body = () => {
   const onlineStatus = useOnlineStatus();
   // console.log(onlineStatus)
 
-  if(onlineStatus === false){
+  if (onlineStatus === false) {
     return <h1>Sorry, you are not connected to the network 😥</h1>
   }
 
   // ⬇️ Conditional Rendering ⬇️
   // console.log("Body rendered 1");
-  return( listOfRestaurants?.length === 0 ? (<Shimmer/>) : (
+  return (listOfRestaurants?.length === 0 ? (<Shimmer />) : (
     <div className="body">
       {/* {  console.log("Body rendered 2") } */}
       <div className="filter">
-        <div className="search m-4 p-4">
-          <input 
-            type="text" 
-            className="border border-solid border-black" 
-            placeholder="Search a restaurant" 
-            value={searchText} 
+        <div className="flex items-center mr-20">
+          <input
+            type="text"
+            className="rounded-full px-4 py-1 border border-solid border-black"
+            placeholder="Search a restaurant"
+            value={searchText}
             onChange={(event) => {
               setSearchText(event.target.value);
               // console.log(event.target.value)
             }}
           />
-          <button className="px-4 py-2 bg-orange-400 m-4 rounded-full"
+          <button className="px-4 py-1 bg-orange-400 m-4 rounded-full"
             onClick={() => {
               // Filter the restaurant cards and update the UI accordingly
               // console.log(searchText);
@@ -69,7 +69,7 @@ const Body = () => {
                 alert("Please enter a restaurant name!");
               }
 
-              const filteredRestaurant = listOfRestaurants.filter((restaurant) => 
+              const filteredRestaurant = listOfRestaurants.filter((restaurant) =>
                 restaurant.info.name.toLowerCase().includes(searchText.toLowerCase())
               )
 
@@ -77,10 +77,9 @@ const Body = () => {
               // filteredRestaurant.length === 0 ? (setFilteredRestaurant([]), alert("Restaurant not found")) : setFilteredRestaurant(filteredRestaurant);
             }}
           >Search</button>
-        </div>
 
-        {/* <button 
-          className="filter-btn" 
+          {/* <button 
+          className="filter-btn rounded-full px-4 py-1 bg-yellow-400" 
           onClick={() => {
             //Filter logic here ⬇️
             const filteredList = listOfRestaurants.filter((res)=> res.info.avgRating >= 4.5)
@@ -89,7 +88,13 @@ const Body = () => {
         >
           Top Rated Restaurants
         </button> */}
+        
 
+          <div className="ml-28">
+            <label>UserName : </label>
+            <input className="border border-black p-2"></input>
+          </div>
+        </div>
       </div>
       <div className="flex flex-wrap">
         {
@@ -98,12 +103,12 @@ const Body = () => {
               {/* {console.log(index, restaurant)} */}
 
               {/* Implementing HOCs : If the restaurant has Veg:true, add a 'PureVeg' label to the restaurant card else add 'NonVeg' label */}
-              {restaurant.info?.veg ? (<RestaurantCard_PureVeg resData={restaurant}/>) : (<RestaurantCard_NonVeg resData={restaurant}/>)}
+              {restaurant.info?.veg ? (<RestaurantCard_PureVeg resData={restaurant} />) : (<RestaurantCard_NonVeg resData={restaurant} />)}
 
               {/* (TRIAL) Only Veg label */}
               {/* Implementing HOCs : If the restaurant has Veg:true, add a 'PureVeg' label to the restaurant card else no label */}
               {/* {restaurant.info?.veg ? (<RestaurantCard_PureVeg resData={restaurant}/>) : (<RestaurantCard resData={restaurant}/>)} */}
-            </Link>        
+            </Link>
           ))
         }
       </div>

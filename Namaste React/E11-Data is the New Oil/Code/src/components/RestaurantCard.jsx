@@ -11,7 +11,8 @@ const RestaurantCard = (props) => {
   //(EXTRA) trying usecontext hook
   const data = useContext(UserContext);
   const { loggedInUser } = useContext(UserContext); // or directly like this
-  
+  // {console.log(loggedInUser)} //first loggedInUser is 'Default_Vishal' then changes to 'Sinamika'
+
   return(
     <div className="m-4 p-4 w-[250px] rounded-xl bg-gray-200 hover:bg-gray-400">
       <img

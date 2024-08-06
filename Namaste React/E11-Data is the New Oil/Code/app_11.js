@@ -4,7 +4,7 @@ import ReactDOM from "react-dom/client";
 import Header from "./src/components/Header";
 import Body from "./src/components/Body";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom"; //https://reactrouter.com/en/main/routers/create-browser-router
-import About from "./src/components/About";
+// import About from "./src/components/About";
 import Contact from "./src/components/Contact";
 import Error from "./src/components/Error";
 import RestaurantMenu from "./src/components/RestaurantMenu";
@@ -22,6 +22,7 @@ import UserContext from "./src/utils/context/UserContext";
 //Lazy Loading GroceryApp (folder containing all grocery related components)
 const Grocery2 = lazy(() => import("./src/components/GroceryApp/Grocery")); //importing Grocery in a 'LAZY' way where Grocery will be sent to the browser as a separate bundle (and not gets included together with the Food App bundle)
 
+const About = lazy(() => import("./src/components/About")); //Lazy Loading About component/page
 const AppLayout = () => {
 
   const { loggedInUser } = useContext(UserContext);
@@ -36,11 +37,11 @@ const AppLayout = () => {
         name: "Sinamika"
       }
       setUserName(data.name);
-    }, 1000);
+    }, 4000);
   }, [])
 
   return (
-    <UserContext.Provider value={{ loggedInUser: userName }}>
+    <UserContext.Provider value={{ loggedInUser: userName, setUserName }}>
       <div className="app">
         {/* <UserContext.Provider value={{loggedInUser: 'Elon Musk'}}>*/}   {/* wrapping only header case: changes made in UserContext.Provider will only get reflected in Header, can also give different value here than the above UserContext.Provider */}
         <Header />
@@ -63,7 +64,7 @@ const appRouter = createBrowserRouter([
       },
       {
         path: "/about",
-        element: <About />,
+        element: <Suspense fallback={<Loading/>}><About /></Suspense>,
         // errorElement: <Error/> //redundant errorElement - can be removed - Root-level error handling will manage this
       },
       {
@@ -74,7 +75,7 @@ const appRouter = createBrowserRouter([
       {
         path: "/grocery",
         // element: <Grocery/> //normal loading when GroceryApp in same bundle
-        element: <Suspense fallback={<Loading />}><Grocery2 /></Suspense>, //lazy loading when GroceryApp is sent in a separate bundle
+        element: <Suspense fallback={<Loading/>}><Grocery2 /></Suspense>, //lazy loading when GroceryApp is sent in a separate bundle
       },
       {
         path: "/restaurants/:resId", //":resId" will help us give a unique path to each restaurant, i.e. in this "/restaurants/:resId", ":resId" this part of the path is dynamic

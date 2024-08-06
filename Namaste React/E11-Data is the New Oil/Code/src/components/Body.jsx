@@ -1,9 +1,10 @@
 import RestaurantCard, { withVegLabel, withNonVegLabel } from "./RestaurantCard";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import { RESTAURANTS_API, RESTAURANTS_API2 } from "../utils/constants";
+import UserContext from "../utils/context/UserContext";
 
 const Body = () => {
   const [listOfRestaurants, setListOfRestaurants] = useState([]);
@@ -41,6 +42,8 @@ const Body = () => {
   if (onlineStatus === false) {
     return <h1>Sorry, you are not connected to the network 😥</h1>
   }
+
+  const  { setUserName, loggedInUser } = useContext(UserContext);
 
   // ⬇️ Conditional Rendering ⬇️
   // console.log("Body rendered 1");
@@ -91,7 +94,11 @@ const Body = () => {
 
           <div className="ml-28">
             <label>UserName : </label>
-            <input className="border border-black p-2"></input>
+            <input 
+              className="border border-black p-2"
+              value={loggedInUser}
+              onChange={(e) => setUserName(e.target.value)}
+            />
           </div>
         </div>
       </div>

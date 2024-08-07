@@ -43,7 +43,7 @@ const AppLayout = () => {
   return (
     <UserContext.Provider value={{ loggedInUser: userName, setUserName }}>
       <div className="app">
-        {/* <UserContext.Provider value={{loggedInUser: 'Elon Musk'}}>*/}   {/* wrapping only header case: changes made in UserContext.Provider will only get reflected in Header, can also give different value here than the above UserContext.Provider */}
+        {/* <UserContext.Provider value={{loggedInUser: 'Elon Musk'}}>*/}   {/* NESTED CONTEXT concept: here wrapping only header case: changes made in UserContext.Provider will only get reflected in Header, can also give different value here than the above UserContext.Provider */}
         <Header />
         {/* </UserContext.Provider> */}
         <Outlet />

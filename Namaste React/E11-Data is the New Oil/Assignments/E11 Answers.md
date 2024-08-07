@@ -37,12 +37,16 @@ In this example, the `data` prop is passed from the App component through the `P
 
 Prop drilling can make the code harder to maintain, especially as the application grows and the number of components in the hierarchy increases. To mitigate this, developers often use other state management solutions, like the `React Context API`, `Redux`, or `other state management libraries`, to avoid passing props through multiple layers of components. These alternatives provide a centralized way to manage and access state without the need for prop drilling.
 
+- The process of passing down props from a higher-level component to a deeply nested child component through intermediary components that do not actually use the props themselves is known as prop drilling.
+
+- Passing props to child via many intermediate parent nodes is prop drilling.
+
 ---
 
 ### Q: What is `lifting the state up`?
 A: `Lifting state up` in React refers to the practice of `moving the state from a lower-level (child) component to a higher-level (parent or common ancestor) component in the component tree`. This is done to share and manage state across multiple components.
 
-When a child component needs access to certain data or needs to modify the data, instead of keeping that data and the corresponding state management solely within the child component, we move the state to a shared ancestor component. By doing so, the parent component becomes the source of truth for the state, and it can pass down the necessary data and functions as props to its child components.
+When a child component needs access to certain data or needs to modify the data, instead of keeping that data and the corresponding state management solely within the child component, we move the state to a shared ancestor/parent component. By doing so, the parent component becomes the source of truth for the state, and it can pass down the necessary data and functions as props to its child components.
 
 Here's a simple example to illustrate `lifting state up`:
 ```
@@ -85,6 +89,10 @@ function ChildComponent({ count, onIncrement }) {
 In this example, the ParentComponent holds the state (count), and it passes both the state value (count) and a function (onIncrement) down to the ChildComponent as props. The child component can then display the count and trigger an increment when the button is clicked.
 
 By lifting the state up to a common ancestor, you centralize the state management, making it easier to control and share state among components. This pattern is especially useful in larger React applications where multiple components need access to the same data or where the state needs to be synchronized across different parts of the application.
+
+- Moving the state from a lower-level component to a higher-level component in the component tree. This is done to share the state between multiple components that need access to the same data or to centralize the state management for better control and consistency.
+
+- Sometimes, when two components need to share and synchronize their state, it's often beneficial to centralize this state in their nearest common parent component. This involves removing the state from both child components and managing it within the parent. The updated state can then be passed down to the child components as props, ensuring consistent data across both.
 
 [Lifting Stateup](https://legacy.reactjs.org/docs/lifting-state-up.html)
 
@@ -134,6 +142,11 @@ class MyConsumerComponent extends React.Component {
 
 By using the Context Provider and Context Consumer, you can avoid prop drilling and make it easier to share global or shared state across different parts of your React application. This is particularly useful when passing data to deeply nested components without explicitly passing the data through each intermediate component.
 
+- Context Consumer: The Context Consumer is a component that consumes the context provided by the Provider. It allows components to access the context value and use it within their render method.
+- Context Provider: The Context Provider is a component that provides the context to its child components. It wraps the part of the component tree where you want to make the context available.
+- Therefore, basically in short, Context Consumer allows us to access and use the values that have been defined in the context, and Context Provider allows us to modify/alter the value present in the context and then use it in our component.
+
+- Note: Context is a way for a child component to get some data from the parent component without having to pass props down manually at every level. Context is also typically used to pass data through a deeply nested component tree. It allows several components to share the same data. Context is primarily used when some data needs to be accessible by many components at different nesting levels. Apply it sparingly because it makes unit testing difficult.
 ---
 
 ### Q: If we `don't pass a value to the provider does it take the default value`?
@@ -158,6 +171,8 @@ class MyProvider extends React.Component {
 
 In this example, if we don't provide a value to the `MyContext.Provider`, it will use the default value ("Default Value" in this case) specified during the creation of the context. Any component that consumes this context using `MyContext.Consumer` will receive the default value if there is no Provider higher up the tree providing a different value.
 
+- Yes, if you don't pass a value to the provider, it will use the default value provided when creating the context using the createContext function.
+Example: if no value is passed in the <UserContext.Provider value={{...}}> loggedInUser will use value as "Default_Vishal" that is defined in UserContext.jsx
 
 [React Context](https://legacy.reactjs.org/docs/context.html)
 

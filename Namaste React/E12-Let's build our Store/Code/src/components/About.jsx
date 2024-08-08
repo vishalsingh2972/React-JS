@@ -4,10 +4,7 @@ import UserClass from "./UserClass";
 import { Component } from "react";
 import UserContext from "../utils/context/UserContext"; //trying to use React Context in class based component About.jsx
 
-//Class based 'About' component
-//here trying one class based component (UserClass) inside another class based component (About) , in this case order of execution ----> 1)Parent Constructor - 2)Parent Render method - 3)Child Constructor - 4)Child Render method, hence this is how lifecycle of CBC works
-// class About extends React.Component{ //can also be written like this ⬇️
-class About extends Component { //destructuring on the go, using destructuring to import the Component class from react
+class About extends Component { 
 
   constructor(props) {
     super(props);

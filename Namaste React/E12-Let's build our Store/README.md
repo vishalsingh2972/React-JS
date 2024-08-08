@@ -3,9 +3,8 @@
 - Redux Toolkit (RTK)
 - React-Redux
 - Redux Flow diagram
-- Action
+- Dispatcher (Action)
 - Reducer
-- Dispatcher
 - Slice
 - Selector
 - Cart Functionality

@@ -27,7 +27,7 @@ const Header = () => {
           <li className="px-4"><Link to="/about">About Us</Link></li>
           <li className="px-4"><Link to="/contact">Contact Us</Link></li>
           <li className="px-4"><Link to="/grocery">Grocery</Link></li>
-          <li className="px-4">Cart</li>
+          <li className="px-4">Cart🛒</li>
           <button className="login-button" onClick={() => {
             btn2 === "Login" ? setButton("Logout") : setButton("Login")
           }}>{btn2}</button>

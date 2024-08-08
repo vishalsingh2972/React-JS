@@ -10,6 +10,8 @@ import Error from "./src/components/Error";
 import RestaurantMenu from "./src/components/RestaurantMenu";
 import Loading from "./src/components/Loading";
 import UserContext from "./src/utils/context/UserContext";
+import { Provider } from "react-redux"; //for connecting our React app with the Redux Store
+import appStore from "./src/utils/redux/Redux Store/appStore"; //our Redux Store
 
 // import Grocery from "./src/components/GroceryApp/Grocery"; //importing Grocery in normal way where Grocery also gets included together with Food App bundle
 
@@ -35,14 +37,16 @@ const AppLayout = () => {
   }, [])
 
   return (
-    <UserContext.Provider value={{ loggedInUser: userName, setUserName }}>
-      <div className="app">
-        {/* <UserContext.Provider value={{loggedInUser: 'Elon Musk'}}>*/}   {/* wrapping only header case: changes made in UserContext.Provider will only get reflected in Header, can also give different value here than the above UserContext.Provider */}
-        <Header />
-        {/* </UserContext.Provider> */}
-        <Outlet />
-      </div>
-    </UserContext.Provider>
+    <Provider store={appStore}>  {/* wrapping whole app inside <Provider> and passing the Redux store that we want to connect to the app in the form of props, ~  When you wrap your whole app inside the <Provider> component from react-redux and pass the Redux store as a prop, you are essentially making the Redux store available to your entire React application. This allows any component within your app to connect to the Redux store and access or modify the state. And similar to our UserContext.Provider we can also provide <Provider> separately to selected components as well giving us flexibility of which components have access to our Redux Store, since here we have wrapped whole app considering all components inside <Provider> so in this case here all components have access to our Redux Store */}
+      <UserContext.Provider value={{ loggedInUser: userName, setUserName }}>
+        <div className="app">
+          {/* <UserContext.Provider value={{loggedInUser: 'Elon Musk'}}>*/}   {/* wrapping only header case: changes made in UserContext.Provider will only get reflected in Header, can also give different value here than the above UserContext.Provider */}
+          <Header />
+          {/* </UserContext.Provider> */}
+          <Outlet />
+        </div>
+      </UserContext.Provider>
+    </Provider>
   )
 }
 

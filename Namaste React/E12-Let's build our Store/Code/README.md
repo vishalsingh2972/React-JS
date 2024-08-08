@@ -37,8 +37,16 @@
 At the end, Akshay shares his thoughts about Redux.
 ```
 
-
 								NOTES
+
+# Redux toolkit
+- Install @reduxjs/toolkit and react-redux
+- Build our store
+- Connect our store to our app
+- Slice (cartSlice)
+- Dispatch (an action)
+- Selector
+
 ## Architecture of Redux Toolkit (RTK)
 
 ### What is redux store?

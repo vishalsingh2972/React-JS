@@ -1,8 +1,14 @@
 ## E12 - Topics covered in this session:
 
-- Redux Toolkit
+- Redux Toolkit (RTK)
 - React-Redux
-- Actions, Reducers
--
+- Redux Flow diagram
+- Action
+- Reducer
+- Dispatcher
+- Slice
+- Selector
+- Cart Functionality
+- 
 
->  Check out the ______________ of our Food Delivery app completed in this episode here : 
+>  Check out the ______________ of our Food Delivery app completed in this episode here :

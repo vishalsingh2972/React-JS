@@ -6,6 +6,7 @@
 - Dispatcher (Action)
 - Reducer
 - Slice
+- useSelector hook
 - Selector
 - Cart Functionality
 - 

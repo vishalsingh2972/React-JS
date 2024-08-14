@@ -16,8 +16,8 @@ const Header = () => {
   const { loggedInUser } = useContext(UserContext);
   // console.log(loggedInUser);
 
-  //Selector -  here we are subscribing to the Redux store (i.e appStore.jsx) using a selector
-  const cartItems = useSelector((store) => store.cart.items);
+  //Selector -  here we are subscribing to the Redux store (i.e appStore.jsx) using a selector, and we do all this using the useSelector hook
+  const cartItems = useSelector((store) => store.CART.items); //`store` here represents appStore // and here we are using subscribing to our CART slice present in the Redux store and we are doing this using the useSelector hook
   console.log(cartItems);
 
   return(

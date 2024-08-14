@@ -23,7 +23,11 @@ const ItemList = (props) => {
             </div>
             <div className="w-3/12 p-4">
               <div className="absolute">
-                <button className="p-2 bg-black text-white shadow-lg hover:bg-white hover:text-black mx-10 my-20 rounded-full cursor-pointer">Add +</button>
+                <button 
+                className="p-2 bg-black text-white shadow-lg hover:bg-white hover:text-black mx-10 my-20 rounded-full cursor-pointer"
+                >
+                  Add +
+                </button>
               </div>
               <img src={CDN_URL + item.card.info.imageId} className="rounded-lg" />
             </div>

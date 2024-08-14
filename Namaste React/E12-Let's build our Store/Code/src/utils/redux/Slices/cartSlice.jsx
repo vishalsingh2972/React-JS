@@ -7,7 +7,9 @@ const cartSlice = createSlice({
   },
   reducers: { 
     addItem: (state, action) => { //1
-      // console.log(action.payload) 🤔 Need to Check!
+      // console.log('Adding item:', action.payload);
+
+      //mutating the 'state' ~ directly modifying the 'state' here
       state.items.push(action.payload);
     },
     removeItem: (state, action) => {
@@ -19,6 +21,7 @@ const cartSlice = createSlice({
   }
 });
 
+//createSlice{...} will return a single object consisting of all the data and thsi single object is stored/mapped to cartSlice now ~ basically when you use createSlice({...}), it returns a single object that contains all the necessary data and functionality related to that slice of your Redux state. This single object is stored in a variable, like here variavle 'cartSlice'
 // console.log(cartSlice);
 
 //exporting actions
@@ -26,7 +29,9 @@ export const {addItem, removeItem, clearCart} = cartSlice.actions;
 
 //exporting reducers
 export default cartSlice.reducer;
-// console.log(cartSlice.reducer) 🤔 Need to Check!
+// console.log(cartSlice.reducer);
+
+
 
 /* NOTE:
 

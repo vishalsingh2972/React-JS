@@ -8,6 +8,7 @@
 - Slice
 - useSelector hook
 - Selector
+- useDispatch hook
 - Cart Functionality
 - 
 

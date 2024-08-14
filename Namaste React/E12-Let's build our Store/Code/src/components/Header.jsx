@@ -16,8 +16,9 @@ const Header = () => {
   const { loggedInUser } = useContext(UserContext);
   // console.log(loggedInUser);
 
-  //Selector -  here we are subscribing to the Redux store (i.e appStore.jsx) using a selector, and we do all this using the useSelector hook
-  const cartItems = useSelector((store) => store.CART.items); //`store` here represents appStore // and here we are using subscribing to our CART slice present in the Redux store and we are doing this using the useSelector hook
+  //Selector - here we are subscribing to the Redux store (i.e appStore.jsx) using a selector, and we do all this using the useSelector hook
+  const cartItems = useSelector((store) => store.CART.items); //`store` here represents appStore, so here useSelector give us access to our 'store' and then we tell it that we specifically need access to the store.CART.items i.e the items present in the cartSlice slice of our redux store, so our selector basically helps us identify what portion of our store I need to "read" and I need to "subscribe" to and whatever we want selectr to do we do it using the help of useSelector hook// and here we are subscribing to our CART slice present in the Redux store appStore.jsx and we are doing this using the useSelector hook, CART here has the reucer data of the cart slice (i.e CART: cartReducer), and  the reducer of the slice is the gateway to accessing and managing the state it controls so we can access the state of the cartSlice i.e the items present in the slice via its reducer i.e CART ~ so here By using the useSelector hook, you're essentially saying: "Give me the current state of the items array present within the cartSlice slice, which is managed by the cartReducer aka the reducer of the cartSlice slice"
+  //now the 'cartItems' will get the data of the 'items' present in the 'state' of the cartSlice slice
   console.log(cartItems);
 
   return(

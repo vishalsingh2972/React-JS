@@ -8,9 +8,9 @@ const ItemList = (props) => {
 
   const dispatch = useDispatch(); //just like we used useSelector for reading and getting access to data in our slice present in redux store, for dispatching an action present in the our slice present in redux store we make use of useDispatch //useDispatch is a hook provided by React-Redux that gives you access to the dispatch function, The dispatch function is used to send actions to the Redux store, which will then be handled by the appropriate reducer.
 
-  const handleAddItem = () => {
+  const handleAddItem = (item) => {
     //dispatch the action
-    dispatch(addItem('dosa'));
+    dispatch(addItem(item.card.info.name));
   }
 
   return (
@@ -34,7 +34,11 @@ const ItemList = (props) => {
               <div className="absolute">
                 <button 
                 className="p-2 bg-black text-white shadow-lg hover:bg-white hover:text-black mx-10 my-20 rounded-full cursor-pointer"
-                onClick={handleAddItem} //dispatch the action on click using handleAddItem function
+                //dispatch the action on click using handleAddItem function
+                
+                // onClick={handleAddItem()}
+                onClick={() => handleAddItem(item)}
+                // onClick={handleAddItem(item)}
                 >
                   Add +
                 </button>

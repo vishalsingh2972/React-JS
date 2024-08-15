@@ -12,6 +12,7 @@ import Loading from "./src/components/Loading";
 import UserContext from "./src/utils/context/UserContext";
 import { Provider } from "react-redux"; //for connecting our React app with the Redux Store
 import appStore from "./src/utils/redux/Redux Store/appStore"; //our Redux Store
+import Cart from "./src/components/Cart";
 
 // import Grocery from "./src/components/GroceryApp/Grocery"; //importing Grocery in normal way where Grocery also gets included together with Food App bundle
 
@@ -78,6 +79,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/restaurants/:resId", //":resId" will help us give a unique path to each restaurant, i.e. in this "/restaurants/:resId", ":resId" this part of the path is dynamic
         element: <RestaurantMenu />
+      },
+      {
+        path: "/cart",
+        element: <Cart/>
       }
     ],
     errorElement: <Error /> //Root-level error handling

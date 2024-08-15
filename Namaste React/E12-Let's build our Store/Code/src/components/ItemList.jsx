@@ -3,14 +3,13 @@ import { addItem } from "../utils/redux/Slices/cartSlice";
 import { CDN_URL } from "../utils/constants";
 
 const ItemList = (props) => {
-  //console.log(props);
-  //console.log(props.items);
+  console.log(props); //💡 need to check
 
   const dispatch = useDispatch(); //just like we used useSelector for reading and getting access to data in our slice present in redux store, for dispatching an action present in the our slice present in redux store we make use of useDispatch //useDispatch is a hook provided by React-Redux that gives you access to the dispatch function, The dispatch function is used to send actions to the Redux store, which will then be handled by the appropriate reducer.
 
   const handleAddItem = (item) => {
     //dispatch the action
-    dispatch(addItem(item.card.info.name));
+    dispatch(addItem(item));
   }
 
   return (
@@ -35,10 +34,8 @@ const ItemList = (props) => {
                 <button 
                 className="p-2 bg-black text-white shadow-lg hover:bg-white hover:text-black mx-10 my-20 rounded-full cursor-pointer"
                 //dispatch the action on click using handleAddItem function
-                
-                // onClick={handleAddItem()}
-                onClick={() => handleAddItem(item)}
-                // onClick={handleAddItem(item)}
+                onClick={() => handleAddItem(item)} //handleAddItem(item) called only when button is clicked ✅
+                // onClick={handleAddItem(item)} //handleAddItem(item) called immediately when the component renders ❌
                 >
                   Add +
                 </button>

@@ -24,8 +24,8 @@ const Body = () => {
 
   const fetchData = async () => {
     const data = await fetch(
-      //RESTAURANTS_API
-      RESTAURANTS_API2
+      RESTAURANTS_API
+      // RESTAURANTS_API2
     );
 
     const json = await data.json();

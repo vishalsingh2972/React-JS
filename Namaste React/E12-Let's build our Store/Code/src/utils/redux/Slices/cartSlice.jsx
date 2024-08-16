@@ -5,19 +5,40 @@ const cartSlice = createSlice({
   initialState: {
     items: []
   },
-  reducers: { 
+  reducers: {
     addItem: (state, action) => { //1
       // console.log('Adding item:', action.payload);
 
-      //mutating the 'state' ~ directly modifying the 'state' here
+      //(EXTRA) In older versions of Redux (often referred to as "Vanilla Redux"), it was a strict rule to never mutate the state directly. Instead, you had to create a new copy of the state, modify the copy, and then return the new state.
+      // const newState = [...state];
+      // newState.items.push(action.payload); //newState is the new copy of state
+      // return newState; //returning newState was mandatory in older version
+
+      //Redux Toolkit (newer Redux) //under the hood redux toolkit is still doing the same thing that the older versions of Redux were doing but here everything BTS is quietly handled by the Immer js library ~ Immer js library allows us to work with immutable(state cannot be modified directly) state in a more convenient way, the state cannot be modified directly but we can modify it via immer where immer silently does the state change and everything else in the background
+      //mutating the 'state' ~ we may feel we are directly modifying the 'state' here but we are not doing it directly we are doing it indirectly via Immer 😉
       state.items.push(action.payload);
     },
     removeItem: (state, action) => {
       state.items.pop(); //just removing 1 item from top for now, need to check and write exact logic
     },
     clearCart: (state, action) => {
-      state.items.length = 0; //will make my items array as empty again (~ [] like it initially was in 'initialState')
+      //state = []; //❌ will not work
+      state.items.length = 0; //✔️ will make my items array as empty again (~ [] like it initially was in 'initialState') //indirectly state.items.length = 0; will actually implement state = []; via Immer 
+      // return { items: [] }; //✔️ this also works, instead of doing state.items.length = 0 you can also just do 'return {items: []}', as here it will replace the originalState wit the value inside return i.e here it will replace the origianlState with empty array [] //as RTK says either mutate the existing state(like state.items.length = 0 ~ not directly but indirectly via Immer) or return a new state(return {items: []})
+
+      //Note:When we do state = [], we are directly modifying the state, which is not allowed and therefore won't work. On the other hand, when we do state.items.length = 0, we are not directly modifying the state. Instead, we are specifying that the array should be empty, and Immer takes this instruction and implements the change, making the array empty. In this case, we are effectively making the array empty via Immer, which is why it works. Basically Directly modifying the state with state = [] won't work, but setting state.items.length = 0 tells Immer to make the array empty, which works because Immer implements the change.
     }
+
+    /*
+    // originalState = {items:["pizza"]}
+    clearCart: (state) => {
+      // RTK - either Mutate the existing state or return a new state
+      //state.items.length = 0; // originalState = []
+
+      return { items: [] };// this new object will be replaced inside originalState = { items: [] }
+    }
+    */
+
   }
 });
 
@@ -25,7 +46,7 @@ const cartSlice = createSlice({
 // console.log(cartSlice);
 
 //exporting actions
-export const {addItem, removeItem, clearCart} = cartSlice.actions;
+export const { addItem, removeItem, clearCart } = cartSlice.actions;
 
 //exporting reducers
 export default cartSlice.reducer;

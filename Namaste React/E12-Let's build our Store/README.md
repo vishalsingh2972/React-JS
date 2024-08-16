@@ -10,7 +10,7 @@
 - Selector
 - useDispatch hook
 - Cart Functionality
-- Immer
+- Immer.js Library
 - 
 
 >  Check out the ______________ of our Food Delivery app completed in this episode here :

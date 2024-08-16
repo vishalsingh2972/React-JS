@@ -9,7 +9,7 @@
 - useSelector hook
 - Selector
 - useDispatch hook
-- Cart Functionality
+- Cart Functionality - Add, Delete, ClearCart, TotalBill
 - Immer.js Library
 - 
 

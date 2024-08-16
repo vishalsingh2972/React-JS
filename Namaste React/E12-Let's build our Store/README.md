@@ -11,6 +11,7 @@
 - useDispatch hook
 - Cart Functionality - Add, Delete, ClearCart, TotalBill
 - Immer.js Library
+- Redux DevTools
 - 
 
 >  Check out the ______________ of our Food Delivery app completed in this episode here :

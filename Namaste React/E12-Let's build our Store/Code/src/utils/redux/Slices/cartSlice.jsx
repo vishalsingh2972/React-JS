@@ -41,4 +41,18 @@ export default cartSlice.reducer;
  so here basically when we click the '+' button in the app/UI, it dispatches 'action' which here is "addItem" and this action then next triggers/calls the corresponding 'reducer function' i.e here " () => {...} " and this reducer function now has the ability to modify the 'state' of the slice present in the redux store (~ here we are trying to modify the cart Slice present in redux store)
 
 - //1 => (state, action) => {...}, so now our reducer function gets access to 'state' i.e the initial/current state of the slice present in the redux store and the 'action' i.e in this case "addItem", so now our reducer function has the ability to modify our 'state' of the slice present in the redux store based on the 'action' it is being provided
+
+
+- why 'export default cartSlice.reducer' and not 'export default cartSlice.reducers'?
+so createSlice takes all the data and puts everything inside the big cartSlice object, something like this as end result ⬇️
+
+cartSlice = {
+  name: 'cart',
+  initialState: { items: [] },
+  actions: { addItem, removeItem, clearCart },
+  reducer: combinedReducerFunction // <--- this is where your reducers are stored
+}
+
+as you can see the reducers object you defined inside createSlice are changed from reducers: { .... } into a single reducer function and are now stored in the big cartSlice object
+hence we now export them as export default cartSlice.reducer' and not 'export default cartSlice.reducers'
 */

@@ -1,5 +1,5 @@
 import { useDispatch } from "react-redux";
-import { addItem } from "../utils/redux/Slices/cartSlice";
+import { addItem, removeItem } from "../utils/redux/Slices/cartSlice";
 import { CDN_URL } from "../utils/constants";
 
 const ItemList = (props) => {
@@ -10,6 +10,11 @@ const ItemList = (props) => {
   const handleAddItem = (item) => {
     //dispatch the action
     dispatch(addItem(item));
+  }
+
+  const handleRemoveItem = (item) => {
+    //dispatch the action
+    dispatch(removeItem(item));
   }
 
   return (
@@ -32,7 +37,15 @@ const ItemList = (props) => {
             <div className="w-3/12 p-4">
               <div className="absolute">
                 <button 
-                className="p-2 bg-black text-white shadow-lg hover:bg-white hover:text-black mx-10 my-20 rounded-full cursor-pointer"
+                className="p-2 bg-red-600 text-white shadow-lg hover:bg-white hover:text-black my-20 rounded-full cursor-pointer"
+                //dispatch the action on click using handleAddItem function
+                onClick={() => handleRemoveItem(item)}
+                >
+                  Del -
+                </button>
+
+                <button 
+                className="p-2 bg-black text-white shadow-lg hover:bg-white hover:text-black mx-8 my-20 rounded-full cursor-pointer"
                 //dispatch the action on click using handleAddItem function
                 onClick={() => handleAddItem(item)} //handleAddItem(item) called only when button is clicked ✅
                 // onClick={handleAddItem(item)} //handleAddItem(item) called immediately when the component renders ❌

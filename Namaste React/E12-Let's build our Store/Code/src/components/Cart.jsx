@@ -4,8 +4,11 @@ import { clearCart } from "../utils/redux/Slices/cartSlice";
 const Cart = () => {
 
   // read/get access to cartSlice data by subscribing to the store
-  const cartItems = useSelector((store) => store.CART.items);
-  console.log(cartItems); //💡 need to check
+  const cartItems = useSelector((store) => store.CART.items); //more efficient 🔋
+  // console.log(cartItems); //💡 need to check
+
+  // const store = useSelector((store) => store);
+  // const cartItems = store.cart.items; //will work same as 'const cartItems = useSelector((store) => store.CART.items);' but is less efficient 🧛‍♀️
 
   const dispatch = useDispatch();
   const handleClearCart = () => {
@@ -19,7 +22,7 @@ const Cart = () => {
       item.card.info.defaultPrice : item.card.info.price;
     return acc + price;
   }, 0);
-  // console.log(totalPrice);
+  // console.log("Total Price:", totalPrice/100);
 
   return (
     <div className="text-center m-4 p-4">
@@ -36,7 +39,7 @@ const Cart = () => {
       <div className="w-6/12 m-auto">
         <ItemList items={cartItems}/>
       </div>
-      {cartItems.length > 0 && <h1 className="w-6/12 m-auto text-right text-2xl font-bold">Total Bill: ₹{(totalPrice / 100).toFixed(2)}</h1>}
+      {cartItems.length > 0 && <h1 className="w-6/12 m-auto text-right text-2xl font-bold pt-5">Total Bill: ₹{(totalPrice / 100).toFixed(2)}</h1>}
     </div>
   )
 }

@@ -12,6 +12,7 @@
 - Cart Functionality - Add, Delete, ClearCart, TotalBill
 - Immer.js Library
 - Redux DevTools
+- RTK Query
 - 
 
 >  Check out the ______________ of our Food Delivery app completed in this episode here :

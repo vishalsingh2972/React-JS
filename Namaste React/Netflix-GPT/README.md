@@ -1,4 +1,4 @@
-**Detailed Mention of Topics and its Timestamps according to Namaste React Web Series**
+Detailed Mention of Topics and its Timestamps according to Namaste React Web Series
 
 <details>
   <summary>𝗘𝗽𝗶𝘀𝗼𝗱𝗲 1️⃣4️⃣ - 𝗡𝗲𝘁𝗳𝗹𝗶𝘅𝗚𝗣𝗧 - 𝗧𝗵𝗲 𝗕𝗲𝗴𝗶𝗻𝗻𝗶𝗻𝗴</summary>

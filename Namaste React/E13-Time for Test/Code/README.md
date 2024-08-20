@@ -24,7 +24,7 @@
 - 57:00 - tests folder created
 - 59:00 – double underscore means dunder method
 - 01:02:00 – Syntax of a Test function
-  `Part - 2 Completed `
+  `Part - 2 Completed`
 
 ### Part - 3
 
@@ -56,5 +56,5 @@
 - 03:22:13 – Test for “top-rated restaurants list”
 - 03:27:15 – beforeAll(()), beforeEach(()) , afterAll(()), afterEach(())
 - 03:32:25 – Integration Testing of adding a item to cart
-  `Part - 3 Completed `
+  `Part - 3 Completed`
 ```

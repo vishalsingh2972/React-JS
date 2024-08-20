@@ -10,7 +10,13 @@
 - Explain `selector`.
 - Explain `createSlice` and the `configuration` it takes.
 
+
 ## Coding Assignment: (done✅✅✅)
 - Practice making a store, slices and do read and write operations using Redux
 Store
 - Build Cart Flow using Redux Store
+
+
+## References:
+- [Redux](https://redux.js.org/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)

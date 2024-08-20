@@ -1,17 +1,21 @@
 **Detailed Mention of Topics and its Timestamps according to Namaste React Web Series**
 
+<details>
+  <summary>:zap: My GitHub Stats</summary>
+  &emsp;
+<div>
 ## Episode 14 - NetflixGPT - The Beginning
 
 ```sh
   0:00 to 8:35 - Introduction
-  08:36 - Part -1
+  08:36 - Part -  1
   - How to create a React Project using “Create React App”
   - 14:00 - npm start
   - Setting up the Tailwind CSS to our App
   - 19:00 - how to install Tailwind CSS
   - Netflix website features noted which are need to be cloned
 
-  33:00 - Part -2
+  33:00 - Part -  2
   - Create a new Github Repository & push the code
   - Login & headers components created
   - Body.js component created
@@ -21,7 +25,7 @@
   - 01:10:10 - Create a Sign up form
   - 01:23:00 - “formik” library for forms
 
-  01:27:10 - Part -3
+  01:27:10 - Part - 3
   - Form Validation
   - useRef hook
   - 01:34:00 - Regex validation
@@ -55,6 +59,10 @@
   03:49:30 - Part - 8
   - TMDB APIs
 ```
+</div>
+</details>
+
+
 
 ## Episode 15 - Building the Core
 
@@ -66,10 +74,10 @@
   - 14:00 - Sign-in redirecting to browse page & if the user is not logged in Redirect/browse
   to login page and vice-versa
 
-  16:30 - Part -10
+  16:30 - Part -  10
   - Till 21:10 - unSubscribing onAuthState Change
 
-  21:45 - Part -11 (Adding constant file to the project)
+  21:45 - Part -  11 (Adding constant file to the project)
   - 23:35 - Make a separate file Constants.js
   - Till 30:25 - Adding user image into the Constants.js file
   - 31:45 - Add hardcoded values to the constants file
@@ -80,13 +88,13 @@
   - Register TMDB API & Create an app and get access token
   - Get data from TMDB now playing movies list API
 
-  49:05 - Part -13
+  49:05 - Part -  13
   - Adding movie data to the store (moviesSlice)
 
   56:25 - Part - 14
   - Creating your own custom Hook
 
-  01:03:15 - Part -15 - Building Browse Page
+  01:03:15 - Part - 15 - Building Browse Page
   - UI Plan
   - MainContainer
   - VideoBackground
@@ -95,12 +103,12 @@
   - MovieList * n
   - cards*n
 
-  01:17:03 - Part -16
+  01:17:03 - Part - 16
   - Building Video Title & Styling it by using Tailwind CSS
   01:29:09 - Building Video Background
   02:03:15 - Creating Custom Hook for trailer video
 
-  02:11:45 - Part -17 - Building Video Background
+  02:11:45 - Part - 17 - Building Video Background
   02:32:00 - Progress till now
   - Custom Hook for now playing Movies
   - Create movieSlice
@@ -111,11 +119,11 @@
   - Embedded the YouTube video & make it autoplay and mute
   - Tailwind classes to make MainContainer look awesome
 
-  02:37:44 - Part -18 - Creating Movie Suggestions List
+  02:37:44 - Part - 18 - Creating Movie Suggestions List
   - Building Secondary Container
   - 02:56:48 - How to display 20 cards?(Map Function)
 
-  03:20:02 - Part -19 - Showing Popular Movies list on Browse page
+  03:20:02 - Part - 19 - Showing Popular Movies list on Browse page
   - UI Plan achieved
   - Build Secondary Component
   - Build Movie List
@@ -126,11 +134,10 @@
 ```
 
 
-
 ## Episode 16 - NetflixGPT - Wrapping Up
 
 ```sh
-  01:13 - Part -20
+  01:13 - Part -  20
   - Introduction to GPT
 
   05:02 - Part - 21
@@ -154,7 +161,7 @@
 
   03:16:50 - Part - 27
   - OpenAI usage bill and suggestions
-  
+
   03:22:16 - Part - 28
   - Making our App Mobile Responsive
   Progress Track (readme file)

@@ -1,10 +1,9 @@
 **Detailed Mention of Topics and its Timestamps according to Namaste React Web Series**
 
 <details>
-  <summary>:zap: My GitHub Stats</summary>
+  <summary>## Episode 14 - NetflixGPT - The Beginning</summary>
   &emsp;
 <div>
-## Episode 14 - NetflixGPT - The Beginning
 
 ```sh
   0:00 to 8:35 - Introduction
@@ -62,9 +61,10 @@
 </div>
 </details>
 
-
-
-## Episode 15 - Building the Core
+<details>
+  <summary>## Episode 15 - Building the Core</summary>
+  &emsp;
+<div>
 
 ```sh
   0:52 - Part - 9
@@ -132,9 +132,13 @@
   - Made the browse page amazing with Tailwind CSS
   - usePopularMovies custom Hook
 ```
+</div>
+</details>
 
-
-## Episode 16 - NetflixGPT - Wrapping Up
+<details>
+  <summary>## Episode 16 - NetflixGPT - Wrapping Up</summary>
+  &emsp;
+<div>
 
 ```sh
   01:13 - Part -  20
@@ -176,3 +180,5 @@
   - Made our site responsive
   04:01:28 - NetflixGPT - Ending Note
 ```
+</div>
+</details>

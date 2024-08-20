@@ -1,5 +1,6 @@
 ## Namaste React Course by Akshay Saini
 # Chapter 12 - Let's Build Our Store
+Also good for reference - https://github.com/tanishraj/learn_react_advanced?tab=readme-ov-file#1-usecontext-vs-redux
 
 ### Q: `useContext` vs `Redux`
 A: `useContext` and `Redux` are both tools used for state management in React applications, but they serve different purposes and have different use cases. Let's explore the key differences between useContext and Redux:
@@ -12,6 +13,18 @@ A: `useContext` and `Redux` are both tools used for state management in React ap
 `Component Coupling`: State managed with useContext is local to the component or a subtree of components where the context is provided. This can lead to more isolated and less globally shared state.
 
 `Integration`: It's seamlessly integrated into React and works well with the component lifecycle. You can create and consume contexts within functional components using the useContext hook.
+
+In short, `useContext`: It is a hook in React used for accessing the context directly within a functional component. It's typically used for simpler state management needs where global state is needed without the complexity of Redux.
+Example:
+
+```jsx
+const MyContext = React.createContext();
+
+function MyComponent() {
+    const value = useContext(MyContext);
+    return <div>{value}</div>;
+}
+```
 
 ### Redux:
 `Scope`: Redux is a state management library that provides a global state container for the entire application. It allows you to manage the application state in a predictable and centralized manner.

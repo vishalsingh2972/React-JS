@@ -16,7 +16,7 @@ const cartSlice = createSlice({
 
       //Redux Toolkit (newer Redux) //under the hood redux toolkit is still doing the same thing that the older versions of Redux were doing but here everything BTS is quietly handled by the Immer js library ~ Immer js library allows us to work with immutable(state cannot be modified directly) state in a more convenient way, the state cannot be modified directly but we can modify it via immer where immer silently does the state change and everything else in the background
       //mutating the 'state' ~ we may feel we are directly modifying the 'state' here but we are not doing it directly we are doing it indirectly via Immer 😉
-      state.items.push(action.payload);
+      state.items.push(action.payload);//here we may feel that we are modifying the current state but behind the scenes immer is actually creatng a newer version of the state and we are here modifying that newer version
     },
     removeItem: (state, action) => {
       state.items.pop(); //just removing 1 item from top for now, need to check and write exact logic

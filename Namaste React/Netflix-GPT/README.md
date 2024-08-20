@@ -1,7 +1,7 @@
 **Detailed Mention of Topics and its Timestamps according to Namaste React Web Series**
 
 <details>
-  <summary>**Episode 14 - NetflixGPT - The Beginning**</summary>
+  <summary>Episode 1️⃣4️⃣ - NetflixGPT - The Beginning</summary>
   &emsp;
 <div>
 
@@ -62,7 +62,7 @@
 </details>
 
 <details>
-  <summary>Episode 15 - Building the Core</summary>
+  <summary>Episode 1️⃣5️⃣ - Building the Core</summary>
   &emsp;
 <div>
 
@@ -136,7 +136,7 @@
 </details>
 
 <details>
-  <summary>Episode 16 - NetflixGPT - Wrapping Up</summary>
+  <summary>Episode 1️⃣6️⃣ - NetflixGPT - Wrapping Up</summary>
   &emsp;
 <div>
 

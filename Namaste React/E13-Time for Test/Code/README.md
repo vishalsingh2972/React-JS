@@ -58,3 +58,16 @@
 - 03:32:25 – Integration Testing of adding a item to cart
   `Part - 3 Completed`
 ```
+								NOTES
+
+# Setting up Testing in our app
+ - Install React Testing Library
+ - Installed jest
+ - Installed Babel dependencies
+ - Configure Babel 
+ - Configure Parcel Config file (.parcelrc) to disable default babel transpilation (so now parcel will stop using its own predefined babel which was earlier causing conflict issue with the jest babel defined in babel.config.js) 
+ - Jest - npx jest --init
+ - Install jsdom library
+ - Install @babel/preset-react - to make JSX work in test cases
+ - Include @babel/preset-react inside my babel config
+ - npm i -D @testing-library/jest-dom

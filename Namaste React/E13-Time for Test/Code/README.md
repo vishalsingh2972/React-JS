@@ -38,6 +38,10 @@
 - 01:48:55 – getAllByRole(“textbox”) , getByPlaceholderText(“name”),
   expect(inputBoxes.length).toBe(2);
 - 01:55:15 – “describe”, test or it usage, Unit Testing
+  `Part - 3 Completed`
+
+### Part - 4
+
 - 02:02:31 – push coverage folder to gitignore
 - 02:04:06 – Building Header.test.js file
 - 02:19:40 – Testing cart items
@@ -56,7 +60,7 @@
 - 03:22:13 – Test for “top-rated restaurants list”
 - 03:27:15 – beforeAll(()), beforeEach(()) , afterAll(()), afterEach(())
 - 03:32:25 – Integration Testing of adding a item to cart
-  `Part - 3 Completed`
+  `Part - 4 Completed`
 ```
 								NOTES
 

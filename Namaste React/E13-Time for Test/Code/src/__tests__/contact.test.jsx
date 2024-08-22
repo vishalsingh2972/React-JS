@@ -11,7 +11,7 @@ test("should load heading inside Contact (us) component",() => {
   render(<Contact/>); //rendered contact component onto the jsdom
 
   //everything that got rendered(all the elements present in the component that was rendered) can now be accessed using screen object from react-testing-library
-  const heading = screen.getByRole("heading");
+  const heading = screen.getByRole("heading"); //'Querying'
 
   expect(heading).toBeInTheDocument(); //'Assertion'
   //toBeInTheDocument() is like saying "is this element(heading) actually visible on the page?, specifically here is the heading element present in the DOM(i.e in our case, the jsdom environment)" whereas toBe in sum.test.js is like saying "is this value exactly equal to 5?"
@@ -42,7 +42,12 @@ test("should load 2 inputs inside Contact (us) component",() => {
   render(<Contact/>); 
 
   const all_inputs = screen.getAllByRole("textbox"); //✅
-  // console.log(all_inputs.length);
+  //console.log(typeof(all_inputs[0])); // JS object ~ React element ~ virtual DOM object
+  //console.log(all_inputs.length)
 
- expect(all_inputs.length).toBe(2);
+ expect(all_inputs.length).toBe(2); //✅
+//  expect(all_inputs.length).not.toBe(3); //also ✅
 });
+
+
+//basics of testing ~ in short 3 step process for every test case - 'rendering' ---> 'Querying' ---> 'Assertion'

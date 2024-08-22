@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
@@ -15,11 +15,11 @@ const Contact = () => {
           className=" border border-black p-2 m-2"
           placeholder="Message"
         />
-        <Link to="/">
+        {/* <Link to="/"> */}
           <button className=" border border-black p-2 m-2 bg-gray-100 rounded-lg">
             Submit
           </button>
-        </Link>
+        {/* </Link> */}
       </form>
     </div>
   );

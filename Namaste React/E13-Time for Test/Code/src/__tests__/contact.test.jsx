@@ -1,5 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import Contact from "../components/Contact";
+import '@testing-library/jest-dom';
 
 test("should load contact us page/component",() => {
 
@@ -12,6 +13,6 @@ test("should load contact us page/component",() => {
   //everything that got rendered(all the rendered elements present in the component that was rendered) can now be accessed using screen object from react-testing-library
   const heading = screen.getByRole("heading");
 
-  expect(heading).toBeIntheDocument();
-  //toBeIntheDocument() is like saying "is this element actually visible on the page?" whereas toBe in sum.test.js is like saying "is this value exactly 5?"
+  expect(heading).toBeInTheDocument(); //'Assertion'
+  //toBeInTheDocument() is like saying "is this element actually visible on the page?" whereas toBe in sum.test.js is like saying "is this value exactly 5?"
 });

@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@parcel/transformer-react-refresh-wrap": "^2.12.0",
     "@reduxjs/toolkit": "^2.2.7",
     "lightningcss": "^1.25.1",
     "react": "^18.3.1",

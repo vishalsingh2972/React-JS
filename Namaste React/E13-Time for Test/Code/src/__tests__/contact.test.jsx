@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import Contact from "../components/Contact";
-import '@testing-library/jest-dom';
+import '@testing-library/jest-dom';//for getting access to 'toBeInTheDocument' and using it here
 
 describe("Contact Us Page Test Cases", () => { //grouping of testcases using 'describe'
 
@@ -17,7 +17,7 @@ describe("Contact Us Page Test Cases", () => { //grouping of testcases using 'de
 
     expect(heading).toBeInTheDocument(); //'Assertion'
     //toBeInTheDocument() is like saying "is this element(heading) actually visible on the page?, specifically here is the heading element present in the DOM(i.e in our case, the jsdom environment)" whereas toBe in sum.test.js is like saying "is this value exactly equal to 5?"
-    //so in short expect(heading).toBeInTheDocument() checks if the heading element is present in the Contact component we previously rendered onto the jsdom environment using render(<Contact/>)
+    //so in short expect(heading).toBeInTheDocument() checks if the heading element is present in the Contact component we just rendered onto the jsdom environment using render(<Contact/>)
   });
 
   it("should load button inside Contact (us) component", () => { //can also write 'test' as 'it'

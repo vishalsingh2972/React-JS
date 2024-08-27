@@ -1,4 +1,4 @@
-import { render, screen } from "@testing-library/react";
+import { render, screen, fireEvent } from "@testing-library/react";
 import Header from "../components/Header";
 import '@testing-library/jest-dom';
 import { Provider } from "react-redux";
@@ -21,12 +21,11 @@ it("should render Header Component with a Login Button", () => {
   // const login_button = screen.getByText('Login'); //✅
 
   //Suppose if there were multiple buttons and I want to specifically find out button with name 'Login' then I can do it like this:
-  // const login_button2 = screen.getByRole('button', {name: "Login"});
+  // const login_button2 = screen.getByRole('button', {name: "Login"}); //✅ even this works here
 
   //Assertion
   expect(login_button).toBeInTheDocument();
 })
-
 
 it("should render Header Component with Cart items O button", () => {
 
@@ -46,7 +45,48 @@ it("should render Header Component with Cart items O button", () => {
   expect(cart_items).toBeInTheDocument();
 })
 
+it("should render Header Component with 'Cart' element irrespective of number of items in the cart", () => {
 
+  //redering
+  render(
+    <BrowserRouter>
+      <Provider store={appStore}>
+        <Header />
+      </Provider>
+    </BrowserRouter>
+  );
+
+  //Querying
+  const cart_items = screen.getByText(/🛒/); //regex (here we just check if we have 'cart' symbol in the header component irresective of whether items in cart are 0, 1 , 2 etc.)
+
+  //Assertion
+  expect(cart_items).toBeInTheDocument();
+})
+
+it("should render Header Component in which Login Button changes to Logout Button on click", () => {
+
+  //redering
+  render(
+    <BrowserRouter>
+      <Provider store={appStore}>
+        <Header />
+      </Provider>
+    </BrowserRouter>
+  );
+
+  //Querying
+  // const login_button = screen.getByRole('button'); //✅
+  const login_button = screen.getByRole('button', {name: "Login"}); //✅
+
+  //fireEvent to click the button ~ By doing this, you're testing how your application responds when a user clicks the Login Button, basically fireEvent.click method simulates a click event on the login_button
+  fireEvent.click(login_button);
+
+  //After the click event, the 'logout_button' is retrieved from the updated DOM(here jsdom env) using getByRole with the name "Logout"
+  const logout_button = screen.getByRole('button', {name: "Logout"});
+
+  //Assertion
+  expect(logout_button).toBeInTheDocument();
+})
 
 /* NOTE:
 

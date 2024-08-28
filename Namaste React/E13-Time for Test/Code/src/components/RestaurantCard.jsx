@@ -4,8 +4,8 @@ import UserContext from "../utils/context/UserContext";
 
 const RestaurantCard = (props) => {
   // console.log(props);
-  // const{ resData } = props;
-  console.log(resData); //used for 'mocks' in testing
+  const{ resData } = props;
+  // console.log(resData); //used for 'mocks' in testing
   // console.log(resData.info);
   const {cloudinaryImageId, name, cuisines, avgRatingString, costForTwo} = resData?.info; //here 1️⃣'const { cloudinaryImageId } = resData?.info;' is same as 2️⃣'const cloudinaryImageId = resData.info.cloudinaryImageId' but with optional chaining ?., basically 1️⃣ is 2️⃣ with optional chaining ?. //similarly for these as well ---> name, cuisines, avgRatingString, costForTwo
   //?. optional chaining stops if value is null and avoids further errors

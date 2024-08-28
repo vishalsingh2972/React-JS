@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import RestaurantCard, { withVegLabel } from "../../components/RestaurantCard";
-import MOCK_DATA from "../mocks/restaurantCardMock.json";
-// import MOCK_DATA2 from "./mocks/resCardVegLabelMock.json";
+import MOCK_DATA from "../mocks/UT/restaurantCardMock.json";
+// import MOCK_DATA2 from "./mocks/UT/resCardVegLabelMock.json";
 import '@testing-library/jest-dom';
 
 it("should render RestaurantCard component with props Data that we pass in", () => {

@@ -1,0 +1,87 @@
+{
+  "info": {
+      "id": "673363",
+      "name": "Bombay Sweet Shop",
+      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/28/1dd55edb-2651-4660-9bba-8d3dbe528f98_673363.jpg",
+      "locality": "Vidyanagari Marg",
+      "areaName": "Scruz Bandra East",
+      "costForTwo": "₹700 for two",
+      "cuisines": [
+          "Desserts",
+          "Snacks",
+          "Bakery",
+          "Sweets",
+          "Indian"
+      ],
+      "avgRating": 4.8,
+      "veg": true,
+      "parentId": "48883",
+      "avgRatingString": "4.8",
+      "totalRatingsString": "100+",
+      "sla": {
+          "deliveryTime": 21,
+          "lastMileTravel": 1.9,
+          "serviceability": "SERVICEABLE",
+          "slaString": "20-25 mins",
+          "lastMileTravelString": "1.9 km",
+          "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+          "nextCloseTime": "2024-08-28 23:30:00",
+          "opened": true
+      },
+      "badges": {
+          "imageBadges": [
+              {
+                  "imageId": "newg.png",
+                  "description": "Gourmet"
+              }
+          ]
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+          "entityBadges": {
+              "imageBased": {
+                  "badgeObject": [
+                      {
+                          "attributes": {
+                              "description": "Gourmet",
+                              "imageId": "newg.png"
+                          }
+                      }
+                  ]
+              },
+              "textBased": {},
+              "textExtendedBadges": {}
+          }
+      },
+      "aggregatedDiscountInfoV3": {
+          "header": "₹300 OFF",
+          "subHeader": "ABOVE ₹3000",
+          "discountTag": "FLAT DEAL"
+      },
+      "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+              "lottie": {},
+              "video": {}
+          }
+      },
+      "reviewsSummary": {},
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {},
+      "externalRatings": {
+          "aggregatedRating": {
+              "rating": "--"
+          }
+      },
+      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+  },
+  "analytics": {},
+  "cta": {
+      "link": "https://www.swiggy.com/restaurants/bombay-sweet-shop-vidyanagari-marg-scruz-bandra-east-mumbai-673363",
+      "type": "WEBLINK"
+  }
+}

@@ -22,6 +22,10 @@ const Body = () => {
     fetchData();
   }, []); //empty dependency array [], hence useEffect hook will get triggered (i.e. "console.log("useEffect called 3")" and "fetchData();" will happen) just only once when my Body component is rendered for the first time
 
+  // useEffect(() => {
+  //   console.log(filteredRestaurant);
+  // }, [filteredRestaurant]);
+
   const fetchData = async () => {
     const data = await fetch(
       RESTAURANTS_API

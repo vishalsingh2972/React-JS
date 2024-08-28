@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
-import RestaurantCard, { withVegLabel } from "../components/RestaurantCard";
-import MOCK_DATA from "./mocks/restaurantCardMock.json";
+import RestaurantCard, { withVegLabel } from "../../components/RestaurantCard";
+import MOCK_DATA from "../mocks/restaurantCardMock.json";
 // import MOCK_DATA2 from "./mocks/resCardVegLabelMock.json";
 import '@testing-library/jest-dom';
 

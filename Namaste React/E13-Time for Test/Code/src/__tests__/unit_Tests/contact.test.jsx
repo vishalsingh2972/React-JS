@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import Contact from "../components/Contact";
+import Contact from "../../components/Contact";
 import '@testing-library/jest-dom';//for getting access to 'toBeInTheDocument' and using it here
 
 describe("Contact Us Page Test Cases", () => { //grouping of testcases using 'describe'

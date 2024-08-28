@@ -47,7 +47,7 @@ const Body = () => {
     return <h1>Sorry, you are not connected to the network 😥</h1>
   }
 
-  const  { setUserName, loggedInUser } = useContext(UserContext);
+  const { setUserName, loggedInUser } = useContext(UserContext);
 
   // ⬇️ Conditional Rendering ⬇️
   // console.log("Body rendered 1");
@@ -64,6 +64,24 @@ const Body = () => {
             onChange={(event) => {
               setSearchText(event.target.value);
               // console.log(event.target.value)
+            }}
+            //simply 'enter' to search after typing feature
+            onKeyDown={(event) => {
+              if (event.key === 'Enter') {
+                // Trigger the search logic when Enter is pressed
+                if (!searchText) {
+                  alert("Please enter a restaurant name!");
+                  return;
+                }
+
+                const filteredRestaurant = listOfRestaurants.filter((restaurant) =>
+                  restaurant.info.name.toLowerCase().includes(searchText.toLowerCase())
+                );
+
+                filteredRestaurant.length === 0
+                  ? alert("Restaurant not found")
+                  : setFilteredRestaurant(filteredRestaurant);
+              }
             }}
           />
           <button className="px-4 py-1 bg-orange-400 m-4 rounded-full"
@@ -98,7 +116,7 @@ const Body = () => {
 
           <div className="ml-28">
             <label>UserName : </label>
-            <input 
+            <input
               className="border border-black p-2"
               value={loggedInUser}
               onChange={(e) => setUserName(e.target.value)}

@@ -3,7 +3,7 @@
   "data": {
     "statusMessage": "done successfully",
     "pageOffset": {
-      "nextOffset": "CJhlELQ4KIDY05zt/7iAWDCnEw==",
+      "nextOffset": "CJhlELQ4KIConrGP9qrzcjCnEw==",
       "widgetOffset": {
         "NewListingView_category_bar_chicletranking_TwoRows": "",
         "NewListingView_category_bar_chicletranking_TwoRows_Rendition": "",
@@ -126,28 +126,6 @@
                   "description": "Chinese"
                 },
                 {
-                  "id": "750596",
-                  "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_chocolate icecream.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/83640?collection_id=83640&tags=layout_CCS_IceCreams&type=rcv2",
-                    "text": "Ice Cream",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurants curated for icecream",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "swiggy://collectionV2?collection_id=83640&tags=layout_CCS_IceCreams",
-                  "frequencyCapping": {
-                    
-                  },
-                  "externalMarketing": {
-                    
-                  },
-                  "description": "Ice Cream"
-                },
-                {
                   "id": "749868",
                   "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_cake.png",
                   "action": {
@@ -170,26 +148,26 @@
                   "description": "Cakes"
                 },
                 {
-                  "id": "750581",
-                  "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_North Indian.png",
+                  "id": "750596",
+                  "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_chocolate icecream.png",
                   "action": {
-                    "link": "https://www.swiggy.com/collections/83633?collection_id=83633&search_context=northindian&tags=layout_CCS_NorthIndian&type=rcv2",
-                    "text": "North Indian",
+                    "link": "https://www.swiggy.com/collections/83640?collection_id=83640&tags=layout_CCS_IceCreams&type=rcv2",
+                    "text": "Ice Cream",
                     "type": "WEBLINK"
                   },
                   "entityType": "BANNER",
                   "accessibility": {
-                    "altText": "restaurants curated for north indian",
+                    "altText": "restaurants curated for icecream",
                     "altTextCta": "open"
                   },
-                  "entityId": "swiggy://collectionV2?collection_id=83633&tags=layout_CCS_NorthIndian&search_context=northindian",
+                  "entityId": "swiggy://collectionV2?collection_id=83640&tags=layout_CCS_IceCreams",
                   "frequencyCapping": {
                     
                   },
                   "externalMarketing": {
                     
                   },
-                  "description": "North Indian"
+                  "description": "Ice Cream"
                 },
                 {
                   "id": "750222",
@@ -236,6 +214,28 @@
                   "description": "Biryani"
                 },
                 {
+                  "id": "750581",
+                  "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_North Indian.png",
+                  "action": {
+                    "link": "https://www.swiggy.com/collections/83633?collection_id=83633&search_context=northindian&tags=layout_CCS_NorthIndian&type=rcv2",
+                    "text": "North Indian",
+                    "type": "WEBLINK"
+                  },
+                  "entityType": "BANNER",
+                  "accessibility": {
+                    "altText": "restaurants curated for north indian",
+                    "altTextCta": "open"
+                  },
+                  "entityId": "swiggy://collectionV2?collection_id=83633&tags=layout_CCS_NorthIndian&search_context=northindian",
+                  "frequencyCapping": {
+                    
+                  },
+                  "externalMarketing": {
+                    
+                  },
+                  "description": "North Indian"
+                },
+                {
                   "id": "750208",
                   "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_pastry.png",
                   "action": {
@@ -280,26 +280,26 @@
                   "description": "Momos"
                 },
                 {
-                  "id": "750248",
-                  "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_shawarma.png",
+                  "id": "745861",
+                  "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Shake.png",
                   "action": {
-                    "link": "https://www.swiggy.com/collections/80402?collection_id=80402&tags=layout_Shawarma_Contextual&type=rcv2",
-                    "text": "Shawarma",
+                    "link": "https://www.swiggy.com/collections/83673?collection_id=83673&tags=layout_CCS_Shakes&type=rcv2",
+                    "text": "Shake",
                     "type": "WEBLINK"
                   },
                   "entityType": "BANNER",
                   "accessibility": {
-                    "altText": "restaurant curated for shawarma",
+                    "altText": "restaurants curated for shakes",
                     "altTextCta": "open"
                   },
-                  "entityId": "swiggy://collectionV2?collection_id=80402&tags=layout_Shawarma_Contextual",
+                  "entityId": "swiggy://collectionV2?collection_id=83673&tags=layout_CCS_Shakes",
                   "frequencyCapping": {
                     
                   },
                   "externalMarketing": {
                     
                   },
-                  "description": "Shawarma"
+                  "description": "Shake"
                 },
                 {
                   "id": "749772",
@@ -324,48 +324,26 @@
                   "description": "Noodles"
                 },
                 {
-                  "id": "745861",
-                  "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Shake.png",
+                  "id": "750248",
+                  "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_shawarma.png",
                   "action": {
-                    "link": "https://www.swiggy.com/collections/83673?collection_id=83673&tags=layout_CCS_Shakes&type=rcv2",
-                    "text": "Shake",
+                    "link": "https://www.swiggy.com/collections/80402?collection_id=80402&tags=layout_Shawarma_Contextual&type=rcv2",
+                    "text": "Shawarma",
                     "type": "WEBLINK"
                   },
                   "entityType": "BANNER",
                   "accessibility": {
-                    "altText": "restaurants curated for shakes",
+                    "altText": "restaurant curated for shawarma",
                     "altTextCta": "open"
                   },
-                  "entityId": "swiggy://collectionV2?collection_id=83673&tags=layout_CCS_Shakes",
+                  "entityId": "swiggy://collectionV2?collection_id=80402&tags=layout_Shawarma_Contextual",
                   "frequencyCapping": {
                     
                   },
                   "externalMarketing": {
                     
                   },
-                  "description": "Shake"
-                },
-                {
-                  "id": "750216",
-                  "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Pav Bhaji.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80362?collection_id=80362&tags=layout_PavBhaji_Contextual&type=rcv2",
-                    "text": "Pav Bhaji",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurant curated for pav bhaji",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "swiggy://collectionV2?collection_id=80362&tags=layout_PavBhaji_Contextual",
-                  "frequencyCapping": {
-                    
-                  },
-                  "externalMarketing": {
-                    
-                  },
-                  "description": "Pav Bhaji"
+                  "description": "Shawarma"
                 },
                 {
                   "id": "750201",
@@ -390,26 +368,48 @@
                   "description": "Paratha"
                 },
                 {
-                  "id": "750635",
-                  "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Kebabs.png",
+                  "id": "750216",
+                  "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Pav Bhaji.png",
                   "action": {
-                    "link": "https://www.swiggy.com/collections/80451?collection_id=80451&tags=layout_CCS_Kebabs&type=rcv2",
-                    "text": "Kebabs",
+                    "link": "https://www.swiggy.com/collections/80362?collection_id=80362&tags=layout_PavBhaji_Contextual&type=rcv2",
+                    "text": "Pav Bhaji",
                     "type": "WEBLINK"
                   },
                   "entityType": "BANNER",
                   "accessibility": {
-                    "altText": "restaurant curated for kebabs",
+                    "altText": "restaurant curated for pav bhaji",
                     "altTextCta": "open"
                   },
-                  "entityId": "swiggy://collectionV2?collection_id=80451&tags=layout_CCS_Kebabs",
+                  "entityId": "swiggy://collectionV2?collection_id=80362&tags=layout_PavBhaji_Contextual",
                   "frequencyCapping": {
                     
                   },
                   "externalMarketing": {
                     
                   },
-                  "description": "Kebabs"
+                  "description": "Pav Bhaji"
+                },
+                {
+                  "id": "750571",
+                  "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Pure Veg.png",
+                  "action": {
+                    "link": "https://www.swiggy.com/collections/80435?collection_id=80435&tags=layout_CCS_PureVeg&type=rcv2",
+                    "text": "Pure Veg",
+                    "type": "WEBLINK"
+                  },
+                  "entityType": "BANNER",
+                  "accessibility": {
+                    "altText": "restaurants curated for veg",
+                    "altTextCta": "open"
+                  },
+                  "entityId": "swiggy://collectionV2?collection_id=80435&tags=layout_CCS_PureVeg",
+                  "frequencyCapping": {
+                    
+                  },
+                  "externalMarketing": {
+                    
+                  },
+                  "description": "Pure Veg"
                 },
                 {
                   "id": "750206",
@@ -434,6 +434,28 @@
                   "description": "Pasta"
                 },
                 {
+                  "id": "750635",
+                  "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Kebabs.png",
+                  "action": {
+                    "link": "https://www.swiggy.com/collections/80451?collection_id=80451&tags=layout_CCS_Kebabs&type=rcv2",
+                    "text": "Kebabs",
+                    "type": "WEBLINK"
+                  },
+                  "entityType": "BANNER",
+                  "accessibility": {
+                    "altText": "restaurant curated for kebabs",
+                    "altTextCta": "open"
+                  },
+                  "entityId": "swiggy://collectionV2?collection_id=80451&tags=layout_CCS_Kebabs",
+                  "frequencyCapping": {
+                    
+                  },
+                  "externalMarketing": {
+                    
+                  },
+                  "description": "Kebabs"
+                },
+                {
                   "id": "749760",
                   "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Khichdi.png",
                   "action": {
@@ -454,28 +476,6 @@
                     
                   },
                   "description": "Khichdi"
-                },
-                {
-                  "id": "750571",
-                  "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Pure Veg.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80435?collection_id=80435&tags=layout_CCS_PureVeg&type=rcv2",
-                    "text": "Pure Veg",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurants curated for veg",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "swiggy://collectionV2?collection_id=80435&tags=layout_CCS_PureVeg",
-                  "frequencyCapping": {
-                    
-                  },
-                  "externalMarketing": {
-                    
-                  },
-                  "description": "Pure Veg"
                 },
                 {
                   "id": "750585",
@@ -585,28 +585,6 @@
                     "description": "Chinese"
                   },
                   {
-                    "id": "750596",
-                    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_chocolate icecream.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/83640?collection_id=83640&tags=layout_CCS_IceCreams&type=rcv2",
-                      "text": "Ice Cream",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurants curated for icecream",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "swiggy://collectionV2?collection_id=83640&tags=layout_CCS_IceCreams",
-                    "frequencyCapping": {
-                      
-                    },
-                    "externalMarketing": {
-                      
-                    },
-                    "description": "Ice Cream"
-                  },
-                  {
                     "id": "749868",
                     "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_cake.png",
                     "action": {
@@ -629,26 +607,26 @@
                     "description": "Cakes"
                   },
                   {
-                    "id": "750581",
-                    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_North Indian.png",
+                    "id": "750596",
+                    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_chocolate icecream.png",
                     "action": {
-                      "link": "https://www.swiggy.com/collections/83633?collection_id=83633&search_context=northindian&tags=layout_CCS_NorthIndian&type=rcv2",
-                      "text": "North Indian",
+                      "link": "https://www.swiggy.com/collections/83640?collection_id=83640&tags=layout_CCS_IceCreams&type=rcv2",
+                      "text": "Ice Cream",
                       "type": "WEBLINK"
                     },
                     "entityType": "BANNER",
                     "accessibility": {
-                      "altText": "restaurants curated for north indian",
+                      "altText": "restaurants curated for icecream",
                       "altTextCta": "open"
                     },
-                    "entityId": "swiggy://collectionV2?collection_id=83633&tags=layout_CCS_NorthIndian&search_context=northindian",
+                    "entityId": "swiggy://collectionV2?collection_id=83640&tags=layout_CCS_IceCreams",
                     "frequencyCapping": {
                       
                     },
                     "externalMarketing": {
                       
                     },
-                    "description": "North Indian"
+                    "description": "Ice Cream"
                   },
                   {
                     "id": "750222",
@@ -695,6 +673,28 @@
                     "description": "Biryani"
                   },
                   {
+                    "id": "750581",
+                    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_North Indian.png",
+                    "action": {
+                      "link": "https://www.swiggy.com/collections/83633?collection_id=83633&search_context=northindian&tags=layout_CCS_NorthIndian&type=rcv2",
+                      "text": "North Indian",
+                      "type": "WEBLINK"
+                    },
+                    "entityType": "BANNER",
+                    "accessibility": {
+                      "altText": "restaurants curated for north indian",
+                      "altTextCta": "open"
+                    },
+                    "entityId": "swiggy://collectionV2?collection_id=83633&tags=layout_CCS_NorthIndian&search_context=northindian",
+                    "frequencyCapping": {
+                      
+                    },
+                    "externalMarketing": {
+                      
+                    },
+                    "description": "North Indian"
+                  },
+                  {
                     "id": "750208",
                     "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_pastry.png",
                     "action": {
@@ -739,26 +739,26 @@
                     "description": "Momos"
                   },
                   {
-                    "id": "750248",
-                    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_shawarma.png",
+                    "id": "745861",
+                    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Shake.png",
                     "action": {
-                      "link": "https://www.swiggy.com/collections/80402?collection_id=80402&tags=layout_Shawarma_Contextual&type=rcv2",
-                      "text": "Shawarma",
+                      "link": "https://www.swiggy.com/collections/83673?collection_id=83673&tags=layout_CCS_Shakes&type=rcv2",
+                      "text": "Shake",
                       "type": "WEBLINK"
                     },
                     "entityType": "BANNER",
                     "accessibility": {
-                      "altText": "restaurant curated for shawarma",
+                      "altText": "restaurants curated for shakes",
                       "altTextCta": "open"
                     },
-                    "entityId": "swiggy://collectionV2?collection_id=80402&tags=layout_Shawarma_Contextual",
+                    "entityId": "swiggy://collectionV2?collection_id=83673&tags=layout_CCS_Shakes",
                     "frequencyCapping": {
                       
                     },
                     "externalMarketing": {
                       
                     },
-                    "description": "Shawarma"
+                    "description": "Shake"
                   },
                   {
                     "id": "749772",
@@ -783,48 +783,26 @@
                     "description": "Noodles"
                   },
                   {
-                    "id": "745861",
-                    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Shake.png",
+                    "id": "750248",
+                    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_shawarma.png",
                     "action": {
-                      "link": "https://www.swiggy.com/collections/83673?collection_id=83673&tags=layout_CCS_Shakes&type=rcv2",
-                      "text": "Shake",
+                      "link": "https://www.swiggy.com/collections/80402?collection_id=80402&tags=layout_Shawarma_Contextual&type=rcv2",
+                      "text": "Shawarma",
                       "type": "WEBLINK"
                     },
                     "entityType": "BANNER",
                     "accessibility": {
-                      "altText": "restaurants curated for shakes",
+                      "altText": "restaurant curated for shawarma",
                       "altTextCta": "open"
                     },
-                    "entityId": "swiggy://collectionV2?collection_id=83673&tags=layout_CCS_Shakes",
+                    "entityId": "swiggy://collectionV2?collection_id=80402&tags=layout_Shawarma_Contextual",
                     "frequencyCapping": {
                       
                     },
                     "externalMarketing": {
                       
                     },
-                    "description": "Shake"
-                  },
-                  {
-                    "id": "750216",
-                    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Pav Bhaji.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/80362?collection_id=80362&tags=layout_PavBhaji_Contextual&type=rcv2",
-                      "text": "Pav Bhaji",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurant curated for pav bhaji",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "swiggy://collectionV2?collection_id=80362&tags=layout_PavBhaji_Contextual",
-                    "frequencyCapping": {
-                      
-                    },
-                    "externalMarketing": {
-                      
-                    },
-                    "description": "Pav Bhaji"
+                    "description": "Shawarma"
                   },
                   {
                     "id": "750201",
@@ -849,26 +827,48 @@
                     "description": "Paratha"
                   },
                   {
-                    "id": "750635",
-                    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Kebabs.png",
+                    "id": "750216",
+                    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Pav Bhaji.png",
                     "action": {
-                      "link": "https://www.swiggy.com/collections/80451?collection_id=80451&tags=layout_CCS_Kebabs&type=rcv2",
-                      "text": "Kebabs",
+                      "link": "https://www.swiggy.com/collections/80362?collection_id=80362&tags=layout_PavBhaji_Contextual&type=rcv2",
+                      "text": "Pav Bhaji",
                       "type": "WEBLINK"
                     },
                     "entityType": "BANNER",
                     "accessibility": {
-                      "altText": "restaurant curated for kebabs",
+                      "altText": "restaurant curated for pav bhaji",
                       "altTextCta": "open"
                     },
-                    "entityId": "swiggy://collectionV2?collection_id=80451&tags=layout_CCS_Kebabs",
+                    "entityId": "swiggy://collectionV2?collection_id=80362&tags=layout_PavBhaji_Contextual",
                     "frequencyCapping": {
                       
                     },
                     "externalMarketing": {
                       
                     },
-                    "description": "Kebabs"
+                    "description": "Pav Bhaji"
+                  },
+                  {
+                    "id": "750571",
+                    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Pure Veg.png",
+                    "action": {
+                      "link": "https://www.swiggy.com/collections/80435?collection_id=80435&tags=layout_CCS_PureVeg&type=rcv2",
+                      "text": "Pure Veg",
+                      "type": "WEBLINK"
+                    },
+                    "entityType": "BANNER",
+                    "accessibility": {
+                      "altText": "restaurants curated for veg",
+                      "altTextCta": "open"
+                    },
+                    "entityId": "swiggy://collectionV2?collection_id=80435&tags=layout_CCS_PureVeg",
+                    "frequencyCapping": {
+                      
+                    },
+                    "externalMarketing": {
+                      
+                    },
+                    "description": "Pure Veg"
                   },
                   {
                     "id": "750206",
@@ -893,6 +893,28 @@
                     "description": "Pasta"
                   },
                   {
+                    "id": "750635",
+                    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Kebabs.png",
+                    "action": {
+                      "link": "https://www.swiggy.com/collections/80451?collection_id=80451&tags=layout_CCS_Kebabs&type=rcv2",
+                      "text": "Kebabs",
+                      "type": "WEBLINK"
+                    },
+                    "entityType": "BANNER",
+                    "accessibility": {
+                      "altText": "restaurant curated for kebabs",
+                      "altTextCta": "open"
+                    },
+                    "entityId": "swiggy://collectionV2?collection_id=80451&tags=layout_CCS_Kebabs",
+                    "frequencyCapping": {
+                      
+                    },
+                    "externalMarketing": {
+                      
+                    },
+                    "description": "Kebabs"
+                  },
+                  {
                     "id": "749760",
                     "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Khichdi.png",
                     "action": {
@@ -913,28 +935,6 @@
                       
                     },
                     "description": "Khichdi"
-                  },
-                  {
-                    "id": "750571",
-                    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Pure Veg.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/80435?collection_id=80435&tags=layout_CCS_PureVeg&type=rcv2",
-                      "text": "Pure Veg",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurants curated for veg",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "swiggy://collectionV2?collection_id=80435&tags=layout_CCS_PureVeg",
-                    "frequencyCapping": {
-                      
-                    },
-                    "externalMarketing": {
-                      
-                    },
-                    "description": "Pure Veg"
                   },
                   {
                     "id": "750585",
@@ -1053,9 +1053,9 @@
                       "avgRating": 4.3,
                       "parentId": "61955",
                       "avgRatingString": "4.3",
-                      "totalRatingsString": "10K+",
+                      "totalRatingsString": "13K+",
                       "sla": {
-                        "deliveryTime": 21,
+                        "deliveryTime": 24,
                         "lastMileTravel": 1.6,
                         "serviceability": "SERVICEABLE",
                         "slaString": "20-25 mins",
@@ -1063,11 +1063,15 @@
                         "iconType": "ICON_TYPE_EMPTY"
                       },
                       "availability": {
-                        "nextCloseTime": "2024-08-29 01:00:00",
+                        "nextCloseTime": "2024-09-07 01:00:00",
                         "opened": true
                       },
                       "badges": {
                         "imageBadges": [
+                          {
+                            "imageId": "Green%20Dot%20Awards/Best%20In%20Veg%20Noodles.png",
+                            "description": "Delivery!"
+                          },
                           {
                             "imageId": "Rxawards/_CATEGORY-Chinese.png",
                             "description": "Delivery!"
@@ -1080,6 +1084,12 @@
                         "entityBadges": {
                           "imageBased": {
                             "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "Delivery!",
+                                  "imageId": "Green%20Dot%20Awards/Best%20In%20Veg%20Noodles.png"
+                                }
+                              },
                               {
                                 "attributes": {
                                   "description": "Delivery!",
@@ -1098,7 +1108,7 @@
                       },
                       "aggregatedDiscountInfoV3": {
                         "header": "ITEMS",
-                        "subHeader": "AT ₹169"
+                        "subHeader": "AT ₹199"
                       },
                       "differentiatedUi": {
                         "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -1130,7 +1140,7 @@
                       
                     },
                     "cta": {
-                      "link": "https://www.swiggy.com/restaurants/chinese-wok-cst-road-santacruz-east-mumbai-28405",
+                      "link": "https://www.swiggy.com/city/mumbai/chinese-wok-cst-road-santacruz-east-rest28405",
                       "type": "WEBLINK"
                     }
                   },
@@ -1148,10 +1158,10 @@
                         "Pastas",
                         "Desserts"
                       ],
-                      "avgRating": 3.7,
+                      "avgRating": 3.6,
                       "parentId": "2456",
-                      "avgRatingString": "3.7",
-                      "totalRatingsString": "10K+",
+                      "avgRatingString": "3.6",
+                      "totalRatingsString": "12K+",
                       "sla": {
                         "deliveryTime": 30,
                         "lastMileTravel": 0.1,
@@ -1161,11 +1171,15 @@
                         "iconType": "ICON_TYPE_EMPTY"
                       },
                       "availability": {
-                        "nextCloseTime": "2024-08-29 02:55:00",
+                        "nextCloseTime": "2024-09-07 02:55:00",
                         "opened": true
                       },
                       "badges": {
                         "imageBadges": [
+                          {
+                            "imageId": "Green%20Dot%20Awards/Best%20In%20Veg%20Pizza.png",
+                            "description": "Delivery!"
+                          },
                           {
                             "imageId": "Rxawards/_CATEGORY-Pizza.png",
                             "description": "Delivery!"
@@ -1178,6 +1192,12 @@
                         "entityBadges": {
                           "imageBased": {
                             "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "Delivery!",
+                                  "imageId": "Green%20Dot%20Awards/Best%20In%20Veg%20Pizza.png"
+                                }
+                              },
                               {
                                 "attributes": {
                                   "description": "Delivery!",
@@ -1195,8 +1215,9 @@
                         }
                       },
                       "aggregatedDiscountInfoV3": {
-                        "header": "ITEMS",
-                        "subHeader": "AT ₹260"
+                        "header": "₹150 OFF",
+                        "subHeader": "ABOVE ₹299",
+                        "discountTag": "FLAT DEAL"
                       },
                       "differentiatedUi": {
                         "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -1220,7 +1241,7 @@
                       "externalRatings": {
                         "aggregatedRating": {
                           "rating": "3.8",
-                          "ratingCount": "1K+"
+                          "ratingCount": "1.1K+"
                         },
                         "source": "GOOGLE",
                         "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
@@ -1231,59 +1252,51 @@
                       
                     },
                     "cta": {
-                      "link": "https://www.swiggy.com/restaurants/dominos-pizza-kurla-east-kurla-west-mumbai-24463",
+                      "link": "https://www.swiggy.com/city/mumbai/dominos-pizza-kurla-east-kurla-west-rest24463",
                       "type": "WEBLINK"
                     }
                   },
                   {
                     "info": {
-                      "id": "78036",
-                      "name": "Burger King",
-                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/11/4ee8bc77-ca9f-41bd-a0f3-511c70902b91_78036.JPG",
-                      "locality": "Central Plaza, Kalina",
-                      "areaName": "Santacruz East",
-                      "costForTwo": "₹350 for two",
+                      "id": "484594",
+                      "name": "KFC",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/3334c8c2-3a17-4531-a91d-fe43776e2df1_484594.JPG",
+                      "locality": "East Point Market",
+                      "areaName": "East Point Kurla",
+                      "costForTwo": "₹400 for two",
                       "cuisines": [
                         "Burgers",
-                        "American"
+                        "Fast Food",
+                        "Rolls & Wraps"
                       ],
-                      "avgRating": 4.4,
-                      "parentId": "166",
-                      "avgRatingString": "4.4",
-                      "totalRatingsString": "10K+",
+                      "avgRating": 4.2,
+                      "parentId": "547",
+                      "avgRatingString": "4.2",
+                      "totalRatingsString": "3.6K+",
                       "sla": {
-                        "deliveryTime": 20,
-                        "lastMileTravel": 1.5,
+                        "deliveryTime": 24,
+                        "lastMileTravel": 3,
                         "serviceability": "SERVICEABLE",
                         "slaString": "20-25 mins",
-                        "lastMileTravelString": "1.5 km",
+                        "lastMileTravelString": "3.0 km",
                         "iconType": "ICON_TYPE_EMPTY"
                       },
                       "availability": {
-                        "nextCloseTime": "2024-08-29 05:00:00",
+                        "nextCloseTime": "2024-09-07 04:00:00",
                         "opened": true
                       },
                       "badges": {
-                        "imageBadges": [
-                          {
-                            "imageId": "Rxawards/_CATEGORY-Burger.png",
-                            "description": "Delivery!"
-                          }
-                        ]
+                        
                       },
                       "isOpen": true,
+                      "aggregatedDiscountInfoV2": {
+                        
+                      },
                       "type": "F",
                       "badgesV2": {
                         "entityBadges": {
                           "imageBased": {
-                            "badgeObject": [
-                              {
-                                "attributes": {
-                                  "description": "Delivery!",
-                                  "imageId": "Rxawards/_CATEGORY-Burger.png"
-                                }
-                              }
-                            ]
+                            
                           },
                           "textBased": {
                             
@@ -1292,10 +1305,6 @@
                             
                           }
                         }
-                      },
-                      "aggregatedDiscountInfoV3": {
-                        "header": "ITEMS",
-                        "subHeader": "AT ₹99"
                       },
                       "differentiatedUi": {
                         "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -1327,7 +1336,7 @@
                       
                     },
                     "cta": {
-                      "link": "https://www.swiggy.com/restaurants/burger-king-central-plaza-kalina-santacruz-east-mumbai-78036",
+                      "link": "https://www.swiggy.com/city/mumbai/kfc-east-point-market-east-point-kurla-rest484594",
                       "type": "WEBLINK"
                     }
                   },
@@ -1348,24 +1357,35 @@
                       "avgRating": 4.5,
                       "parentId": "630",
                       "avgRatingString": "4.5",
-                      "totalRatingsString": "10K+",
+                      "totalRatingsString": "37K+",
                       "sla": {
                         "deliveryTime": 19,
-                        "lastMileTravel": 1.5,
+                        "lastMileTravel": 1.2,
                         "serviceability": "SERVICEABLE",
                         "slaString": "15-20 mins",
-                        "lastMileTravelString": "1.5 km",
+                        "lastMileTravelString": "1.2 km",
                         "iconType": "ICON_TYPE_EMPTY"
                       },
                       "availability": {
-                        "nextCloseTime": "2024-08-29 02:45:00",
+                        "nextCloseTime": "2024-09-07 02:45:00",
                         "opened": true
                       },
                       "badges": {
                         "imageBadges": [
                           {
+                            "imageId": "Green%20Dot%20Awards/Best%20In%20Veg%20Burger.png",
+                            "description": "Delivery!"
+                          },
+                          {
                             "imageId": "Rxawards/_CATEGORY-Burger.png",
                             "description": "Delivery!"
+                          }
+                        ],
+                        "textExtendedBadges": [
+                          {
+                            "iconId": "guiltfree/GF_Logo_android_3x",
+                            "shortDescription": "options available",
+                            "fontColor": "#7E808C"
                           }
                         ]
                       },
@@ -1378,6 +1398,12 @@
                               {
                                 "attributes": {
                                   "description": "Delivery!",
+                                  "imageId": "Green%20Dot%20Awards/Best%20In%20Veg%20Burger.png"
+                                }
+                              },
+                              {
+                                "attributes": {
+                                  "description": "Delivery!",
                                   "imageId": "Rxawards/_CATEGORY-Burger.png"
                                 }
                               }
@@ -1387,13 +1413,22 @@
                             
                           },
                           "textExtendedBadges": {
-                            
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "",
+                                  "fontColor": "#7E808C",
+                                  "iconId": "guiltfree/GF_Logo_android_3x",
+                                  "shortDescription": "options available"
+                                }
+                              }
+                            ]
                           }
                         }
                       },
                       "aggregatedDiscountInfoV3": {
                         "header": "ITEMS",
-                        "subHeader": "AT ₹179"
+                        "subHeader": "AT ₹209"
                       },
                       "differentiatedUi": {
                         "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -1425,92 +1460,7 @@
                       
                     },
                     "cta": {
-                      "link": "https://www.swiggy.com/restaurants/mcdonalds-kalina-artista-santacruz-east-mumbai-32399",
-                      "type": "WEBLINK"
-                    }
-                  },
-                  {
-                    "info": {
-                      "id": "484594",
-                      "name": "KFC",
-                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/3334c8c2-3a17-4531-a91d-fe43776e2df1_484594.JPG",
-                      "locality": "East Point Market",
-                      "areaName": "East Point Kurla",
-                      "costForTwo": "₹400 for two",
-                      "cuisines": [
-                        "Burgers",
-                        "Fast Food",
-                        "Rolls & Wraps"
-                      ],
-                      "avgRating": 4.2,
-                      "parentId": "547",
-                      "avgRatingString": "4.2",
-                      "totalRatingsString": "1K+",
-                      "sla": {
-                        "deliveryTime": 23,
-                        "lastMileTravel": 3,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "20-25 mins",
-                        "lastMileTravelString": "3.0 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                      },
-                      "availability": {
-                        "nextCloseTime": "2024-08-29 01:00:00",
-                        "opened": true
-                      },
-                      "badges": {
-                        
-                      },
-                      "isOpen": true,
-                      "type": "F",
-                      "badgesV2": {
-                        "entityBadges": {
-                          "imageBased": {
-                            
-                          },
-                          "textBased": {
-                            
-                          },
-                          "textExtendedBadges": {
-                            
-                          }
-                        }
-                      },
-                      "aggregatedDiscountInfoV3": {
-                        "header": "40% OFF",
-                        "subHeader": "UPTO ₹80"
-                      },
-                      "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                          "lottie": {
-                            
-                          },
-                          "video": {
-                            
-                          }
-                        }
-                      },
-                      "reviewsSummary": {
-                        
-                      },
-                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      "restaurantOfferPresentationInfo": {
-                        
-                      },
-                      "externalRatings": {
-                        "aggregatedRating": {
-                          "rating": "--"
-                        }
-                      },
-                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-                    },
-                    "analytics": {
-                      
-                    },
-                    "cta": {
-                      "link": "https://www.swiggy.com/restaurants/kfc-east-point-market-east-point-kurla-mumbai-484594",
+                      "link": "https://www.swiggy.com/city/mumbai/mcdonalds-kalina-artista-santacruz-east-rest32399",
                       "type": "WEBLINK"
                     }
                   },
@@ -1532,21 +1482,25 @@
                       "avgRating": 4.2,
                       "parentId": "4961",
                       "avgRatingString": "4.2",
-                      "totalRatingsString": "1K+",
+                      "totalRatingsString": "4.4K+",
                       "sla": {
-                        "deliveryTime": 23,
+                        "deliveryTime": 30,
                         "lastMileTravel": 3.9,
                         "serviceability": "SERVICEABLE",
-                        "slaString": "20-25 mins",
+                        "slaString": "25-30 mins",
                         "lastMileTravelString": "3.9 km",
                         "iconType": "ICON_TYPE_EMPTY"
                       },
                       "availability": {
-                        "nextCloseTime": "2024-08-29 05:00:00",
+                        "nextCloseTime": "2024-09-07 05:00:00",
                         "opened": true
                       },
                       "badges": {
                         "imageBadges": [
+                          {
+                            "imageId": "Green%20Dot%20Awards/Best%20In%20Veg%20Pizza.png",
+                            "description": "Delivery!"
+                          },
                           {
                             "imageId": "v1695133679/badges/Pure_Veg111.png",
                             "description": "pureveg"
@@ -1559,6 +1513,12 @@
                         "entityBadges": {
                           "imageBased": {
                             "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "Delivery!",
+                                  "imageId": "Green%20Dot%20Awards/Best%20In%20Veg%20Pizza.png"
+                                }
+                              },
                               {
                                 "attributes": {
                                   "description": "pureveg",
@@ -1609,420 +1569,7 @@
                       
                     },
                     "cta": {
-                      "link": "https://www.swiggy.com/restaurants/la-pinoz-pizza-ghatkopar-east-ghatkopar-vikhroli-mumbai-387322",
-                      "type": "WEBLINK"
-                    }
-                  },
-                  {
-                    "info": {
-                      "id": "9862",
-                      "name": "Pizza Hut",
-                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/7/16/c08ef470-8561-436d-81ec-b119dfc997fa_9862.jpg",
-                      "locality": "Bandra",
-                      "areaName": "Bandra Kurla Complex",
-                      "costForTwo": "₹300 for two",
-                      "cuisines": [
-                        "Pizzas"
-                      ],
-                      "avgRating": 4.2,
-                      "parentId": "721",
-                      "avgRatingString": "4.2",
-                      "totalRatingsString": "10K+",
-                      "sla": {
-                        "deliveryTime": 25,
-                        "lastMileTravel": 2.3,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "20-25 mins",
-                        "lastMileTravelString": "2.3 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                      },
-                      "availability": {
-                        "nextCloseTime": "2024-08-29 03:00:00",
-                        "opened": true
-                      },
-                      "badges": {
-                        "imageBadges": [
-                          {
-                            "imageId": "Rxawards/_CATEGORY-Pizza.png",
-                            "description": "Delivery!"
-                          }
-                        ]
-                      },
-                      "isOpen": true,
-                      "type": "F",
-                      "badgesV2": {
-                        "entityBadges": {
-                          "imageBased": {
-                            "badgeObject": [
-                              {
-                                "attributes": {
-                                  "description": "Delivery!",
-                                  "imageId": "Rxawards/_CATEGORY-Pizza.png"
-                                }
-                              }
-                            ]
-                          },
-                          "textBased": {
-                            
-                          },
-                          "textExtendedBadges": {
-                            
-                          }
-                        }
-                      },
-                      "aggregatedDiscountInfoV3": {
-                        "header": "ITEMS",
-                        "subHeader": "AT ₹189"
-                      },
-                      "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                          "lottie": {
-                            
-                          },
-                          "video": {
-                            
-                          }
-                        }
-                      },
-                      "reviewsSummary": {
-                        
-                      },
-                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      "restaurantOfferPresentationInfo": {
-                        
-                      },
-                      "externalRatings": {
-                        "aggregatedRating": {
-                          "rating": "3.8",
-                          "ratingCount": "1K+"
-                        },
-                        "source": "GOOGLE",
-                        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
-                      },
-                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-                    },
-                    "analytics": {
-                      
-                    },
-                    "cta": {
-                      "link": "https://www.swiggy.com/restaurants/pizza-hut-bandra-bandra-kurla-complex-mumbai-9862",
-                      "type": "WEBLINK"
-                    }
-                  },
-                  {
-                    "info": {
-                      "id": "535962",
-                      "name": "SLYCE PIZZA",
-                      "cloudinaryImageId": "4c899e0501bef7e4c6acd1fa7cc2c82b",
-                      "locality": "Trade Center Building",
-                      "areaName": "Bandra Kurla Complex",
-                      "costForTwo": "₹600 for two",
-                      "cuisines": [
-                        "Pizzas",
-                        "Italian",
-                        "Fast Food"
-                      ],
-                      "avgRating": 4.3,
-                      "parentId": "321813",
-                      "avgRatingString": "4.3",
-                      "totalRatingsString": "1K+",
-                      "sla": {
-                        "deliveryTime": 27,
-                        "lastMileTravel": 2.5,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "25-30 mins",
-                        "lastMileTravelString": "2.5 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                      },
-                      "availability": {
-                        "nextCloseTime": "2024-08-29 04:00:00",
-                        "opened": true
-                      },
-                      "badges": {
-                        "imageBadges": [
-                          {
-                            "imageId": "newg.png",
-                            "description": "Gourmet"
-                          }
-                        ]
-                      },
-                      "isOpen": true,
-                      "type": "F",
-                      "badgesV2": {
-                        "entityBadges": {
-                          "imageBased": {
-                            "badgeObject": [
-                              {
-                                "attributes": {
-                                  "description": "Gourmet",
-                                  "imageId": "newg.png"
-                                }
-                              }
-                            ]
-                          },
-                          "textBased": {
-                            
-                          },
-                          "textExtendedBadges": {
-                            
-                          }
-                        }
-                      },
-                      "aggregatedDiscountInfoV3": {
-                        "header": "50% OFF",
-                        "subHeader": "UPTO ₹100"
-                      },
-                      "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                          "lottie": {
-                            
-                          },
-                          "video": {
-                            
-                          }
-                        }
-                      },
-                      "reviewsSummary": {
-                        
-                      },
-                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      "restaurantOfferPresentationInfo": {
-                        
-                      },
-                      "externalRatings": {
-                        "aggregatedRating": {
-                          "rating": "--"
-                        }
-                      },
-                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-                    },
-                    "analytics": {
-                      
-                    },
-                    "cta": {
-                      "link": "https://www.swiggy.com/restaurants/slyce-pizza-trade-center-building-bandra-kurla-complex-mumbai-535962",
-                      "type": "WEBLINK"
-                    }
-                  },
-                  {
-                    "info": {
-                      "id": "699105",
-                      "name": "Harvest Salad Co",
-                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/8/23/0e371c6e-0088-4f20-ac4d-8cca40b42d0d_699105.jpg",
-                      "locality": "Kalina CST Road",
-                      "areaName": "Scruz Bandra East",
-                      "costForTwo": "₹500 for two",
-                      "cuisines": [
-                        "Salads",
-                        "Healthy Food",
-                        "Snacks"
-                      ],
-                      "avgRating": 4.5,
-                      "parentId": "301047",
-                      "avgRatingString": "4.5",
-                      "totalRatingsString": "1K+",
-                      "sla": {
-                        "deliveryTime": 19,
-                        "lastMileTravel": 1.9,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "15-20 mins",
-                        "lastMileTravelString": "1.9 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                      },
-                      "availability": {
-                        "nextCloseTime": "2024-08-29 03:30:00",
-                        "opened": true
-                      },
-                      "badges": {
-                        "imageBadges": [
-                          {
-                            "imageId": "Rxawards/_CATEGORY-Guiltfree.png",
-                            "description": "Delivery!"
-                          },
-                          {
-                            "imageId": "newg.png",
-                            "description": "Gourmet"
-                          }
-                        ],
-                        "textExtendedBadges": [
-                          {
-                            "iconId": "guiltfree/GF_Logo_android_3x",
-                            "shortDescription": "brand",
-                            "fontColor": "#7E808C"
-                          }
-                        ]
-                      },
-                      "isOpen": true,
-                      "type": "F",
-                      "badgesV2": {
-                        "entityBadges": {
-                          "imageBased": {
-                            "badgeObject": [
-                              {
-                                "attributes": {
-                                  "description": "Delivery!",
-                                  "imageId": "Rxawards/_CATEGORY-Guiltfree.png"
-                                }
-                              },
-                              {
-                                "attributes": {
-                                  "description": "Gourmet",
-                                  "imageId": "newg.png"
-                                }
-                              }
-                            ]
-                          },
-                          "textBased": {
-                            
-                          },
-                          "textExtendedBadges": {
-                            "badgeObject": [
-                              {
-                                "attributes": {
-                                  "description": "",
-                                  "fontColor": "#7E808C",
-                                  "iconId": "guiltfree/GF_Logo_android_3x",
-                                  "shortDescription": "brand"
-                                }
-                              }
-                            ]
-                          }
-                        }
-                      },
-                      "aggregatedDiscountInfoV3": {
-                        "header": "40% OFF",
-                        "subHeader": "UPTO ₹80"
-                      },
-                      "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                          "lottie": {
-                            
-                          },
-                          "video": {
-                            
-                          }
-                        }
-                      },
-                      "reviewsSummary": {
-                        
-                      },
-                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      "restaurantOfferPresentationInfo": {
-                        
-                      },
-                      "externalRatings": {
-                        "aggregatedRating": {
-                          "rating": "--"
-                        }
-                      },
-                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-                    },
-                    "analytics": {
-                      
-                    },
-                    "cta": {
-                      "link": "https://www.swiggy.com/restaurants/harvest-salad-co-kalina-cst-road-scruz-bandra-east-mumbai-699105",
-                      "type": "WEBLINK"
-                    }
-                  },
-                  {
-                    "info": {
-                      "id": "788771",
-                      "name": "1441 Pizzeria",
-                      "cloudinaryImageId": "c7fcd9e43f4b995c3cd08d7632b426f0",
-                      "locality": "Trade Center Building",
-                      "areaName": "Bandra Kurla Complex",
-                      "costForTwo": "₹600 for two",
-                      "cuisines": [
-                        "Italian"
-                      ],
-                      "avgRating": 4.1,
-                      "parentId": "2697",
-                      "avgRatingString": "4.1",
-                      "totalRatingsString": "100+",
-                      "sla": {
-                        "deliveryTime": 26,
-                        "lastMileTravel": 2.5,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "25-30 mins",
-                        "lastMileTravelString": "2.5 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                      },
-                      "availability": {
-                        "nextCloseTime": "2024-08-29 02:40:00",
-                        "opened": true
-                      },
-                      "badges": {
-                        "imageBadges": [
-                          {
-                            "imageId": "newg.png",
-                            "description": "Gourmet"
-                          }
-                        ]
-                      },
-                      "isOpen": true,
-                      "type": "F",
-                      "badgesV2": {
-                        "entityBadges": {
-                          "imageBased": {
-                            "badgeObject": [
-                              {
-                                "attributes": {
-                                  "description": "Gourmet",
-                                  "imageId": "newg.png"
-                                }
-                              }
-                            ]
-                          },
-                          "textBased": {
-                            
-                          },
-                          "textExtendedBadges": {
-                            
-                          }
-                        }
-                      },
-                      "aggregatedDiscountInfoV3": {
-                        "header": "60% OFF",
-                        "subHeader": "UPTO ₹120"
-                      },
-                      "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                          "lottie": {
-                            
-                          },
-                          "video": {
-                            
-                          }
-                        }
-                      },
-                      "reviewsSummary": {
-                        
-                      },
-                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      "restaurantOfferPresentationInfo": {
-                        
-                      },
-                      "externalRatings": {
-                        "aggregatedRating": {
-                          "rating": "--"
-                        }
-                      },
-                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-                    },
-                    "analytics": {
-                      
-                    },
-                    "cta": {
-                      "link": "https://www.swiggy.com/restaurants/1441-pizzeria-trade-center-building-bandra-kurla-complex-mumbai-788771",
+                      "link": "https://www.swiggy.com/city/mumbai/la-pinoz-pizza-ghatkopar-east-ghatkopar-vikhroli-rest387322",
                       "type": "WEBLINK"
                     }
                   },
@@ -2042,17 +1589,17 @@
                       "avgRating": 4.5,
                       "parentId": "22485",
                       "avgRatingString": "4.5",
-                      "totalRatingsString": "1K+",
+                      "totalRatingsString": "4.2K+",
                       "sla": {
-                        "deliveryTime": 29,
+                        "deliveryTime": 30,
                         "lastMileTravel": 2.5,
                         "serviceability": "SERVICEABLE",
-                        "slaString": "25-30 mins",
+                        "slaString": "30-35 mins",
                         "lastMileTravelString": "2.5 km",
                         "iconType": "ICON_TYPE_EMPTY"
                       },
                       "availability": {
-                        "nextCloseTime": "2024-08-29 04:00:00",
+                        "nextCloseTime": "2024-09-07 05:00:00",
                         "opened": true
                       },
                       "badges": {
@@ -2119,7 +1666,7 @@
                       
                     },
                     "cta": {
-                      "link": "https://www.swiggy.com/restaurants/louis-burger-trade-centre-santacruz-bandra-east-mumbai-391816",
+                      "link": "https://www.swiggy.com/city/mumbai/louis-burger-trade-centre-santacruz-bandra-east-rest391816",
                       "type": "WEBLINK"
                     }
                   },
@@ -2140,24 +1687,35 @@
                       "avgRating": 4.4,
                       "parentId": "2",
                       "avgRatingString": "4.4",
-                      "totalRatingsString": "10K+",
+                      "totalRatingsString": "20K+",
                       "sla": {
-                        "deliveryTime": 17,
+                        "deliveryTime": 25,
                         "lastMileTravel": 1.5,
                         "serviceability": "SERVICEABLE",
-                        "slaString": "15-20 mins",
+                        "slaString": "25-30 mins",
                         "lastMileTravelString": "1.5 km",
                         "iconType": "ICON_TYPE_EMPTY"
                       },
                       "availability": {
-                        "nextCloseTime": "2024-08-29 04:00:00",
+                        "nextCloseTime": "2024-09-07 04:00:00",
                         "opened": true
                       },
                       "badges": {
                         "imageBadges": [
                           {
+                            "imageId": "Green%20Dot%20Awards/Best%20In%20Veg%20Salad.png",
+                            "description": "Delivery!"
+                          },
+                          {
                             "imageId": "Rxawards/_CATEGORY-Sandwiches.png",
                             "description": "Delivery!"
+                          }
+                        ],
+                        "textExtendedBadges": [
+                          {
+                            "iconId": "guiltfree/GF_Logo_android_3x",
+                            "shortDescription": "options available",
+                            "fontColor": "#7E808C"
                           }
                         ]
                       },
@@ -2170,6 +1728,12 @@
                               {
                                 "attributes": {
                                   "description": "Delivery!",
+                                  "imageId": "Green%20Dot%20Awards/Best%20In%20Veg%20Salad.png"
+                                }
+                              },
+                              {
+                                "attributes": {
+                                  "description": "Delivery!",
                                   "imageId": "Rxawards/_CATEGORY-Sandwiches.png"
                                 }
                               }
@@ -2179,7 +1743,16 @@
                             
                           },
                           "textExtendedBadges": {
-                            
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "",
+                                  "fontColor": "#7E808C",
+                                  "iconId": "guiltfree/GF_Logo_android_3x",
+                                  "shortDescription": "options available"
+                                }
+                              }
+                            ]
                           }
                         }
                       },
@@ -2217,7 +1790,7 @@
                       
                     },
                     "cta": {
-                      "link": "https://www.swiggy.com/restaurants/subway-central-plaza-kalina-santacruz-east-mumbai-9052",
+                      "link": "https://www.swiggy.com/city/mumbai/subway-central-plaza-kalina-santacruz-east-rest9052",
                       "type": "WEBLINK"
                     }
                   },
@@ -2242,17 +1815,17 @@
                       "avgRating": 4.3,
                       "parentId": "711",
                       "avgRatingString": "4.3",
-                      "totalRatingsString": "10K+",
+                      "totalRatingsString": "15K+",
                       "sla": {
-                        "deliveryTime": 19,
+                        "deliveryTime": 23,
                         "lastMileTravel": 0.3,
                         "serviceability": "SERVICEABLE",
-                        "slaString": "15-20 mins",
+                        "slaString": "20-25 mins",
                         "lastMileTravelString": "0.3 km",
                         "iconType": "ICON_TYPE_EMPTY"
                       },
                       "availability": {
-                        "nextCloseTime": "2024-08-29 03:00:00",
+                        "nextCloseTime": "2024-09-07 03:00:00",
                         "opened": true
                       },
                       "badges": {
@@ -2321,7 +1894,7 @@
                       "externalRatings": {
                         "aggregatedRating": {
                           "rating": "4.2",
-                          "ratingCount": "5K+"
+                          "ratingCount": "5.5K+"
                         },
                         "source": "GOOGLE",
                         "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
@@ -2332,382 +1905,7 @@
                       
                     },
                     "cta": {
-                      "link": "https://www.swiggy.com/restaurants/persian-darbar-bandra-kurla-complex-mumbai-47833",
-                      "type": "WEBLINK"
-                    }
-                  },
-                  {
-                    "info": {
-                      "id": "837830",
-                      "name": "The Pizza Project by Oven Story",
-                      "cloudinaryImageId": "f1b907b0b8f86c62e4fc347c6b1434e6",
-                      "locality": "Kalina",
-                      "areaName": "Santacruz East",
-                      "costForTwo": "₹400 for two",
-                      "cuisines": [
-                        "Pizzas",
-                        "Italian",
-                        "Desserts",
-                        "Beverages"
-                      ],
-                      "avgRating": 3.4,
-                      "parentId": "497031",
-                      "avgRatingString": "3.4",
-                      "totalRatingsString": "20+",
-                      "sla": {
-                        "deliveryTime": 22,
-                        "lastMileTravel": 1.6,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "20-25 mins",
-                        "lastMileTravelString": "1.6 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                      },
-                      "availability": {
-                        "nextCloseTime": "2024-08-29 03:00:00",
-                        "opened": true
-                      },
-                      "badges": {
-                        
-                      },
-                      "isOpen": true,
-                      "type": "F",
-                      "badgesV2": {
-                        "entityBadges": {
-                          "imageBased": {
-                            
-                          },
-                          "textBased": {
-                            
-                          },
-                          "textExtendedBadges": {
-                            
-                          }
-                        }
-                      },
-                      "aggregatedDiscountInfoV3": {
-                        "header": "₹75 OFF",
-                        "subHeader": "ABOVE ₹199",
-                        "discountTag": "FLAT DEAL"
-                      },
-                      "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                          "lottie": {
-                            
-                          },
-                          "video": {
-                            
-                          }
-                        }
-                      },
-                      "reviewsSummary": {
-                        
-                      },
-                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      "isNewlyOnboarded": true,
-                      "restaurantOfferPresentationInfo": {
-                        
-                      },
-                      "externalRatings": {
-                        "aggregatedRating": {
-                          "rating": "--"
-                        }
-                      },
-                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-                    },
-                    "analytics": {
-                      
-                    },
-                    "cta": {
-                      "link": "https://www.swiggy.com/restaurants/the-pizza-project-by-oven-story-kalina-santacruz-east-mumbai-837830",
-                      "type": "WEBLINK"
-                    }
-                  },
-                  {
-                    "info": {
-                      "id": "395334",
-                      "name": "McDonald's Gourmet Burger Collection",
-                      "cloudinaryImageId": "txirbmikcfw5yijtcfs5",
-                      "locality": "Kalina Artista",
-                      "areaName": "Scruz Bandra East",
-                      "costForTwo": "₹600 for two",
-                      "cuisines": [
-                        "Burgers",
-                        "Beverages",
-                        "Cafe",
-                        "Desserts"
-                      ],
-                      "avgRating": 4.2,
-                      "parentId": "10761",
-                      "avgRatingString": "4.2",
-                      "totalRatingsString": "100+",
-                      "sla": {
-                        "deliveryTime": 19,
-                        "lastMileTravel": 1.5,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "15-20 mins",
-                        "lastMileTravelString": "1.5 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                      },
-                      "availability": {
-                        "nextCloseTime": "2024-08-29 02:45:00",
-                        "opened": true
-                      },
-                      "badges": {
-                        
-                      },
-                      "isOpen": true,
-                      "type": "F",
-                      "badgesV2": {
-                        "entityBadges": {
-                          "imageBased": {
-                            
-                          },
-                          "textBased": {
-                            
-                          },
-                          "textExtendedBadges": {
-                            
-                          }
-                        }
-                      },
-                      "aggregatedDiscountInfoV3": {
-                        "header": "50% OFF",
-                        "subHeader": "UPTO ₹100"
-                      },
-                      "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                          "lottie": {
-                            
-                          },
-                          "video": {
-                            
-                          }
-                        }
-                      },
-                      "reviewsSummary": {
-                        
-                      },
-                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      "restaurantOfferPresentationInfo": {
-                        
-                      },
-                      "externalRatings": {
-                        "aggregatedRating": {
-                          "rating": "--"
-                        }
-                      },
-                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-                    },
-                    "analytics": {
-                      
-                    },
-                    "cta": {
-                      "link": "https://www.swiggy.com/restaurants/mcdonalds-gourmet-burger-collection-kalina-artista-scruz-bandra-east-mumbai-395334",
-                      "type": "WEBLINK"
-                    }
-                  },
-                  {
-                    "info": {
-                      "id": "566274",
-                      "name": "Faasos Signature Wraps & Rolls",
-                      "cloudinaryImageId": "c583ca6ce40b426797a78ae2ac91f2ec",
-                      "locality": "Kalina",
-                      "areaName": "Santacruz East",
-                      "costForTwo": "₹350 for two",
-                      "cuisines": [
-                        "Fast Food",
-                        "Snacks",
-                        "North Indian",
-                        "Desserts",
-                        "Beverages"
-                      ],
-                      "avgRating": 4.3,
-                      "parentId": "340366",
-                      "avgRatingString": "4.3",
-                      "totalRatingsString": "50+",
-                      "sla": {
-                        "deliveryTime": 22,
-                        "lastMileTravel": 1.6,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "20-25 mins",
-                        "lastMileTravelString": "1.6 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                      },
-                      "availability": {
-                        "nextCloseTime": "2024-08-29 03:00:00",
-                        "opened": true
-                      },
-                      "badges": {
-                        "textExtendedBadges": [
-                          {
-                            "iconId": "guiltfree/GF_Logo_android_3x",
-                            "shortDescription": "options available",
-                            "fontColor": "#7E808C"
-                          }
-                        ]
-                      },
-                      "isOpen": true,
-                      "type": "F",
-                      "badgesV2": {
-                        "entityBadges": {
-                          "imageBased": {
-                            
-                          },
-                          "textBased": {
-                            
-                          },
-                          "textExtendedBadges": {
-                            "badgeObject": [
-                              {
-                                "attributes": {
-                                  "description": "",
-                                  "fontColor": "#7E808C",
-                                  "iconId": "guiltfree/GF_Logo_android_3x",
-                                  "shortDescription": "options available"
-                                }
-                              }
-                            ]
-                          }
-                        }
-                      },
-                      "aggregatedDiscountInfoV3": {
-                        "header": "50% OFF",
-                        "subHeader": "UPTO ₹100"
-                      },
-                      "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                          "lottie": {
-                            
-                          },
-                          "video": {
-                            
-                          }
-                        }
-                      },
-                      "reviewsSummary": {
-                        
-                      },
-                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      "restaurantOfferPresentationInfo": {
-                        
-                      },
-                      "externalRatings": {
-                        "aggregatedRating": {
-                          "rating": "--"
-                        }
-                      },
-                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-                    },
-                    "analytics": {
-                      
-                    },
-                    "cta": {
-                      "link": "https://www.swiggy.com/restaurants/faasos-signature-wraps-and-rolls-kalina-santacruz-east-mumbai-566274",
-                      "type": "WEBLINK"
-                    }
-                  },
-                  {
-                    "info": {
-                      "id": "263590",
-                      "name": "Shravan Specials by Lunchbox",
-                      "cloudinaryImageId": "km2kqvavvdwxdy68rzov",
-                      "locality": "Kalina",
-                      "areaName": "Santacruz East",
-                      "costForTwo": "₹200 for two",
-                      "cuisines": [
-                        "Biryani",
-                        "North Indian",
-                        "Desserts",
-                        "Beverages"
-                      ],
-                      "avgRating": 4.2,
-                      "veg": true,
-                      "parentId": "21938",
-                      "avgRatingString": "4.2",
-                      "totalRatingsString": "100+",
-                      "sla": {
-                        "deliveryTime": 22,
-                        "lastMileTravel": 1.6,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "20-25 mins",
-                        "lastMileTravelString": "1.6 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                      },
-                      "availability": {
-                        "nextCloseTime": "2024-08-29 03:00:00",
-                        "opened": true
-                      },
-                      "badges": {
-                        "imageBadges": [
-                          {
-                            "imageId": "v1695133679/badges/Pure_Veg111.png",
-                            "description": "pureveg"
-                          }
-                        ]
-                      },
-                      "isOpen": true,
-                      "type": "F",
-                      "badgesV2": {
-                        "entityBadges": {
-                          "imageBased": {
-                            "badgeObject": [
-                              {
-                                "attributes": {
-                                  "description": "pureveg",
-                                  "imageId": "v1695133679/badges/Pure_Veg111.png"
-                                }
-                              }
-                            ]
-                          },
-                          "textBased": {
-                            
-                          },
-                          "textExtendedBadges": {
-                            
-                          }
-                        }
-                      },
-                      "aggregatedDiscountInfoV3": {
-                        "header": "ITEMS",
-                        "subHeader": "AT ₹159"
-                      },
-                      "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                          "lottie": {
-                            
-                          },
-                          "video": {
-                            
-                          }
-                        }
-                      },
-                      "reviewsSummary": {
-                        
-                      },
-                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      "restaurantOfferPresentationInfo": {
-                        
-                      },
-                      "externalRatings": {
-                        "aggregatedRating": {
-                          "rating": "--"
-                        }
-                      },
-                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-                    },
-                    "analytics": {
-                      
-                    },
-                    "cta": {
-                      "link": "https://www.swiggy.com/restaurants/shravan-specials-by-lunchbox-kalina-santacruz-east-mumbai-263590",
+                      "link": "https://www.swiggy.com/city/mumbai/persian-darbar-bandra-kurla-complex-rest47833",
                       "type": "WEBLINK"
                     }
                   },
@@ -2727,17 +1925,17 @@
                       "avgRating": 4.5,
                       "parentId": "11654",
                       "avgRatingString": "4.5",
-                      "totalRatingsString": "1K+",
+                      "totalRatingsString": "1.1K+",
                       "sla": {
-                        "deliveryTime": 26,
-                        "lastMileTravel": 1.9,
+                        "deliveryTime": 22,
+                        "lastMileTravel": 1.6,
                         "serviceability": "SERVICEABLE",
-                        "slaString": "25-30 mins",
-                        "lastMileTravelString": "1.9 km",
+                        "slaString": "20-25 mins",
+                        "lastMileTravelString": "1.6 km",
                         "iconType": "ICON_TYPE_EMPTY"
                       },
                       "availability": {
-                        "nextCloseTime": "2024-08-29 03:30:00",
+                        "nextCloseTime": "2024-09-07 03:30:00",
                         "opened": true
                       },
                       "badges": {
@@ -2781,8 +1979,8 @@
                         }
                       },
                       "aggregatedDiscountInfoV3": {
-                        "header": "40% OFF",
-                        "subHeader": "UPTO ₹80"
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹149"
                       },
                       "differentiatedUi": {
                         "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -2814,61 +2012,49 @@
                       
                     },
                     "cta": {
-                      "link": "https://www.swiggy.com/restaurants/maiz-mexican-kitchen-kalina-cst-road-bkc-mumbai-698272",
+                      "link": "https://www.swiggy.com/city/mumbai/maiz-mexican-kitchen-kalina-cst-road-bkc-rest698272",
                       "type": "WEBLINK"
                     }
                   },
                   {
                     "info": {
-                      "id": "324349",
-                      "name": "Tossin Pizza",
-                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/3/29/5d446132-93a8-4e7d-876d-14192afe2500_324349.jpg",
-                      "locality": "Opposite Diamond Garden",
-                      "areaName": "Chembur",
-                      "costForTwo": "₹600 for two",
+                      "id": "837830",
+                      "name": "The Pizza Project by Oven Story",
+                      "cloudinaryImageId": "f1b907b0b8f86c62e4fc347c6b1434e6",
+                      "locality": "Kalina",
+                      "areaName": "Santacruz East",
+                      "costForTwo": "₹400 for two",
                       "cuisines": [
                         "Pizzas",
                         "Italian",
-                        "Beverages",
-                        "Desserts"
+                        "Desserts",
+                        "Beverages"
                       ],
-                      "avgRating": 4.5,
-                      "parentId": "1778",
-                      "avgRatingString": "4.5",
-                      "totalRatingsString": "1K+",
+                      "avgRating": 3.4,
+                      "parentId": "497031",
+                      "avgRatingString": "3.4",
+                      "totalRatingsString": "29",
                       "sla": {
-                        "deliveryTime": 30,
-                        "lastMileTravel": 4.9,
+                        "deliveryTime": 29,
+                        "lastMileTravel": 1.6,
                         "serviceability": "SERVICEABLE",
-                        "slaString": "25-35 mins",
-                        "lastMileTravelString": "4.9 km",
+                        "slaString": "25-30 mins",
+                        "lastMileTravelString": "1.6 km",
                         "iconType": "ICON_TYPE_EMPTY"
                       },
                       "availability": {
-                        "nextCloseTime": "2024-08-29 05:00:00",
+                        "nextCloseTime": "2024-09-07 03:00:00",
                         "opened": true
                       },
                       "badges": {
-                        "imageBadges": [
-                          {
-                            "imageId": "newg.png",
-                            "description": "Gourmet"
-                          }
-                        ]
+                        
                       },
                       "isOpen": true,
                       "type": "F",
                       "badgesV2": {
                         "entityBadges": {
                           "imageBased": {
-                            "badgeObject": [
-                              {
-                                "attributes": {
-                                  "description": "Gourmet",
-                                  "imageId": "newg.png"
-                                }
-                              }
-                            ]
+                            
                           },
                           "textBased": {
                             
@@ -2879,8 +2065,8 @@
                         }
                       },
                       "aggregatedDiscountInfoV3": {
-                        "header": "50% OFF",
-                        "subHeader": "UPTO ₹100"
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹99"
                       },
                       "differentiatedUi": {
                         "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -2898,16 +2084,14 @@
                         
                       },
                       "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "isNewlyOnboarded": true,
                       "restaurantOfferPresentationInfo": {
                         
                       },
                       "externalRatings": {
                         "aggregatedRating": {
-                          "rating": "4.1",
-                          "ratingCount": "500+"
-                        },
-                        "source": "GOOGLE",
-                        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                          "rating": "--"
+                        }
                       },
                       "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                     },
@@ -2915,7 +2099,7 @@
                       
                     },
                     "cta": {
-                      "link": "https://www.swiggy.com/restaurants/tossin-pizza-opposite-diamond-garden-chembur-mumbai-324349",
+                      "link": "https://www.swiggy.com/city/mumbai/the-pizza-project-by-oven-story-kalina-santacruz-east-rest837830",
                       "type": "WEBLINK"
                     }
                   },
@@ -2923,7 +2107,7 @@
                     "info": {
                       "id": "681665",
                       "name": "LeanCrust Pizza- ThinCrust Experts",
-                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/24/51180eea-6dcf-41a6-bcb9-24e7eb19ffc4_681665.JPG",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/8/30/8a64c9be-7a6b-4870-a69a-be53f8c9d0a2_681665.jpg",
                       "locality": "Gaurav Industrial Estate",
                       "areaName": "Kurla West",
                       "costForTwo": "₹250 for two",
@@ -2932,20 +2116,20 @@
                         "Italian",
                         "Desserts"
                       ],
-                      "avgRating": 4.5,
+                      "avgRating": 4.4,
                       "parentId": "11216",
-                      "avgRatingString": "4.5",
-                      "totalRatingsString": "50+",
+                      "avgRatingString": "4.4",
+                      "totalRatingsString": "77",
                       "sla": {
                         "deliveryTime": 25,
-                        "lastMileTravel": 1.8,
+                        "lastMileTravel": 1.6,
                         "serviceability": "SERVICEABLE",
                         "slaString": "20-30 mins",
-                        "lastMileTravelString": "1.8 km",
+                        "lastMileTravelString": "1.6 km",
                         "iconType": "ICON_TYPE_EMPTY"
                       },
                       "availability": {
-                        "nextCloseTime": "2024-08-29 02:00:00",
+                        "nextCloseTime": "2024-09-07 02:00:00",
                         "opened": true
                       },
                       "badges": {
@@ -3015,7 +2199,907 @@
                       
                     },
                     "cta": {
-                      "link": "https://www.swiggy.com/restaurants/leancrust-pizza-thincrust-experts-gaurav-industrial-estate-kurla-west-mumbai-681665",
+                      "link": "https://www.swiggy.com/city/mumbai/leancrust-pizza-thincrust-experts-gaurav-industrial-estate-kurla-west-rest681665",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "692689",
+                      "name": "WeFit - Protein Bowls, Salads & Sandwiches",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/5/23/81bf516c-205c-44b8-9bb2-74aa62529d26_692689.JPG",
+                      "locality": "Kurla",
+                      "areaName": "Malad West",
+                      "costForTwo": "₹250 for two",
+                      "cuisines": [
+                        "Healthy Food",
+                        "Salads",
+                        "Keto",
+                        "Snacks"
+                      ],
+                      "avgRating": 4.7,
+                      "parentId": "355285",
+                      "avgRatingString": "4.7",
+                      "totalRatingsString": "116",
+                      "sla": {
+                        "deliveryTime": 25,
+                        "lastMileTravel": 1.6,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "20-30 mins",
+                        "lastMileTravelString": "1.6 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2024-09-07 02:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "textExtendedBadges": [
+                          {
+                            "iconId": "guiltfree/GF_Logo_android_3x",
+                            "shortDescription": "brand",
+                            "fontColor": "#7E808C"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "",
+                                  "fontColor": "#7E808C",
+                                  "iconId": "guiltfree/GF_Logo_android_3x",
+                                  "shortDescription": "brand"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "30% OFF",
+                        "subHeader": "UPTO ₹75"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "--"
+                        }
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/mumbai/wefit-protein-bowls-salads-and-sandwiches-kurla-malad-west-rest692689",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "566274",
+                      "name": "Faasos Signature Wraps & Rolls",
+                      "cloudinaryImageId": "c583ca6ce40b426797a78ae2ac91f2ec",
+                      "locality": "Kalina",
+                      "areaName": "Santacruz East",
+                      "costForTwo": "₹350 for two",
+                      "cuisines": [
+                        "Fast Food",
+                        "Snacks",
+                        "North Indian",
+                        "Desserts",
+                        "Beverages"
+                      ],
+                      "avgRating": 4.3,
+                      "parentId": "340366",
+                      "avgRatingString": "4.3",
+                      "totalRatingsString": "69",
+                      "sla": {
+                        "deliveryTime": 25,
+                        "lastMileTravel": 1.6,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "20-25 mins",
+                        "lastMileTravelString": "1.6 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2024-09-07 03:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "textExtendedBadges": [
+                          {
+                            "iconId": "guiltfree/GF_Logo_android_3x",
+                            "shortDescription": "options available",
+                            "fontColor": "#7E808C"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "",
+                                  "fontColor": "#7E808C",
+                                  "iconId": "guiltfree/GF_Logo_android_3x",
+                                  "shortDescription": "options available"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹139"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "--"
+                        }
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/mumbai/faasos-signature-wraps-and-rolls-kalina-santacruz-east-rest566274",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "689521",
+                      "name": "MOJO Pizza - 2X Toppings",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/24/cc816121-12a5-4fc7-a5ca-01406efd31e2_689521.JPG",
+                      "locality": "Kurla",
+                      "areaName": "Near Tabela",
+                      "costForTwo": "₹250 for two",
+                      "cuisines": [
+                        "Pizzas",
+                        "Italian",
+                        "Fast Food",
+                        "Desserts"
+                      ],
+                      "avgRating": 4.5,
+                      "parentId": "11329",
+                      "avgRatingString": "4.5",
+                      "totalRatingsString": "652",
+                      "sla": {
+                        "deliveryTime": 25,
+                        "lastMileTravel": 1.6,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "20-30 mins",
+                        "lastMileTravelString": "1.6 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2024-09-07 02:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "imageBadges": [
+                          {
+                            "imageId": "Rxawards/_CATEGORY-Pizza.png",
+                            "description": "Delivery!"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "Delivery!",
+                                  "imageId": "Rxawards/_CATEGORY-Pizza.png"
+                                }
+                              }
+                            ]
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "30% OFF",
+                        "subHeader": "UPTO ₹75"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "--"
+                        }
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/mumbai/mojo-pizza-2x-toppings-kurla-near-tabela-rest689521",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "695754",
+                      "name": "BOOM Sandwich - Sub of India",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/24/69ef305e-bfcb-472c-87e0-2e93a1b124ec_695754.JPG",
+                      "locality": "Kurla Andheri Road",
+                      "areaName": "Kurla",
+                      "costForTwo": "₹250 for two",
+                      "cuisines": [
+                        "Snacks",
+                        "Indian",
+                        "Desserts"
+                      ],
+                      "avgRating": 4.2,
+                      "parentId": "401169",
+                      "avgRatingString": "4.2",
+                      "totalRatingsString": "130",
+                      "sla": {
+                        "deliveryTime": 25,
+                        "lastMileTravel": 1.6,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "20-30 mins",
+                        "lastMileTravelString": "1.6 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2024-09-07 02:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "textExtendedBadges": [
+                          {
+                            "iconId": "guiltfree/GF_Logo_android_3x",
+                            "shortDescription": "options available",
+                            "fontColor": "#7E808C"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "",
+                                  "fontColor": "#7E808C",
+                                  "iconId": "guiltfree/GF_Logo_android_3x",
+                                  "shortDescription": "options available"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "30% OFF",
+                        "subHeader": "UPTO ₹75"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "--"
+                        }
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/mumbai/boom-sandwich-sub-of-india-andheri-road-kurla-rest695754",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "750450",
+                      "name": "Daily Kitchen - Homely Meals",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/5/19/8a1d8aae-63c3-4033-a8b4-5d0eac490c8f_750450.JPG",
+                      "locality": "Gaurav Industrial Estate",
+                      "areaName": "Kurla West",
+                      "costForTwo": "₹400 for two",
+                      "cuisines": [
+                        "Home Food",
+                        "Indian",
+                        "North Indian",
+                        "Thalis"
+                      ],
+                      "avgRating": 4.4,
+                      "parentId": "444382",
+                      "avgRatingString": "4.4",
+                      "totalRatingsString": "256",
+                      "sla": {
+                        "deliveryTime": 25,
+                        "lastMileTravel": 1.6,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "20-30 mins",
+                        "lastMileTravelString": "1.6 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2024-09-07 02:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "textExtendedBadges": [
+                          {
+                            "iconId": "guiltfree/GF_Logo_android_3x",
+                            "shortDescription": "options available",
+                            "fontColor": "#7E808C"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "",
+                                  "fontColor": "#7E808C",
+                                  "iconId": "guiltfree/GF_Logo_android_3x",
+                                  "shortDescription": "options available"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "30% OFF",
+                        "subHeader": "UPTO ₹75"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "--"
+                        }
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/mumbai/daily-kitchen-homely-meals-gaurav-industrial-estate-kurla-west-rest750450",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "678581",
+                      "name": "NH1 Bowls - Highway To North",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/24/bbb653ed-0854-48d8-a2fc-324e0ebc4d7b_678581.JPG",
+                      "locality": "Gaurav Industrial Estate",
+                      "areaName": "Kurla West",
+                      "costForTwo": "₹250 for two",
+                      "cuisines": [
+                        "North Indian",
+                        "Punjabi",
+                        "Home Food"
+                      ],
+                      "avgRating": 4.6,
+                      "parentId": "22452",
+                      "avgRatingString": "4.6",
+                      "totalRatingsString": "411",
+                      "sla": {
+                        "deliveryTime": 25,
+                        "lastMileTravel": 1.6,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "20-30 mins",
+                        "lastMileTravelString": "1.6 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2024-09-07 02:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "textExtendedBadges": [
+                          {
+                            "iconId": "guiltfree/GF_Logo_android_3x",
+                            "shortDescription": "options available",
+                            "fontColor": "#7E808C"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "",
+                                  "fontColor": "#7E808C",
+                                  "iconId": "guiltfree/GF_Logo_android_3x",
+                                  "shortDescription": "options available"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "30% OFF",
+                        "subHeader": "UPTO ₹75"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "--"
+                        }
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/mumbai/nh1-bowls-highway-to-north-gaurav-industrial-estate-kurla-west-rest678581",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "678580",
+                      "name": "Mealful Rolls - India's Biggest Rolls",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/24/fa6bdd5d-b1fb-4d7e-a50d-829ed2eeabd7_678580.JPG",
+                      "locality": "Gaurav Industrial Estate",
+                      "areaName": "Kurla",
+                      "costForTwo": "₹250 for two",
+                      "cuisines": [
+                        "Fast Food",
+                        "Snacks",
+                        "North Indian",
+                        "Desserts"
+                      ],
+                      "avgRating": 4.5,
+                      "parentId": "10390",
+                      "avgRatingString": "4.5",
+                      "totalRatingsString": "135",
+                      "sla": {
+                        "deliveryTime": 25,
+                        "lastMileTravel": 1.6,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "20-30 mins",
+                        "lastMileTravelString": "1.6 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2024-09-07 02:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "textExtendedBadges": [
+                          {
+                            "iconId": "guiltfree/GF_Logo_android_3x",
+                            "shortDescription": "options available",
+                            "fontColor": "#7E808C"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "",
+                                  "fontColor": "#7E808C",
+                                  "iconId": "guiltfree/GF_Logo_android_3x",
+                                  "shortDescription": "options available"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "30% OFF",
+                        "subHeader": "UPTO ₹75"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "--"
+                        }
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/mumbai/mealful-rolls-indias-biggest-rolls-gaurav-industrial-estate-kurla-rest678580",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "678582",
+                      "name": "ZAZA Mughal Biryani",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/24/e81dd56d-5b72-4267-bbc6-7bda0d637cb7_678582.JPG",
+                      "locality": "Gaurav Industrial Estate",
+                      "areaName": "Kurla West",
+                      "costForTwo": "₹250 for two",
+                      "cuisines": [
+                        "Biryani",
+                        "North Indian",
+                        "Awadhi"
+                      ],
+                      "avgRating": 4.3,
+                      "parentId": "22473",
+                      "avgRatingString": "4.3",
+                      "totalRatingsString": "268",
+                      "sla": {
+                        "deliveryTime": 25,
+                        "lastMileTravel": 1.6,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "20-30 mins",
+                        "lastMileTravelString": "1.6 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2024-09-07 02:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "textExtendedBadges": [
+                          {
+                            "iconId": "guiltfree/GF_Logo_android_3x",
+                            "shortDescription": "options available",
+                            "fontColor": "#7E808C"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "",
+                                  "fontColor": "#7E808C",
+                                  "iconId": "guiltfree/GF_Logo_android_3x",
+                                  "shortDescription": "options available"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "30% OFF",
+                        "subHeader": "UPTO ₹75"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "--"
+                        }
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/mumbai/zaza-mughal-biryani-gaurav-industrial-estate-kurla-west-rest678582",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "621668",
+                      "name": "Meemee's",
+                      "cloudinaryImageId": "29605cbcfc2615dfdc905ce94c216ddb",
+                      "locality": "Vidyanagari Marg",
+                      "areaName": "Scruz Bandra East",
+                      "costForTwo": "₹450 for two",
+                      "cuisines": [
+                        "Ice Cream",
+                        "Desserts"
+                      ],
+                      "avgRating": 4.7,
+                      "veg": true,
+                      "parentId": "268642",
+                      "avgRatingString": "4.7",
+                      "totalRatingsString": "251",
+                      "sla": {
+                        "deliveryTime": 23,
+                        "lastMileTravel": 1.9,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "20-25 mins",
+                        "lastMileTravelString": "1.9 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2024-09-07 03:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "imageBadges": [
+                          {
+                            "imageId": "newg.png",
+                            "description": "Gourmet"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "Gourmet",
+                                  "imageId": "newg.png"
+                                }
+                              }
+                            ]
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "40% OFF",
+                        "subHeader": "UPTO ₹80"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "--"
+                        }
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/mumbai/meemees-vidyanagari-marg-scruz-bandra-east-rest621668",
                       "type": "WEBLINK"
                     }
                   }
@@ -3078,7 +3162,7 @@
                 "title": "Cost:HightoLow"
               }
             ],
-            "restaurantCount": 1576,
+            "restaurantCount": 1594,
             "facetList": [
               {
                 "label": "Delivery Time",
@@ -3231,8 +3315,24 @@
                     "openFilter": true
                   },
                   {
+                    "label": "Burmese",
+                    "id": "query_burmese",
+                    "analytics": {
+                      
+                    },
+                    "openFilter": true
+                  },
+                  {
                     "label": "Cafe",
                     "id": "query_cafe",
+                    "analytics": {
+                      
+                    },
+                    "openFilter": true
+                  },
+                  {
+                    "label": "Cakes",
+                    "id": "query_cakes",
                     "analytics": {
                       
                     },
@@ -3607,6 +3707,14 @@
                     "openFilter": true
                   },
                   {
+                    "label": "Navratri Special",
+                    "id": "query_navratri_special",
+                    "analytics": {
+                      
+                    },
+                    "openFilter": true
+                  },
+                  {
                     "label": "Nepalese",
                     "id": "query_nepalese",
                     "analytics": {
@@ -3777,6 +3885,14 @@
                   {
                     "label": "Sri Lankan",
                     "id": "query_sri_lankan",
+                    "analytics": {
+                      
+                    },
+                    "openFilter": true
+                  },
+                  {
+                    "label": "Steakhouse",
+                    "id": "query_steakhouse",
                     "analytics": {
                       
                     },
@@ -3960,13 +4076,6 @@
                       
                     },
                     "openFilter": true
-                  },
-                  {
-                    "label": "Swiggy Exclusives",
-                    "id": "isExclusivefacetquery1",
-                    "analytics": {
-                      
-                    }
                   }
                 ],
                 "viewType": "VIEW_TYPE_HALF_CARD"
@@ -4108,9 +4217,9 @@
                       "avgRating": 4.3,
                       "parentId": "61955",
                       "avgRatingString": "4.3",
-                      "totalRatingsString": "10K+",
+                      "totalRatingsString": "13K+",
                       "sla": {
-                        "deliveryTime": 21,
+                        "deliveryTime": 24,
                         "lastMileTravel": 1.6,
                         "serviceability": "SERVICEABLE",
                         "slaString": "20-25 mins",
@@ -4118,11 +4227,15 @@
                         "iconType": "ICON_TYPE_EMPTY"
                       },
                       "availability": {
-                        "nextCloseTime": "2024-08-29 01:00:00",
+                        "nextCloseTime": "2024-09-07 01:00:00",
                         "opened": true
                       },
                       "badges": {
                         "imageBadges": [
+                          {
+                            "imageId": "Green%20Dot%20Awards/Best%20In%20Veg%20Noodles.png",
+                            "description": "Delivery!"
+                          },
                           {
                             "imageId": "Rxawards/_CATEGORY-Chinese.png",
                             "description": "Delivery!"
@@ -4135,6 +4248,12 @@
                         "entityBadges": {
                           "imageBased": {
                             "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "Delivery!",
+                                  "imageId": "Green%20Dot%20Awards/Best%20In%20Veg%20Noodles.png"
+                                }
+                              },
                               {
                                 "attributes": {
                                   "description": "Delivery!",
@@ -4153,7 +4272,7 @@
                       },
                       "aggregatedDiscountInfoV3": {
                         "header": "ITEMS",
-                        "subHeader": "AT ₹169"
+                        "subHeader": "AT ₹199"
                       },
                       "orderabilityCommunication": {
                         "title": {
@@ -4196,10 +4315,10 @@
                       "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                     },
                     "analytics": {
-                      "context": "seo-data-3c585bc2-f48c-44ba-8267-c7b609a74f05"
+                      "context": "seo-data-973a5550-7348-496a-bf96-dc0b63f9009d"
                     },
                     "cta": {
-                      "link": "https://www.swiggy.com/restaurants/chinese-wok-cst-road-santacruz-east-mumbai-28405",
+                      "link": "https://www.swiggy.com/city/mumbai/chinese-wok-cst-road-santacruz-east-rest28405",
                       "text": "RESTAURANT_MENU",
                       "type": "WEBLINK"
                     },
@@ -4219,10 +4338,10 @@
                         "Pastas",
                         "Desserts"
                       ],
-                      "avgRating": 3.7,
+                      "avgRating": 3.6,
                       "parentId": "2456",
-                      "avgRatingString": "3.7",
-                      "totalRatingsString": "10K+",
+                      "avgRatingString": "3.6",
+                      "totalRatingsString": "12K+",
                       "sla": {
                         "deliveryTime": 30,
                         "lastMileTravel": 0.1,
@@ -4232,11 +4351,15 @@
                         "iconType": "ICON_TYPE_EMPTY"
                       },
                       "availability": {
-                        "nextCloseTime": "2024-08-29 02:55:00",
+                        "nextCloseTime": "2024-09-07 02:55:00",
                         "opened": true
                       },
                       "badges": {
                         "imageBadges": [
+                          {
+                            "imageId": "Green%20Dot%20Awards/Best%20In%20Veg%20Pizza.png",
+                            "description": "Delivery!"
+                          },
                           {
                             "imageId": "Rxawards/_CATEGORY-Pizza.png",
                             "description": "Delivery!"
@@ -4249,6 +4372,12 @@
                         "entityBadges": {
                           "imageBased": {
                             "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "Delivery!",
+                                  "imageId": "Green%20Dot%20Awards/Best%20In%20Veg%20Pizza.png"
+                                }
+                              },
                               {
                                 "attributes": {
                                   "description": "Delivery!",
@@ -4266,8 +4395,9 @@
                         }
                       },
                       "aggregatedDiscountInfoV3": {
-                        "header": "ITEMS",
-                        "subHeader": "AT ₹260"
+                        "header": "₹150 OFF",
+                        "subHeader": "ABOVE ₹299",
+                        "discountTag": "FLAT DEAL"
                       },
                       "orderabilityCommunication": {
                         "title": {
@@ -4305,7 +4435,7 @@
                       "externalRatings": {
                         "aggregatedRating": {
                           "rating": "3.8",
-                          "ratingCount": "1K+"
+                          "ratingCount": "1.1K+"
                         },
                         "source": "GOOGLE",
                         "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
@@ -4313,10 +4443,10 @@
                       "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                     },
                     "analytics": {
-                      "context": "seo-data-3c585bc2-f48c-44ba-8267-c7b609a74f05"
+                      "context": "seo-data-973a5550-7348-496a-bf96-dc0b63f9009d"
                     },
                     "cta": {
-                      "link": "https://www.swiggy.com/restaurants/dominos-pizza-kurla-east-kurla-west-mumbai-24463",
+                      "link": "https://www.swiggy.com/city/mumbai/dominos-pizza-kurla-east-kurla-west-rest24463",
                       "text": "RESTAURANT_MENU",
                       "type": "WEBLINK"
                     },
@@ -4339,17 +4469,17 @@
                       "avgRating": 4.1,
                       "parentId": "131216",
                       "avgRatingString": "4.1",
-                      "totalRatingsString": "100+",
+                      "totalRatingsString": "453",
                       "sla": {
-                        "deliveryTime": 29,
+                        "deliveryTime": 33,
                         "lastMileTravel": 5,
                         "serviceability": "SERVICEABLE",
-                        "slaString": "25-30 mins",
+                        "slaString": "30-35 mins",
                         "lastMileTravelString": "5.0 km",
                         "iconType": "ICON_TYPE_EMPTY"
                       },
                       "availability": {
-                        "nextCloseTime": "2024-08-29 05:00:00",
+                        "nextCloseTime": "2024-09-07 05:00:00",
                         "opened": true
                       },
                       "badges": {
@@ -4371,9 +4501,8 @@
                         }
                       },
                       "aggregatedDiscountInfoV3": {
-                        "header": "₹150 OFF",
-                        "subHeader": "ABOVE ₹449",
-                        "discountTag": "FLAT DEAL"
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹119"
                       },
                       "orderabilityCommunication": {
                         "title": {
@@ -4416,10 +4545,10 @@
                       "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                     },
                     "analytics": {
-                      "context": "seo-data-3c585bc2-f48c-44ba-8267-c7b609a74f05"
+                      "context": "seo-data-973a5550-7348-496a-bf96-dc0b63f9009d"
                     },
                     "cta": {
-                      "link": "https://www.swiggy.com/restaurants/mamlekar-nx-shivaji-nagar-signal-chembur-mumbai-247759",
+                      "link": "https://www.swiggy.com/city/mumbai/mamlekar-nx-shivaji-nagar-signal-chembur-rest247759",
                       "text": "RESTAURANT_MENU",
                       "type": "WEBLINK"
                     },
@@ -4440,17 +4569,17 @@
                       "avgRating": 4.1,
                       "parentId": "166932",
                       "avgRatingString": "4.1",
-                      "totalRatingsString": "5K+",
+                      "totalRatingsString": "7.4K+",
                       "sla": {
-                        "deliveryTime": 18,
-                        "lastMileTravel": 0.3,
+                        "deliveryTime": 23,
+                        "lastMileTravel": 1.6,
                         "serviceability": "SERVICEABLE",
-                        "slaString": "15-20 mins",
-                        "lastMileTravelString": "0.3 km",
+                        "slaString": "20-25 mins",
+                        "lastMileTravelString": "1.6 km",
                         "iconType": "ICON_TYPE_EMPTY"
                       },
                       "availability": {
-                        "nextCloseTime": "2024-08-29 05:30:00",
+                        "nextCloseTime": "2024-09-07 05:01:00",
                         "opened": true
                       },
                       "badges": {
@@ -4472,9 +4601,8 @@
                         }
                       },
                       "aggregatedDiscountInfoV3": {
-                        "header": "₹100 OFF",
-                        "subHeader": "ABOVE ₹349",
-                        "discountTag": "FLAT DEAL"
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹139"
                       },
                       "orderabilityCommunication": {
                         "title": {
@@ -4512,7 +4640,7 @@
                       "externalRatings": {
                         "aggregatedRating": {
                           "rating": "4.2",
-                          "ratingCount": "1K+"
+                          "ratingCount": "1.0K+"
                         },
                         "source": "GOOGLE",
                         "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
@@ -4520,10 +4648,10 @@
                       "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                     },
                     "analytics": {
-                      "context": "seo-data-3c585bc2-f48c-44ba-8267-c7b609a74f05"
+                      "context": "seo-data-973a5550-7348-496a-bf96-dc0b63f9009d"
                     },
                     "cta": {
-                      "link": "https://www.swiggy.com/restaurants/rangoon-zaika-kurla-east-mumbai-106763",
+                      "link": "https://www.swiggy.com/city/mumbai/rangoon-zaika-kurla-east-rest106763",
                       "text": "RESTAURANT_MENU",
                       "type": "WEBLINK"
                     },
@@ -4531,34 +4659,32 @@
                   },
                   {
                     "info": {
-                      "id": "466304",
-                      "name": "AL Zaika Dhaba",
-                      "cloudinaryImageId": "dp8jwzfgncapmekjgog6",
-                      "locality": "Near Kalpana Talkies",
-                      "areaName": "Kurla",
-                      "costForTwo": "₹300 for two",
+                      "id": "816077",
+                      "name": "Cremure",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/7/23/e79f6b5a-e7dc-4e7d-ab06-22285140665c_816077.jpg",
+                      "locality": "Bandra West",
+                      "areaName": "Bandra West",
+                      "costForTwo": "₹400 for two",
                       "cuisines": [
-                        "Indian",
-                        "Chinese",
-                        "Thalis",
-                        "Biryani",
-                        "Seafood",
-                        "Tandoor"
+                        "Bakery",
+                        "Desserts",
+                        "Waffle",
+                        "Beverages"
                       ],
-                      "avgRating": 4.4,
-                      "parentId": "280050",
-                      "avgRatingString": "4.4",
-                      "totalRatingsString": "500+",
+                      "avgRating": 4.5,
+                      "parentId": "351103",
+                      "avgRatingString": "4.5",
+                      "totalRatingsString": "351",
                       "sla": {
-                        "deliveryTime": 24,
-                        "lastMileTravel": 0.3,
+                        "deliveryTime": 35,
+                        "lastMileTravel": 6.9,
                         "serviceability": "SERVICEABLE",
-                        "slaString": "20-25 mins",
-                        "lastMileTravelString": "0.3 km",
+                        "slaString": "30-35 mins",
+                        "lastMileTravelString": "6.9 km",
                         "iconType": "ICON_TYPE_EMPTY"
                       },
                       "availability": {
-                        "nextCloseTime": "2024-08-29 04:15:00",
+                        "nextCloseTime": "2024-09-07 03:00:00",
                         "opened": true
                       },
                       "badges": {
@@ -4580,8 +4706,8 @@
                         }
                       },
                       "aggregatedDiscountInfoV3": {
-                        "header": "30% OFF",
-                        "subHeader": "UPTO ₹75"
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹99"
                       },
                       "orderabilityCommunication": {
                         "title": {
@@ -4624,10 +4750,10 @@
                       "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                     },
                     "analytics": {
-                      "context": "seo-data-3c585bc2-f48c-44ba-8267-c7b609a74f05"
+                      "context": "seo-data-973a5550-7348-496a-bf96-dc0b63f9009d"
                     },
                     "cta": {
-                      "link": "https://www.swiggy.com/restaurants/al-zaika-dhaba-near-kalpana-talkies-kurla-mumbai-466304",
+                      "link": "https://www.swiggy.com/city/mumbai/cremure-bandra-west-rest816077",
                       "text": "RESTAURANT_MENU",
                       "type": "WEBLINK"
                     },
@@ -4649,17 +4775,17 @@
                       "avgRating": 4.4,
                       "parentId": "109562",
                       "avgRatingString": "4.4",
-                      "totalRatingsString": "1K+",
+                      "totalRatingsString": "5.0K+",
                       "sla": {
-                        "deliveryTime": 20,
+                        "deliveryTime": 25,
                         "lastMileTravel": 0.3,
                         "serviceability": "SERVICEABLE",
-                        "slaString": "15-20 mins",
+                        "slaString": "25-30 mins",
                         "lastMileTravelString": "0.3 km",
                         "iconType": "ICON_TYPE_EMPTY"
                       },
                       "availability": {
-                        "nextCloseTime": "2024-08-29 04:30:00",
+                        "nextCloseTime": "2024-09-07 04:30:00",
                         "opened": true
                       },
                       "badges": {
@@ -4681,8 +4807,8 @@
                         }
                       },
                       "aggregatedDiscountInfoV3": {
-                        "header": "10% OFF",
-                        "subHeader": "UPTO ₹40"
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹149"
                       },
                       "orderabilityCommunication": {
                         "title": {
@@ -4720,7 +4846,7 @@
                       "externalRatings": {
                         "aggregatedRating": {
                           "rating": "4.1",
-                          "ratingCount": "1K+"
+                          "ratingCount": "3.4K+"
                         },
                         "source": "GOOGLE",
                         "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
@@ -4728,10 +4854,10 @@
                       "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                     },
                     "analytics": {
-                      "context": "seo-data-3c585bc2-f48c-44ba-8267-c7b609a74f05"
+                      "context": "seo-data-973a5550-7348-496a-bf96-dc0b63f9009d"
                     },
                     "cta": {
-                      "link": "https://www.swiggy.com/restaurants/janata-tawa-and-grill-kurla-west-mumbai-303850",
+                      "link": "https://www.swiggy.com/city/mumbai/janata-tawa-and-grill-kurla-west-rest303850",
                       "text": "RESTAURANT_MENU",
                       "type": "WEBLINK"
                     },
@@ -4752,17 +4878,17 @@
                       "avgRating": 4.3,
                       "parentId": "121989",
                       "avgRatingString": "4.3",
-                      "totalRatingsString": "5K+",
+                      "totalRatingsString": "6.0K+",
                       "sla": {
-                        "deliveryTime": 17,
+                        "deliveryTime": 23,
                         "lastMileTravel": 0.3,
                         "serviceability": "SERVICEABLE",
-                        "slaString": "15-20 mins",
+                        "slaString": "20-25 mins",
                         "lastMileTravelString": "0.3 km",
                         "iconType": "ICON_TYPE_EMPTY"
                       },
                       "availability": {
-                        "nextCloseTime": "2024-08-29 05:00:00",
+                        "nextCloseTime": "2024-09-07 05:01:00",
                         "opened": true
                       },
                       "badges": {
@@ -4827,10 +4953,10 @@
                       "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                     },
                     "analytics": {
-                      "context": "seo-data-3c585bc2-f48c-44ba-8267-c7b609a74f05"
+                      "context": "seo-data-973a5550-7348-496a-bf96-dc0b63f9009d"
                     },
                     "cta": {
-                      "link": "https://www.swiggy.com/restaurants/kurla-juicy-hut-kurla-kurla-west-mumbai-111518",
+                      "link": "https://www.swiggy.com/city/mumbai/kurla-juicy-hut-kurla-kurla-west-rest111518",
                       "text": "RESTAURANT_MENU",
                       "type": "WEBLINK"
                     },
@@ -4838,59 +4964,45 @@
                   },
                   {
                     "info": {
-                      "id": "26577",
-                      "name": "Lalta Pav Bhaji",
-                      "cloudinaryImageId": "xcpz67eipc6kvftvv6fq",
-                      "locality": "Ghatkopar East",
-                      "areaName": "Ghatkopar East",
-                      "costForTwo": "₹200 for two",
+                      "id": "802336",
+                      "name": "Yasin's Food Inn",
+                      "cloudinaryImageId": "ad71e7632fb460a2559b64289ec9c2b2",
+                      "locality": "Radhabai Niwas Corner",
+                      "areaName": "Kurla",
+                      "costForTwo": "₹300 for two",
                       "cuisines": [
-                        "Fast Food",
-                        "Pizzas",
+                        "North Indian",
                         "Chinese",
-                        "Ice Cream",
+                        "Mughlai",
+                        "Fast Food",
+                        "Biryani",
                         "Beverages"
                       ],
-                      "avgRating": 4.5,
-                      "parentId": "230825",
-                      "avgRatingString": "4.5",
-                      "totalRatingsString": "10K+",
+                      "avgRating": 4.2,
+                      "parentId": "313916",
+                      "avgRatingString": "4.2",
+                      "totalRatingsString": "528",
                       "sla": {
-                        "deliveryTime": 25,
-                        "lastMileTravel": 3.9,
+                        "deliveryTime": 22,
+                        "lastMileTravel": 0.2,
                         "serviceability": "SERVICEABLE",
-                        "slaString": "25-30 mins",
-                        "lastMileTravelString": "3.9 km",
+                        "slaString": "20-25 mins",
+                        "lastMileTravelString": "0.2 km",
                         "iconType": "ICON_TYPE_EMPTY"
                       },
                       "availability": {
-                        "nextCloseTime": "2024-08-29 02:00:00",
+                        "nextCloseTime": "2024-09-07 04:00:00",
                         "opened": true
                       },
                       "badges": {
-                        "imageBadges": [
-                          {
-                            "imageId": "v1695133679/badges/Pure_Veg111.png",
-                            "description": "pureveg"
-                          }
-                        ]
-                      },
-                      "isOpen": true,
-                      "aggregatedDiscountInfoV2": {
                         
                       },
+                      "isOpen": true,
                       "type": "F",
                       "badgesV2": {
                         "entityBadges": {
                           "imageBased": {
-                            "badgeObject": [
-                              {
-                                "attributes": {
-                                  "description": "pureveg",
-                                  "imageId": "v1695133679/badges/Pure_Veg111.png"
-                                }
-                              }
-                            ]
+                            
                           },
                           "textBased": {
                             
@@ -4899,6 +5011,10 @@
                             
                           }
                         }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹159"
                       },
                       "orderabilityCommunication": {
                         "title": {
@@ -4935,19 +5051,16 @@
                       },
                       "externalRatings": {
                         "aggregatedRating": {
-                          "rating": "4.1",
-                          "ratingCount": "1K+"
-                        },
-                        "source": "GOOGLE",
-                        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                          "rating": "--"
+                        }
                       },
                       "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                     },
                     "analytics": {
-                      "context": "seo-data-3c585bc2-f48c-44ba-8267-c7b609a74f05"
+                      "context": "seo-data-973a5550-7348-496a-bf96-dc0b63f9009d"
                     },
                     "cta": {
-                      "link": "https://www.swiggy.com/restaurants/lalta-pav-bhaji-ghatkopar-east-mumbai-26577",
+                      "link": "https://www.swiggy.com/city/mumbai/yasins-food-inn-radhabai-niwas-corner-kurla-rest802336",
                       "text": "RESTAURANT_MENU",
                       "type": "WEBLINK"
                     },
@@ -7677,7 +7790,7 @@
             "lat": "19.0759837",
             "lng": "72.8776559",
             "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
-            "gandalfRequest": "{\"sortAttribute\":\"relevance\",\"isFiltered\":false,\"queryId\":\"seo-data-3c585bc2-f48c-44ba-8267-c7b609a74f05\",\"seoParams\":{\"apiName\":\"FoodHomePage\",\"brandId\":\"\",\"seoUrl\":\"www.swiggy.com\",\"pageType\":\"FOOD_HOME_PAGE\"}}",
+            "gandalfRequest": "{\"sortAttribute\":\"relevance\",\"isFiltered\":false,\"queryId\":\"seo-data-973a5550-7348-496a-bf96-dc0b63f9009d\",\"seoParams\":{\"apiName\":\"FoodHomePage\",\"brandId\":\"\",\"seoUrl\":\"www.swiggy.com\",\"pageType\":\"FOOD_HOME_PAGE\"}}",
             "id": "meta_data",
             "metaInfo": {
               "pageType": "FOOD_HOME_PAGE",
@@ -7699,8 +7812,8 @@
     "cacheExpiryTime": 240,
     "nextFetch": 1
   },
-  "tid": "361f8e5f-7e7a-453e-ae16-1032a5edc9a7",
-  "sid": "fsoc895a-40de-4e41-b3bb-a75270530b3e",
+  "tid": "81f43118-27aa-4cd3-ae8a-f7488852a744",
+  "sid": "fyo8f69a-dba2-4ed2-a98a-15a1dd61c7a5",
   "deviceId": "bb418cca-0572-d6fb-9526-d6d865221ed3",
-  "csrfToken": "ocefJCohm3sD-jkN3-StL4iwLqioxa2rFKgerQIc"
+  "csrfToken": "OOlZbyBIx6y4-NNIBDUhOqP9oGvKCI0O3djwFAAI"
 }

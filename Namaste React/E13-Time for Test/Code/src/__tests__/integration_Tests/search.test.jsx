@@ -5,6 +5,7 @@ import { BrowserRouter } from "react-router-dom";
 import '@testing-library/jest-dom';
 
 //will give me a mock 'fetch' function that i'll use here for testing
+//global.fetch = jest.fn(() => { ... }); is creating a mock version of the fetch function using Jest, instead of making a real network request to an API, this mock function will return a predefined response.
 global.fetch = jest.fn(() => {
   return Promise.resolve({
     json: () => {

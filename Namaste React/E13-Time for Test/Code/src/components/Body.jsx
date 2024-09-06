@@ -58,6 +58,7 @@ const Body = () => {
         <div className="flex items-center mr-20">
           <input
             type="text"
+            data-testid = "searchInput" //for 'search_input_box' in search.test.jsx
             className="rounded-full px-4 py-1 border border-solid border-black"
             placeholder="Search a restaurant"
             value={searchText}

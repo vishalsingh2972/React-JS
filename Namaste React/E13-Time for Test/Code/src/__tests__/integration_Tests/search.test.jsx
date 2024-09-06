@@ -1,4 +1,4 @@
-import { render, act, screen } from "@testing-library/react";
+import { render, act, screen, fireEvent } from "@testing-library/react";
 import Body from "../../components/Body";
 import MOCK_DATA_IT from "../mocks/IT/mockResListData.json";
 import { BrowserRouter } from "react-router-dom";
@@ -17,7 +17,7 @@ global.fetch = jest.fn(() => {
 it("should render the Body component with Search Button", async () => {
 
   //redering
-  await act(async () =>
+  await act(async () => //whenever rendering component that has 'state' change/update we wrap it inside 'act'
     render(
       <BrowserRouter>
         <Body />
@@ -28,6 +28,12 @@ it("should render the Body component with Search Button", async () => {
   //Querying
   const search_button = screen.getByRole('button', { name: "Search" });
   // console.log(search_button);
+
+
+  const search_input_box = screen.getByTestId("searchInput");
+  // console.log(search_input_box);
+
+  fireEvent.change(search_input_box, {});
 
   //Assertion
   expect(search_button).toBeInTheDocument();

@@ -14,7 +14,7 @@ global.fetch = jest.fn(() => {
   });
 });
 
-it("should render the Body component with Search Button", async () => {
+it("should render corresponding RestaurantCard components when searching for 'pizza' text in the search input", async () => {
 
   //redering
   await act(async () => //whenever rendering component that has 'state' change/update we wrap it inside 'act'
@@ -24,6 +24,9 @@ it("should render the Body component with Search Button", async () => {
       </BrowserRouter>
     )
   )
+
+  // const cards_Before_Search = screen.getAllByTestId("resCard");
+  // expect(cards_Before_Search.length).toBe(20);
 
   //Querying
   const search_button = screen.getByRole('button', { name: "Search" });
@@ -35,13 +38,14 @@ it("should render the Body component with Search Button", async () => {
 
   fireEvent.change(search_input_box, { target: { value: 'pizza' } });
   // (EXTRA) fireEvent.change(search_input_box, { target: { value: /pizza/i } }); // /pizza/i is a regex pattern that matches the string "pizza" regardless of case. The i flag at the end makes the match case-insensitive. so Pizza, PIZZA, pizza...etc this will get triggered on all of them irrespective of case 
+  // console.log(search_input_box);
 
   fireEvent.click(search_button);
 
   //Now after typing 'pizza' in input and triggering click search button, in assertion my screen should load 2 pizza cards (~ for this testcase example)
   //Assertion
-  const cards = screen.getAllByTestId("resCard");
-  // console.log(cards);
+  const cards_After_Search = screen.getAllByTestId("resCard");
+  // console.log(cards_After_Search);
   
-  expect(cards.length).toBe(2);
+  expect(cards_After_Search.length).toBe(2);
 })

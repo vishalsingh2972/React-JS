@@ -33,7 +33,7 @@ const Body = () => {
     );
 
     const json = await data.json();
-    // console.log(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+    console.log(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
 
     setListOfRestaurants(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
     setFilteredRestaurant(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
@@ -58,7 +58,7 @@ const Body = () => {
         <div className="flex items-center mr-20">
           <input
             type="text"
-            data-testid = "searchInput" //for 'search_input_box' in search.test.jsx
+            data-testid="searchInput" //for 'search_input_box' in search.test.jsx
             className="rounded-full px-4 py-1 border border-solid border-black"
             placeholder="Search a restaurant"
             value={searchText}
@@ -104,16 +104,16 @@ const Body = () => {
             }}
           >Search</button>
 
-          {/* <button 
-          className="filter-btn rounded-full px-4 py-1 bg-yellow-400" 
-          onClick={() => {
-            //Filter logic here ⬇️
-            const filteredList = listOfRestaurants.filter((res)=> res.info.avgRating >= 4.5)
-            setListOfRestaurants(filteredList);
-          }}
-        >
-          Top Rated Restaurants
-        </button> */}
+          {/* <button
+            className="filter-btn rounded-full px-4 py-1 bg-yellow-400"
+            onClick={() => {
+              //Filter logic here ⬇️
+              const filteredList = listOfRestaurants.filter((res) => res?.info?.avgRating >= 4.6)
+              setListOfRestaurants(filteredList);
+            }}
+          >
+            Top Rated Restaurants
+          </button> */}
 
           <div className="ml-28">
             <label>UserName : </label>

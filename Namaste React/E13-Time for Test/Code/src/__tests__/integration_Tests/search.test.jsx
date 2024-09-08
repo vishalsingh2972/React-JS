@@ -46,16 +46,31 @@ it("should render corresponding RestaurantCard components when searching for 'pi
   //Assertion
   const cards_After_Search = screen.getAllByTestId("resCard");
   // console.log(cards_After_Search);
-  
+
   expect(cards_After_Search.length).toBe(2);
 })
 
 it("should render corresponding RestaurantCard components when clicking on top rated restaurants button", async () => {
 
   //redering
+  await act(async () =>
+    render(
+      <BrowserRouter>
+        <Body />
+      </BrowserRouter>
+    )
+  )
+
+  // const cards_Before_Click = screen.getAllByTestId("resCard");
+  // expect(cards_Before_Click.length).toBe(20);
 
   //Querying
-  
+  const top_rated_restaurant_button = screen.getByRole('button', { name: "Top Rated Restaurants" });
+
+  fireEvent.click(top_rated_restaurant_button);
+
   //Assertion
-  
+  const top_restaurant_cards = screen.getAllByTestId("resCard");
+
+  expect(top_restaurant_cards.length).toBe(2);
 })

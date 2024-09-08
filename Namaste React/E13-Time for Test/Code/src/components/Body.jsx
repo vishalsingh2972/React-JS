@@ -107,7 +107,7 @@ const Body = () => {
             className="filter-btn rounded-full px-4 py-1 bg-yellow-400"
             onClick={() => {
               //Filter logic here ⬇️
-              const filteredList = listOfRestaurants.filter((res) => res.info.avgRating >= 4.5)
+              const filteredList = listOfRestaurants.filter((res) => res.info.avgRating >= 4.6)
               setFilteredRestaurant(filteredList);
             }}
           >

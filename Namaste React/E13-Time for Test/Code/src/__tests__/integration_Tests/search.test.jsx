@@ -49,3 +49,13 @@ it("should render corresponding RestaurantCard components when searching for 'pi
   
   expect(cards_After_Search.length).toBe(2);
 })
+
+it("should render corresponding RestaurantCard components when clicking on top rated restaurants button", async () => {
+
+  //redering
+
+  //Querying
+  
+  //Assertion
+  
+})

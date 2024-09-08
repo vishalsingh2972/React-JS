@@ -7,8 +7,8 @@ import { RESTAURANTS_API, RESTAURANTS_API2 } from "../utils/constants";
 import UserContext from "../utils/context/UserContext";
 
 const Body = () => {
-  const [listOfRestaurants, setlistOfRestaurants] = useState([]);
-  const [filteredRestaurant, setfilteredRestaurant] = useState([]);
+  const [listOfRestaurants, setListOfRestaurants] = useState([]);
+  const [filteredRestaurant, setFilteredRestaurant] = useState([]);
 
   const [searchText, setSearchText] = useState("");
   // Whenever state variables get updated (here 'listOfRestaurants' and 'searchText' are state variables), react triggers a reconciliation cycle i.e. react re-renders the component again
@@ -49,60 +49,71 @@ const Body = () => {
 
   const { setUserName, loggedInUser } = useContext(UserContext);
 
-  const handleSearch = () => {
-    if (!searchText) {
-      alert("Please enter a restaurant name!");
-      return;
-    }
-
-    const filteredRestaurants = listOfRestaurants.filter((restaurant) =>
-      restaurant.info.name.toLowerCase().includes(searchText.toLowerCase())
-    );
-
-    if (filteredRestaurants.length === 0) {
-      alert("Restaurant not found");
-    } else {
-      setfilteredRestaurant(filteredRestaurants);
-    }
-  }
-
-  const handleTopRated = () => {
-    const topRatedRestaurants = listOfRestaurants.filter((res) => res?.info?.avgRating >= 4.6);
-    setfilteredRestaurant(topRatedRestaurants);
-  }
-
   // ⬇️ Conditional Rendering ⬇️
   // console.log("Body rendered 1");
   return (listOfRestaurants?.length === 0 ? (<Shimmer />) : (
     <div className="body">
+      {/* {  console.log("Body rendered 2") } */}
       <div className="filter">
         <div className="flex items-center mr-20">
           <input
             type="text"
-            data-testid="searchInput"
+            data-testid="searchInput" //for 'search_input_box' in search.test.jsx
             className="rounded-full px-4 py-1 border border-solid border-black"
             placeholder="Search a restaurant"
             value={searchText}
-            onChange={(event) => setSearchText(event.target.value)}
+            onChange={(event) => {
+              setSearchText(event.target.value);
+              // console.log(event.target.value)
+            }}
+            //simply 'enter' to search after typing feature
             onKeyDown={(event) => {
               if (event.key === 'Enter') {
-                handleSearch();
+                // Trigger the search logic when Enter is pressed
+                if (!searchText) {
+                  alert("Please enter a restaurant name!");
+                  return;
+                }
+
+                const filteredRestaurant = listOfRestaurants.filter((restaurant) =>
+                  restaurant.info.name.toLowerCase().includes(searchText.toLowerCase())
+                );
+
+                filteredRestaurant.length === 0
+                  ? alert("Restaurant not found")
+                  : setFilteredRestaurant(filteredRestaurant);
               }
             }}
           />
-          <button
-            className="px-4 py-1 bg-orange-400 m-4 rounded-full"
-            onClick={handleSearch}
-          >
-            Search
-          </button>
+          <button className="px-4 py-1 bg-orange-400 m-4 rounded-full"
+            onClick={() => {
+              // Filter the restaurant cards and update the UI accordingly
+              // console.log(searchText);
 
-          <button
+              if (!searchText) {
+                // Display popup if searchText is empty
+                alert("Please enter a restaurant name!");
+              }
+
+              const filteredRestaurant = listOfRestaurants.filter((restaurant) =>
+                restaurant.info.name.toLowerCase().includes(searchText.toLowerCase())
+              )
+
+              filteredRestaurant.length === 0 ? alert("Restaurant not found") : setFilteredRestaurant(filteredRestaurant);
+              // filteredRestaurant.length === 0 ? (setFilteredRestaurant([]), alert("Restaurant not found")) : setFilteredRestaurant(filteredRestaurant);
+            }}
+          >Search</button>
+
+          {/* <button
             className="filter-btn rounded-full px-4 py-1 bg-yellow-400"
-            onClick={handleTopRated}
+            onClick={() => {
+              //Filter logic here ⬇️
+              const filteredList = listOfRestaurants.filter((res) => res?.info?.avgRating >= 4.6)
+              setListOfRestaurants(filteredList);
+            }}
           >
             Top Rated Restaurants
-          </button>
+          </button> */}
 
           <div className="ml-28">
             <label>UserName : </label>
@@ -116,7 +127,7 @@ const Body = () => {
       </div>
       <div className="flex flex-wrap">
         {
-          filteredRestaurant.map((restaurant) => (
+          filteredRestaurant?.map((restaurant, index) => (
             <Link to={`/restaurants/${restaurant.info.id}`} key={restaurant.info.id}>
               {/* {console.log(index, restaurant)} */}
 
@@ -134,4 +145,4 @@ const Body = () => {
   ))
 }
 
-export default Body;
+export default Body

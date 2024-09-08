@@ -1,0 +1,3219 @@
+{
+  "statusCode": 0,
+  "data": {
+    "statusMessage": "done successfully",
+    "cards": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+            "text": "Bombay Sweet Shop",
+            "headerStyling": {
+              "textColor": "text_Highest_Emphasis",
+              "textVariant": "header_H3_Black"
+            }
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.RestaurantBlTab",
+            "tabs": [
+              {
+                "id": "Order Online",
+                "title": "Order Online"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "673363",
+              "name": "Bombay Sweet Shop",
+              "city": "Mumbai",
+              "slugs": {
+                "restaurant": "bombay-sweet-shop-scruz-bandra-east-scruz-bandra-east",
+                "city": "mumbai"
+              },
+              "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/28/1dd55edb-2651-4660-9bba-8d3dbe528f98_673363.jpg",
+              "locality": "Vidyanagari Marg",
+              "areaName": "Scruz Bandra East",
+              "costForTwo": "70000",
+              "costForTwoMessage": "₹700 for two",
+              "cuisines": [
+                "Desserts",
+                "Snacks"
+              ],
+              "avgRating": 4.8,
+              "veg": true,
+              "feeDetails": {
+                "restaurantId": "673363",
+                "fees": [
+                  {
+                    "name": "TYPE_DISTANCE",
+                    "fee": 4900
+                  },
+                  {
+                    "name": "TYPE_TIME"
+                  }
+                ],
+                "totalFee": 4900,
+                "title": "Delivery Charge",
+                "amount": "4900",
+                "icon": "v1648635511/Delivery_fee_new_cjxumu",
+                "message": "<b>1.9 kms</b> | ₹49 Delivery fee will apply"
+              },
+              "parentId": "48883",
+              "avgRatingString": "4.8",
+              "totalRatingsString": "351 ratings",
+              "sla": {
+                "restaurantId": "673363",
+                "deliveryTime": 18,
+                "minDeliveryTime": 15,
+                "maxDeliveryTime": 20,
+                "lastMileTravel": 1.9,
+                "serviceability": "SERVICEABLE",
+                "stressFactor": 1,
+                "rainMode": "RAIN_MODE_NONE",
+                "longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+                "zoneId": 74,
+                "slaString": "15-20 MINS",
+                "lastMileTravelString": "1.8 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2024-09-09 03:00:00",
+                "visibility": true,
+                "opened": true,
+                "restaurantClosedMeta": {
+                  
+                }
+              },
+              "aggregatedDiscountInfo": {
+                "header": "Flat ₹125 off",
+                "shortDescriptionList": [
+                  {
+                    "meta": "Flat ₹125 off on orders above ₹799",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "meta": "Flat ₹125 off on orders above ₹799 | Use code FLAT125",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "10% off upto ₹150 |  Use HSBCFEST Above ₹499",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "visible": true
+              },
+              "badges": {
+                
+              },
+              "slugString": "bombay-sweet-shop-scruz-bandra-east-scruz-bandra-east",
+              "multiOutlet": true,
+              "isOpen": true,
+              "labels": [
+                {
+                  "title": "Timings",
+                  "message": "null"
+                },
+                {
+                  "title": "Address",
+                  "message": "HYPRKYTCHEN FOODTECH PVT. LTD 28, Ground Floor, Goodwill Premises CHS LTD, Road 178, Vidyanagiri Marg, Near Mumbai University, Santacruz East, Mumbai - 400098, Greater Mumbai Ward-H/E, Greater Mumbai,"
+                },
+                {
+                  "title": "Cuisines",
+                  "message": "Desserts,Snacks"
+                }
+              ],
+              "logo": "v1661252243/Gourmet_Mumbai/logos_23.08/Bombay_Sweet_Shop.png",
+              "totalRatings": 351,
+              "aggregatedDiscountInfoV2": {
+                "header": "Flat ₹125 off",
+                "shortDescriptionList": [
+                  {
+                    "meta": "Flat ₹125 off on orders above ₹799",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "meta": "Flat ₹125 off on orders above ₹799 | Use code FLAT125",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "10% off upto ₹150 |  Use HSBCFEST Above ₹499",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "couponDetailsCta": "View coupon details"
+              },
+              "type": "F",
+              "nudgeBanners": [
+                {
+                  "minValue": 559,
+                  "maxValue": 799,
+                  "priority": 1,
+                  "couponCode": "FLAT125",
+                  "discountInfo": {
+                    "discountType": "Flat",
+                    "value": 125
+                  },
+                  "lockedMessage": "Add items worth ₹<amount> to save ₹125 | Code FLAT125",
+                  "unlockedMessage": "FLAT125 Coupon Unlocked! Use it to save ₹125",
+                  "logoCtx": {
+                    
+                  }
+                },
+                {
+                  "minValue": 2100,
+                  "maxValue": 3000,
+                  "priority": 7,
+                  "couponCode": "FLAT300",
+                  "discountInfo": {
+                    "discountType": "Flat",
+                    "value": 300
+                  },
+                  "lockedMessage": "Add items worth ₹<amount> to save ₹300 | Code FLAT300",
+                  "unlockedMessage": "FLAT300 Coupon Unlocked! Use it to save ₹300",
+                  "logoCtx": {
+                    
+                  }
+                }
+              ],
+              "headerBanner": {
+                "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/673363"
+              },
+              "expectationNotifiers": [
+                {
+                  "text": "<b>1.9 kms</b> | ₹49 Delivery fee will apply",
+                  "icon": {
+                    "imageId": "v1648635511/Delivery_fee_new_cjxumu"
+                  },
+                  "popup": {
+                    "cta": {
+                      
+                    }
+                  },
+                  "type": "DISTANCE_FEE_NON_FOOD_LM",
+                  "enrichedText": "<b>1.9 kms</b> | ₹49 Delivery fee will apply",
+                  "halfCardPopup": {
+                    "halfCardPopupHeader": {
+                      
+                    }
+                  },
+                  "trailingIcon": {
+                    
+                  }
+                }
+              ],
+              "generalPurposeInfoListV2": [
+                {
+                  "cta": {
+                    "info": {
+                      "recordings": {
+                        
+                      }
+                    },
+                    "linkCta": {
+                      
+                    }
+                  }
+                }
+              ],
+              "ratingSlab": "RATING_SLAB_5",
+              "restaurantCategory": "RESTAURANT_CATEGORY_GOURMET",
+              "backgroundImage": "v1660805007/Gourmet_Mumbai/Menu%20headers_18.8.22/Bombay_Sweet_Shop.png",
+              "orderabilityCommunication": {
+                "title": {
+                  
+                },
+                "subTitle": {
+                  
+                },
+                "message": {
+                  
+                },
+                "customIcon": {
+                  
+                }
+              },
+              "hasBestsellerItems": true,
+              "cartOrderabilityNudgeBanner": {
+                "parameters": {
+                  
+                },
+                "presentation": {
+                  
+                }
+              },
+              "latLong": "19.07249587,72.86937298",
+              "backgroundImageOverlayInfo": {
+                
+              }
+            },
+            "analytics": {
+              
+            }
+          },
+          "relevance": {
+            "type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_ON_ITEM_ADD",
+            "sectionId": "POP_UP_CROUTON_MENU"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+            "layout": {
+              "rows": 1,
+              "columns": 5,
+              "horizontalScrollEnabled": true,
+              "itemSpacing": 12,
+              "lineSpacing": 10,
+              "widgetPadding": {
+                
+              },
+              "containerStyle": {
+                "containerPadding": {
+                  "left": 10,
+                  "right": 10,
+                  "bottom": 16
+                }
+              },
+              "scrollBar": {
+                
+              }
+            },
+            "id": "offerCollectionWidget_UX4",
+            "gridElements": {
+              "infoWithStyle": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                "offers": [
+                  {
+                    "info": {
+                      "header": "Extra ₹15 off",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "rng/md/ads/production/d07196b25b85d1fd9951e10c255ab737",
+                      "offerIds": [
+                        "2c6226e3-9fc7-42c8-97cd-a3d2c143626f"
+                      ],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "description": "APPLICABLE OVER & ABOVE COUPONS",
+                      "offerType": "offers",
+                      "restId": "673363",
+                      "offerLogo": "rng/md/ads/production/d07196b25b85d1fd9951e10c255ab737",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT ₹125 OFF",
+                      "offerTag": "FLAT DEAL",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": [
+                        "1181724d-03f3-4916-86f1-fed8b4ce918f"
+                      ],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE FLAT125",
+                      "description": "ABOVE ₹799",
+                      "offerType": "offers",
+                      "restId": "673363",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "10% OFF UPTO ₹150",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/8/31/ec914388-a79d-4a16-a898-18d3d474ad4c_HSBC.png",
+                      "offerIds": [
+                        "6049151e-429c-46f1-a925-71912d054ea9"
+                      ],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE HSBCFEST",
+                      "description": "ABOVE ₹499",
+                      "offerType": "offers",
+                      "restId": "673363",
+                      "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2024/8/31/ec914388-a79d-4a16-a898-18d3d474ad4c_HSBC.png",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "30% OFF UPTO ₹150",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/8/31/7453b7ef-af30-45ff-842e-fd7dec63ff20_Untitled.jpg",
+                      "offerIds": [
+                        "d22f1a10-ba95-41d4-bc62-48e6ccdae077"
+                      ],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE AXIS30",
+                      "description": "ABOVE ₹200",
+                      "offerType": "offers",
+                      "restId": "673363",
+                      "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2024/8/31/7453b7ef-af30-45ff-842e-fd7dec63ff20_Untitled.jpg",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT ₹125 OFF",
+                      "offerTag": "FLAT DEAL",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": [
+                        "719d09a3-ecba-451c-8c75-5496e7a22cef"
+                      ],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE GANPATIBAPPAMORYA",
+                      "description": "ABOVE ₹799",
+                      "offerType": "offers",
+                      "restId": "673363",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  }
+                ],
+                "habitMilestoneInfo": {
+                  "callout": {
+                    
+                  }
+                },
+                "loyaltyDiscoverPresentationInfo": {
+                  "logoCtx": {
+                    
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "REGULAR": {
+              "cards": [
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                      "isPureVeg": true,
+                      "badges": {
+                        
+                      },
+                      "vegOnlyDetails": {
+                        "imageId": "AutoVegOnly_qkjowj",
+                        "title": "Showing only vegetarian options.",
+                        "description": "Tap on the VEG ONLY button to turn off the setting"
+                      },
+                      "topRatedFilter": {
+                        "attributes": {
+                          "displayText": "Ratings 4.0+"
+                        }
+                      },
+                      "kidsCategoryFilter": {
+                        "attributes": {
+                          "displayText": "Kids Favourites",
+                          "tooltip": {
+                            "enabled": true,
+                            "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                          }
+                        }
+                      },
+                      "vegFilter": {
+                        "attributes": {
+                          "displayText": "VEG"
+                        }
+                      },
+                      "nonvegFilter": {
+                        "attributes": {
+                          "displayText": "NONVEG"
+                        }
+                      }
+                    },
+                    "relevance": {
+                      "type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
+                      "sectionId": "MENU_FILTER_TOGGLE"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuCarousel",
+                      "title": "Top Picks",
+                      "carousel": [
+                        {
+                          "type": "TopCarousel",
+                          "subtype": "image",
+                          "bannerId": "1909146",
+                          "creativeId": "TopPicks/CfeRasTir",
+                          "title": "Coffee Rasgulla Tiramisu",
+                          "description": " ",
+                          "fontColor": "#FFFFFF",
+                          "dish": {
+                            "info": {
+                              "id": "129670611",
+                              "name": "Coffee Rasgulla Tiramisu",
+                              "category": "Chef's Specials",
+                              "description": "Bengali specialty meets Italian classic! Coffee-soaked rasgullas layered with mascarpone cream topped with almond brittle and a generous dusting of cocoa powder. \nServes 1-2 \nQuantity : Approx 200 gm",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/10/590b63a7-9715-44ae-a290-4e3bf0470095_325350ac-df79-479a-8853-fb7dff726091.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 36700,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "isBestseller": true
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "type": "TopCarousel",
+                          "subtype": "image",
+                          "bannerId": "1909136",
+                          "creativeId": "TopPicks/B3LChFudC",
+                          "title": "Bombay's 3-Layer Chocolate Fudge - Classic",
+                          "description": " ",
+                          "fontColor": "#FFFFFF",
+                          "dish": {
+                            "info": {
+                              "id": "109778331",
+                              "name": "Bombay's 3-Layer Chocolate Fudge - Classic",
+                              "category": "Chocolate",
+                              "description": "Get your box of Bombay's 3-Layer Fudge! Two layers of 70% dark chocolate peda sandwiched with peanut chikki and 55% dark chocolate ganache, topped with peanut cashew tuille.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/19/8bb8bc18-ae77-4242-a720-cd5cd0da95e7_972da16a-a15e-42ef-8692-b9edb5f8174c.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 61400,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "isBestseller": true
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "type": "TopCarousel",
+                          "subtype": "image",
+                          "bannerId": "1909116",
+                          "creativeId": "TopPicks/GuJamun",
+                          "title": "Gulab Jamun (6pcs)",
+                          "description": " ",
+                          "fontColor": "#FFFFFF",
+                          "dish": {
+                            "info": {
+                              "id": "117995465",
+                              "name": "Gulab Jamun (6pcs)",
+                              "category": "Chef's Specials",
+                              "description": "Inspired by Lemcha, our Gulab Jamun is fried in pure ghee and stuffed with pistachios and saffron and doused in sugar syrup. One portion contains 6 pcs. Enjoy within 7 days.",
+                              "imageId": "946a8be028415a6ec21f870f80124368",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 23800,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "isBestseller": true
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Recommended",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "117995465",
+                              "name": "Gulab Jamun (6pcs)",
+                              "category": "Chef's Specials",
+                              "description": "Inspired by Lemcha, our Gulab Jamun is fried in pure ghee and stuffed with pistachios and saffron and doused in sugar syrup. One portion contains 6 pcs. Enjoy within 7 days.",
+                              "imageId": "946a8be028415a6ec21f870f80124368",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 23800,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.5",
+                                  "ratingCount": "21 ratings",
+                                  "ratingCountV2": "21"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "type": "CATEGORY_TYPE_RECOMMENDED"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Chef's Specials",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "129670611",
+                              "name": "Coffee Rasgulla Tiramisu",
+                              "category": "Chef's Specials",
+                              "description": "Bengali specialty meets Italian classic! Coffee-soaked rasgullas layered with mascarpone cream topped with almond brittle and a generous dusting of cocoa powder. \nServes 1-2 \nQuantity : Approx 200 gm",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/10/590b63a7-9715-44ae-a290-4e3bf0470095_325350ac-df79-479a-8853-fb7dff726091.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 36700,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.8",
+                                  "ratingCount": "53 ratings",
+                                  "ratingCountV2": "53"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "117995465",
+                              "name": "Gulab Jamun (6pcs)",
+                              "category": "Chef's Specials",
+                              "description": "Inspired by Lemcha, our Gulab Jamun is fried in pure ghee and stuffed with pistachios and saffron and doused in sugar syrup. One portion contains 6 pcs. Enjoy within 7 days.",
+                              "imageId": "946a8be028415a6ec21f870f80124368",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 23800,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.5",
+                                  "ratingCount": "21 ratings",
+                                  "ratingCountV2": "21"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "136052127",
+                              "name": "Sweet Shop Kesar Rasmalai",
+                              "category": "Chef's Specials",
+                              "description": "Our traditional Rasmalai is soaked in saffron sugar syrup and then steeped in an indulgent badam and saffron milk! One portion includes 5 pieces.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/12/eb9c83e2-913c-413b-9b54-b273eec347db_a771a05e-53e2-4c61-ab30-10d92aa77452.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 28600,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.5",
+                                  "ratingCount": "13 ratings",
+                                  "ratingCountV2": "13"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Ganpati Collection",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "135817777",
+                              "name": "Assorted Mithai Box",
+                              "category": "Ganpati Collection",
+                              "description": "A box of assorted mithai to remind you of the magic of mithai! Hand-made with love and only the best ingredients.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/8/29/d6da3aad-2ded-4000-8aee-65142a79838f_6c5d0ec5-1310-413f-9094-c4707d0dd242.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                "variantGroups": [
+                                  {
+                                    "groupId": "47436515",
+                                    "name": "Assorted Mithai Box",
+                                    "variations": [
+                                      {
+                                        "name": "Box of 9",
+                                        "price": 643,
+                                        "id": "150170832",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "Box of 3",
+                                        "price": 186,
+                                        "default": 1,
+                                        "id": "150170833",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "pricingModels": [
+                                  {
+                                    "variations": [
+                                      {
+                                        "groupId": "47436515",
+                                        "variationId": "150170832"
+                                      }
+                                    ],
+                                    "price": 64300
+                                  },
+                                  {
+                                    "variations": [
+                                      {
+                                        "groupId": "47436515",
+                                        "variationId": "150170833"
+                                      }
+                                    ],
+                                    "price": 18600
+                                  }
+                                ]
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "defaultPrice": 18600,
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "137839978",
+                              "name": "Kesar Shrikhand",
+                              "category": "Ganpati Collection",
+                              "description": "Who doesn’t love a creamy, sweet Shrikhand? Our special Kesar Shrikhand (200g) is rich with the flavour of saffron and a delight in every bite!",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/8/29/d2139aa1-d8f8-45da-8dc5-ca766ace3d9e_84cf9887-f281-42ad-bce8-356dd9178849.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 33300,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "149536627",
+                              "name": "Modak Medley - Box of 7 Combo",
+                              "category": "Ganpati Collection",
+                              "description": "A box of assorted modaks to add to the celebrations! Hand-made with love and only the best ingredients, now in a festive box! Chocolate Hazelnut Modak, Puran Poli Modak & Carrot Halwa Modak",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/9/6/ee4c97b8-e48e-4227-b509-7c3317b108d8_2f172469-c7be-436d-8940-d818293f8a15.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                "variantGroups": [
+                                  {
+                                    "groupId": "47436511",
+                                    "name": "Modak Medley - Box of 7 Combo",
+                                    "variations": [
+                                      {
+                                        "name": "Combo Pack of 5 - 10% OFF",
+                                        "price": 1929,
+                                        "default": 1,
+                                        "id": "150170824",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "Combo Pack of 7 - 10% OFF",
+                                        "price": 2700,
+                                        "id": "150170825",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "pricingModels": [
+                                  {
+                                    "variations": [
+                                      {
+                                        "groupId": "47436511",
+                                        "variationId": "150170824"
+                                      }
+                                    ],
+                                    "price": 192900
+                                  },
+                                  {
+                                    "variations": [
+                                      {
+                                        "groupId": "47436511",
+                                        "variationId": "150170825"
+                                      }
+                                    ],
+                                    "price": 270000
+                                  }
+                                ]
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "defaultPrice": 192900,
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "149536629",
+                              "name": "Modak Medley",
+                              "category": "Ganpati Collection",
+                              "description": "A box of assorted modaks to add to the celebrations! Hand-made with love and only the best ingredients.Chocolate Hazelnut Modak, Puran Poli Modak & Carrot Halwa Modak",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/9/6/ee4c97b8-e48e-4227-b509-7c3317b108d8_2f172469-c7be-436d-8940-d818293f8a15.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                "variantGroups": [
+                                  {
+                                    "groupId": "47436513",
+                                    "name": "Modak Medley",
+                                    "variations": [
+                                      {
+                                        "name": "Box of 3",
+                                        "price": 186,
+                                        "default": 1,
+                                        "id": "150170829",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "Box of 7",
+                                        "price": 429,
+                                        "id": "150170828",
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "pricingModels": [
+                                  {
+                                    "variations": [
+                                      {
+                                        "groupId": "47436513",
+                                        "variationId": "150170828"
+                                      }
+                                    ],
+                                    "price": 42900
+                                  },
+                                  {
+                                    "variations": [
+                                      {
+                                        "groupId": "47436513",
+                                        "variationId": "150170829"
+                                      }
+                                    ],
+                                    "price": 18600
+                                  }
+                                ]
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "defaultPrice": 18600,
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Gift Hampers",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "146135191",
+                              "name": "Crazy About Chocolate Gift Bag",
+                              "category": "Gift Hampers",
+                              "description": "Obsessed with chocolate? Here's the perfect hamper for you! 1 x Chocolate Butterscotch Barks (90g) + 1 x Indie Bites - 54.5% Dark Chocolate Kaju Katli + 1 x Indie Bar - Coconut Caramel Patissa",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/8/22/5b50973f-2d68-46b1-92e8-6c99831a7086_e9e341ed-c3fc-4213-adc9-c9725b76c1cd.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 83900,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "109681815",
+                              "name": "Bombay Sweet Shop Care Package with Assorted Mithai - Box of 9",
+                              "category": "Gift Hampers",
+                              "description": "The ultimate care package to put a smile on your face! This box contains - 1 x Assorted Mithai- Box of 9, 1 x Indie Bar - Coconut Patissa, 1 x Bombay Bhel Chikki Mini (45g), 1 x Super Crunch Chikki Mini (45g) and 1 x Choco Butterscotch Barks (200g)",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/31/12f7e038-492d-4689-89fa-225e6ae02096_3dcf55d8-8540-4b01-b446-e12f9020fa2f.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 129200,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "addons": [
+                                {
+                                  "groupId": "157331825",
+                                  "groupName": "Select Maximum 2",
+                                  "choices": [
+                                    {
+                                      "id": "118834750",
+                                      "name": "Peri Peri Potato Salli (90g) - Mini Pack",
+                                      "price": 12000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "118834749",
+                                      "name": "Chatpata Kairi Mixture (55g) - Mini Pack",
+                                      "price": 12000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "118834753",
+                                      "name": "Tex Mex Corn Chivda (70g) - Mini Pack",
+                                      "price": 12000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "118834752",
+                                      "name": "Chilli Cheese Bhujia (90g) - Mini Pack",
+                                      "price": 12000,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": 2,
+                                  "maxFreeAddons": -1
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.9",
+                                  "ratingCount": "12 ratings",
+                                  "ratingCountV2": "12"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "116095902",
+                              "name": "The Chocolate Lover's Hamper",
+                              "category": "Gift Hampers",
+                              "description": "Our bestseller chocolatey treats for those who eat, sleep and dream of all things chocolate! This hamper comes in a box & contains - 1 x Choco Butterscotch Barks (90g), 1 x Bombay's 3-Layer Chocolate Fudge & 2 x Indie Bars",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/31/1a5bc095-da83-4872-a460-a098a810246c_953e61d1-911d-446b-bbcd-f9bf3f1ffe11.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 122900,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "5.0",
+                                  "ratingCount": "6 ratings",
+                                  "ratingCountV2": "6"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "109778328",
+                              "name": "Pick-Me Up Bag",
+                              "category": "Gift Hampers",
+                              "description": "The only pick-me-up you need! Pretty in pink, this bag contains - 1 x Assorted Mithai- Box of 9, 1 x Indie Bar - Coconut Patissa and 1 x Choco Butterscotch Barks",
+                              "imageId": "ddc536c081d9ca02ed4b2a668a2e0875",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 95300,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "5.0",
+                                  "ratingCount": "4 ratings",
+                                  "ratingCountV2": "4"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Chocolate",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "143161814",
+                              "name": "Indie Bites - 54.5% Dark Chocolate Kaju Katli",
+                              "category": "Chocolate",
+                              "description": "Where chocolate meets mithai to make the ultimate indulgent treat! Kaju Katli layered with 55% dark chocolate ganache and a generous dusting of Dutch cocoa powder.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/17/1f19a89a-8854-4f40-90d7-75fad51139e6_bef61aae-635b-42ad-a055-d372bead227b.jpg_compressed",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 36000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "5.0",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "144050565",
+                              "name": "Choco Butterscotch Barks (300g) In Gift Box",
+                              "category": "Chocolate",
+                              "description": "A dark chocolate and butterscotch brittle loaded with crunchy toasted almonds and sea salt in a gift box.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/23/1b235ce0-d0c3-4a58-8bca-f82563fa0acb_15ce09ce-6ae5-4a81-ae03-2f8e95ccac8b.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 69900,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "142133839",
+                              "name": "Choco Butterscotch Barks",
+                              "category": "Chocolate",
+                              "description": "A happy kitchen accident, this sharp edged dark chocolate and butterscotch brittle is loaded with crunch and nostalgia - almonds and sea salt.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/19/92b000dd-6dad-4c61-87b0-1e96212ac364_7dbf8dc1-5e9e-493f-a036-e5aa94c42195.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                "variantGroups": [
+                                  {
+                                    "groupId": "43392040",
+                                    "name": "Choice of Choco Butterscotch Barks",
+                                    "variations": [
+                                      {
+                                        "name": "90g",
+                                        "price": 242,
+                                        "default": 1,
+                                        "id": "138266405",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "200g",
+                                        "price": 411,
+                                        "id": "138266406",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "Combo Pack of 3 (90g) - 10% OFF",
+                                        "price": 894,
+                                        "id": "138266407",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "Combo Pack of 3 (200g) - 10% OFF",
+                                        "price": 1110,
+                                        "id": "138266408",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "pricingModels": [
+                                  {
+                                    "variations": [
+                                      {
+                                        "groupId": "43392040",
+                                        "variationId": "138266405"
+                                      }
+                                    ],
+                                    "price": 24200
+                                  },
+                                  {
+                                    "variations": [
+                                      {
+                                        "groupId": "43392040",
+                                        "variationId": "138266406"
+                                      }
+                                    ],
+                                    "price": 41100
+                                  },
+                                  {
+                                    "variations": [
+                                      {
+                                        "groupId": "43392040",
+                                        "variationId": "138266407"
+                                      }
+                                    ],
+                                    "price": 89400
+                                  },
+                                  {
+                                    "variations": [
+                                      {
+                                        "groupId": "43392040",
+                                        "variationId": "138266408"
+                                      }
+                                    ],
+                                    "price": 111000
+                                  }
+                                ]
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "defaultPrice": 24200,
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "5.0",
+                                  "ratingCount": "13 ratings",
+                                  "ratingCountV2": "13"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "109778331",
+                              "name": "Bombay's 3-Layer Chocolate Fudge - Classic",
+                              "category": "Chocolate",
+                              "description": "Get your box of Bombay's 3-Layer Fudge! Two layers of 70% dark chocolate peda sandwiched with peanut chikki and 55% dark chocolate ganache, topped with peanut cashew tuille.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/19/8bb8bc18-ae77-4242-a720-cd5cd0da95e7_972da16a-a15e-42ef-8692-b9edb5f8174c.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 61400,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.9",
+                                  "ratingCount": "35 ratings",
+                                  "ratingCountV2": "35"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "109681835",
+                              "name": "Indie Bar - Coconut Caramel Patissa",
+                              "category": "Chocolate",
+                              "description": "The Indie Bar is a chocolate bar truly Indian at heart, where mithai meets chocolate! The base of our Indian chocolate bar is flaky patissa. This is then layered with a silky pepper caramel and a light coconut fluff. Each chocolate bar is then enrobed in 54% dark chocolate. \nEach pack contains 2 bars.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/19/05b93c0e-8d47-4598-b1e7-7f38bb4abb56_deb36ec8-8f27-4ccc-ae6e-abc985d4f5fe.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                "variantGroups": [
+                                  {
+                                    "groupId": "34855396",
+                                    "name": "Choice of Indie Bar - Coconut Caramel Patissa",
+                                    "variations": [
+                                      {
+                                        "name": "Single Pack",
+                                        "price": 165,
+                                        "default": 1,
+                                        "id": "107905795",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "Combo Pack of 3 - 10% OFF",
+                                        "price": 446,
+                                        "id": "107905797",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "pricingModels": [
+                                  {
+                                    "variations": [
+                                      {
+                                        "groupId": "34855396",
+                                        "variationId": "107905795"
+                                      }
+                                    ],
+                                    "price": 16500
+                                  },
+                                  {
+                                    "variations": [
+                                      {
+                                        "groupId": "34855396",
+                                        "variationId": "107905797"
+                                      }
+                                    ],
+                                    "price": 44600
+                                  }
+                                ]
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "defaultPrice": 16500,
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "5.0",
+                                  "ratingCount": "4 ratings",
+                                  "ratingCountV2": "4"
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
+                      "title": "Namkeen, Chikki & Cookies",
+                      "categories": [
+                        {
+                          "title": "Namkeen",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "142133847",
+                                  "name": "Chilli Cheese Bhujia",
+                                  "category": "Namkeen, Chikki & Cookies",
+                                  "description": "Besan Bhujia tossed in the timeless combination of chilli & cheese!",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/3/3a86bd0a-a790-4e1e-af66-20ab6c7269f4_6ef6c811-7328-467b-b4bd-f8b0d78a1fdb.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "variants": {
+                                    
+                                  },
+                                  "variantsV2": {
+                                    "variantGroups": [
+                                      {
+                                        "groupId": "43392052",
+                                        "name": "Choice of Chilli Cheese Bhujia",
+                                        "variations": [
+                                          {
+                                            "name": "90g - Mini Pack",
+                                            "price": 107,
+                                            "default": 1,
+                                            "id": "138266439",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          },
+                                          {
+                                            "name": "225g",
+                                            "price": 174,
+                                            "id": "138266440",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          },
+                                          {
+                                            "name": "Combo Pack of 3 (90g) - 10% OFF",
+                                            "price": 289,
+                                            "id": "138266441",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          },
+                                          {
+                                            "name": "Combo Pack of 3 (225g) - 10% OFF",
+                                            "price": 470,
+                                            "id": "138266442",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          }
+                                        ]
+                                      }
+                                    ],
+                                    "pricingModels": [
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "43392052",
+                                            "variationId": "138266439"
+                                          }
+                                        ],
+                                        "price": 10700
+                                      },
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "43392052",
+                                            "variationId": "138266440"
+                                          }
+                                        ],
+                                        "price": 17400
+                                      },
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "43392052",
+                                            "variationId": "138266441"
+                                          }
+                                        ],
+                                        "price": 28900
+                                      },
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "43392052",
+                                            "variationId": "138266442"
+                                          }
+                                        ],
+                                        "price": 47000
+                                      }
+                                    ]
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "defaultPrice": 10700,
+                                  "ribbon": {
+                                    "text": "Bestseller",
+                                    "textColor": "#ffffff",
+                                    "topBackgroundColor": "#d53d4c",
+                                    "bottomBackgroundColor": "#b02331"
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+                                    
+                                  },
+                                  "badgesV2": {
+                                    
+                                  },
+                                  "isBestseller": true,
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      
+                                    }
+                                  }
+                                },
+                                "analytics": {
+                                  
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "142133848",
+                                  "name": "Assorted Namkeen Combo (Pack of 3)",
+                                  "category": "Namkeen, Chikki & Cookies",
+                                  "description": "Add some spice to your life with all things chatpata! 1 x Tex Mex Corn Chivda (70g & 200g), 1 x Chilli Cheese Bhujia (90g & 225g) & 1 x Peri Peri Potato Salli (90g &225g). Available in 2 options - 90g (Mini Packs)  and 200g (Large Packs)",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/18/3d04eb83-c8d4-48de-b193-dbb262a39d9b_3502ecf5-b849-408d-8b1e-0e4e2e7a0695.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "variants": {
+                                    
+                                  },
+                                  "variantsV2": {
+                                    "variantGroups": [
+                                      {
+                                        "groupId": "43392054",
+                                        "name": "Choice of Assorted Namkeen Combo",
+                                        "variations": [
+                                          {
+                                            "name": "Mini Packs - 10% OFF",
+                                            "price": 289,
+                                            "default": 1,
+                                            "id": "138266447",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          },
+                                          {
+                                            "name": "Large Packs - 10% OFF",
+                                            "price": 470,
+                                            "id": "138266448",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          }
+                                        ]
+                                      }
+                                    ],
+                                    "pricingModels": [
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "43392054",
+                                            "variationId": "138266447"
+                                          }
+                                        ],
+                                        "price": 28900
+                                      },
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "43392054",
+                                            "variationId": "138266448"
+                                          }
+                                        ],
+                                        "price": 47000
+                                      }
+                                    ]
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "defaultPrice": 28900,
+                                  "ribbon": {
+                                    
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+                                    
+                                  },
+                                  "badgesV2": {
+                                    
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      
+                                    }
+                                  }
+                                },
+                                "analytics": {
+                                  
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "109681827",
+                                  "name": "Chatpata Kairi Mixture",
+                                  "category": "Namkeen, Chikki & Cookies",
+                                  "description": "A mixture of corn flakes, roasted peanuts, cashews, puffed rice and besan namkeen flavoured with kachi kairi!",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/3/5f7ca53a-fdec-4276-96ea-cf23d2b76dea_121f55d0-f39a-4b98-b15e-d6dffd735e20.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "variants": {
+                                    
+                                  },
+                                  "variantsV2": {
+                                    "variantGroups": [
+                                      {
+                                        "groupId": "43392053",
+                                        "name": "Choice of Chatpata Kairi Mixture",
+                                        "variations": [
+                                          {
+                                            "name": "55g - Mini Pack",
+                                            "price": 107,
+                                            "default": 1,
+                                            "id": "138266443",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          },
+                                          {
+                                            "name": "150g",
+                                            "price": 174,
+                                            "id": "138266444",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          },
+                                          {
+                                            "name": "Combo Pack of 3 (55g) - 10% OFF",
+                                            "price": 289,
+                                            "id": "138266445",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          },
+                                          {
+                                            "name": "Combo Pack of 3 (150g) - 10% OFF",
+                                            "price": 470,
+                                            "id": "138266446",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          }
+                                        ]
+                                      }
+                                    ],
+                                    "pricingModels": [
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "43392053",
+                                            "variationId": "138266443"
+                                          }
+                                        ],
+                                        "price": 10700
+                                      },
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "43392053",
+                                            "variationId": "138266444"
+                                          }
+                                        ],
+                                        "price": 17400
+                                      },
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "43392053",
+                                            "variationId": "138266445"
+                                          }
+                                        ],
+                                        "price": 28900
+                                      },
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "43392053",
+                                            "variationId": "138266446"
+                                          }
+                                        ],
+                                        "price": 47000
+                                      }
+                                    ]
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "defaultPrice": 10700,
+                                  "ribbon": {
+                                    
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+                                    
+                                  },
+                                  "badgesV2": {
+                                    
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "5.0",
+                                      "ratingCount": "6 ratings",
+                                      "ratingCountV2": "6"
+                                    }
+                                  }
+                                },
+                                "analytics": {
+                                  
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "142133845",
+                                  "name": "Peri Peri Potato Salli",
+                                  "category": "Namkeen, Chikki & Cookies",
+                                  "description": "Our Sweet Shop All Rounder golden-fried potato salli tossed in a peri peri spice mix along with almonds, cashews and raisins.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/10/00818dd4-a69a-4570-8b26-0e0efbe2044e_5db106bd-40c2-4f2a-81f5-cbee5f6cbdc8.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "variants": {
+                                    
+                                  },
+                                  "variantsV2": {
+                                    "variantGroups": [
+                                      {
+                                        "groupId": "43392050",
+                                        "name": "Choice of Peri Peri Potato Salli",
+                                        "variations": [
+                                          {
+                                            "name": "90g - Mini Pack",
+                                            "price": 107,
+                                            "default": 1,
+                                            "id": "138266431",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          },
+                                          {
+                                            "name": "225g",
+                                            "price": 174,
+                                            "id": "138266432",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          },
+                                          {
+                                            "name": "Combo Pack of 3 (90g) - 10% OFF",
+                                            "price": 289,
+                                            "id": "138266433",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          },
+                                          {
+                                            "name": "Combo Pack of 3 (225g) - 10% OFF",
+                                            "price": 470,
+                                            "id": "138266434",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          }
+                                        ]
+                                      }
+                                    ],
+                                    "pricingModels": [
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "43392050",
+                                            "variationId": "138266431"
+                                          }
+                                        ],
+                                        "price": 10700
+                                      },
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "43392050",
+                                            "variationId": "138266432"
+                                          }
+                                        ],
+                                        "price": 17400
+                                      },
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "43392050",
+                                            "variationId": "138266433"
+                                          }
+                                        ],
+                                        "price": 28900
+                                      },
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "43392050",
+                                            "variationId": "138266434"
+                                          }
+                                        ],
+                                        "price": 47000
+                                      }
+                                    ]
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "defaultPrice": 10700,
+                                  "ribbon": {
+                                    
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+                                    
+                                  },
+                                  "badgesV2": {
+                                    
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "5.0",
+                                      "ratingCount": "3 ratings",
+                                      "ratingCountV2": "3"
+                                    }
+                                  }
+                                },
+                                "analytics": {
+                                  
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "142133846",
+                                  "name": "Tex Mex Corn Chivda",
+                                  "category": "Namkeen, Chikki & Cookies",
+                                  "description": "[Jain-friendly] If the classic crunchy cornflakes chivda had a Mexican cousin, this would be it. Loaded with cashew nuts, curry leaves and zingy spice, your new favourite namkeen has arrived!",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/3/2737187f-e990-4c9e-9cc6-79782f8513d5_a556f056-d580-4e3e-9f1a-973561c14cf9.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "variants": {
+                                    
+                                  },
+                                  "variantsV2": {
+                                    "variantGroups": [
+                                      {
+                                        "groupId": "43392051",
+                                        "name": "Choice of Tex Mex Corn Chivda",
+                                        "variations": [
+                                          {
+                                            "name": "70g - Mini Pack",
+                                            "price": 107,
+                                            "default": 1,
+                                            "id": "138266435",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          },
+                                          {
+                                            "name": "200g",
+                                            "price": 174,
+                                            "id": "138266436",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          },
+                                          {
+                                            "name": "Combo Pack of 3 (70g) - 10% OFF",
+                                            "price": 289,
+                                            "id": "138266437",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          },
+                                          {
+                                            "name": "Combo Pack of 3 (200g) - 10% OFF",
+                                            "price": 470,
+                                            "id": "138266438",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          }
+                                        ]
+                                      }
+                                    ],
+                                    "pricingModels": [
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "43392051",
+                                            "variationId": "138266435"
+                                          }
+                                        ],
+                                        "price": 10700
+                                      },
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "43392051",
+                                            "variationId": "138266436"
+                                          }
+                                        ],
+                                        "price": 17400
+                                      },
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "43392051",
+                                            "variationId": "138266437"
+                                          }
+                                        ],
+                                        "price": 28900
+                                      },
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "43392051",
+                                            "variationId": "138266438"
+                                          }
+                                        ],
+                                        "price": 47000
+                                      }
+                                    ]
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "defaultPrice": 10700,
+                                  "ribbon": {
+                                    
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+                                    
+                                  },
+                                  "badgesV2": {
+                                    
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      
+                                    }
+                                  }
+                                },
+                                "analytics": {
+                                  
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Chikki",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "111706437",
+                                  "name": "Assorted Chikki Combo",
+                                  "category": "Namkeen, Chikki & Cookies",
+                                  "description": "Sugar, spice and all things nice, this combo of our Bombay Bhel Chikki and Super Crunch Chikki is a perfect treat for any time of the day!",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/3/bbba3593-dedb-4b9a-b9a0-68edd0e104e7_70cac302-d775-4079-9d7e-374ca2684366.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "variants": {
+                                    
+                                  },
+                                  "variantsV2": {
+                                    "variantGroups": [
+                                      {
+                                        "groupId": "43392044",
+                                        "name": "Choice of Chikki",
+                                        "variations": [
+                                          {
+                                            "name": "Bombay Bhel Chikki (45g) + Super Crunch Chikki (45g)",
+                                            "price": 210,
+                                            "default": 1,
+                                            "id": "138266414",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          },
+                                          {
+                                            "name": "Bombay Bhel Chikki (90g) + Super Crunch Chikki (90g)",
+                                            "price": 333,
+                                            "id": "138266415",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          },
+                                          {
+                                            "name": "3 x Bombay Bhel Chikki (45g) + 3 x Super Crunch Chikki (45g) - 10% OFF - Combo Party Pack",
+                                            "price": 617,
+                                            "id": "138266416",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          }
+                                        ]
+                                      }
+                                    ],
+                                    "pricingModels": [
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "43392044",
+                                            "variationId": "138266414"
+                                          }
+                                        ],
+                                        "price": 21000
+                                      },
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "43392044",
+                                            "variationId": "138266415"
+                                          }
+                                        ],
+                                        "price": 33300
+                                      },
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "43392044",
+                                            "variationId": "138266416"
+                                          }
+                                        ],
+                                        "price": 61700
+                                      }
+                                    ]
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "defaultPrice": 21000,
+                                  "ribbon": {
+                                    
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+                                    
+                                  },
+                                  "badgesV2": {
+                                    
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      
+                                    }
+                                  }
+                                },
+                                "analytics": {
+                                  
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "142133843",
+                                  "name": "Bombay Bhel Chikki",
+                                  "category": "Namkeen, Chikki & Cookies",
+                                  "description": "A mini version of our Bombay Bhel Chikki, this chikki bari is an ode to the snacking culture in India and especially one of Bombay’s most popular snacks, bhel! The crunchy, sweet and savoury elements come together in a bar packed with seeds, chakli, salli, chips, sev, gathia, nuts and bhel held together with jaggery. Hand-made with love one by one - with only the best ingredients",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/10/b41337d2-932e-4bbe-8d3e-d4a9fd5c25ee_4105b159-bef4-4b03-ae0d-05a51d369370.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "variants": {
+                                    
+                                  },
+                                  "variantsV2": {
+                                    "variantGroups": [
+                                      {
+                                        "groupId": "43392045",
+                                        "name": "Choice of Bombay Bhel Chikki",
+                                        "variations": [
+                                          {
+                                            "name": "Bombay Bhel Mini Chikki (45g)",
+                                            "price": 114,
+                                            "default": 1,
+                                            "id": "138266417",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          },
+                                          {
+                                            "name": "Bombay Bhel Large Chikki (90g)",
+                                            "price": 186,
+                                            "id": "138266418",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          },
+                                          {
+                                            "name": "Combo Pack of 3 (Bombay Bhel Chikki 45g) - 10% OFF",
+                                            "price": 309,
+                                            "id": "138266419",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          },
+                                          {
+                                            "name": "Combo Pack of 3 (Bombay Bhel Chikki 90g) - 10% OFF",
+                                            "price": 501,
+                                            "id": "138266420",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          }
+                                        ]
+                                      }
+                                    ],
+                                    "pricingModels": [
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "43392045",
+                                            "variationId": "138266417"
+                                          }
+                                        ],
+                                        "price": 11400
+                                      },
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "43392045",
+                                            "variationId": "138266418"
+                                          }
+                                        ],
+                                        "price": 18600
+                                      },
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "43392045",
+                                            "variationId": "138266419"
+                                          }
+                                        ],
+                                        "price": 30900
+                                      },
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "43392045",
+                                            "variationId": "138266420"
+                                          }
+                                        ],
+                                        "price": 50100
+                                      }
+                                    ]
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "defaultPrice": 11400,
+                                  "ribbon": {
+                                    
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+                                    
+                                  },
+                                  "badgesV2": {
+                                    
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      
+                                    }
+                                  }
+                                },
+                                "analytics": {
+                                  
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "109681833",
+                                  "name": "Super Crunch Chikki",
+                                  "category": "Namkeen, Chikki & Cookies",
+                                  "description": "Not just a crunch, we’ve dialed it up to SUPER crunch! For every bar, we toss a bag of toasted seeds (poppy, black and white sesame, melon), puffed amaranth and rose petals into a pool of sticky jaggery.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/3/79815a7a-de96-40fa-8743-2e81370d8971_3e0b1d3f-bbda-4fb0-903c-d8e7c71ef552.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "variants": {
+                                    
+                                  },
+                                  "variantsV2": {
+                                    "variantGroups": [
+                                      {
+                                        "groupId": "43392046",
+                                        "name": "Choice of Super Crunch Chikki",
+                                        "variations": [
+                                          {
+                                            "name": "Super Crunch Chikki Mini (45g)",
+                                            "price": 114,
+                                            "default": 1,
+                                            "id": "138266421",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          },
+                                          {
+                                            "name": "Super Crunch Chikki Large (90g)",
+                                            "price": 186,
+                                            "id": "138266422",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          },
+                                          {
+                                            "name": "Combo Pack of 3 (Super Crunch Chikki 45g)  - 10% OFF",
+                                            "price": 309,
+                                            "id": "138266423",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          },
+                                          {
+                                            "name": "Combo Pack of 3 (Super Crunch Chikki 90g) - 10% OFF",
+                                            "price": 501,
+                                            "id": "138266424",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          }
+                                        ]
+                                      }
+                                    ],
+                                    "pricingModels": [
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "43392046",
+                                            "variationId": "138266421"
+                                          }
+                                        ],
+                                        "price": 11400
+                                      },
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "43392046",
+                                            "variationId": "138266422"
+                                          }
+                                        ],
+                                        "price": 18600
+                                      },
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "43392046",
+                                            "variationId": "138266423"
+                                          }
+                                        ],
+                                        "price": 30900
+                                      },
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "43392046",
+                                            "variationId": "138266424"
+                                          }
+                                        ],
+                                        "price": 50100
+                                      }
+                                    ]
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "defaultPrice": 11400,
+                                  "ribbon": {
+                                    
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+                                    
+                                  },
+                                  "badgesV2": {
+                                    
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "5.0",
+                                      "ratingCount": "8 ratings",
+                                      "ratingCountV2": "8"
+                                    }
+                                  }
+                                },
+                                "analytics": {
+                                  
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Cookies",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "109681821",
+                                  "name": "Indian Cookies",
+                                  "category": "Namkeen, Chikki & Cookies",
+                                  "description": "Our gluten-free, melt-in-your-mouth nankhatais are rich in nostalgia made with rice flour, besan, ghee, and dusted with icing sugar.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/3/281f3360-e899-4099-8a6c-a7193744bcde_132ad6f7-f5be-4edd-af5c-ea98938ca3cf.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "variants": {
+                                    
+                                  },
+                                  "variantsV2": {
+                                    "variantGroups": [
+                                      {
+                                        "groupId": "43392047",
+                                        "name": "Choice of Indian Cookies",
+                                        "variations": [
+                                          {
+                                            "name": "Pack of 1",
+                                            "price": 280,
+                                            "default": 1,
+                                            "id": "138266425",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          },
+                                          {
+                                            "name": "Combo Pack of 3 - 10% OFF",
+                                            "price": 755,
+                                            "id": "138266426",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          }
+                                        ]
+                                      }
+                                    ],
+                                    "pricingModels": [
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "43392047",
+                                            "variationId": "138266425"
+                                          }
+                                        ],
+                                        "price": 28000
+                                      },
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "43392047",
+                                            "variationId": "138266426"
+                                          }
+                                        ],
+                                        "price": 75500
+                                      }
+                                    ]
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "defaultPrice": 28000,
+                                  "ribbon": {
+                                    
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+                                    
+                                  },
+                                  "badgesV2": {
+                                    
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.8",
+                                      "ratingCount": "16 ratings",
+                                      "ratingCountV2": "16"
+                                    }
+                                  }
+                                },
+                                "analytics": {
+                                  
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "109681823",
+                                  "name": "Chocolate Butter Cookies",
+                                  "category": "Namkeen, Chikki & Cookies",
+                                  "description": "Equal parts of chocolate, butter and indulgence - our Chocolate Butter Cookies with rich cocoa, dark chocolate chips and sea-salt are the perfect after meal treat!",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/3/5b6b4c92-e8db-4607-80a4-2d2384cf8de4_1015e27f-998b-4207-a4e3-4362c93dad96.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "variants": {
+                                    
+                                  },
+                                  "variantsV2": {
+                                    "variantGroups": [
+                                      {
+                                        "groupId": "43392048",
+                                        "name": "Choice of Chocolate Butter Cookies",
+                                        "variations": [
+                                          {
+                                            "name": "Pack of 1",
+                                            "price": 280,
+                                            "default": 1,
+                                            "id": "138266427",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          },
+                                          {
+                                            "name": "Combo Pack of 3 - 10% OFF",
+                                            "price": 755,
+                                            "id": "138266428",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          }
+                                        ]
+                                      }
+                                    ],
+                                    "pricingModels": [
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "43392048",
+                                            "variationId": "138266427"
+                                          }
+                                        ],
+                                        "price": 28000
+                                      },
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "43392048",
+                                            "variationId": "138266428"
+                                          }
+                                        ],
+                                        "price": 75500
+                                      }
+                                    ]
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "defaultPrice": 28000,
+                                  "ribbon": {
+                                    
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+                                    
+                                  },
+                                  "badgesV2": {
+                                    
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.9",
+                                      "ratingCount": "10 ratings",
+                                      "ratingCountV2": "10"
+                                    }
+                                  }
+                                },
+                                "analytics": {
+                                  
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
+                      "title": "Mithai Boxes & Sugar Free Mithai",
+                      "categories": [
+                        {
+                          "title": "Sugar-Free Mithai",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "131325873",
+                                  "name": "Assorted Cheat Sweets - Box of 3",
+                                  "category": "Mithai Boxes & Sugar Free Mithai",
+                                  "description": "Our range of assorted sweets made with natural sugars (jaggery, coconut sugar, dates)- Coffee Choco Barfi, Hazelnut Besan Barfi & Nutty Date Barfi",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/8/20/244efab8-d90d-45fc-97fc-b3396daf08ac_28dbacb7-4bdf-4987-a39b-9dffe3acb99f.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 18600,
+                                  "variants": {
+                                    
+                                  },
+                                  "variantsV2": {
+                                    
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+                                    "text": "Bestseller",
+                                    "textColor": "#ffffff",
+                                    "topBackgroundColor": "#d53d4c",
+                                    "bottomBackgroundColor": "#b02331"
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+                                    
+                                  },
+                                  "badgesV2": {
+                                    
+                                  },
+                                  "isBestseller": true,
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.9",
+                                      "ratingCount": "5 ratings",
+                                      "ratingCountV2": "5"
+                                    }
+                                  }
+                                },
+                                "analytics": {
+                                  
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Combo Deals @ 10% OFF",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "142133840",
+                              "name": "Choco Butterscotch Barks Combo",
+                              "category": "Combo Deals @ 10% OFF",
+                              "description": "A happy kitchen accident, this sharp edged dark chocolate and butterscotch brittle is loaded with crunch and nostalgia - almonds and sea salt.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/19/92b000dd-6dad-4c61-87b0-1e96212ac364_7dbf8dc1-5e9e-493f-a036-e5aa94c42195.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                "variantGroups": [
+                                  {
+                                    "groupId": "43392041",
+                                    "name": "Choice of Choco Butterscotch Barks Combo",
+                                    "variations": [
+                                      {
+                                        "name": "Combo Pack of 3 (90g) - 10% OFF",
+                                        "price": 652,
+                                        "default": 1,
+                                        "id": "138266409",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "Combo Pack of 3 (200g) - 10% OFF",
+                                        "price": 1110,
+                                        "id": "138266410",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "pricingModels": [
+                                  {
+                                    "variations": [
+                                      {
+                                        "groupId": "43392041",
+                                        "variationId": "138266409"
+                                      }
+                                    ],
+                                    "price": 65200
+                                  },
+                                  {
+                                    "variations": [
+                                      {
+                                        "groupId": "43392041",
+                                        "variationId": "138266410"
+                                      }
+                                    ],
+                                    "price": 111000
+                                  }
+                                ]
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "defaultPrice": 65200,
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "142133841",
+                              "name": "Indie Bar - Coconut Caramel Patissa - Pack of 3 - 10% OFF",
+                              "category": "Combo Deals @ 10% OFF",
+                              "description": "A chocolate bar truly Indian at heart - where mithai meets chocolate! A flaky patissa base that is layered with silky pepper caramel and light coconut fluff. Each chocolate bar is coated in 54% dark chocolate. Each pack contains 2 bars.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/19/05b93c0e-8d47-4598-b1e7-7f38bb4abb56_deb36ec8-8f27-4ccc-ae6e-abc985d4f5fe.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 44600,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "142133842",
+                              "name": "Namkeen & Choco Butterscotch Barks Combo",
+                              "category": "Combo Deals @ 10% OFF",
+                              "description": "The perfect munchies for all your sweet and savoury cravings! 1 x Choco Butterscotch Barks (90g & 200g), 1 x Tex Mex Corn Chivda (70g & 200g), 1 x Chilli Cheese Bhujia (90g & 225g) & 1 x Peri Peri Potato Salli (90g & 225g). Available in 2 options - 90g(Mini Packs) and 200g (Large Packs)",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/18/c556db39-50a1-4eb8-b6b3-1d287580733d_e8545ed0-1934-4403-83ed-f83f7cdfaadb.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                "variantGroups": [
+                                  {
+                                    "groupId": "43392043",
+                                    "name": "Choice of Namkeen & Choco Butterscotch Barks Combo",
+                                    "variations": [
+                                      {
+                                        "name": "Mini Packs - 10% OFF",
+                                        "price": 492,
+                                        "default": 1,
+                                        "id": "138266412",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "Large Packs - 10% OFF",
+                                        "price": 816,
+                                        "id": "138266413",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "pricingModels": [
+                                  {
+                                    "variations": [
+                                      {
+                                        "groupId": "43392043",
+                                        "variationId": "138266412"
+                                      }
+                                    ],
+                                    "price": 49200
+                                  },
+                                  {
+                                    "variations": [
+                                      {
+                                        "groupId": "43392043",
+                                        "variationId": "138266413"
+                                      }
+                                    ],
+                                    "price": 81600
+                                  }
+                                ]
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "defaultPrice": 49200,
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                      "type": "FSSAI",
+                      "imageId": "fssai_final_edss9i",
+                      "text": [
+                        "License No. 11522005000318"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                      "name": "Bombay Sweet Shop",
+                      "area": "Scruz Bandra East",
+                      "completeAddress": "HYPRKYTCHEN FOODTECH PVT. LTD 28, Ground Floor, Goodwill Premises CHS LTD, Road 178, Vidyanagiri Marg, Near Mumbai University, Santacruz East, Mumbai - 400098, Greater Mumbai Ward-H/E, Greater Mumbai,"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "firstOffsetRequest": true,
+    "isQCLink": false
+  },
+  "tid": "12bb408c-eba8-4b27-a5b7-58b7fc1fe979",
+  "sid": "fzm85e5d-1a75-4ec7-b3d4-5358404c47a0",
+  "deviceId": "bb418cca-0572-d6fb-9526-d6d865221ed3",
+  "csrfToken": "hVnNKZojt6eZ-lahyxLKVNMlgXU18AoYmWcpRQFA"
+}

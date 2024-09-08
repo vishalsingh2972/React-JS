@@ -4,21 +4,21 @@ import '@testing-library/jest-dom';//for getting access to 'toBeInTheDocument' a
 
 describe("Contact Us Page Test Cases", () => { //grouping of testcases using 'describe'
 
-  beforeAll(() => {
-    console.log("Main Ek hi Baar Aunga before start of TestCases 👼🏻");
-  })
+  // beforeAll(() => {
+  //   console.log("Main Ek hi Baar Aunga before start of TestCases 👼🏻");
+  // })
 
-  beforeEach(() => {
-    console.log("Main Baar Baar Aunga before each TestCase 😈");
-  })
+  // beforeEach(() => {
+  //   console.log("Main Baar Baar Aunga before each TestCase 😈");
+  // })
 
-  afterAll(() => {
-    console.log("Main Ek hi Baar Aunga after all TestCases are finished 👼🏻👼🏻");
-  })
+  // afterAll(() => {
+  //   console.log("Main Ek hi Baar Aunga after all TestCases are finished 👼🏻👼🏻");
+  // })
 
-  afterEach(() => {
-    console.log("Main Baar Baar Aunga after each TestCase finishes 😈😈");
-  })
+  // afterEach(() => {
+  //   console.log("Main Baar Baar Aunga after each TestCase finishes 😈😈");
+  // })
 
   test("should load heading inside Contact (us) component", () => { 
 

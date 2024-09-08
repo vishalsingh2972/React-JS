@@ -42,7 +42,7 @@ const RestaurantMenu = () => {
       {/* categories accordions */}
       {categories?.map((category, index) => (
         <RestaurantCategory 
-          data={category?.card?.card} 
+          data={category?.card?.card}
           key={category?.card?.card?.title}
           showItems={(index === showIndex ? true : false)} 
           setShowIndex={() => setShowIndex(index === showIndex ? null : index)}

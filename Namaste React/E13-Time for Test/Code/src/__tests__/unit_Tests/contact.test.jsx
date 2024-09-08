@@ -4,6 +4,22 @@ import '@testing-library/jest-dom';//for getting access to 'toBeInTheDocument' a
 
 describe("Contact Us Page Test Cases", () => { //grouping of testcases using 'describe'
 
+  beforeAll(() => {
+    console.log("Main Ek hi Baar Aunga before start of TestCases 👼🏻");
+  })
+
+  beforeEach(() => {
+    console.log("Main Baar Baar Aunga before each TestCase 😈");
+  })
+
+  afterAll(() => {
+    console.log("Main Ek hi Baar Aunga after all TestCases are finished 👼🏻👼🏻");
+  })
+
+  afterEach(() => {
+    console.log("Main Baar Baar Aunga after each TestCase finishes 😈😈");
+  })
+
   test("should load heading inside Contact (us) component", () => { 
 
     //whenever you are testing a UI component inside React, you will have to 'render' that component onto the jsdom first - and we do this using the render method from react-testing-library. So, in essence, you're using a method (render) from React Testing Library to test your component within the jsdom library (our simulated browser environment)

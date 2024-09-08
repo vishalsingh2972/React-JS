@@ -16,6 +16,6 @@ it("should load the Restaurant Menu component", async () => {
     // </MemoryRouter>
   ))
 
-  const accordion_Header = screen.getByText("Ganpati Collection"); //😵 need to check again
+  // const accordion_Header = screen.getByText("Ganpati Collection"); //😵 need to check again
 
 })

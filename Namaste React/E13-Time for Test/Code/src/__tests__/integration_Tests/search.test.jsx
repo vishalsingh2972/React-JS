@@ -33,8 +33,15 @@ it("should render the Body component with Search Button", async () => {
   const search_input_box = screen.getByTestId("searchInput");
   // console.log(search_input_box);
 
-  fireEvent.change(search_input_box, {});
+  fireEvent.change(search_input_box, { target: { value: 'pizza' } });
+  // (EXTRA) fireEvent.change(search_input_box, { target: { value: /pizza/i } }); // /pizza/i is a regex pattern that matches the string "pizza" regardless of case. The i flag at the end makes the match case-insensitive. so Pizza, PIZZA, pizza...etc this will get triggered on all of them irrespective of case 
 
+  fireEvent.click(search_button);
+
+  //Now after typing 'pizza' in input and triggering click search button, in assertion my screen should load 2 pizza cards (~ for this testcase example)
   //Assertion
-  expect(search_button).toBeInTheDocument();
+  const cards = screen.getAllByTestId("resCard");
+  // console.log(cards);
+  
+  expect(cards.length).toBe(2);
 })

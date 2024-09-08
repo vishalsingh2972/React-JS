@@ -71,7 +71,7 @@ const Body = () => {
           onClick={() => {
             //Filter logic here ⬇️
             const filteredList = listOfRestaurants.filter((res)=> res.info.avgRating >= 4.5)
-            setListOfRestaurants(filteredList);
+            setFilteredRestaurant(filteredList);
           }}
         >
           Top Rated Restaurants

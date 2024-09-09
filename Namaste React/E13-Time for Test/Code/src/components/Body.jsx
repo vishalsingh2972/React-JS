@@ -3,7 +3,7 @@ import { useState, useEffect, useContext } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
-import { RESTAURANTS_API, RESTAURANTS_API2 } from "../utils/constants";
+import { RESTAURANTS_API, RESTAURANTS_API2, RESTAURANTS_API3 } from "../utils/constants";
 import UserContext from "../utils/context/UserContext";
 
 const Body = () => {
@@ -27,16 +27,21 @@ const Body = () => {
   // }, [filteredRestaurant]);
 
   const fetchData = async () => {
-    const data = await fetch(
-      RESTAURANTS_API
-      // RESTAURANTS_API2
-    );
+    try {
+      const data = await fetch(
+        // RESTAURANTS_API
+        // RESTAURANTS_API2
+        RESTAURANTS_API3
+      );
 
-    const json = await data.json();
-    // console.log(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+      const json = await data.json();
+      // console.log(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
 
-    setListOfRestaurants(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
-    setFilteredRestaurant(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+      setListOfRestaurants(json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+      setFilteredRestaurant(json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+    } catch (error) {
+      console.log(error)
+    }
   }
 
   //our custom hook #2 - useOnlineStatus() hook

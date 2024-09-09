@@ -8,3 +8,6 @@ export const RESTAURANTS_API = 'https://www.swiggy.com/dapi/restaurants/list/v5?
 
 //EXTRA
 export const RESTAURANTS_API2 = 'https://cors-handlers.vercel.app/api/?url=https%3A%2F%2Fwww.swiggy.com%2Fdapi%2Frestaurants%2Flist%2Fv5%3Flat%3D23.3773949%26lng%3D85.3580618%26is-seo-homepage-enabled%3Dtrue%26page_type%3DDESKTOP_WEB_LISTING';
+
+//EXTRA (will always work)
+export const RESTAURANTS_API3 = 'https://namaste-dishes.vercel.app/mockdata.json'
